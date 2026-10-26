@@ -1,0 +1,2 @@
+# Optional native reference simulator; install in an isolated compute-node environment.
+nest-simulator==3.10.0

@@ -1,0 +1,185 @@
+{
+  "repository": "https://github.com/INM-6/mesocircuit-model",
+  "revision": "f59ada6b3c3efb1fa18f96c638dd1741ebfb77e5",
+  "package_declared_version": "1.0.0",
+  "license_file": "LICENSE.rst",
+  "scope": "pinned native network, parameterization and framework source subset; LFP assets not acquired",
+  "files": [
+    {
+      "path": "LICENSE.rst",
+      "bytes": 34570,
+      "git_blob_sha1": "65fcc689b6b7e4c5f29f491764b573a4bcb5d0ee",
+      "sha256": "1204f77b36602b710f025cec6d9ea915a490d471ddcef671f14ad02535bc39e0",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "README.md",
+      "bytes": 5856,
+      "git_blob_sha1": "fe5d0e7422c82f75798fbc2e790293a958c46db8",
+      "sha256": "ba802567090bc5c456faf41ba1ebe04b2a0cf86c606c09f0830de6272cdafee5",
+      "acquisition": "reused_verified_source"
+    },
+    {
+      "path": "setup.py",
+      "bytes": 490,
+      "git_blob_sha1": "b6202258f8b01ae1c4b911419d828be1052f74e3",
+      "sha256": "ad69629f4b5409823277b05f536dd2f00f324305a02effb0c2e8e642bb33c2c6",
+      "acquisition": "reused_verified_source"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 458,
+      "git_blob_sha1": "4d44258767e551844978a4cc25cc446603b9c7e0",
+      "sha256": "28120729662d606ee1d167f4a2bee84153d2f76851ada3b131f6bc43c63df580",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "environment.yml",
+      "bytes": 753,
+      "git_blob_sha1": "cd3964748658e91ad266035c16958cad9436234d",
+      "sha256": "d8beddd4f97cd732db016c800703963162e9dbc45c8c56aa790f7a55ee6da301",
+      "acquisition": "reused_verified_source"
+    },
+    {
+      "path": "Dockerfile",
+      "bytes": 3985,
+      "git_blob_sha1": "e75c1343bd65c6159ace4d5aef1a3f5f9f390ca4",
+      "sha256": "ff1c3aee46886550ce84cf014e82db5809d6d8f1f97debae2bb610b0d19d0850",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "docs/source/installation.rst",
+      "bytes": 2840,
+      "git_blob_sha1": "8227d43bd599e81a6e414cb59b4460fbfe5ee8c8",
+      "sha256": "51ab9f5026dca011d11c69dbae09fbe050ae7948482caa0f1960f77031f1a82d",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/__init__.py",
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/simulation/network.py",
+      "bytes": 25878,
+      "git_blob_sha1": "c5ae156d6443eb0244b5a403faea7381c511cec1",
+      "sha256": "e1e379b1c773d3eba5f3f324005e38a9f3e578c595c8eb3d32f3b07281d909df",
+      "acquisition": "reused_verified_source"
+    },
+    {
+      "path": "mesocircuit/helpers/helpers.py",
+      "bytes": 2369,
+      "git_blob_sha1": "98e7612ee7b9dad98d488d3462be2db5999df7c7",
+      "sha256": "ebe0c3ab148ed26da4da6460f82686ec0c2fccab653fb5b8824706635455dc42",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/helpers/io.py",
+      "bytes": 3342,
+      "git_blob_sha1": "5af6fcef49df83d840587e56505e4928fa01a2dc",
+      "sha256": "be536bcecb0aa053b500134d4235b0c601f5274ea2d33fa1b9d188039dd4229e",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/helpers/mpiops.py",
+      "bytes": 2660,
+      "git_blob_sha1": "4c7d2e7a4ab65e261fcf062c1299fd43c4bc959a",
+      "sha256": "bd5c6bc1ca358f0a32ab4f1cbc105147485e56c0f72ac1cebda0a863e63e4158",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/helpers/parallelism_time.py",
+      "bytes": 8000,
+      "git_blob_sha1": "a37fb2ce91200f337227ed6e4b60fb268f5c0098",
+      "sha256": "e58ed1e7ee71e6d1bb75e61d89db5a41f25a86064fdbff4dd9d658197afcc203",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/parameterization/base_network_params.py",
+      "bytes": 12483,
+      "git_blob_sha1": "ef63c5e90bd60dba7f6871e400973f9b20d9f3f4",
+      "sha256": "3ff01e3c51bc2ec64a5191023ae6a443c9b37312461985d600a46926677f376f",
+      "acquisition": "reused_verified_source"
+    },
+    {
+      "path": "mesocircuit/parameterization/base_simulation_params.py",
+      "bytes": 1396,
+      "git_blob_sha1": "eea6937e787c6ec212e48de08bb472ab9593b415",
+      "sha256": "41cd864e72e1368352a5aab0b88a050f35367d3d6844ea31ba00e4454b8bc671",
+      "acquisition": "reused_verified_source"
+    },
+    {
+      "path": "mesocircuit/parameterization/helpers_network.py",
+      "bytes": 28802,
+      "git_blob_sha1": "dd48f1a2c0774d0851573e1c1a1ac8cdcd7ee9de",
+      "sha256": "8a1c22d0869988f689fc815a24d4bd0f3db96a6136e14b9b10758c2d181eeab3",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/parameterization/base_analysis_params.py",
+      "bytes": 3229,
+      "git_blob_sha1": "6a70ec92a7c9fec05b94e9eaadd43677d1e19c50",
+      "sha256": "a34f8f158b460820bef0a75b907a68cea8e7f3e9abb077179833921d831c653b",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/parameterization/helpers_analysis.py",
+      "bytes": 2739,
+      "git_blob_sha1": "44445d0c3e177a24085b712581dfb2ec1fed119d",
+      "sha256": "c53b297263fa37151e00b4082d9864a2bed76787a02a8d322d7833a24078e8f6",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/parameterization/base_system_params.py",
+      "bytes": 3815,
+      "git_blob_sha1": "7f9c092f6e667da33f432f379923c3bfb7791b7d",
+      "sha256": "c76ed495e90fd2a3eca5d71ad08a86424f7a2729c09292ed3e469d1023919b8a",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/parameterization/base_plotting_params.py",
+      "bytes": 3082,
+      "git_blob_sha1": "fe2af295d4385dd6b913b3bd4787cdf0af369abe",
+      "sha256": "96f01370c08e5699aebd7bd96e38142ac838eed2cdf3004c6a71e52dc6f4db34",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/mesocircuit_framework.py",
+      "bytes": 34745,
+      "git_blob_sha1": "147ad5fe506dc8e943de2f54ad541ad6f74b5ced",
+      "sha256": "1040bb9ee72e46a9003ce77ca536d4522a3d148b6e788a537cfaa11d2d70c8b5",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "mesocircuit/run/run_network.py",
+      "bytes": 1795,
+      "git_blob_sha1": "37856c9a8dcebd685495b45fcd5b48ae910c89a1",
+      "sha256": "4b4e02043d7db13386dfdf3c920b72035079c2939e404789cd8c4174a8cc2124",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "scripts/run_mesocircuit.py",
+      "bytes": 3263,
+      "git_blob_sha1": "c3c1467c419b57adf81a67ea9d7567b16fa20cf9",
+      "sha256": "7d1963d2c8f9590cca482800e851af7de24e30c968f3c7691728245e9ed2656d",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "scripts/parametersets.py",
+      "bytes": 2728,
+      "git_blob_sha1": "8b17bd7fd9b513c8d8a0310486675f9ce7fdf59f",
+      "sha256": "526cfd12cfbed4adbc22ae2f540e6f8e0e0d539d223cd3a968ecb74ae8a4d7fd",
+      "acquisition": "github_git_blob_api"
+    },
+    {
+      "path": "tests/test_suite.py",
+      "bytes": 22250,
+      "git_blob_sha1": "f072fa43edf970593d8b1b342a618d73bbb233db",
+      "sha256": "9eddbb106ef676db12a5c2556afea69615f031e68a119660d5b18578b061b11c",
+      "acquisition": "github_git_blob_api"
+    }
+  ],
+  "scientific_reference_qualified": false
+}

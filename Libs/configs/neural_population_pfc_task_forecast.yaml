@@ -1,0 +1,14 @@
+# Development comparison with every unit in all 30 validation episodes.
+# Origins precede cue, early distractor, late distractor and delay readout.
+# Scientific tolerances and formal comparison eligibility remain separate.
+schema: pfc_population_checkpoint_forecast_v1
+evaluation_scope: declared_development_validation_checkpoint
+formal_evaluation: false
+field_units: source_field_mean_unit_rate_hz
+causal_history: all_observed_bins_before_origin
+finite_ensemble_corrections: true
+origins_ticks: [2000, 8000, 48000, 80000]
+horizons_bins: [4, 16, 100]
+support_windows: [1, 2]
+joint_samples: 16
+sampling_seed_base: 79001

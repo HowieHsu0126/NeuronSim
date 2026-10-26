@@ -1,0 +1,26 @@
+schema: pfc_auxiliary_variance_diagnostic_v1
+comparison:
+  path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/refinement_repeat/comparison/run_599321/analysis
+  report_sha256: 00d114ad03bc97946049dee2691b21b0b0fbf6121b822cda0c14c92ce004a211
+maximum_confirmation_blocks: 128
+source_simulations: 0
+new_rng_draws: 0
+confidence_intervals: false
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+assumptions:
+  - Given each complete original coarse-clock state and input block, the two auxiliary refinements have the same conditional law and independent auxiliary randomness.
+  - Auxiliary random streams are independent across original blocks; heterogeneous conditional variances are allowed.
+  - Endpoints, thresholds, normalization and scientific margins remain fixed, and each included score uses one original block.
+  - Finite second moments are required. Population variance interpretation additionally requires representative independent original blocks.
+interpretation: >-
+  Development description of all 49650 primitive endpoints in the fixed 32 original
+  blocks. W=mean((B-A)^2)/2 estimates their average conditional auxiliary variance;
+  sample_var((A+B)/2,ddof=1)-W/2 estimates the sample variance of their latent
+  conditional block means under the stated assumptions. Keep negative estimates
+  untruncated. Zero observed change does not exclude unseen rare events.
+  Covariance pseudovalues and structurally undefined covariance endpoints are
+  outside this decomposition and remain in the complete source denominator.
+  Two auxiliary realizations do not create 64 independent blocks. No confidence
+  intervals, power claims, sample-size selection, source qualification or
+  confirmation release follow from this diagnostic.

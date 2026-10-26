@@ -1,0 +1,23 @@
+schema: neural_population_memory_field_training_v1
+training_seeds: [41, 42, 43]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+validation_blocks: [14, 15, 16, 17]
+bin_ms: 5.0
+dt_ms: 0.1
+duration_ms: 6000.0
+expected_units: 100000
+history_bins: 200
+horizon_bins: 1000
+expected_poisson_rng_family: per_edge_philox4_32_10
+# Independent paper reimplementation: 2D source budget and decay schedule.
+# Batch4 adapts the paper's batch32 to 56 complete development fit episodes.
+maximum_epochs: 300
+batch_size: 4
+cpu_threads: 2
+device: cuda
+learning_rate: 0.001
+learning_rate_half_period: 90
+gradient_clip_norm: 1.0
+weight_decay: 0.0
+selection_metric: teacher_forced_fit_scaled_complete_field_mse
+formal_training_completed: false

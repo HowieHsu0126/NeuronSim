@@ -1,0 +1,59 @@
+schema: pfc_reference_source_qualification_v1
+scope: prospective_source_quality_development
+reference_source_definition: discrete_adapted_EPFL
+source_admission_route: independent_reference_source
+authorization: Output/neural_population_dynamics/operations/pfc_reference_source_admission_20261018/authorization.json
+campaign_config: Libs/configs/neural_population_dynamics.yaml
+parameter_design_config: Libs/configs/neural_population_pfc_parameter_design.yaml
+circuits:
+- 23
+- 63
+- 74
+- 86
+- 52
+initial_noise_block_indices:
+- 3
+- 4
+- 5
+selection: existing four parameter corners and predeclared training interior; fresh
+  blocks chosen by identity before results
+conditions_per_block: 10
+complete_development_episodes: 150
+coupled_core_neurons: 100000
+excitatory_neurons: 80000
+inhibitory_neurons: 20000
+duration_ms: 5000.0
+dt_ms: 0.0125
+observation_bin_ms: 5.0
+source_execution_limit: 1
+reader_execution_limit: 1
+independent_simulation_unit: joint_initial_external_block_nested_in_circuit
+circuit_inference_unit: qualified_circuit_not_neuron_or_window
+dataset_stream_rule: canonical_campaign_episode_identity
+training_seeds_are_dataset_streams: false
+paired_conditions: true
+source_checks:
+- source_reproduction
+- numerical_integrity
+- driver_statistics
+- control_delivery
+- full_unit_recording
+- coupling
+- scaling_fidelity
+qualitative_measurements:
+- all_unit_counts_and_events
+- 17_source_population_fields
+- phase_rates_and_angular_cue_displacement
+- complete_cue_omission_distractor_interactions
+- per_unit_variance_and_population_covariance
+- refractory_and_state_support
+- initial_and_external_input_law
+- complete_current_transitions_and_causal_input_separation
+source_inference_status: ESTIMATORS_AND_TOLERANCES_TO_BE_FROZEN_FROM_TRAINING_CALIBRATION
+formal_confirmation_released: false
+production_eligible: false
+scientific_claim_qualified: false
+stop_rule: Stop at 150 complete declared episodes and descriptive source-quality readout;
+  preserve every failed cell. Use these measurements to freeze a justified source-specific
+  qualification protocol before formal data; do not relabel this pilot as 100-circuit
+  qualification.

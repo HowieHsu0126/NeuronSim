@@ -1,0 +1,50 @@
+schema: pfc_parameter_block_development_v1
+scope: prospective_development_coverage
+source_execution_released: true
+production_eligible: false
+parameter_domain_frozen: false
+campaign_snapshot: Output/neural_population_dynamics/benchmark/pfc_parameter_design/task_boundary_prepare_610542/Libs/configs/neural_population_dynamics.yaml
+parameter_preparation: Output/neural_population_dynamics/benchmark/pfc_parameter_design/run_609554
+task_software_preparation: Output/neural_population_dynamics/benchmark/pfc_parameter_design/task_boundary_prepare_610542
+circuits: [23, 63, 74, 86, 52]
+corner_circuits: [23, 63, 74, 86]
+interior_circuit: 52
+interior_selection: nearest_domain_midpoint_among_declared_training_circuits_then_lower_sigma_then_lower_Jpos
+initial_noise_block_indices: [1, 2]
+conditions_per_block: 10
+additional_complete_episodes: 100
+coupled_core_units: 100000
+duration_ms: 5000.0
+dt_ms: 0.05
+seed_rule: canonical_campaign_episode_identities
+condition_pairing: same_initial_and_external_seeds_within_circuit_and_block
+between_circuit_seed_pairing: false
+inference_unit: circuit_with_nested_joint_initial_noise_blocks
+reuse_existing_corner_block_zero: true
+outcomes:
+  - complete_unit_and_population_time_courses
+  - actual_applied_current_segments
+  - autonomous_cue_selectivity_and_direction
+  - paired_cue_minus_omission_by_distractor
+  - paired_distractor_interaction_against_no_distractor
+  - within_circuit_block_response_differences
+  - descriptive_unpaired_corner_effects_and_interior_interpolation_departure
+scientific_thresholds_from_these_outcomes: prohibited
+keep_silent_undefined_and_failed_memory: true
+confidence_interval_or_significance_claim: false
+source_execution_prerequisites:
+  - four_existing_corner_delivery_chains_terminal_and_reconciled
+  - interior_exact_tuple_native_input_and_stream_parity
+  - declared_current_source_and_numerical_protocol
+execution_limits: {source_workloads: 2, readers: 1}
+stop_rule: >-
+  Stop this bounded allocation after all 100 declared cells have accepted
+  complete outputs and descriptive comparisons. Preserve an unresolved failed
+  cell without substituting a favorable seed or condition.
+domain_freeze_prerequisites: >-
+  Source-grounded parameter bounds, defined task and observation semantics,
+  tolerances fixed from admissible training/calibration evidence, supported
+  source-law inference, and sufficient interior and independent-block evidence
+  for the intended claim. This allocation alone cannot qualify 100 circuits.
+
+source_release_receipt: Output/neural_population_dynamics/benchmark/pfc_parameter_design/parameter_block_execution_prepare_613340/source_release.json

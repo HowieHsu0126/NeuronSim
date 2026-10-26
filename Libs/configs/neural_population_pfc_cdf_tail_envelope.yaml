@@ -1,0 +1,16 @@
+schema: pfc_cdf_tail_certificate_sensitivity_v1
+scope: development_method_sensitivity
+method_adopted: false
+confirmation_execution_released: false
+planning_blocks: 128
+cdf_margin: 0.01
+alpha_core: 0.0125
+alpha_joint_tail: 0.0125
+reserved_non_cdf_alpha: 0.025
+inputs:
+  stress:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/uncertainty_stress/run_596820/analysis
+    report_sha256: 27db722d2429038646679d0876275747ba1069f960a750beffb165e8b3d08a45
+  source_coupling:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/cdf_coupling_bounds/run_596557/analysis
+    report_sha256: 984038cdcae9e8044e00357f95cd93a3b5904849fb135b47a09ab4a56ea5406e

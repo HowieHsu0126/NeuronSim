@@ -1,0 +1,7 @@
+schema: pfc_numerical_precision_v1
+scope: development_calibration
+inference: sampling_precision_only
+independent_unit: joint_initial_background_rng_block
+joint_rng_seeds: [95001, 95002, 95003, 95004, 95005, 95006, 95007, 95008, 95009, 95010, 95011, 95012, 95013, 95014, 95015, 95016, 95017, 95018, 95019, 95020, 95021, 95022, 95023, 95024, 95025, 95026, 95027, 95028, 95029, 95030, 95031, 95032]
+bootstrap_replicates: 5000
+bootstrap_seed: 97001

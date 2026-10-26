@@ -1,0 +1,11 @@
+schema_version: 1
+source_root: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source
+bmtk_wheel:
+  path: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/bmtk_dependency_587532/bmtk-1.2.0-py2.py3-none-any.whl
+  sha256: d46d7407e4830fe492b2274fd466d5bad1b12d8a547f71cd8ea8c753ae7fdaa2
+builder_seed: 100
+glif_assignment_seed: 101
+expected_full_nodes: 230924
+canary_fraction: 0.01
+full_fraction: 1.0
+edge_chunk_size: 1000000

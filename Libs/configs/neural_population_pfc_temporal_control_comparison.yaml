@@ -1,0 +1,21 @@
+schema: pfc_temporal_control_comparison_v1
+scope: single_reused_block_descriptive
+protocol:
+  path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/temporal_order_control/validation/run_601642/Libs/configs/neural_population_pfc_clock_temporal_control.yaml
+  sha256: 6b32218745fa7cddbcd343f50e0d8069ccccd32a6227502dbdeceb74c11f2d84
+original_source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+  delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+original_comparison:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_clock_comparison/run_592085
+  delivery_sha256: f01ea492c2c5f72408715b00c5a440bd1527019d523a7fe7f4969ff4022fcde2
+  report_sha256: ea9dc79e71f9fc901db8efc929dbd9283ea6f647a91ef0fdb967d8cc0a485c4c
+source_archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/temporal_order_control/source_execution/run_601654
+source_job_id: 601654
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+production_episodes: 0
+confidence_intervals: false
+covariance_estimates: false
+fdr_tests: false
+frozen_margin_tests: false

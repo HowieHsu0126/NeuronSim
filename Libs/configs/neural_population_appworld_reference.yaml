@@ -1,0 +1,66 @@
+# Scripted engineering fixture selected from the native train catalog before
+# inspecting outcomes. This is not an agent or a multi-agent efficacy experiment.
+expected_appworld_version: 0.1.3.post1
+run_class: engineering_diagnostic
+dataset: train
+task_id: 07b42fd_1
+random_seed: 73001
+limits:
+  max_interactions: 20
+  max_api_calls_per_interaction: 256
+  timeout_seconds: 60
+steps:
+  - label: discover
+    code: |
+      import json
+      import random
+      import datetime as diagnostic_datetime
+      profile = apis.supervisor.show_profile()
+      passwords = apis.supervisor.show_account_passwords()
+      password = next(row['password'] for row in passwords if row['account_name'].lower() == 'spotify')
+      token = apis.spotify.login(username=profile['email'], password=password)['access_token']
+      eligible = []
+      for page in range(100):
+          batch = apis.spotify.search_artists(genre='classical', min_follower_count=22, page_index=page, page_limit=20)
+          eligible.extend(batch)
+          if len(batch) < 20:
+              break
+      else:
+          raise RuntimeError('Discovery exceeded fixture pagination budget')
+      eligible_ids = sorted(row['artist_id'] for row in eligible)
+      assert len(eligible_ids) == len(set(eligible_ids))
+      assert all(row['genre'] == 'classical' and row['follower_count'] >= 22 for row in eligible)
+      initial_following = {str(i): apis.spotify.show_artist_following(artist_id=i, access_token=token)['following'] for i in eligible_ids}
+      pending = [i for i in eligible_ids if not initial_following[str(i)]]
+      print(json.dumps({'eligible_ids': eligible_ids, 'pending_ids': pending, 'initial_following': initial_following}, sort_keys=True))
+      assert pending, 'Fixture needs one requested change to distinguish checkpoint states'
+  - label: save_initial
+    save_state: initial
+  - label: prefix_write
+    code: |
+      apis.spotify.follow_artist(artist_id=pending[0], access_token=token)
+      marker = 'prefix'
+      nonce = random.random()
+      print(json.dumps({'following': apis.spotify.show_artist_following(artist_id=pending[0], access_token=token)['following'], 'marker': marker, 'nonce': nonce, 'clock': diagnostic_datetime.datetime.now().isoformat()}, sort_keys=True))
+  - label: save_prefix
+    save_state: prefix
+  - label: branch_write
+    code: |
+      apis.spotify.unfollow_artist(artist_id=pending[0], access_token=token)
+      marker = 'after_branch'
+      nonce = random.random()
+      print(json.dumps({'following': apis.spotify.show_artist_following(artist_id=pending[0], access_token=token)['following'], 'marker': marker, 'nonce': nonce, 'clock': diagnostic_datetime.datetime.now().isoformat()}, sort_keys=True))
+  - label: load_prefix
+    load_state: prefix
+  - label: inspect_restored_database
+    code: |
+      print(json.dumps({'following': apis.spotify.show_artist_following(artist_id=pending[0], access_token=token)['following'], 'marker': marker, 'nonce': nonce, 'clock': diagnostic_datetime.datetime.now().isoformat()}, sort_keys=True))
+  - label: finish_task
+    code: |
+      for artist_id in eligible_ids:
+          if not apis.spotify.show_artist_following(artist_id=artist_id, access_token=token)['following']:
+              apis.spotify.follow_artist(artist_id=artist_id, access_token=token)
+      final_following = {str(i): apis.spotify.show_artist_following(artist_id=i, access_token=token)['following'] for i in eligible_ids}
+      assert all(final_following.values())
+      apis.supervisor.complete_task()
+      print(json.dumps({'eligible_ids': eligible_ids, 'final_following': final_following, 'active_task': apis.supervisor.show_active_task()}, sort_keys=True))

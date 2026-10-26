@@ -1,0 +1,49 @@
+schema: pfc_stratified_history_summary_v1
+required_source_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+pilot_archives:
+  '95001': Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/stratified_history/complete/run_603782
+pilot_delivery_sha256:
+  '95001': 898ca987fd581ca4a7661780a455fe12a96a0ec7a6b2b1df49a22071a009407e
+array_archive_prefix: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/stratified_history/complete/run_603789_
+preparation:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/stratified_history/prepare/run_603780
+  delivery_sha256: b18a65d375b7d633b2c9d67a2980d10adb6c20593544beafdc10507a08a442a6
+accepted_uniform_comparison:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_clock_comparison/complete/run_603436
+  delivery_sha256: 41789de2dd98ed40b6b73c2e295722fe6c971b0d3192098dfaf18074dc627bca
+population_confidence_interval_computed: false
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+production_episodes: 0

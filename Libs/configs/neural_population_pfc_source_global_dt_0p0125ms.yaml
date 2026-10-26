@@ -1,0 +1,27 @@
+# Native source-clock implementation qualification; not a convergence or production result.
+cases:
+- case_id: pfc_cue_only
+  distractor_strength_nA: 0.0
+- case_id: pfc_cue_distractor
+  distractor_strength_nA: 0.03
+distractor_center_deg: 90.0
+distractor_duration_ms: 50.0
+distractor_start_ms: 400.0
+distractor_width_deg: 40.0
+dt_ms: 0.0125
+duration_ms: 800.0
+excitatory_neurons: 1024
+excitatory_preference_bins: 16
+expected_source_revision: d7c4f07fa83a052829e40790fd1594955fe1c067
+inhibitory_neurons: 256
+readout_bin_ms: 5.0
+scope: source_reproduction
+source_rng_seed: 91001
+state_monitored_per_population: 8
+stimulus_center_deg: 180.0
+stimulus_duration_ms: 100.0
+stimulus_start_ms: 100.0
+stimulus_strength_nA: 0.07
+stimulus_width_deg: 40.0
+synapse_execution: factorized_uniform_projections
+weight_scaling_factor: 2.0

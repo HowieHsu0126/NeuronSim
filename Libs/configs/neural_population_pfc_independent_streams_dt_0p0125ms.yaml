@@ -1,0 +1,65 @@
+# Native source-clock implementation qualification; not a convergence or production result.
+scope: source_reproduction
+expected_source_revision: d7c4f07fa83a052829e40790fd1594955fe1c067
+excitatory_neurons: 1024
+inhibitory_neurons: 256
+weight_scaling_factor: 2.0
+dt_ms: 0.0125
+duration_ms: 800.0
+stimulus_center_deg: 180.0
+stimulus_width_deg: 40.0
+stimulus_strength_nA: 0.07
+stimulus_start_ms: 100.0
+stimulus_duration_ms: 100.0
+distractor_center_deg: 90.0
+distractor_width_deg: 40.0
+distractor_start_ms: 400.0
+distractor_duration_ms: 50.0
+state_monitored_per_population: 8
+excitatory_preference_bins: 16
+readout_bin_ms: 5.0
+cases:
+- case_id: pfc_initial_95001_external_96001_omission
+  initial_rng_seed: 95001
+  external_noise_seed: 96001
+  stimulus_strength_nA: 0.0
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95001_external_96001_cue
+  initial_rng_seed: 95001
+  external_noise_seed: 96001
+  stimulus_strength_nA: 0.06
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95001_external_96002_omission
+  initial_rng_seed: 95001
+  external_noise_seed: 96002
+  stimulus_strength_nA: 0.0
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95001_external_96002_cue
+  initial_rng_seed: 95001
+  external_noise_seed: 96002
+  stimulus_strength_nA: 0.06
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95002_external_96001_omission
+  initial_rng_seed: 95002
+  external_noise_seed: 96001
+  stimulus_strength_nA: 0.0
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95002_external_96001_cue
+  initial_rng_seed: 95002
+  external_noise_seed: 96001
+  stimulus_strength_nA: 0.06
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95002_external_96002_omission
+  initial_rng_seed: 95002
+  external_noise_seed: 96002
+  stimulus_strength_nA: 0.0
+  distractor_strength_nA: 0.0
+- case_id: pfc_initial_95002_external_96002_cue
+  initial_rng_seed: 95002
+  external_noise_seed: 96002
+  stimulus_strength_nA: 0.06
+  distractor_strength_nA: 0.0
+random_stream_policy: independent_initial_external
+synapse_execution: factorized_uniform_projections
+purpose: Bounded source initial-voltage/background stream separation and archive replay;
+  not production or a working-memory claim

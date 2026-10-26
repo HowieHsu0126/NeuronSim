@@ -1,0 +1,21 @@
+schema: pfc_profile_history_readback_v1
+scope: paired_conditional_history_numerical_readback
+source_preparation:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history/prepare/run_604520
+  delivery_sha256: 294e3ed17d5566cba7cc0fb70490d75a290ffce7498b59ba0d3db15acf5358ab
+source_config_sha256: 9d5c7df9d667ab87f34e9846283bd517fe131cba5f71a4385f233570223277c8
+source_rng_seed: 95001
+profile_keys:
+- A/half_quarter/field_4_cue
+- A/half_quarter/field_5_early_delay
+source_runs:
+  coarse:
+    source_label: half_A
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history/complete/run_604529_0
+  fine:
+    source_label: quarter_A
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history/complete/run_604529_1
+new_independent_source_blocks: 0
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+production_episodes: 0

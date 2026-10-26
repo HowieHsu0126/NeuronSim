@@ -1,0 +1,29 @@
+schema: pfc_clock_scaling_diagnostic_v1
+comparison:
+  path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/refinement_repeat/comparison/run_599321/analysis
+  report_sha256: 00d114ad03bc97946049dee2691b21b0b0fbf6121b822cda0c14c92ce004a211
+auxiliary_variance:
+  path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/refinement_repeat/auxiliary_variance/run_601413/analysis
+  report_sha256: ad0ff83ec73bf6000650f2dbc4363677ce7417f9d0fad2dfa7857366e4a72695
+weak_order_hypothesis: 1
+maximum_confirmation_blocks: 128
+source_simulations: 0
+new_rng_draws: 0
+confidence_intervals: false
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+assumptions:
+  - Corresponding clock contrasts share the same endpoint identity and the same complete original block and auxiliary-realization identities.
+  - The first-order weak-error relation d_coarse_middle = 2 * d_middle_fine is a development hypothesis about source-clock laws, not an established convergence order.
+  - Conditional variance interpretations require equal-law conditionally independent auxiliary A/B streams and independent streams across original blocks; heterogeneous conditional variances are allowed.
+  - A population interpretation additionally requires representative independent original blocks.
+interpretation: >-
+  Describe R=d_coarse_middle-2*d_middle_fine for all complete primitive
+  identities using both auxiliary realizations in the same32 original blocks.
+  Retain cross-clock covariance, raw negative between estimates and zero-change
+  uncertainty. Preserve both source margins and all original point exceedances;
+  no margin or pass flag is assigned to R. Source-native input laws vary with
+  the clock, so this is not a same-physical-path integration-error estimate.
+  No fitted convergence order, extrapolated truth, confidence interval, power,
+  sample-size, numerical equivalence or confirmation release follows. The rare
+  CDF coverage problem remains unresolved.

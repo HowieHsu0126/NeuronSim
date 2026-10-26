@@ -1,0 +1,31 @@
+schema: pfc_cdf_coupling_bounds_diagnostic_v1
+scope: development_calibration
+coverage_qualified: false
+method_adopted_for_confirmation: false
+confirmation_execution_released: false
+expected_endpoint_rows: 84330
+expected_cdf_groups: 1530
+planning_blocks: 128
+nominal_alpha: 0.05
+bootstrap_alpha: 0.025
+joint_tail_alpha: 0.025
+endpoint_chunk_size: 256
+inputs:
+  coupled_scores:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/run_592283/analysis
+    report_sha256: f405b7bcf06ebf3780a16389672051b0d11889a080dacb6aef3170b245204e68
+  domain:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/count_scores/run_591289/analysis
+    report_sha256: e77f6f7d50a978a90468d74a7e58d896f304548a5e806dd2aa3d8ce3d3ecf91a
+  uncertainty:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/uncertainty_diagnostic/run_596499/analysis
+    report_sha256: 1ab57f422ae0a904868fabd970b5318357b128cef37bc8dbb2c82b04d25be303
+  budget:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/numerical_error_budget/run_591489/analysis
+    report_sha256: 3a96f8697ee3f5919c8fedbda5bc5918df661ce7c3092bc836447769c1cabc45
+  denominator_source:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_comparison/run_588761/analysis
+    report_sha256: a7ed49cda26d84671a81c1f1a90ddea2b40ad0076fefa4488295a58b4025a37a
+  domain_definition:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/confirmation_domain/run_591237/analysis
+    report_sha256: d876fe5e49277ccb243cdddafc55771345f2c14217d31ca6210a7d7ee3b7a462

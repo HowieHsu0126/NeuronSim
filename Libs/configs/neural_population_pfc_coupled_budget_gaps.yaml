@@ -1,0 +1,19 @@
+schema: pfc_coupled_budget_gap_diagnosis_v1
+scope: saved_calibration_result_classification
+confirmation_execution_released: false
+coverage_qualified: false
+expected_endpoint_rows: 84330
+planning_blocks: 128
+inputs:
+  coupled:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/uncertainty_diagnostic/run_596499/analysis
+    report_sha256: 1ab57f422ae0a904868fabd970b5318357b128cef37bc8dbb2c82b04d25be303
+  native:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/numerical_error_budget/run_591499/analysis
+    report_sha256: 44101cf647961a2df81b5f5779f414d55abdd0ede5b8f80bd7ed1bb37ba2769c
+  native_bands:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/uncertainty_diagnostic/run_591450/analysis
+    report_sha256: 382fb698aaa6019658a4bdddd27dc2a1b9bbf8f4a4376239d67051d1dab395f6
+  budget:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/numerical_error_budget/run_591489/analysis
+    report_sha256: 3a96f8697ee3f5919c8fedbda5bc5918df661ce7c3092bc836447769c1cabc45

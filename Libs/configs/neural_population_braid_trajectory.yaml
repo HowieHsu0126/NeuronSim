@@ -1,0 +1,23 @@
+schema: neural_population_braid_trajectory_training_v1
+training_seeds: [41, 42, 43]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+validation_blocks: [14, 15, 16, 17]
+bin_ms: 5.0
+dt_ms: 0.1
+duration_ms: 6000.0
+expected_units: 100000
+history_bins: 200
+horizon_bins: 1000
+maximum_epochs: 20
+early_stopping_patience: 4
+expected_poisson_rng_family: per_edge_philox4_32_10
+cpu_threads: 2
+device: cpu
+selection_metric: native_trial_local_multi_horizon_poisson_loss
+formal_training_completed: false
+model:
+  latent_dim: 16
+  hidden_units: 32
+  steps_ahead: [1, 4, 16]
+  learning_rate: 0.001
+  gradient_clip_norm: 1.0

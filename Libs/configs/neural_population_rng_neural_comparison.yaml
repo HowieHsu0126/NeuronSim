@@ -1,0 +1,17 @@
+# Development diagnosis of source-driver effects, before replacement training.
+schema: mesocircuit_rng_neural_comparison_v1
+template_id: familiar_0
+split: train
+expected_blocks: 18
+reference_rng_family: per_edge_xorwow
+candidate_rng_family: per_edge_philox4_32_10
+analysis_start_ms: 1000.0
+analysis_stop_ms: 6000.0
+bin_widths_ms: [5.0, 20.0, 100.0]
+response_window_ms: 20.0
+bootstrap_replicates: 5000
+bootstrap_seed: 87100
+interval_level: 0.95
+formal_training_seeds: [41, 42, 43]
+previously_observed_candidate_cases: [train_block_000_familiar_0]
+inference_scope: development estimates conditional on one graph and one stimulus template

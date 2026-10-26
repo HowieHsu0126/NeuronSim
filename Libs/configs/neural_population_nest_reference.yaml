@@ -1,0 +1,25 @@
+# Official v3.8 Potjans--Diesmann network; separately qualified native runtime.
+source_dir: Libs/external/nest_potjans_2014
+expected_nest_version: 3.10.0
+n_scaling: 1.0
+k_scaling: 1.0
+local_num_threads: 4
+duration_ms: 1500.0
+presimulation_ms: 500.0
+dt_ms: 0.1
+initial_state: optimized
+poisson_input: true
+background_rate_hz: 8.0
+fingerprint_target_batch_size: 32
+# These are independent simulator streams, not three model-training replicates.
+random_streams:
+  connectivity: 41001
+  initial_state: 42001
+  background_drive: 43001
+# Amplitudes add actual pA to the source baseline of every unit in the target.
+# Official dc_amp*K_ext stimulation is disabled in the adapter.
+current_pulses:
+  - population: L4E
+    onset_ms: 700.0
+    duration_ms: 10.0
+    amplitude_pa: 100.0

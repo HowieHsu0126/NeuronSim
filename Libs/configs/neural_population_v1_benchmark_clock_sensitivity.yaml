@@ -1,0 +1,14 @@
+schema_version: 1
+scope: benchmark_temporal_sensitivity_development
+# One paired condition per invocation; benchmark cases share the same canary.
+# All realized inputs, circuit parameters and source-clock references stay bound.
+reference_resolution_ms: 0.25
+execution_resolution_ms: 0.125
+duration_ms: 3000.0
+reference_full_archive: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/native_pointnet/run_611325
+reference_canary_archive: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/native_pointnet/run_612584
+independent_replay_required: true
+maximum_new_full_conditions: 1
+allow_further_resolution_sweep: false
+production_eligible: false
+scientific_qualification: false

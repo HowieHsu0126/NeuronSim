@@ -1,0 +1,11 @@
+scope: full_gray_finite_temporal_law_development
+training_seeds_used: []
+bin_ms: 1
+lag_ms:
+- 0
+- 1
+- 10
+- 100
+finite_count_archive: Output/neural_population_dynamics/benchmark/v1_driver_condition_envelope_20261011/finite_gray_611093
+rate_archive: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/visual_inputs/rates_608145
+prepared_runtime: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/lgn_source_tables/source_runtime_586021/prepared

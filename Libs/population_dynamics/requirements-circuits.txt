@@ -1,0 +1,10 @@
+# Native PFC source reproduction and the shared AI-ready archive.
+# Install into compute-node-local environments; record pip freeze in each run.
+numpy==1.26.4
+scipy==1.12.0
+h5py==3.11.0
+PyYAML==6.0.2
+requests==2.32.3
+brian2==2.5.4
+neurodynex3==1.0.4
+psutil==6.1.1

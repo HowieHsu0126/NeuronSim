@@ -1,0 +1,31 @@
+schema: pfc_innovation_response_v1
+kernel_source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/conditional_spike_kernel/run_602381
+  delivery_sha256: b2aeacffdd7d39cc12662556fbec63717eb0112f8e852a7ebff4fbfb951ff0a1
+threshold_source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/threshold_branch_probe/execution/run_602022
+  delivery_sha256: 0028178795cca3f0255fcacc45adf6a21baf9f295e22aadc0d79fa8e3839ef1b
+original_reference:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/spike_branch_continuation/execution/run_602171
+  delivery_sha256: 70577629a08efc031d6576be2b612a2464f99ded124b65f9407520f71d1f7ab0
+reversed_reference:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/count_boundary_decomposition/run_602343
+  delivery_sha256: 648b874eb79480b5d3bffb0589883fa1794f4b26a59c65c30500d9a28cef23ff
+source_rng_seed: 95001
+refinement_seeds: [95411, 95412]
+expected_units: 100000
+unit_index: 6423
+input_ticks: [88, 91]
+values: [0, 1, 2]
+coarse_dt_ms: 0.05
+dt_ms: 0.0125
+stop_ms: 100.0
+windows_ms: [5.0, 50.0, 100.0]
+conditioning: all_other_fine_input_coordinates_including_future_and_initial_state_and_controls
+condition_on_outputs: false
+condition_on_coarse_parents: false
+condition_on_selection: false
+condition_on_rng_or_seed: false
+omitted_mass_ceiling: '0.000002'
+confirmation_execution_released: false
+production_episodes: 0

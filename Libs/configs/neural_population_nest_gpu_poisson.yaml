@@ -1,0 +1,19 @@
+delay_ms: 0.3
+dt_ms: 0.1
+duration_ms: 2000.0
+expected_arrival_support:
+  first_tick: 2
+  last_tick: 19999
+rates_hz:
+- 128.0
+- 120.0
+- 168.0
+- 152.0
+- 160.0
+- 152.0
+- 232.0
+- 168.0
+- 10000.0
+seed: 75001
+targets_per_rate: 2
+tau_syn_ms: 0.5

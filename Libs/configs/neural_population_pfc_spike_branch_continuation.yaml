@@ -1,0 +1,21 @@
+schema: pfc_spike_branch_continuation_v1
+accepted_probe:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/threshold_branch_probe/execution/run_602022
+  delivery_sha256: 0028178795cca3f0255fcacc45adf6a21baf9f295e22aadc0d79fa8e3839ef1b
+  execution_report_sha256: 2969d86954b9a119495e4acecf76ee5958b41d6f3ae0b3f90ffb143b4c7f4103
+  snapshot_sha256: a19efee6e1601f481023a4f6e8148ac0d07b002717f021129b6c94995cfe0de2
+original_source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+  delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+case_relative_path: source_cases/dt_0p0125/pfc_95001_omission
+source_rng_seed: 95001
+refinement_seeds: [95411, 95412]
+coarse_dt_ms: 0.05
+dt_ms: 0.0125
+expected_units: 100000
+forced_unit_index: 6423
+forced_tick: 89
+stop_ms: 100.0
+windows_ms: [5.0, 50.0, 100.0]
+confirmation_execution_released: false
+production_episodes: 0

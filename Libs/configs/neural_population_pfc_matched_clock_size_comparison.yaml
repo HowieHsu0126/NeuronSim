@@ -1,0 +1,87 @@
+schema: pfc_independent_matched_clock_size_comparison_v1
+scope: development_calibration
+inference: descriptive_only
+dt_ms: 0.0125
+bin_ms: 5.0
+lag_ms:
+- 0
+- 5
+- 10
+- 100
+lag_scope: complete_within_phase_pairs
+count_windows_ms:
+- 5
+- 50
+- 100
+cross_size_pairing: false
+cohorts:
+  reference_2560:
+    coupled_units: 2560
+    source_rng_seeds:
+    - 95201
+    - 95202
+    - 95203
+    - 95204
+    - 95205
+    - 95206
+    - 95207
+    - 95208
+    - 95209
+    - 95210
+    - 95211
+    - 95212
+    - 95213
+    - 95214
+    - 95215
+    - 95216
+    - 95217
+    - 95218
+    - 95219
+    - 95220
+    - 95221
+    - 95222
+    - 95223
+    - 95224
+    - 95225
+    - 95226
+    - 95227
+    - 95228
+    - 95229
+    - 95230
+    - 95231
+    - 95232
+  expanded_100k:
+    coupled_units: 100000
+    source_rng_seeds:
+    - 95001
+    - 95002
+    - 95003
+    - 95004
+    - 95005
+    - 95006
+    - 95007
+    - 95008
+    - 95009
+    - 95010
+    - 95011
+    - 95012
+    - 95013
+    - 95014
+    - 95015
+    - 95016
+    - 95017
+    - 95018
+    - 95019
+    - 95020
+    - 95021
+    - 95022
+    - 95023
+    - 95024
+    - 95025
+    - 95026
+    - 95027
+    - 95028
+    - 95029
+    - 95030
+    - 95031
+    - 95032

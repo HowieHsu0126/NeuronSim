@@ -1,0 +1,64 @@
+schema: appworld_bounded_message_decoder_development_v1
+task_id: 07b42fd_1
+dataset: train
+model_revision: Qwen/Qwen3-Coder-30B-A3B-Instruct@b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+historical_reference_job: 597334
+prefix_protocol_sha256: 1e2629535b18f11556309401eeb0427573973bd1013293a16403108fd8b6c422
+prefix_generation_attempts: 10
+maximum_new_attempts: 20
+maximum_total_attempts: 30
+maximum_new_executions: 1
+allocation: {planner: 1, executor: 1}
+lossless_observation_history: true
+evidence_table_after_prefix: true
+verification_message_replies: true
+reply_generation_attempts_per_delivered_message: 1
+phase_action_decoder: true
+max_context_tokens: 65536
+max_new_tokens: 512
+action_decoder_bounds:
+  message_text_max_length: 256
+  max_consecutive_whitespaces: 4
+decoder:
+  implementation: lm-format-enforcer
+  version: 0.11.3
+  dependency_archive: Output/neural_population_dynamics/agentic_extension/action_decoder_dependencies/run_597114
+  dependency_delivery_sha256: 501e9ad275e25485ab7d487511fa1e2d9267ec935abbe13812dcfbfb2670e170
+  wheels:
+    lm_format_enforcer-0.11.3-py3-none-any.whl: cf586350875def1ae7a8fba84fcbbfc8371424b6c9d05c1fcba70aa233fbf06f
+    interegular-0.3.3-py37-none-any.whl: b0c07007d48c89d6d19f7204972d369b2a77222722e126b6aa63aa721dc3b19c
+hypothesis: >-
+  The retained phase decoder produced twelve unfinished message strings at the
+  512-token limit. Its callbacks did not fail. Existing text-equivalent diagnosis
+  admitted every path and an earlier budget-feasible completion. Prospectively
+  bounding message text and consecutive whitespace may permit complete actions.
+  Successful proposals, useful verification and task completion remain untested.
+intervention: >-
+  After the unchanged verified ten-generation prefix, constrain message/proposal
+  text to maxLength 256 and consecutive whitespace to four characters in the
+  existing fresh phase parser. The character bound follows LMFE 0.11.3 parser
+  semantics. The model chooses every action, argument, call ID, message and share.
+  Free field order, argument objects and result-ID arrays remain unchanged.
+  Retain greedy bf16 SDPA inference, private histories, prompts, fixed allocation,
+  native guards and reply schedule. Do not repair, truncate or complete outputs
+  after generation. These bounds do not guarantee global token-budget completion.
+comparison_scope: >-
+  One separately specified development execution on the already exposed train
+  task. The exhausted 597334 protocol remains closed. Historical outcomes are
+  descriptive context, not an independent task or randomized control comparison.
+endpoints:
+  - unchanged_prefix_private_histories_and_no_prefix_decoder_calls
+  - complete_JSON_actions_and_preserved_token_cap_truncations
+  - decoder_bounds_schema_identity_callback_failures_and_cost
+  - proposal_verification_and_phase_completion
+  - accepted_native_task_writes_and_known_outcomes
+  - source_supported_target_coverage_finish_and_native_evaluation
+  - all_attempt_inference_native_and_end_to_end_costs
+stop_rule: >-
+  Stop at finish, error, unknown native outcome or the original 30-attempt limit.
+  Retain every generation and outcome. Do not retry, increase budgets, tune
+  prompts, expand tasks or replace semantic decisions automatically.
+next_decision: >-
+  Read back the complete execution before any further model run. Separate action
+  completion from semantic progress. A successful development task does not
+  qualify scientific closure or verification-allocation benefit.

@@ -1,0 +1,37 @@
+schema: appworld_observation_history_development_v1
+task_id: 07b42fd_1
+dataset: train
+model_revision: Qwen/Qwen3-Coder-30B-A3B-Instruct@b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+historical_baseline_job: 591164
+prefix_protocol_sha256: 1e2629535b18f11556309401eeb0427573973bd1013293a16403108fd8b6c422
+prefix_generation_attempts: 10
+maximum_new_attempts: 20
+maximum_total_attempts: 30
+maximum_new_executions: 1
+allocation: {planner: 1, executor: 1}
+lossless_observation_history: true
+evidence_table_after_prefix: true
+max_context_tokens: 65536
+max_new_tokens: 512
+hypothesis: >-
+  Repeated actor-local observation views caused the recorded context overflow.
+  Lossless references should remove that failure without changing the actor's
+  available information or the attempt and verification budgets. Whether native
+  task execution succeeds remains a separate measured outcome.
+comparison_scope: >-
+  One development repair execution against the retained historical failed run,
+  using the same task and frozen prefix. The prior one-pair diagnostic remains
+  closed. This is not an additional independent task or a formal benefit test.
+endpoints:
+  - context_preflight_failures_and_per_attempt_token_counts
+  - accepted_native_task_writes_and_outcomes
+  - source_supported_target_coverage
+  - finish_and_native_evaluation
+  - new_inference_and_native_execution_costs
+stop_rule: >-
+  Stop at finish, error or the original 30-attempt limit. Preserve the outcome;
+  no automatic retry, added task, prompt tuning or budget increase.
+next_decision: >-
+  If context fits but task execution fails, inspect the concrete failed action
+  and missing state information. Do not attribute the failure to context length
+  or claim closure-guided control benefit from encoding alone.

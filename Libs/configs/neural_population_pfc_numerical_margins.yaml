@@ -1,0 +1,29 @@
+schema: pfc_numerical_error_budget_v1
+scope: prospective_numerical_error_budget
+policy_status: frozen_definition_before_feasibility
+confirmation_execution_released: false
+reference_cohort: numpy_dt_0p0125
+reference_dt_ms: 0.0125
+maximum_confirmation_blocks: 128
+joint_rng_seeds: [95001, 95002, 95003, 95004, 95005, 95006, 95007, 95008, 95009, 95010, 95011, 95012, 95013, 95014, 95015, 95016, 95017, 95018, 95019, 95020, 95021, 95022, 95023, 95024, 95025, 95026, 95027, 95028, 95029, 95030, 95031, 95032]
+error_budget:
+  field_mean_scale_fraction: 0.10
+  covariance_entry_scale_fraction: 0.10
+  count_cdf_absolute_probability: 0.01
+  response_signal_fraction: 0.01
+  response_block_sd_fraction: 0.10
+  response_single_spike_allowance: 1.0
+source_archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_588755
+inputs:
+  comparison:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_comparison/run_588761/analysis
+    report_sha256: a7ed49cda26d84671a81c1f1a90ddea2b40ad0076fefa4488295a58b4025a37a
+  design:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/calibration_design/run_590864/analysis
+    report_sha256: c35034472b4c3277e2921fd96c6c3175d562a520823d805694b320832baf208d
+  domain:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/count_scores/run_591289/analysis
+    report_sha256: e77f6f7d50a978a90468d74a7e58d896f304548a5e806dd2aa3d8ce3d3ecf91a
+  uncertainty:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/uncertainty_diagnostic/run_591450/analysis
+    report_sha256: 382fb698aaa6019658a4bdddd27dc2a1b9bbf8f4a4376239d67051d1dab395f6

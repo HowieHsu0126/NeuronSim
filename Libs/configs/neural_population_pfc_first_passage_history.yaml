@@ -1,0 +1,32 @@
+schema: pfc_first_passage_history_v1
+scope: one_existing_source_block_uniform_unit_window_pilot
+importance:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_importance/run_603027
+  delivery_sha256: 7e186108654e8e9848189e1701cff153d3173663f8944d1c22705137e6d25e51
+source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_strong_cue
+  delivery_sha256: ad8515c6dd9122bfab6be35502b14402a5c60b56098fa3ee8efe44bffec18e8e
+case_id: pfc_95001_strong_cue
+source_rng_seed: 95001
+expected_units: 100000
+dt_ms: 0.05
+field_index: 5
+phase: cue
+window_ms: 5.0
+sample_size: 64
+sampling_seed_components: [20261009, 95001, 5, 1]
+importance_sampling:
+  samples: 100000
+  batch_size: 10000
+  proposal_multipliers: [1.0, 2.0, 4.0, 8.0]
+  mixture_probabilities: [0.25, 0.25, 0.25, 0.25]
+  maximum_witnesses: 1
+  confidence_level: 0.95
+confirmation_execution_released: false
+population_history_uncertainty_established: false
+production_episodes: 0
+source_registry:
+  path: Libs/configs/neural_population_pfc_refinement_repeat.yaml
+  sha256: a4583df42ef93f0b4ca1c91e0004751ec67b05ed6ca7c66c93f56b73b8d9c949
+  source_seeds: [95001, 95002, 95003, 95004, 95005, 95006, 95007, 95008, 95009, 95010, 95011, 95012, 95013, 95014, 95015, 95016, 95017, 95018, 95019, 95020, 95021, 95022, 95023, 95024, 95025, 95026, 95027, 95028, 95029, 95030, 95031, 95032]
+  reuse_seed_95001_job: 603143

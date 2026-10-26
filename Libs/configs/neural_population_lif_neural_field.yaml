@@ -1,0 +1,21 @@
+schema: source_projected_lif_mean_field_development_v1
+source_graph: Output/neural_population_dynamics/mechanistic_reference/spatial_connectivity/source_graph_100000
+cohort: Output/neural_population_dynamics/mechanistic_reference/spatial_connectivity/stimulus_trajectory_cohort/philox_development
+observation: source_cortical_population_periodic_4x4_cells
+bin_ms: 5.0
+relaxation_candidates_ms: [1.0, 5.0, 10.0]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+validation_blocks: [14, 15, 16, 17]
+origins_ms: [1000.0, 3000.0, 5000.0]
+horizons_ms: [20.0, 80.0, 500.0]
+selection_metric: fitting_standardized_field_rate_mse
+selection_role: development_hyperparameter_selection
+selection_split: validation
+fitting_scale: Output/neural_population_dynamics/model/trajectory_development/run_606139/seed_41/forecasts/fitting_field_scale.npz
+diagnostic_relaxation_ms: 5.0
+diagnostic_case: train_block_000_familiar_0
+diagnostic_origin_ms: 1000.0
+diagnostic_horizon_ms: 500.0
+outputs: expected_field_counts_and_hz_only
+training_rng: absent_deterministic_parameter_selection
+formal_evaluation: false

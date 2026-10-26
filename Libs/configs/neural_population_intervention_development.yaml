@@ -1,0 +1,35 @@
+schema: neural_population_intervention_development_v1
+scope: development_only
+training_seeds: [41, 42, 43]
+case_id: train_block_014_familiar_0
+selection_block: 14
+reference_case_ids:
+  - train_block_000_familiar_0
+  - train_block_001_familiar_0
+  - train_block_002_familiar_0
+  - train_block_003_familiar_0
+  - train_block_004_familiar_0
+  - train_block_005_familiar_0
+  - train_block_006_familiar_0
+  - train_block_007_familiar_0
+  - train_block_008_familiar_0
+  - train_block_009_familiar_0
+  - train_block_010_familiar_0
+  - train_block_011_familiar_0
+  - train_block_012_familiar_0
+  - train_block_013_familiar_0
+reference_role: fitting_response_distribution_not_independent_intervention_test
+decision_time_ms: 1000
+horizon_ms: 500
+joint_draws: 16
+candidate_rule: omission_first_future_pulse_and_all_original_future_pulses_in_horizon
+sampling_stream_seeds: [77001, 77002, 77003]
+pulse_cost_weight: 0.0
+expected_units: 100000
+expected_fields: 128
+expected_episodes: 72
+scientific_success_tolerance: null
+native_intervention_execution: false
+repeat_training: false
+selection_used_for_checkpoint_selection: true
+cost_role: record_pulse_count_without_scientific_cost_weight_calibration

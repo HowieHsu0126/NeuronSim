@@ -1,0 +1,77 @@
+schema: pfc_recurrent_gain_comparison_v1
+scope: descriptive_parameter_development
+scientific_parameter_domain_qualified: false
+confidence_intervals: false
+p_values: false
+confirmation_execution_released: false
+source_protocol: Libs/configs/neural_population_pfc_recurrent_gain.yaml
+source_protocol_sha256: 372d8a0b4435fd1eda3a1b9707694c51abb5673fcfeee66cb250cce572f0033d
+source_jobs:
+  reference_2560: 596882
+  expanded_100k: 596883
+source_rng_seeds:
+  reference_2560:
+  - 93001
+  - 93002
+  - 93003
+  expanded_100k:
+  - 95001
+  - 95002
+  - 95003
+baseline_cache:
+  reference_2560:
+    phase_counts:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/reference_size
+      path: analysis/phase_unit_counts.npz
+      bytes: 42849
+      sha256: 4e0cd7f6ec0d6bc6bbfa95e8774ace03277ca101bbaa6877fbb7c4da6779bc4c
+      delivery_sha256: a8f13e92b75ea8af80bb2c326cd0d4ec111bb46031f1d2b1cdefd02743c16f12
+    fields:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/reference_fluctuation_calibration/run_586261
+      path: analysis/field_fluctuations.npz
+      bytes: 69479
+      sha256: 9467040fb139d8578c8507a1bc83a995fa52dcb1393597c48b0cade5fe960c38
+      delivery_sha256: c783f7b0cee8bc6a88cf4f1aaf26605213d5acb443357ef4d2d3fe72bfda6109
+    moments:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/reference_fluctuation_calibration/run_586261
+      path: analysis/unit_moments.npz
+      bytes: 40308
+      sha256: 2e94c3383b3697f6f82b5594f09e6883b26964c7df8e3cf3d62e8f23f1ba26c0
+      delivery_sha256: c783f7b0cee8bc6a88cf4f1aaf26605213d5acb443357ef4d2d3fe72bfda6109
+    bridge:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/reference_size/streamed_numpy_comparison/run_587313
+      path: comparison.json
+      bytes: 58180
+      sha256: d51d542a131f38b11bff7025c60b6e33c09077400b1d37705765b6d15424aa8a
+      delivery_sha256: 8f19f12ca72d060c365443dbb343e70b1df5d0a773f2630e7d5d22121f6a970c
+    fluctuation_report:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/reference_fluctuation_calibration/run_586261
+      path: analysis/report.json
+      bytes: 40875
+      sha256: fafbf7d0eb014d4ab3430b79a50a8beab3abca8d6fca4a9b3b99aab85c81075a
+      delivery_sha256: c783f7b0cee8bc6a88cf4f1aaf26605213d5acb443357ef4d2d3fe72bfda6109
+    phase_report:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/reference_size
+      path: analysis/analysis.json
+      bytes: 4976
+      sha256: a863d8a6021c78c84d487d0abfd80f5c33e51dcb7a2dba1708121e42e5d9ac4e
+      delivery_sha256: a8f13e92b75ea8af80bb2c326cd0d4ec111bb46031f1d2b1cdefd02743c16f12
+  expanded_100k:
+    phase_counts:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+      path: reference/analysis/phase_unit_counts.npz
+      bytes: 11343279
+      sha256: 4f6c09924a5ce8dbb11830008fcdc24d7d5151d55560c20be1a3a0ab2fca5ede
+      delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616
+    fields:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+      path: analysis/field_fluctuations.npz
+      bytes: 1671215
+      sha256: 7a67fef554834402c422d4157af02552afb3662eba32754a28441cc258e93a91
+      delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616
+    histograms:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+      path: analysis/unit_count_histograms.npz
+      bytes: 295571
+      sha256: 7701aac82608998e6585efe08d2789d7d33df2d6f9962cb38be30d42dc5aa7a8
+      delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616

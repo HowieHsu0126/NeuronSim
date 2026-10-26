@@ -1,0 +1,378 @@
+# Development protocol: 210ms post-cue recording for every CA3 memory.
+# The canonical 1001ms protocol and its historical evidence remain separate.
+campaign: neural_population_dynamics
+training_seeds: [41, 42, 43]
+simulation_campaign:
+  schema: neural_circuit_campaign_v1
+  sample_unit: complete_mechanistic_episode
+  episodes_per_scenario: 100000
+  completion_priority: full_scientific_quality
+  sampling:
+    circuit_instances: 100
+    initial_noise_blocks_per_circuit: 100
+    conditions_per_block: 10
+  circuit_split_counts: {train: 70, validation: 10, calibration: 10, test: 10}
+  archive:
+    format: hdf5
+    target_shard_bytes: 1073741824
+    static_unit_metadata: shared_per_circuit
+    raw_event_time: integer_native_ticks
+    final_endpoint_events: separately_retained
+  scenarios:
+    v1_visual:
+      source_family: Allen_Billeh_2020_PointNet_GLIF
+      minimum_core_neurons: 100000
+      source_scale_policy: retain_original_full_cortical_network
+      observation_semantics: source_spatial_coordinates_and_cell_types
+      observation_map_candidate:
+        status: development_candidate
+        frozen: false
+        source_fidelity_qualified: false
+        reference_scope: source_reproduction
+        reference_split: development
+        reference_native_job: 586214
+        reference_repeatability_job: 586218
+        constructed_source_development:
+          scope: source_recipe_reconstruction_development
+          protocol_design: Docs/Design/neural_population_generative_simulator_goal.md
+          circuit_config: Libs/configs/neural_population_v1_circuit_development.yaml
+          visual_config: Libs/configs/neural_population_v1_constructed_visual_development.yaml
+          native_clock_sensitivity_protocol: Libs/configs/neural_population_v1_clock_sensitivity.yaml
+          recurrent_construction_job: 587579
+          input_construction_job: 587611
+          native_job: 592944
+          expected_native_archive: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/native_pointnet/run_592944
+          export_job: 592983
+          expected_export_report: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_592983/export/report.json
+          coordinate_authority: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/coordinate_authority/run_587701
+          visual_controls: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_592310
+          require_verified_native_replay_and_export: true
+          source_fidelity_qualified: false
+          production_eligible: false
+        paired_control_development:
+          contrast_percent: 40
+          baseline_contrast_percent: 80
+          native_job: 586521
+          repeatability_job: 586522
+          export_report: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_586523/export/report.json
+          dataset_catalog: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_586523/export/dataset/dataset.json
+          cortical_comparison_report: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_586524/control_pair/report.json
+          same_circuit_catalog_record: true
+          same_declared_noise_block: true
+          prefix_events_exact: true
+          distinct_circuits: 1
+          complete_development_conditions: 2
+        reference_export_report: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_586354/export/report.json
+        reference_dataset_catalog: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_586354/export/dataset/dataset.json
+        implementation: Libs/population_dynamics/v1_source_dataset.py
+        window_reader: Libs/population_dynamics/circuit_data.py
+        reference_cortical_units: 230924
+        reference_ordered_source_id_bounds: [0, 230923]
+        silent_units_retained: true
+        static_metadata: [node_type_id, pop_name, x, y, z]
+        reference_node_types: 111
+        reference_populations: 21
+        coordinate_units: um
+        coordinate_unit_basis: inferred_from_author_paper_and_loader_not_hdf5_attribute
+        native_dt_ms: 0.25
+        reference_duration_ticks: 12000
+        raw_endpoint_events: retained
+        model_window_intervals: half_open_excluding_terminal_tick
+        unit_window_output: integer_spike_counts
+        population_window_output: sums_of_unit_counts_by_source_population
+        scientific_bin_ticks: null
+        current_reader_bin_ticks: caller_selected_positive_integer
+        control_frame_ticks: 4
+        control_between_frames: piecewise_constant
+        control_within_window_bins: time_overlap_weighted_mean
+        control_features:
+          - {name: grating_contrast_fraction, unit: dimensionless}
+          - {name: spatial_frequency_cycles_per_source_degree, unit: cycles_per_source_visual_degree}
+          - {name: temporal_frequency_hz, unit: Hz}
+          - {name: source_theta_deg, unit: degree}
+          - {name: source_phase_deg, unit: degree}
+          - {name: grating_local_time_s, unit: s}
+        control_arithmetic: preserve_source_theta_phase_transforms_and_retained_grating_linspace
+        cortical_coordinate_conversion_applied: false
+        excluded_from_model_windows: [incoming_lgn_spikes, incoming_background_spikes, initial_membrane_voltage, terminal_membrane_voltage]
+        remaining_before_freeze: [qualified_source_evidence, declared_scientific_window_resolution]
+      task: visual_response_adaptation_and_stimulus_design
+      parameter_domain:
+        frozen: false
+        circuit_instances: 100
+        joint_recipe: existing_full_V1_builder_with_distinct_topology_position_GLIF_and_LGN_realizations
+        builder_seed_rule: connectivity_seed
+        glif_assignment_seed_rule: connectivity_seed_plus_1000000
+        fixed_parameters: source_cell_type_counts_intrinsic_parameters_and_joint_connectivity_rules
+        initial_state_distribution: deterministic_source_reset_then_stochastic_gray_warmup
+        independent_noise_blocks: 100
+        qualify_before_production: [numerical_integrity, driver_statistics, coupling, full_unit_recording]
+      task_protocol:
+        schema: neural_circuit_benchmark_tasks_v1
+        frozen: false
+        dt_ms: 0.25
+        condition_duration_ticks: [12000, 12000, 12000, 12000, 12000, 12000, 12000, 12000, 12000, 12000]
+        gray_screen_s: 0.5
+        duration_s: 3.0
+        spatial_frequency_cycles_per_degree: 0.04
+        temporal_frequency_hz: 2.0
+        conditions:
+          - {condition_id: direction_000, direction_deg: 0, contrast_percent: 80}
+          - {condition_id: direction_045, direction_deg: 45, contrast_percent: 80}
+          - {condition_id: direction_090, direction_deg: 90, contrast_percent: 80}
+          - {condition_id: direction_135, direction_deg: 135, contrast_percent: 80}
+          - {condition_id: direction_180, direction_deg: 180, contrast_percent: 80}
+          - {condition_id: direction_225, direction_deg: 225, contrast_percent: 80}
+          - {condition_id: direction_270, direction_deg: 270, contrast_percent: 80}
+          - {condition_id: direction_315, direction_deg: 315, contrast_percent: 80}
+          - {condition_id: gray, direction_deg: 0, contrast_percent: 0}
+          - {condition_id: low_contrast, contrast_percent: 20, direction_rule: '45 * (block_index % 8)'}
+        initial_state_policy: source_reset_then_recorded_full_gray_warmup
+        noise_pairing: shared_starting_seeds_not_per_unit_event_pairing
+        inference_unit: circuit_with_nested_noise_blocks
+        outcomes: [all_unit_spike_counts, population_time_courses, direction_selectivity, contrast_response]
+        quality_selection: numerical_validity_only_keep_silent_and_weak_responses
+      observation_map:
+        frozen: false
+        unit_identity: ordered_source_cortical_node_id
+        retained_units: all_230924_cortical_units_including_silence
+        temporal_resolution_ms: 0.25
+        event_time: integer_native_tick_with_terminal_events_retained
+        activity: unit_spike_counts_and_sums_by_source_population
+        activity_unit: spikes_per_declared_bin
+        population_index: source_pop_name_and_node_type_id
+        spatial_index: source_x_y_z_um
+        coordinate_basis: published_source_geometry_and_verified_node_map
+        scientific_bin_ticks: null
+        allowed_causal_inputs: [observed_history, declared_stimulus_schedule, circuit_static_metadata]
+        excluded_causal_inputs: [future_lgn_spikes, future_background_spikes, future_cortical_spikes, terminal_voltage, future_rng_state]
+    pfc_working_memory:
+      source_family: Compte_2000_with_EPFL_Brian2_reproduction_comparator
+      minimum_core_neurons: 100000
+      source_scale_policy: validate_coupled_expansion_before_production
+      observation_semantics: stimulus_preference_angle_and_population
+      task: delay_memory_distractor_resilience_and_recovery
+      parameter_domain: null
+      task_protocol: null
+      observation_map: null
+    ca3_pattern_completion:
+      source_family: Kopsick_2024_CARLsim_Hippocampome
+      minimum_core_neurons: 100000
+      source_scale_policy: validate_coupled_expansion_before_production
+      observation_semantics: source_cell_types_and_memory_assemblies
+      task: cue_completion_corruption_and_retrieval
+      parameter_domain:
+        frozen: false
+        circuit_instances: 100
+        joint_recipe: existing_168106_unit_coupled_CA3_with_fresh_graph_and_70000ms_formation_per_circuit
+        topology_seed_rule: connectivity_seed
+        fixed_parameters: source_population_counts_intrinsic_parameters_probabilities_and_plasticity
+        scaling_rule: double_population_counts_and_halve_connection_probabilities
+        initial_state_distribution: deterministic_source_reset_then_520ms_stochastic_background
+        independent_noise_blocks: 100
+        qualification_unit: independently_formed_circuit
+        qualify_before_production: [numerical_integrity, driver_statistics, coupling, scaling_fidelity, full_unit_recording]
+      task_protocol:
+        schema: neural_circuit_benchmark_tasks_v1
+        frozen: false
+        dt_ms: 1.0
+        condition_duration_ticks: [1210, 1210, 1210, 1210, 1210, 1210, 1210, 1210, 1210, 1210]
+        formation_duration_ms: 70000
+        retrieval_duration_ms: 1210
+        cue_starts_ms: [520, 750, 980]
+        cue_duration_ms: 20
+        assembly_size: 550
+        cue_current_pA: 10000
+        conditions:
+          - {condition_id: cue_omission, true_cue_units: 0, false_cue_units: 0}
+          - {condition_id: completion_10, true_cue_units: 55, false_cue_units: 0}
+          - {condition_id: completion_25, true_cue_units: 138, false_cue_units: 0}
+          - {condition_id: completion_50, true_cue_units: 275, false_cue_units: 0}
+          - {condition_id: completion_75, true_cue_units: 413, false_cue_units: 0}
+          - {condition_id: completion_full, true_cue_units: 550, false_cue_units: 0}
+          - {condition_id: corruption_10, true_cue_units: 247, false_cue_units: 28}
+          - {condition_id: corruption_25, true_cue_units: 206, false_cue_units: 69}
+          - {condition_id: corruption_50, true_cue_units: 138, false_cue_units: 137}
+          - {condition_id: wrong_memory, true_cue_units: 0, false_cue_units: 275}
+        false_cue_policy: next_learned_assembly_cyclic
+        membership_policy: seeded_permutation_nested_within_block
+        initial_state_policy: fresh_source_reset_then_520ms_background
+        noise_pairing: same_realized_background_draws_across_conditions
+        inference_unit: formed_circuit_with_nested_retrieval_noise_blocks
+        outcomes: [never_cued_target_activity, wrong_assembly_activity, all_unit_spike_counts, post_cue_persistence]
+        quality_selection: numerical_validity_only_keep_failed_completion
+        memory_trials_per_episode: 3
+        memory_trials_are_independent_episodes: false
+      observation_map:
+        frozen: false
+        unit_identity: source_group_order_then_local_unit_index
+        retained_units: all_168106_units_including_silence
+        temporal_resolution_ms: 1.0
+        event_time: integer_native_millisecond
+        activity: unit_spike_counts_and_sums_by_cell_type_and_learned_assembly
+        activity_unit: spikes_per_declared_bin
+        population_index: source_cell_type_and_three_550_unit_learned_assemblies
+        spatial_index: none_no_soma_geometry_claim
+        scientific_bin_ticks: null
+        allowed_causal_inputs: [observed_history, actual_cue_assignment_schedule, declared_background_distribution_schedule, circuit_static_metadata]
+        excluded_causal_inputs: [future_realized_current, future_spikes, future_microscopic_state, future_rng_state]
+output_dir: Output/neural_population_dynamics/data_intake
+cohort:
+  protocol: functional_connectivity
+  expected_metadata_session_count: 58
+  expected_protocol_session_count: 26
+  split_salt: neuronsim-population-animal-split-v1
+  split_protocol: donor_quota_v1
+  split_counts_by_donor: {train: 14, validation: 4, test: 8}
+  amendment: metadata_only_holdout_expansion_before_nonanchor_activity
+  exploration_train_session_ids: [847657808]
+  known_sources:
+    847657808:
+      file_id: 1026123943
+      expected_size_bytes: 2813195792
+      verified_mirror_url: https://allen-brain-observatory.s3.us-west-2.amazonaws.com/visual-coding-neuropixels/ecephys-cache/session_847657808/session_847657808.nwb
+      expected_etag: 2cb5a83ba151fc9d3e0c4ddc8e76d354-336
+# Independent Opto engineering anchor; outside the Visual Coding donor/session cohort.
+opto_source:
+  engineering_anchor_subject_id: '655565'
+  required_future_split: development_training_only
+  source_origin: aws
+  source_bucket: aind-open-data
+  nwb_prefix: ecephys_655565_2023-04-03_13-34-16_nwb_2025-07-15_12-45-06/ecephys_655565_2023-04-03_13-34-16_experiment1_recording1.nwb/
+# Numerical Opto pulse/count replay only; these are not frozen scientific windows.
+opto_window_check:
+  history_seconds: 1.0
+  horizon_seconds: 1.0
+  bin_seconds: 0.001
+# Source-label readout only; no spatial coordinates or scientific field qualification.
+population_field_check:
+  group_by: brain_region
+  unit_chunk_size: 64
+network:
+  trust_env: false
+  connect_timeout_seconds: 10
+  metadata_total_timeout_seconds: 120
+  read_timeout_seconds: 90
+  range_total_timeout_seconds: 120
+  range_block_size_bytes: 65536
+  range_cache_blocks: 128
+unit_qc:
+  accepted_quality: [good]
+  threshold_comparison: strict
+  presence_ratio_minimum: 0.95
+  amplitude_cutoff_maximum: 0.10
+  isi_violations_maximum: 0.50
+movie_frames_per_repeat:
+  natural_movie_one: 900
+  natural_movie_one_more_repeats: 900
+  natural_movie_one_shuffled: 900
+  natural_movie_three: 3600
+# Dataset eligibility awaits precision/coverage decisions from training calibration.
+# Undefined criteria intentionally produce PARTIAL, never dataset/model ready.
+eligibility:
+  minimum_eligible_units: null
+  minimum_valid_repeats_per_condition: null
+  required_history_seconds: null
+  required_horizon_seconds: null
+# Numerical input replay only: these do not define the formal scientific windows.
+window_check:
+  encode_stimulus: true
+  stimulus_name: natural_movie_one_more_repeats
+  history_seconds: 1.0
+  horizon_seconds: 1.0
+  bin_seconds: 0.05
+# Software integration on the archived two-unit count fixture, not formal tuning.
+count_baseline_check:
+  history_bins: 4
+  optimizer_steps: 20
+  learning_rate: 0.005
+  l2_weight: 0.01
+  n_samples: 8
+  sampling_seed: 73119
+# Deterministic mean-response reference; engineering values, not selected formal hyperparameters.
+ridge_baseline_check:
+  history_bins: 4
+  rank: 1
+  ridge_weight: 1.0
+  standardize: true
+  rcond: null
+# Shared-latent count baseline: bounded integration settings, not formal training.
+poisson_state_space_check:
+  latent_size: 1
+  encoder_size: 16
+  optimizer_steps: 20
+  learning_rate: 0.005
+  n_samples: 8
+  sampling_seeds: {initial: 73121, dynamics: 73122, observation: 73123}
+# Native BRAID neural-only count-mean predictor; engineering settings, no joint sampler.
+braid_baseline_check:
+  optimizer_steps: 20
+  model:
+    latent_dim: 4
+    hidden_units: 16
+    steps_ahead: [1, 2, 4]
+    learning_rate: 0.001
+    gradient_clip_norm: 1.0
+# Original LFADS core with history-only sampling adapter; engineering settings.
+lfads_baseline_check:
+  optimizer_steps: 20
+  n_samples: 8
+  sampling_seeds:
+    initial: 73221
+    dynamics: 73222
+    observation: 73223
+  model:
+    keep_prob: 1.0
+    _clip_value: 80
+    cell_clip_value: 5.0
+    cell_weight_scale: 1.0
+    ci_enc_dim: 4
+    co_dim: 1
+    co_mean_corr_scale: 0.0
+    con_dim: 4
+    controller_input_lag: 1
+    do_causal_controller: false
+    do_feed_factors_to_controller: true
+    do_train_encoder_only: false
+    do_train_io_only: false
+    do_train_prior_ar_atau: true
+    do_train_prior_ar_nvar: true
+    do_train_readin: true
+    factors_dim: 2
+    feedback_factors_or_rates: factors
+    gen_cell_input_weight_scale: 1.0
+    gen_cell_rec_weight_scale: 1.0
+    gen_dim: 4
+    ic_dim: 2
+    ic_enc_dim: 4
+    ic_post_var_min: 0.0001
+    ic_prior_var_max: 0.1
+    ic_prior_var_min: 0.1
+    ic_prior_var_scale: 0.1
+    inject_ext_input_to_gen: true
+    kl_co_weight: 1.0
+    kl_ic_weight: 1.0
+    kl_increase_steps: 1
+    kl_start_step: 0
+    l2_con_scale: 1.0
+    l2_gen_scale: 1.0
+    l2_increase_steps: 1
+    l2_start_step: 0
+    learning_rate_decay_factor: 0.95
+    learning_rate_init: 0.005
+    max_grad_norm: 200.0
+    prior_ar_atau: 10.0
+    prior_ar_nvar: 0.1
+
+# Bounded observation-map check; these are not frozen scientific field scales.
+mesocircuit_field_check:
+  onset_seconds: 0.05
+  history_seconds: 0.05
+  horizon_seconds: 0.1
+  bin_seconds: 0.001
+  cells_per_axis: 4
+  unit_chunk_size: 128
+
+# Prospective computational size extension; no biological or production qualification.
+ca3_coupled_extension:
+  population_multiplier: 2

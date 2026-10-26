@@ -1,0 +1,2 @@
+# Core author model requires this additional dependency; existing PyTorch/SciPy are reused.
+torchdiffeq==0.2.5

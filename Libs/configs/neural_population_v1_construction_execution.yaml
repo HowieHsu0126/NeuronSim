@@ -1,0 +1,14 @@
+schema: v1_construction_cpu_routes_v1
+preparation_sha256: 3531411a3c7cd95165d0a96c3998404e4af5d7460631ac20beba68006b848b52
+nodes:
+  cpu05:
+    pilot_circuit_index: 22
+    launchers:
+      recurrent: Output/neural_population_dynamics/benchmark/v1_cpu05_construction_execution_20261018/run_v1_recurrent_construction.sbatch
+      inputs: Output/neural_population_dynamics/benchmark/v1_cpu05_construction_execution_20261018/run_v1_input_construction.sbatch
+qualification_reports:
+  cpu05:
+    inputs: Output/neural_population_dynamics/benchmark/v1_source_io_recovery_20261018/input_qualified_execution/circuit_022/inputs/report.json
+input_qualifications:
+  cpu03: Output/neural_population_dynamics/benchmark/v1_source_io_recovery_20261018/input_implementation_qualification
+  cpu05: Output/neural_population_dynamics/benchmark/v1_source_io_recovery_20261018/input_implementation_qualification

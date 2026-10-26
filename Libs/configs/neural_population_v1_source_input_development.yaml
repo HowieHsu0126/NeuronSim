@@ -1,0 +1,15 @@
+scope: development_source_runtime_qualification
+# Full source LGN population after the 14-model execution; this is not a coupled neural episode.
+unit_coverage: all_source_units
+converter_python: /usr/bin/python3
+stimulus:
+  duration_s: 3.0
+  gray_screen_s: 0.5
+  spatial_frequency_cycles_per_degree: 0.04
+  temporal_frequency_hz: 2.0
+  direction_deg: 270.0
+  contrast_percent: 80.0
+# Development external-noise initialization; independent of training seeds 41/42/43.
+spike_generation:
+  trials: 1
+  starting_noise_seed: 12345

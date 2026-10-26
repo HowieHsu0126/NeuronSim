@@ -1,0 +1,17 @@
+schema: neural_population_mesoscopic_author_reference_v1
+represented_units: 100000
+duration_seconds: 2.0
+dt_seconds: 0.0001
+output_bin_seconds: 0.005
+relaxation_seconds: 1.0
+stimulus_delay_seconds: 0.06
+stimulus_duration_seconds: 0.03
+stimulus_amplitude_mv: 15.0
+finite_size_noise_seed: 12345
+distinct_noise_seed: 12346
+population_order: [L23E, L4E, L5E, L6E, L23I, L4I, L5I, L6I]
+coupling_convention: author_original_N_effective_weights_held_under_finite_size_scaling
+observation: population_mean_rate_Abar_and_sampled_activity_rate_A_hz
+formal_comparison: false
+source_fidelity_qualified: false
+unit_outputs_available: false

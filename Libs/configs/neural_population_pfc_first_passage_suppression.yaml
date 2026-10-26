@@ -1,0 +1,27 @@
+schema: pfc_first_passage_suppression_v1
+scope: full_network_suppressed_reference_for_saved_observed_multispike_witness
+importance:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_importance/run_603027
+  delivery_sha256: 7e186108654e8e9848189e1701cff153d3173663f8944d1c22705137e6d25e51
+source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_strong_cue
+  delivery_sha256: ad8515c6dd9122bfab6be35502b14402a5c60b56098fa3ee8efe44bffec18e8e
+case_id: pfc_95001_strong_cue
+source_rng_seed: 95001
+expected_units: 100000
+source_duration_ms: 5000.0
+dt_ms: 0.05
+unit_index: 28022
+window_start_tick: 2000
+first_spike_tick: 2004
+window_stop_tick: 2100
+witness_row: 0
+expected_sample_index: 0
+expected_hit_tick: 2080
+confirmation_execution_released: false
+population_history_uncertainty_established: false
+production_episodes: 0
+witness_source:
+  job_id: 603085
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_witness/execute/run_603085
+  delivery_sha256: cd1b0352cad19a9aa3bc0d3fdf9bfee85f263334ca494b2d0e692e15621fa963

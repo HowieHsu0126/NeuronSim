@@ -1,0 +1,61 @@
+scope: source_recipe_reconstruction_direction_development
+purpose: Complete directional control coverage on the existing constructed V1 circuit.
+source_fidelity_qualified: false
+production_eligible: false
+formal_protocol_frozen: false
+
+# Conditions of one exposed development circuit, not independent circuits,
+# training seeds, or a new production split.
+circuit_config: Libs/configs/neural_population_v1_circuit_development.yaml
+visual_config_base: Libs/configs/neural_population_v1_constructed_visual_development.yaml
+native_resolution_ms: 0.25
+cortical_units: 230924
+new_directions_deg: [0, 45, 90, 135, 180, 225, 270]
+reused_direction_deg: 315
+maximum_new_full_conditions: 7
+trials_per_direction: 1
+vary_only: stimulus.direction_deg
+# Other parameters remain 3 s, 0.5 s gray, 0.04 cycles/source degree, 2 Hz,
+# 80% contrast, and source noise initializations 12345/12346, from the base.
+# A direction-dependent sampler branch consumes additional seeds; equal
+# starting seeds do not imply paired per-unit event realizations.
+noise_pairing_claim: none
+
+references:
+  recurrent_construction: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/recurrent_construction/run_587579
+  input_construction: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/input_construction/run_587611
+  prepared_lgn_runtime: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/lgn_source_tables/source_runtime_586021
+  glif_parameters: Output/neural_population_dynamics/multicircuit/v1_asset_intake/cell_parameters/allen_glif_reference/run_583274
+  point_config: Output/neural_population_dynamics/multicircuit/v1_asset_intake/point_config
+  reused_native: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/circuit_construction_source/native_pointnet/run_592944
+  reused_controls: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_592310
+  reused_observation: Output/neural_population_dynamics/multicircuit/v1_asset_intake/original_graph_route/source_observation/run_592983
+
+execution:
+  new_condition_concurrency: 1
+  rate_and_spike_canary: model_representatives
+  full_lgn_units: 17400
+  require_same_condition_rate_reference: true
+  require_same_condition_spike_canary: true
+  require_native_canary_code_binding: true
+  require_native_replay: true
+  full_native_memory_gib: 64
+  use_gpu: false
+  preserve_failures: true
+
+readout:
+  retain_all_cortical_units: true
+  retain_silent_units: true
+  retain_source_population_and_spatial_indices: true
+  retain_terminal_events_and_voltage_separately: true
+  descriptive_source_analysis_window_ms: [500, 3000]
+  source_analysis_lower_endpoint: open
+  actual_control_transition_from: delivered_movie_and_controls
+  inferential_statistics: false
+  source_qualification: false
+  scientific_tolerances: null
+  note: >-
+    Eight directions at one trial describe this reconstructed circuit only.
+    They do not establish independent-noise uncertainty, orientation tuning
+    qualification, adaptation, the ten-condition production domain, or the
+    identity and fidelity of the missing published GLIF reference.

@@ -1,0 +1,52 @@
+schema: appworld_verification_message_reply_development_v1
+task_id: 07b42fd_1
+dataset: train
+model_revision: Qwen/Qwen3-Coder-30B-A3B-Instruct@b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+historical_reference_job: 592355
+prefix_protocol_sha256: 1e2629535b18f11556309401eeb0427573973bd1013293a16403108fd8b6c422
+prefix_generation_attempts: 10
+maximum_new_attempts: 20
+maximum_total_attempts: 30
+maximum_new_executions: 1
+allocation: {planner: 1, executor: 1}
+lossless_observation_history: true
+evidence_table_after_prefix: true
+verification_message_replies: true
+reply_generation_attempts_per_delivered_message: 1
+max_context_tokens: 65536
+max_new_tokens: 512
+hypothesis: >-
+  In the retained execution, verification messages reached the planner's inbox
+  but the host kept scheduling the executor because only it had verification
+  quota remaining. A single budgeted peer reply may supply useful coordination
+  before the next verification decision. The earlier messages were completion
+  assertions; missing replies are not an established cause of the failure.
+intervention: >-
+  After the unchanged verified prefix, each accepted message during verification
+  schedules its recipient for one message-only reply attempt to its sender.
+  Acceptance or a recoverable rejection consumes that one opportunity. Replies
+  do not schedule further replies. All generations count toward the same total
+  limit, and verification quotas, native permissions and private views stay fixed.
+comparison_scope: >-
+  One independently specified development execution of an altered coordination
+  mechanism on the already exposed task. Reuse the retained 592355 outcome as
+  descriptive context; do not reopen its exhausted repair protocol or claim a
+  fresh randomized pair, an additional independent task, or formal control benefit.
+endpoints:
+  - verification_reply_slots_attempts_and_accepted_replies
+  - verification_calls_used_and_phase_completion
+  - accepted_native_task_writes_and_outcomes
+  - source_supported_target_coverage
+  - finish_and_native_evaluation
+  - all_attempt_inference_and_native_execution_costs
+  - action_agreement_with_retained_execution_before_first_reply_opportunity
+stop_rule: >-
+  Stop at finish, error, unknown operation outcome or the original 30-attempt
+  limit. Preserve every outcome. No automatic retry, task expansion, prompt
+  tuning or budget increase belongs to this protocol.
+next_decision: >-
+  If no verification reply occurs, the mechanism was not exercised. If a reply
+  occurs but native execution still fails, retain the concrete failure without
+  attributing success to the scheduler change. A successful case only supports
+  developing a prospectively frozen state/allocation comparison; it does not
+  establish closure-guided control benefit.

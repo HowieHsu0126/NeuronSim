@@ -1,0 +1,49 @@
+schema: pfc_fine_clock_suppression_v1
+scope: two_declared_archived_history_counterfactual_witnesses
+expected_units: 100000
+software_preparation:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history/prepare/run_608253
+  delivery_sha256: ab3f805070dea3c02690f7e393a993b29b488fa48a11da75ed16fd3efc30e53b
+cases:
+- name: half_A
+  dt_ms: 0.025
+  source_rng_seed: 95001
+  case_id: pfc_95001_strong_cue
+  sample_index: 125
+  source:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+    delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+    case_path: source_cases/dt_0p025/pfc_95001_strong_cue
+    report_sha256: 2b58a4ed4a2c8432bb956fd871b4c1de062a8532d1b2b777c292c4be4b86515a
+    refinement_seeds:
+    - 95411
+    - 95412
+  history:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history/complete/run_604529_0
+    delivery_sha256: 6f92b5f26fc4800709ac9a9b4a6418d805709423db0f20f1588d657235314548
+    frame_path: analysis/frames/A/half_quarter/field_4_cue
+    details_archive: analysis/frames/A/half_quarter/field_4_cue/integration_details.tar
+- name: quarter_A
+  dt_ms: 0.0125
+  source_rng_seed: 95001
+  case_id: pfc_95001_strong_cue
+  sample_index: 2
+  source:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+    delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+    case_path: source_cases/dt_0p0125/pfc_95001_strong_cue
+    report_sha256: 476ef354aa4563466e93d32ccf76fac88676dd2652cb1080d0ae74bd3af290e5
+    refinement_seeds:
+    - 95411
+    - 95412
+  history:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history/complete/run_604529_1
+    delivery_sha256: 3fe22411925e477cd2c65f2b23024b778c1e491ae8021a912a27df3a8552c5c8
+    frame_path: analysis/frames/A/half_quarter/field_4_cue
+    details_archive: analysis/frames/A/half_quarter/field_4_cue/integration_details.tar
+new_independent_source_blocks: 0
+production_episodes: 0
+scientific_fidelity_qualified: false
+source_oracle:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_fine_history/prepare/run_603250
+  delivery_sha256: f253c721e72fc36a253f5fd84348ed614511aae8c3e20cd909820460a8731b89

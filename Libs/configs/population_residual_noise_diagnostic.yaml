@@ -1,0 +1,18 @@
+schema: native_residual_process_variance_diagnostic_v1
+training_seeds: [41, 42, 43]
+modes: [current, history]
+fitting_blocks: [0]
+templates_per_block: 4
+origins: [200, 600, 1000]
+horizons: [4, 16, 100]
+prediction_particles: 8
+panels: [0, 1]
+variance_multipliers: [0.8, 1.0, 1.25]
+source_units: 100000
+source_fields: 128
+latent_channels: 4
+bin_ms: 5
+native_unit_chunk_size: 4096
+mean_unit_chunk_size: 32768
+cpu_threads: 2
+scope: fitting_block_zero_directional_mechanism_diagnostic

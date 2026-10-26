@@ -1,0 +1,23 @@
+schema: pfc_multispike_compensator_v1
+scope: development_complete_path_conditional_readout
+source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_strong_cue
+  delivery_sha256: ad8515c6dd9122bfab6be35502b14402a5c60b56098fa3ee8efe44bffec18e8e
+  report_sha256: fc1eb706c481c2861b6f5e37be6261fac8ec9cbfd2151dd4c2f7375424ef4ac5
+source_rng_seed: 95001
+case_id: pfc_95001_strong_cue
+expected_units: 100000
+duration_ms: 5000.0
+dt_ms: 0.05
+window_ms: 5.0
+physical_maximum_count: 3
+fields: [3, 4, 5, 6, 7]
+phase_names: [baseline, cue, early_delay, middle_delay, late_delay]
+decimal_scale_digits: 40
+factorial_numeric_allowance: {numerator: 1, denominator: 100000000}
+conditioning: own_path_past_before_the_input_row_that_affects_the_current_threshold
+source_law: declared_ideal_IID_Binomial_with_actual_binary64_parameter
+finite_PRNG_law_certified: false
+full_bank_readout_complete: false
+confirmation_execution_released: false
+production_episodes: 0

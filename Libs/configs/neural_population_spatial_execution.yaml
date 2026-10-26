@@ -1,0 +1,6 @@
+# Engineering source episode. Formal tolerances/training remain unqualified.
+edge_batch_size: 100000
+readback_sources_per_population: 3
+state_units_per_population: 2
+schedule: effective
+duration_ms: null

@@ -1,0 +1,28 @@
+schema: pfc_coupled_clock_pilot_v1
+scope: development_paired_clock_pilot
+conditions:
+- cue
+- omission
+- strong_cue
+source_rng_seed: 95001
+refinement_seeds:
+- 95411
+- 95412
+coarse_dt_ms: 0.05
+fine_dt_ms:
+- 0.025
+- 0.0125
+coarse_references:
+  cue:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_cue
+    delivery_sha256: 0f3cc5b9ae951d863fb35e3942b003b7e807edb8869c34c78b2ddcf92eea2583
+    report_sha256: abef628fe7658e1eefe2b30a505b9807753e2eee72894640b817c29d67bc8f33
+  omission:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_omission
+    delivery_sha256: b49c0ada92def792a509f32cda5667f5aa56c313b69104077bf56cb1bbecb454
+    report_sha256: 2e7eaa0d6574fedc5f89f40dfb02e218991eb6cb3de325ac8035f074aee905ce
+  strong_cue:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_strong_cue
+    delivery_sha256: ad8515c6dd9122bfab6be35502b14402a5c60b56098fa3ee8efe44bffec18e8e
+    report_sha256: fc1eb706c481c2861b6f5e37be6261fac8ec9cbfd2151dd4c2f7375424ef4ac5
+confirmation_execution_released: false

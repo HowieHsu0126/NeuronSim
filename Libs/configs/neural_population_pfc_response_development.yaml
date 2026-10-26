@@ -1,0 +1,23 @@
+# Registered paired stimulus responses reuse admitted mechanistic source episodes.
+# This configuration supplies no tolerance, target reachability or success claim.
+schema: pfc_source_paired_response_development_v1
+campaign: neural_population_dynamics
+training_seeds: [41, 42, 43]
+sampling_stream_seeds: {initial: 41, dynamics: 42, observation: 43}
+evaluation_scope: development_source_response
+formal_evaluation: false
+reference_condition: cue_none
+condition_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+# Each comparison starts at the earliest source command that can differ.
+origins_ticks_by_condition: [2000, 8000, 8000, 8000, 48000, 2000, 2000, 2000, 2000, 2000]
+horizons_bins: [4, 16, 100]
+support_windows: [1, 2]
+joint_samples: 16
+sampling_seed_base: 41
+field_units: source_field_mean_unit_rate_hz
+causal_history: all_observed_bins_before_origin
+finite_ensemble_corrections: true
+candidate_outcomes: scoring_only_after_both_generations
+contrast_estimand: conditional_mean_candidate_minus_factual
+model_draw_coupling: common_explicit_sampling_seeds
+independent_success_gate_evaluated: false

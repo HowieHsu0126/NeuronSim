@@ -1,0 +1,16 @@
+schema: pfc_profile_history_coverage_v1
+scope: registered_original_block_conditional_history_coverage
+source_preparation:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history_readback/prepare/run_604785
+  delivery_sha256: 4c042b93ca8418e8db01d55a4fd7fa96cd4e32045696449165054778ae4b26bf
+source_config_sha256: 8fed64ce9dc86782a51b7e0f1012a5562832f0f80e9f86b12dc369f73b7c1cce
+requested_source_seeds:
+- 95001
+readback_arrays:
+- archive_prefix: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history_readback/complete/run_604788
+  task_indices: [0, 1, 2, 3]
+  preparation_delivery_sha256: 4c042b93ca8418e8db01d55a4fd7fa96cd4e32045696449165054778ae4b26bf
+new_independent_source_blocks: 0
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+production_episodes: 0

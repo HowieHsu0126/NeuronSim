@@ -1,0 +1,27 @@
+# Prospective diagnostic at the original training boundary; no parameter updates.
+schema: neural_population_lfads_boundary_diagnostic_v1
+scope: development_on_shared_epoch_selection_blocks
+training_seeds: [41, 42, 43]
+selection_blocks: [14, 15, 16, 17]
+expected_cases_per_seed: 16
+expected_units: 100000
+original_history_bins: 200
+original_horizon_bins: 1000
+forecast_horizon_bins: 100
+bin_ms: 5.0
+joint_samples: 16
+full_response_encoder_batch: joint_samples
+sampling_seed_base: 86000
+branches:
+  - prefix_boundary_prior_future
+  - full_response_boundary_prior_future
+  - prefix_boundary_posterior_future
+  - full_response_boundary_posterior_future
+horizons_ms: [20.0, 80.0, 500.0]
+temporal_lags_bins: [1, 4, 16]
+refractory_support_windows_bins: [1, 2, 4]
+endpoint_rtol: 0.000005
+endpoint_atol: 0.0000001
+formal_evaluation: false
+update_weights: false
+retain_full_unit_samples: first_selection_case_per_seed_all_four_branches

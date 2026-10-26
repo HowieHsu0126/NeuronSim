@@ -1,0 +1,35 @@
+schema: neural_population_field_history_probe_v1
+purpose: test whether observed field history predicts future joint-response statistics beyond recent field rates
+evidence_role: exploratory_development
+source_split: train
+expected_source_rng: per_edge_philox4_32_10
+expected_episodes: 72
+expected_units: 100000
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+selection_blocks: [14, 15, 16, 17]
+templates: [familiar_0, familiar_1, familiar_2, familiar_3]
+origins_ms: [1000, 3000, 5000]
+horizons_ms: [50, 500]
+recent_ms: 20
+history_ms: 1000
+history_bin_ms: 50
+temporal_lag_ms: 5
+variogram_power: 1.0
+representations: [recent, recent_and_history]
+predictors: [linear, rbf]
+regularization: [0.01, 0.1, 1.0, 10.0, 100.0]
+selection_rule: lowest_mean_whole_fit_block_cv_mse_then_grid_order
+conditioning: template_and_origin_cell_means_include_fixed_past_and_future_control_program
+future_statistics: [mean_rate, spatial_variogram, cross_population_variogram, temporal_variogram]
+replication_unit: initial_state_and_background_block_conditional_on_one_fixed_graph
+training_rng: null
+formal_training_seeds: [41, 42, 43]
+score_replay_atol: 1.0e-8
+score_replay_rtol: 1.0e-10
+interpretation: >-
+  These four selection blocks have already served baseline epoch selection.
+  All effects are descriptive development comparisons. No independent confidence
+  interval, significance, equivalence, full-observation sufficiency, native
+  source qualification, or neuroscience finding follows from this probe.
+  No new formal success threshold is calibrated here. Existing mean-response
+  probe failures and formal scientific gates are unchanged.

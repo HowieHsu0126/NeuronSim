@@ -1,0 +1,163 @@
+# Complete source episodes; original whole-circuit validation remains required.
+schema: neural_population_v1_latent_energy_training_v1
+training_seeds:
+- 41
+- 42
+- 43
+bin_ms: 5.0
+complete_episode_bins: 600
+forecast_origins_bins:
+- 100
+- 300
+- 500
+forecast_bins: 100
+model:
+  input_size: 6
+  bin_seconds: 0.005
+  complete_episode_bins: 600
+  maximum_prefix_bins: 500
+  forecast_bins: 100
+  latent_channels: 16
+  hidden_channels: 256
+  encoder_blocks: 4
+  decoder_blocks: 4
+  linear_layers_per_block: 4
+  generator_options:
+    encoder_width: 256
+    encoder_depth: 4
+    encoder_heads: 4
+    decoder_width: 256
+    decoder_depth: 4
+    decoder_heads: 4
+    score_mlp_width: 768
+    score_mlp_depth: 6
+    noise_channels: 64
+    alpha: 1.0
+    training_temperature: 1.0
+    mask_ratio_min: 0.7
+    mask_ratio_max: 1.0
+    label_dropout: 0.1
+    attention_dropout: 0.1
+    projection_dropout: 0.1
+    guidance_schedule: linear
+autoencoder:
+  maximum_epochs: 260
+  learning_rate: 0.001
+  weight_decay: 0.01
+  mask_probability: 0.5
+  latent_beta: 0.001
+  temporal_beta: 0.2
+  gradient_limit: 2.0
+  warmup_epochs: 10
+  cosine_budget_factor: 1.1
+  validation_every: 10
+  validation_draws: 4
+energy:
+  maximum_epochs: 4000
+  learning_rate: 0.0001
+  weight_decay: 0.02
+  optimizer_betas:
+  - 0.9
+  - 0.95
+  gradient_limit: 3.0
+  warmup_epochs: 100
+  learning_rate_schedule: constant_after_warmup
+  source_batch_size: 256
+  microbatch_size: 4
+  validation_every: 100
+  validation_draws: 4
+sampling:
+  joint_samples: 16
+  steps: 50
+  guidance: 4.0
+  temperature: 0.7
+profile: EAG_source_architecture_and_budget_with_V1_native_counts_and_controls
+formal_training_completed: false
+device: cuda
+cpu_threads: 2
+input_family: v1_qualified_source_episodes
+training_sequence: complete_source_episode
+partition_scope: original_whole_circuit_splits
+bin_ticks: 20
+fit_circuit_ids:
+- v1_visual_circuit_000
+- v1_visual_circuit_001
+- v1_visual_circuit_002
+- v1_visual_circuit_003
+- v1_visual_circuit_004
+- v1_visual_circuit_005
+- v1_visual_circuit_006
+- v1_visual_circuit_007
+- v1_visual_circuit_008
+- v1_visual_circuit_009
+- v1_visual_circuit_010
+- v1_visual_circuit_011
+- v1_visual_circuit_012
+- v1_visual_circuit_013
+- v1_visual_circuit_014
+- v1_visual_circuit_015
+- v1_visual_circuit_016
+- v1_visual_circuit_017
+- v1_visual_circuit_018
+- v1_visual_circuit_019
+- v1_visual_circuit_020
+- v1_visual_circuit_021
+- v1_visual_circuit_022
+- v1_visual_circuit_023
+- v1_visual_circuit_024
+- v1_visual_circuit_025
+- v1_visual_circuit_026
+- v1_visual_circuit_027
+- v1_visual_circuit_028
+- v1_visual_circuit_029
+- v1_visual_circuit_030
+- v1_visual_circuit_031
+- v1_visual_circuit_032
+- v1_visual_circuit_033
+- v1_visual_circuit_034
+- v1_visual_circuit_035
+- v1_visual_circuit_036
+- v1_visual_circuit_037
+- v1_visual_circuit_038
+- v1_visual_circuit_039
+- v1_visual_circuit_040
+- v1_visual_circuit_041
+- v1_visual_circuit_042
+- v1_visual_circuit_043
+- v1_visual_circuit_044
+- v1_visual_circuit_045
+- v1_visual_circuit_046
+- v1_visual_circuit_047
+- v1_visual_circuit_048
+- v1_visual_circuit_049
+- v1_visual_circuit_050
+- v1_visual_circuit_051
+- v1_visual_circuit_052
+- v1_visual_circuit_053
+- v1_visual_circuit_054
+- v1_visual_circuit_055
+- v1_visual_circuit_056
+- v1_visual_circuit_057
+- v1_visual_circuit_058
+- v1_visual_circuit_059
+- v1_visual_circuit_060
+- v1_visual_circuit_061
+- v1_visual_circuit_062
+- v1_visual_circuit_063
+- v1_visual_circuit_064
+- v1_visual_circuit_065
+- v1_visual_circuit_066
+- v1_visual_circuit_067
+- v1_visual_circuit_068
+- v1_visual_circuit_069
+validation_circuit_ids:
+- v1_visual_circuit_070
+- v1_visual_circuit_071
+- v1_visual_circuit_072
+- v1_visual_circuit_073
+- v1_visual_circuit_074
+- v1_visual_circuit_075
+- v1_visual_circuit_076
+- v1_visual_circuit_077
+- v1_visual_circuit_078
+- v1_visual_circuit_079

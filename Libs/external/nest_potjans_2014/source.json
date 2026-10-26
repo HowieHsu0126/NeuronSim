@@ -1,0 +1,51 @@
+{
+  "repository": "https://github.com/nest/nest-simulator",
+  "git_tag": "v3.8",
+  "license": "GPL-2.0-or-later",
+  "retrieved_at_utc": "2026-09-25T08:10:31.202994+00:00",
+  "files": [
+    {
+      "path": "network.py",
+      "sha256": "4d88426eb3eee49ac0a8b63326021aef0d1a1c1a678d7633467924f38c81e4b5",
+      "bytes": 21155,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/pynest/examples/Potjans_2014/network.py"
+    },
+    {
+      "path": "network_params.py",
+      "sha256": "8d52259179fc14f61e67a6b676d76f4373bb2730859476fa5b88e6730ade8a87",
+      "bytes": 6251,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/pynest/examples/Potjans_2014/network_params.py"
+    },
+    {
+      "path": "sim_params.py",
+      "sha256": "3858a08929698c5f128c41f84698f70c19c39e4f6d18f57370d9668d0d8831f9",
+      "bytes": 2222,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/pynest/examples/Potjans_2014/sim_params.py"
+    },
+    {
+      "path": "stimulus_params.py",
+      "sha256": "05782ef5b62bd92c0080e1c2f8a6c0e59f929bbdf2500414d143ef028865c7b2",
+      "bytes": 2276,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/pynest/examples/Potjans_2014/stimulus_params.py"
+    },
+    {
+      "path": "helpers.py",
+      "sha256": "4af9c52b52cbc3e392d95f2b75ba7fd8940fa73c139534c797efbef21b7b7b9f",
+      "bytes": 13473,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/pynest/examples/Potjans_2014/helpers.py"
+    },
+    {
+      "path": "run_microcircuit.py",
+      "sha256": "646fbd1eed2470b8cd36670234cdc4b8129657e9148e8d190e6cc82c67d31bfa",
+      "bytes": 3686,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/pynest/examples/Potjans_2014/run_microcircuit.py"
+    },
+    {
+      "path": "LICENSE",
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "bytes": 18092,
+      "url": "https://raw.githubusercontent.com/nest/nest-simulator/v3.8/LICENSE"
+    }
+  ],
+  "runtime_contract": "Official v3.8 example source; native NEST runtime version is recorded and checked separately."
+}

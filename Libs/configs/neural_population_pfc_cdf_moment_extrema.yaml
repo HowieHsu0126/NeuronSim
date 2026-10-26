@@ -1,0 +1,10 @@
+schema: pfc_cdf_moment_extrema_v1
+scope: optimistic_empirical_two_moment_refinement
+method_adopted: false
+confirmation_execution_released: false
+planning_blocks: 128
+inputs:
+  screen:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/refinement_repeat/cdf_moment_envelope/run_602739/analysis
+    report_sha256: f88e2e9d178c08d2b25c4ac9a7b282aab5dc9720be5197ea576758750b9e7857
+    files: [original_gap_moment_envelopes.csv]

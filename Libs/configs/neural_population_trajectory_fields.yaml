@@ -1,0 +1,6 @@
+# Development observation view; raw native events retain the 0.1ms clock.
+# Formal temporal/spatial fidelity scales require training/calibration evidence.
+bin_ms: 5.0
+cells_per_axis: 4
+start_ms: 0.0
+pulse_window_ms: 10.0

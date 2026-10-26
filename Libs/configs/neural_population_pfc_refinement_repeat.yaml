@@ -1,0 +1,770 @@
+schema: pfc_coupled_refinement_repeat_v1
+scope: development_coupled_refinement_repeat
+question: With all32 original coarse-input and initial-state blocks fixed, do the
+  apparent adjacent-clock response biases persist under one independently seeded auxiliary
+  refinement repeat?
+source_rng_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+auxiliary_rng_seeds:
+- 99411
+- 99412
+- 99413
+- 99414
+- 99415
+- 99416
+- 99417
+- 99418
+- 99419
+- 99420
+- 99421
+- 99422
+- 99423
+- 99424
+- 99425
+- 99426
+- 99427
+- 99428
+- 99429
+- 99430
+- 99431
+- 99432
+- 99433
+- 99434
+- 99435
+- 99436
+- 99437
+- 99438
+- 99439
+- 99440
+- 99441
+- 99442
+- 99443
+- 99444
+- 99445
+- 99446
+- 99447
+- 99448
+- 99449
+- 99450
+- 99451
+- 99452
+- 99453
+- 99454
+- 99455
+- 99456
+- 99457
+- 99458
+- 99459
+- 99460
+- 99461
+- 99462
+- 99463
+- 99464
+- 99465
+- 99466
+- 99467
+- 99468
+- 99469
+- 99470
+- 99471
+- 99472
+- 99473
+- 99474
+conditions:
+- cue
+- omission
+- strong_cue
+coarse_dt_ms: 0.05
+fine_dt_ms:
+- 0.025
+- 0.0125
+auxiliary_repeat_index: 1
+new_original_independent_blocks: 0
+original_independent_blocks: 32
+new_development_episodes: 192
+production_episodes: 0
+confirmation_execution_released: false
+maximum_reserved_confirmation_blocks: 128
+blocks:
+- source_rng_seed: 95001
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_cue
+      delivery_sha256: 0f3cc5b9ae951d863fb35e3942b003b7e807edb8869c34c78b2ddcf92eea2583
+      report_sha256: abef628fe7658e1eefe2b30a505b9807753e2eee72894640b817c29d67bc8f33
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_omission
+      delivery_sha256: b49c0ada92def792a509f32cda5667f5aa56c313b69104077bf56cb1bbecb454
+      report_sha256: 2e7eaa0d6574fedc5f89f40dfb02e218991eb6cb3de325ac8035f074aee905ce
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95001_strong_cue
+      delivery_sha256: ad8515c6dd9122bfab6be35502b14402a5c60b56098fa3ee8efe44bffec18e8e
+      report_sha256: fc1eb706c481c2861b6f5e37be6261fac8ec9cbfd2151dd4c2f7375424ef4ac5
+  original_refinement_seeds:
+  - 95411
+  - 95412
+  refinement_seeds:
+  - 99411
+  - 99412
+- source_rng_seed: 95002
+  refinement_seeds:
+  - 99413
+  - 99414
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95002_cue
+      delivery_sha256: 91bc3cd7ecb963adcd0d8228a486629cc730da8ebb0d66dd242d2de6f24d82cd
+      report_sha256: a258d5ac462146e8f793a96accede78a2026c02aaa6939226a79cc42dc2c7f35
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95002_omission
+      delivery_sha256: 59d62386c985fe9f942b57b18affbab0287865a3fa7bf4536f3b4c3b63bcef74
+      report_sha256: 66352d870f8d1fb7c3b31422e452c1d33a8173dac27bee0b97ad9832d73fe2e2
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95002_strong_cue
+      delivery_sha256: 417d9034c8302c25474023a2658dc6ecc9283f8f7196661ec7ed058c48c1cfb9
+      report_sha256: a7cd787f2e593b79bd3080b6abc70d72ef27558c836a5e5b200f63ab6703bd47
+  original_refinement_seeds:
+  - 95413
+  - 95414
+- source_rng_seed: 95003
+  refinement_seeds:
+  - 99415
+  - 99416
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95003_cue
+      delivery_sha256: 8943ffffd9a73c4c2ef2c7a2530c188a7fcf57a953fd4fe311dbd196af0deff4
+      report_sha256: 0718cdbaa0b299bacd1a98f20d710c8dab106be9b59f2ca22530459673339c4a
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95003_omission
+      delivery_sha256: 3f474ad72670d5ea2a21867f28fc3dd28b6ab6ac116201fb88fea2de07495342
+      report_sha256: dfc97519940b3d4000c4eaa40b502aebc15adb18a45f98cc7f4f0fdcab5e4aa7
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95003_strong_cue
+      delivery_sha256: 13526bf9e7cd1b15426f72a48db35deb3bc6a0d935124eeeb578f6b5a0c2c3e4
+      report_sha256: 9d2eb556dc0c35535ba9894b8d3f45eab386a260bfbbabb9c9b3557b270326b8
+  original_refinement_seeds:
+  - 95415
+  - 95416
+- source_rng_seed: 95004
+  refinement_seeds:
+  - 99417
+  - 99418
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95004_cue
+      delivery_sha256: 8f0f867466e16f67639ed03238b98f32509e72866ce409ddb712131e2f4b2fcb
+      report_sha256: d640205a99759ede30524d34dbee739abc270a3ba9ceca9ac0dd59ab48d946c4
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95004_omission
+      delivery_sha256: e7cb29c2bfcc12837bcdafb2cbabcd5eb6cc361e647f4dcf688ff150fb49d8f0
+      report_sha256: c14160a6160c0ba0f7005f2e86089f467a2a489d67a6d487b697b132050aa761
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95004_strong_cue
+      delivery_sha256: 3129a77ed195bbc38cc3cc55448625c346fbc2cb8b2b53a74b0aacadc200d664
+      report_sha256: 36936155d641ff6ef98d5f9272f997cd316d19a766efdf8fdbba68b3383426bb
+  original_refinement_seeds:
+  - 95417
+  - 95418
+- source_rng_seed: 95005
+  refinement_seeds:
+  - 99419
+  - 99420
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95005_cue
+      delivery_sha256: c799bb7c2eebe05920b76e729ee1a109cae2a7ab1e92f56764b1ff8507dc4343
+      report_sha256: 27fea4e806cbac3bb40f97071adbb91ae2e566b8833ac02161b25204e77c745d
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95005_omission
+      delivery_sha256: c8efd415ca0f220151ec96ead0b3bca1f7fd071c19cde6b44f10777c5c522bc9
+      report_sha256: 8c2f6b89667e582c283298af363585e045b966e45431571e9bc03dfc227eefdd
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95005_strong_cue
+      delivery_sha256: 5e5e9d201301ef6e239a214fd7142f721a0a7d1c6e3845ff5a813d3770d9ee6d
+      report_sha256: 406bd8b06987cfd69a82f72b7c9e5e1486b568874602509cc585bbacfee2e9fd
+  original_refinement_seeds:
+  - 95419
+  - 95420
+- source_rng_seed: 95006
+  refinement_seeds:
+  - 99421
+  - 99422
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586404_pfc_95006_cue
+      delivery_sha256: 7032f5d1565b1ae977686afa5fd2fccc37d75f8536bb3d42e4f70c04a8803d39
+      report_sha256: 4bbe0e01d33274da54b791015904a146dbeb0f14a28ec53a4199447bd30db475
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95006_omission
+      delivery_sha256: 4638b1f8b5c399928e55e1dd40819354794d58b1757aafa64f552b3ba8463041
+      report_sha256: ccecf49073e3a540ca820202943ce5055ce5d973b4f7fe204e24abfa33bb2717
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95006_strong_cue
+      delivery_sha256: d33a37593eb414f10041c90f9963cc5a9666b1cfe5edc80a2712de05fc36af0d
+      report_sha256: 65f10b2092e80c43e7fd258ec62911da409d4ec88626c8293895ab0bca98afa0
+  original_refinement_seeds:
+  - 95421
+  - 95422
+- source_rng_seed: 95007
+  refinement_seeds:
+  - 99423
+  - 99424
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95007_cue
+      delivery_sha256: a6520fdc611370ec75cca2f88a0b3e92348bb3312ade4f9b7973b1ee10375b3c
+      report_sha256: b378da686e6686155f8e8ee6e27934865e2e147f51b514030e80bc17e6e20443
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95007_omission
+      delivery_sha256: fae5ba48fa75d9d6304abceaab3edc160a1e5b937d59a3625d7d4ce33fd0e246
+      report_sha256: 752118ec1e23b9afaba8af26984f1078ae884c8db93a273ffcc6c00730ce5d64
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95007_strong_cue
+      delivery_sha256: 4d0f06781b7c6dd523d55a852c44849f35517ade4c29c532156057595d53a48a
+      report_sha256: 712c7c88aa83cf0cdfac715f79d25a802efd44c059078db650b3c889978215fe
+  original_refinement_seeds:
+  - 95423
+  - 95424
+- source_rng_seed: 95008
+  refinement_seeds:
+  - 99425
+  - 99426
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95008_cue
+      delivery_sha256: 0882c59c025545a70fa3645b80a987ed5a0305da7e7ad151a3a7b2166c691dc5
+      report_sha256: 4932ba5d8b259d64f85604be36ae78d7b10e4a0ed41872536e92b684803d5b90
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95008_omission
+      delivery_sha256: d39961600bfa3f564d9d979e96e11d398441b5953619aa5591e86ae02fe492f2
+      report_sha256: 32b2e60a5fb382ed7271109b60e1eca7e680d22ab71be4061dcdfd5731dfb902
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95008_strong_cue
+      delivery_sha256: bcc593a9452bd09caf2030462ebf6d48666b77316c0a9b9694ac4ea95f5ccaf8
+      report_sha256: c40f80d859c58752f7b8417172a2fdf6009da6dd8d4065f995ce8cb0afbbe7b3
+  original_refinement_seeds:
+  - 95425
+  - 95426
+- source_rng_seed: 95009
+  refinement_seeds:
+  - 99427
+  - 99428
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95009_cue
+      delivery_sha256: 84510565f23f7c4d95452de1382efc8277ad4e54a861012051466197c9755ae5
+      report_sha256: 336e80cd6ee9f6a74e487f52779c9b76f71b6bff542ba2d72e85176f6e57144c
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95009_omission
+      delivery_sha256: c75e3c44cb5fc50b9b228ac8c1caad6650d36cb4707f0c21512e3aa5e55fd71b
+      report_sha256: 7541beba2d9a60da63cb474fb3b73ab62163aa47ba7cd74917412559406888ef
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95009_strong_cue
+      delivery_sha256: 3d078bc1f895fd5c7740ca03ad685aff63682292989d8225d993d1376fa4bf8d
+      report_sha256: d285bd1701298781ce31bc77ff48405c92b912f5d489bd48e5e229f1705a6aa7
+  original_refinement_seeds:
+  - 95427
+  - 95428
+- source_rng_seed: 95010
+  refinement_seeds:
+  - 99429
+  - 99430
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95010_cue
+      delivery_sha256: 53e41ba17383db5e8e99f28302b5437a58164a756e2ef307e9fceb23e3b4f058
+      report_sha256: 52ad71a78d4c1b8dbeb80a0d2b2fb00b87cf5dcbb22e82e060e1546fc1227a78
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95010_omission
+      delivery_sha256: f5e2722b02ee595a070e5c3bfae49a1533294efc5451e0f2cfabbc49a9212162
+      report_sha256: db62d38d5b350a112fbfefc92932ca484e9ae3ecf06487cc8de47b89769e2bbe
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95010_strong_cue
+      delivery_sha256: d0578a6e7e653b690baa5a4e44a2f2594378f7e9330b047b12092d6460cf714b
+      report_sha256: fe1053fabb83298ae1201b29615283a4785481fe4843e7ed8e3b901a1bbb3a78
+  original_refinement_seeds:
+  - 95429
+  - 95430
+- source_rng_seed: 95011
+  refinement_seeds:
+  - 99431
+  - 99432
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95011_cue
+      delivery_sha256: 3e511a429277f30a121737dcaee29958a3832ef0b7a13ed96472d8aadac25488
+      report_sha256: 4cf6714615ea70e058b4f04e5348985152787bcc05c7e4815b37c34cccca4f92
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586470_pfc_95011_omission
+      delivery_sha256: 206db4c944571da49acd3b8a9688645c4a13c6f0e02e9fa610141c82d4ed7800
+      report_sha256: 5f1946a5cbf4e535209b9aba6ce43dffe04859b4bdc74c0b47c455686ead61a1
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95011_strong_cue
+      delivery_sha256: 6a4bcd9ae9bea1f547c7a49e15bd6fd3e21a1b01943c576dc9afa276d93550cb
+      report_sha256: 5af7dd94d7ed1df632d2a872d930b350a8e18c299d20a189fafa239d248f26d2
+  original_refinement_seeds:
+  - 95431
+  - 95432
+- source_rng_seed: 95012
+  refinement_seeds:
+  - 99433
+  - 99434
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95012_cue
+      delivery_sha256: 3e1850b14f659221c92b1fb114b12d328c5ddf384c6e61e22a2e017f8219c253
+      report_sha256: 6500bf8bb08d64f82aacade0dba8a2ad758e1fd781e46e118646e458c6b2fbbe
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95012_omission
+      delivery_sha256: 423b5724caaec1ea697228cde5b93d638a155ee1fe2d87a99f8c377ef6fb0c3a
+      report_sha256: 879993642f162bb57fe49e959a4643ca534ffdb05bd1a49bbe3e9fdb21ac50ed
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95012_strong_cue
+      delivery_sha256: 12de04f8256f4e056646644298e0036cc5bf1f056b61aaeae356b29726251c5b
+      report_sha256: e1a8b321da756bec93d572d6cedbce8b817c78604a7b11db76770c68d3a34848
+  original_refinement_seeds:
+  - 95433
+  - 95434
+- source_rng_seed: 95013
+  refinement_seeds:
+  - 99435
+  - 99436
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95013_cue
+      delivery_sha256: c3d7c00984f4882554881da0d4deeeb1e79ba37e2fe630caec1fd8e31d5e0486
+      report_sha256: db08118c26a52df9053c0d1b7ff4433c76fb685d6d7a0e5f1cd4aaaf6ca89b40
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95013_omission
+      delivery_sha256: 106b36149a0bbc93ddd6546d1457da76a357eba4bb61d7213b2d4df2f3eee6fd
+      report_sha256: cf764e54c4acec38988784a5d4e5e70ea8283b40d49e13a434b62e29b8b86a4d
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95013_strong_cue
+      delivery_sha256: 42fad4de778dadf9092380a3f9e81c13330276ab961c224ffb0d9aebc61b4856
+      report_sha256: 21289a5c03a134828a47ae3e6bbcbf39014b858035fa002f39168e62165f15d0
+  original_refinement_seeds:
+  - 95435
+  - 95436
+- source_rng_seed: 95014
+  refinement_seeds:
+  - 99437
+  - 99438
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95014_cue
+      delivery_sha256: 704385e11c6b993b52b546783bc0b4c97422369f5a39753c75e45dbbd37de04b
+      report_sha256: d492f2d77ac368a4ab5735a513b6678ea41a4ca9b9b3781e236e9035938f4d7c
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95014_omission
+      delivery_sha256: 24da5085ccd90dffbbf7e747d54f6abd1fd02f3ecb7a037d50bdb5b75428c3bf
+      report_sha256: d0296403833806ec8d022cb4ad6205e6ab86deffe6638d040e54819703abf593
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95014_strong_cue
+      delivery_sha256: 90f0f33f894e66ae1208eeed2959323911a498cd286e422ea86feade1860e518
+      report_sha256: 6d930e4d4da6f5511b9ddcc2451a6acae89f86c4483c93a0de073701c838aafc
+  original_refinement_seeds:
+  - 95437
+  - 95438
+- source_rng_seed: 95015
+  refinement_seeds:
+  - 99439
+  - 99440
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95015_cue
+      delivery_sha256: 92e205ea9c4a07580c1d283f84d1b3cf89da093137afa2070616813b72faaf8c
+      report_sha256: 5dfdf2ba282c1759ea69b118ad87fc9833d49c135254885f1ee9aaa22abb2b6c
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95015_omission
+      delivery_sha256: 66f17a55d76e4a4b7264a76e559005eaf6279221619eb09af1a71488ed7a1c13
+      report_sha256: d0a8acc75088c1715d6be6314267bea145ab011f9e8dc10a7a0b7d3d45667f50
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95015_strong_cue
+      delivery_sha256: 7fe66f5df3aeb59f6818d2b0388429aa6d3238e73981cff01c77ac7011f0ab80
+      report_sha256: 8c1209e44a9dff87782c20a6504fff056e5543c7490c3a8c8301a1db963f39f1
+  original_refinement_seeds:
+  - 95439
+  - 95440
+- source_rng_seed: 95016
+  refinement_seeds:
+  - 99441
+  - 99442
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95016_cue
+      delivery_sha256: 5b42524b2ff1e3f6a6f62dcbf0247bd5d2246fe06334c339290fcd4584bb5b72
+      report_sha256: d630e20d9356eb478a3cf60375ec04dfd87cff08fd834b79bdb392ee33fc8d16
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95016_omission
+      delivery_sha256: 83c53a32a60e06dfae649342843824e1164631a0375283219079b75590f45c67
+      report_sha256: 1c8dd945cbdcc4d1e2213caf5bdf7fc979671b4a2c37e6e8e764fbdcbc12a492
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586553_pfc_95016_strong_cue
+      delivery_sha256: 0198de46788d3a1f489fc19f509ada27914e937b7737e59eb1e444968ccd1149
+      report_sha256: 68a0a65cc9de18d0860725c70043dfb005c2af6caf1cd2318d73384b0818eb8b
+  original_refinement_seeds:
+  - 95441
+  - 95442
+- source_rng_seed: 95017
+  refinement_seeds:
+  - 99443
+  - 99444
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95017_cue
+      delivery_sha256: 93ece7d31d5f38bc8b0b08b839fe96012008d8524d812a44f44283fe6d6545f8
+      report_sha256: 3cb2a8f4460bdeaeae37fd75c9259a459caec7d0309e31ae1637296f1924a5cb
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95017_omission
+      delivery_sha256: b1b01bd2e0df47672815f82eded9455ba7e571e8aae1c5956f2e5484f5ee5549
+      report_sha256: ef5d15f2fb4960f3849f0c4316ddf51dc789130efb5417d23d5408927387a635
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95017_strong_cue
+      delivery_sha256: ab2901ffd654780d6e8a08608e7b7224303dc1506e09c30756d60c3fdee6bf0e
+      report_sha256: ca7b5f463cb577c4133be787e8dc626b9bf769442d4d0f2619d19c09315ad8e8
+  original_refinement_seeds:
+  - 95443
+  - 95444
+- source_rng_seed: 95018
+  refinement_seeds:
+  - 99445
+  - 99446
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95018_cue
+      delivery_sha256: dce42bcf021b4c446621ceb024485f8713b91000e72366610eaccb7908ffa119
+      report_sha256: 88f1fed1281c033a557d8eb5d327502a867902c42e5c55cb0c708108ab2e9ec2
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95018_omission
+      delivery_sha256: a8c663bf1237a96a0b4201bbe9553735da25b646db5cf8bd462d7bc979544ccf
+      report_sha256: 768fccc07c0f061c49b6f606de023ce5bd17a4daf303d4ab3a95f7ba7e749676
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95018_strong_cue
+      delivery_sha256: c9b29abff2aa9a61b3e0f134541f9cbf9f30e687142b639c7013806ece2096d3
+      report_sha256: 9eb25d8017b25a9c2e85a3114a0a9863b1422f33b639f0ca11205587b7c809b4
+  original_refinement_seeds:
+  - 95445
+  - 95446
+- source_rng_seed: 95019
+  refinement_seeds:
+  - 99447
+  - 99448
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95019_cue
+      delivery_sha256: 2fa0f0a94f55aa76f157e159ef3dd45989b0c93a86adc930f2149e33ed4e7f6d
+      report_sha256: 65e2a6b6d704a6449b6205a022bc26b5f874b8bfd9dd8ee7be96ebb91371e4fd
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95019_omission
+      delivery_sha256: 7599f9706a70193b9ab238c3db62f8fc844f198d464d252bbb2b9bf2477fc988
+      report_sha256: 9aef150a3e9da6c0094a56b883d12a9aa1eb826a8999207488f6378cfb6719f7
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95019_strong_cue
+      delivery_sha256: 405af784bb2982aec5de5507c2625b1166fd68a144715f8364a477d4ad26344b
+      report_sha256: 6c3d8d568cf2f04c9e5e67e8b6f7ba2e5d3f09d09894ebad181bd239ea75aae8
+  original_refinement_seeds:
+  - 95447
+  - 95448
+- source_rng_seed: 95020
+  refinement_seeds:
+  - 99449
+  - 99450
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95020_cue
+      delivery_sha256: b6306fbd392893201bd563972888aa2eae21e685ca5fdfa91782f1811d4cb412
+      report_sha256: ae2df9ae2b751d882bbf7ec1afc724a69cea809f7b63317835bcfd561deb74b5
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95020_omission
+      delivery_sha256: cf9f6018e2022d3a5d3e6ca4c42bbf7fbbab03bc47913b0d5ef29637da4ce5e1
+      report_sha256: dc02bc6694d14234c2ff4ff4b94aba86a36d4b4b9d40c59a8fbfc2413fce72ae
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95020_strong_cue
+      delivery_sha256: 7c62b352ea0ae0255c1684b3bff77c3b82957135f8e982d1929711d43887bd8b
+      report_sha256: c4d2497e2a67518125cb17d8434e06c476bf0f189a5520dced6f22dfdd8655dc
+  original_refinement_seeds:
+  - 95449
+  - 95450
+- source_rng_seed: 95021
+  refinement_seeds:
+  - 99451
+  - 99452
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95021_cue
+      delivery_sha256: 5932132097a3fb1cc17ba62484c7d82741696833d88393a746cd1d9b8978014a
+      report_sha256: 2e806f6ef141ca18b7f715a6df98a19583ffd193c9887c6d5055915966e05325
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95021_omission
+      delivery_sha256: f05a4809e819048a82983f27c575f683149f7683466eb8b67fffb6f7f60b2b48
+      report_sha256: 0e11bbb45f45651acbfd252ea6b1ea6f554d7752f64c876e694b47422baa510b
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95021_strong_cue
+      delivery_sha256: 094d5a98269d24a8de9a4c5e2eab588aa1be3737e9ddd4fdb4f751ea0ad5a2b4
+      report_sha256: 7c295aa0b546ab2713e6ef247e93d7bab716003a5bc8429330d928a0ad621a55
+  original_refinement_seeds:
+  - 95451
+  - 95452
+- source_rng_seed: 95022
+  refinement_seeds:
+  - 99453
+  - 99454
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95022_cue
+      delivery_sha256: 3fd0a1283caaee8574d12fdbab202e5edc1e6c3fc683b7bc69e4c29d458452c2
+      report_sha256: 2dcf4bfbfc18e81637a94940ebf57b28183162d1169b327298c72a3220fba962
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95022_omission
+      delivery_sha256: fe16408e8ff1790494451d08cb1f626f58b269b9142aaebca0a3f893a89793ac
+      report_sha256: 39818b5d842859b10e9467022d2e4ef2633aa5c91c715b51e21c1c914c9390c2
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95022_strong_cue
+      delivery_sha256: 893015b5db499d65152d009ec764bc75c1dbb66a034c7bdd181d0d2567a8af73
+      report_sha256: 2d358b544f9807a81785e81da812d42da21ab47368335467ffe61747679c8843
+  original_refinement_seeds:
+  - 95453
+  - 95454
+- source_rng_seed: 95023
+  refinement_seeds:
+  - 99455
+  - 99456
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95023_cue
+      delivery_sha256: ff9d9258f13fd3780a4d321dbf3745c63fa7f6297be74bf390310d53013e77a0
+      report_sha256: 9cfaa5b3a437f6aff22632b73a1ed5cfced307e9a10bf0d764018128916d7ce2
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95023_omission
+      delivery_sha256: 5abfbf0a68924ab3d3a4ff0b805ceac7740833953c7666e9ef525db04398452f
+      report_sha256: 6c1102f049f0080e6eba3821503f463441d78239fbf2e328976a2a0d504e45bb
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95023_strong_cue
+      delivery_sha256: bff5731e27414257fd82defcd72f93c415906a4044446f3b597a4f24865397e9
+      report_sha256: 15db09240eb6523c13d3865240a7179d5fedba37d13309473494fa3e3266f3fc
+  original_refinement_seeds:
+  - 95455
+  - 95456
+- source_rng_seed: 95024
+  refinement_seeds:
+  - 99457
+  - 99458
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95024_cue
+      delivery_sha256: 2fa48c8b80a1b4023fbb76382ce10c9fe307cbe66e2ce25d6aed61f790332d86
+      report_sha256: 7de41291882e1a08d7731b61951500f8d7f80a436d63159e64262e86c790670e
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95024_omission
+      delivery_sha256: d4d0745a7934d5f5b0ff53818d473ec927df92b3c035b7d806d74eaf348b23db
+      report_sha256: 5c91eae4061d3f166e590a903844c7c44f9d4056c705593cfe470f979926ec9b
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95024_strong_cue
+      delivery_sha256: 5d31858a61a2c3263d63661548905c360f160e0fb704964cb70f5efae8dea03c
+      report_sha256: fed9ab791080c9ba9d2cb0be10bae6afb72c74d798adc4e2b1949c17ba8d03ee
+  original_refinement_seeds:
+  - 95457
+  - 95458
+- source_rng_seed: 95025
+  refinement_seeds:
+  - 99459
+  - 99460
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95025_cue
+      delivery_sha256: 805275666ae551b699d6ebc4967fd4b7578f5624b5faaef16a8fa69bae586be2
+      report_sha256: a3037db03c129f97dff7fa9f656122c9a5069d42711dbcf394da234b909fccf7
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95025_omission
+      delivery_sha256: d3ce8acc942555ce47a82abeb335101a015e36bdaf9cf09e2cdd5b27bb14a6dc
+      report_sha256: f638ac77c401ddab78d306359fd7b62d9232e24b30f079c4f78c47c91d9eae18
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95025_strong_cue
+      delivery_sha256: 52d88d0551f737aea2aed14d41ff8c192d86ac56c3632e7abc538f32b1c290d5
+      report_sha256: 52b6ff7d81ec3c03a30d7c0793095a233ffcc3c1f0bd159218183600f9a0d5bd
+  original_refinement_seeds:
+  - 95459
+  - 95460
+- source_rng_seed: 95026
+  refinement_seeds:
+  - 99461
+  - 99462
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95026_cue
+      delivery_sha256: eb9dfc6a0ab897b23774e9aa27f3c56e591e59d759363eabd8508d5e261f6281
+      report_sha256: d08f705a2346944f7acb4f0e63b48255b9986abfaf9c5681ddc33f37ff69c190
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95026_omission
+      delivery_sha256: 4e91001b22e88484e01c57cb55040e01eef50398103b7dbee65b6aed1dbe3d67
+      report_sha256: d700ca14a0cf4c58387cd1388f996831d0cf4fef16a90634e3eb0745e12f4e12
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95026_strong_cue
+      delivery_sha256: 5eebf1ce668272513e23ecf1b4f1fedd783ae7589c483e41b9c08b40ec6fdfaf
+      report_sha256: d22c36f45a02e67e392e253993dc6cd59a8f7db754df10fbb65b798b8165da61
+  original_refinement_seeds:
+  - 95461
+  - 95462
+- source_rng_seed: 95027
+  refinement_seeds:
+  - 99463
+  - 99464
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95027_cue
+      delivery_sha256: f7407c5e728a8e98cfe4fcdbf1c9bbe4820a3cbdf112fc0c583ad2f480188159
+      report_sha256: 0347ebc0ea9d60033fb5d4161c28221e3204b018c7dbafe6a02b8e25d01b6d03
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587245_pfc_95027_omission
+      delivery_sha256: 09b297f5423e858f878bdfbff3303c2617f9cf1137b83a41eaf2e759a99ea272
+      report_sha256: f0570a101230827e3118f6c97593cc34a90c99ed2b307ff0b0f31321dcddcadf
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95027_strong_cue
+      delivery_sha256: 5e0e01a39c3d1674b720533d15d219a80f15917efaf4adc9502e9210d38527eb
+      report_sha256: adb5849384915336f669e35c497eb7a93e63681c7feec034499a0df88ca9b78a
+  original_refinement_seeds:
+  - 95463
+  - 95464
+- source_rng_seed: 95028
+  refinement_seeds:
+  - 99465
+  - 99466
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95028_cue
+      delivery_sha256: 866d78746933fc7aa095d08bedb89bcfc56b30b6cb3e3b23093f6f107917f472
+      report_sha256: 766394cc9f80515edda14e2bb4ae349069f623603dc3db41c7cb249f41733b92
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95028_omission
+      delivery_sha256: ef3687b1a97434147f5014bb4e849ada03d1004a57a7fb370a9e499e121163f9
+      report_sha256: 352380f16d9144ec959da2f92cd3342a09c57c3d47de5d0ebd5813f24a584eef
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95028_strong_cue
+      delivery_sha256: c8f3469e4c49e483d1ab7d71cf5841e300260223489ad901a5bd66979d29d363
+      report_sha256: 83530b25d71b3bedc7c3db629da2ce9754a91379f0e80dcdedcc83ee7eb52df1
+  original_refinement_seeds:
+  - 95465
+  - 95466
+- source_rng_seed: 95029
+  refinement_seeds:
+  - 99467
+  - 99468
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95029_cue
+      delivery_sha256: 0de6d29acbbb5b42b19484aa4531463064d4786e13efad851e36032618e8c1a3
+      report_sha256: b80db9614aa7883dc7797c9ab7e7c39e34c9f2bcdcb82c053c3405a792b37cc6
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95029_omission
+      delivery_sha256: 882d5bdf37259e848a71740fd5200bb233268512758be77c0e5443dfb62cb1a8
+      report_sha256: 0c8c40e86bdff0133de31365e6135952aa3319814175335d2e9c75f882aaabd5
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95029_strong_cue
+      delivery_sha256: 9b5a93855db608776a763e46342cd857ef50a0d10a371d5768b1cf18657dfcf1
+      report_sha256: 24470d41f9a10294aa2b1fc669c89dc6ce85b6ddfc7c47a312b7ee42e3cf23df
+  original_refinement_seeds:
+  - 95467
+  - 95468
+- source_rng_seed: 95030
+  refinement_seeds:
+  - 99469
+  - 99470
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95030_cue
+      delivery_sha256: d388bfdbc58bb64267433c356838ef1e844b6af6c6900223896b93ba799a6842
+      report_sha256: 56aa0927bb3a977f646c51b2cb28734efe9203d3d5390588d1adf473d65b24d8
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95030_omission
+      delivery_sha256: 682962b17bdc4f2e659f9b17edb79ee9593be26278ef7a78ebe88295da8da5a4
+      report_sha256: bdfb3df37bba0aa1b9ace052200d98f13fce3487333f43846ce19a0a80111259
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95030_strong_cue
+      delivery_sha256: b6286eb03ff3384e01f88acb7d8fd6a78116ff1fa77c62b390106a97d349920a
+      report_sha256: cf073253f8a975203bc8ba9516fee2dfcb4f7324a9eb2ce8fd88ef11b60f4396
+  original_refinement_seeds:
+  - 95469
+  - 95470
+- source_rng_seed: 95031
+  refinement_seeds:
+  - 99471
+  - 99472
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95031_cue
+      delivery_sha256: 18eaaf881539e806d6fb54f4659a6d49252eb43f05b8b452760a5010cc3f1c84
+      report_sha256: 502bf01dc709c1a46ce1128a848088ae4605d31f25bf4fa0e5ca8a0fb23354f8
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95031_omission
+      delivery_sha256: ebcff5a852955175f8238ecc6e24ea2e72699638b4f2bfed89a4b1d343e128ea
+      report_sha256: 55f08c4087c689152b3c0ed121f1cb1c5b4723f1206885fceeedbb1f40b347c8
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95031_strong_cue
+      delivery_sha256: affd17061ba520a819bdf868a600dd7e1a95b0355a7fbe7c7c9347decb1f2a66
+      report_sha256: 4b9198dfd64718c7771e8bbeeae59521a3af32596355d96f1eb7fad4f1b48ef5
+  original_refinement_seeds:
+  - 95471
+  - 95472
+- source_rng_seed: 95032
+  refinement_seeds:
+  - 99473
+  - 99474
+  coarse_references:
+    cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95032_cue
+      delivery_sha256: c9843c1602199b27b26763333efb28c65942c9a7a0e3954bd517633121feec7e
+      report_sha256: 4637a4b9456da2c1ccc8e0f68ef9c0b17bfaf3551f8944bf241dedae46e9f7ca
+    omission:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95032_omission
+      delivery_sha256: 967701fad8d8b254f157111de8c116892d71471533e093fd3f8de3cf8f2d7ce8
+      report_sha256: 53f431a7c1285e370f026112099429d9bdae8b599d10a199c85b493cfc7d4242
+    strong_cue:
+      archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_587326_pfc_95032_strong_cue
+      delivery_sha256: 5213a063272ebea5adb532873897b8a1ea0955f3a8be564802bae39d87e66d76
+      report_sha256: 6fb5b4776edfa10b32ef64a01e82d691f74a7a8d48c3a5ae14bfdcfb1f555fb0
+  original_refinement_seeds:
+  - 95473
+  - 95474
+original_registry: Libs/configs/neural_population_pfc_coupled_clock_calibration.yaml
+original_registry_sha256: f07b42e7af48ce3ef0154cfd2859ec4b8324a567f47a5832e76be61eddcc3f79
+original_pilot: Libs/configs/neural_population_pfc_coupled_clock_pilot.yaml
+original_pilot_sha256: de00d7b989da436c08cdf37d203a2373abb4cd2424bcaa2c3a10e81bc23e2efd
+motivating_report: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/response_gap_blocks/run_599149/analysis/report.json
+motivating_report_sha256: 237c0215a61b877eaadf5a41a868206ee7659c2f0cd2aec22f7fb42f3815ddaa
+decision: Compare all blocks and controls under the original frozen margins. Keep
+  the original and repeated auxiliary realizations separately and any averages nested
+  within the32 original blocks. Determine whether persistent signed gaps require a
+  solver change or whether auxiliary sampling materially contributes. No new independent-block
+  count, confidence claim, margin change or confirmation release.

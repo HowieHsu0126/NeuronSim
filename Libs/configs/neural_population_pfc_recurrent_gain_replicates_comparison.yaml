@@ -1,0 +1,51 @@
+schema: pfc_recurrent_gain_replicate_comparison_v1
+scope: descriptive_fixed_replication
+source_protocol: Libs/configs/neural_population_pfc_recurrent_gain_replicates.yaml
+source_protocol_sha256: 0f3b0dab7fa1d1f3bdb26d20d39f8539e8a09c1b096268ce3ae3bc4072c674bc
+preparation_archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/replicates/preparation/run_597035
+preparation_delivery_sha256: 91c6d3c4dd0ea69d70ced011d3214e04f6e3f9abe77c11b649a6a32bff1228a0
+pilot_archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/readouts/run_597004
+pilot_delivery_sha256: ece4b1bc8f73212c98ff1f3eb2897641d7b53ace13ce2e777f31cda0bb0ba3ca
+source_jobs:
+- cohort: reference_default
+  job_id: 597039
+  output_base: /workspace/NeuronSim/Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/replicates/reference_default/source_cases
+- cohort: reference_candidate
+  job_id: 597040
+  output_base: /workspace/NeuronSim/Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/replicates/reference_candidate/source_cases
+- cohort: expanded_candidate
+  job_id: 597041
+  output_base: /workspace/NeuronSim/Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/replicates/expanded_candidate/source_cases
+scientific_parameter_domain_qualified: false
+confirmation_execution_released: false
+confidence_intervals: false
+p_values: false
+activation_threshold_introduced: false
+analysis_memory_gib: 32
+temporary_count_chunk_units: 1024
+raw_source_simulations: 0
+expanded_cache:
+  phase_counts:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+    path: reference/analysis/phase_unit_counts.npz
+    bytes: 11343279
+    sha256: 4f6c09924a5ce8dbb11830008fcdc24d7d5151d55560c20be1a3a0ab2fca5ede
+    delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616
+  fields:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+    path: analysis/field_fluctuations.npz
+    bytes: 1671215
+    sha256: 7a67fef554834402c422d4157af02552afb3662eba32754a28441cc258e93a91
+    delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616
+  histograms:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+    path: analysis/unit_count_histograms.npz
+    bytes: 295571
+    sha256: 7701aac82608998e6585efe08d2789d7d33df2d6f9962cb38be30d42dc5aa7a8
+    delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616
+  moments:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_calibration/run_587423
+    path: analysis/unit_moments.npz
+    bytes: 2942737
+    sha256: 5022f241358e7b0711b59997232077fd23f9691b68b2947544e422f206cdd360
+    delivery_sha256: d4cc0d130429786a7b4df644675e201dea2fbcbdef6c4f74fc69d05bfac91616

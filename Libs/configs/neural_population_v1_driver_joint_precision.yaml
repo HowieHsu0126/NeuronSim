@@ -1,0 +1,9 @@
+scope: full_gray_joint_driver_precision_development
+training_seeds_used: []
+temporal_archive: Output/neural_population_dynamics/benchmark/v1_finite_temporal_law_20261013/run_615660
+temporal_acceptance: Output/neural_population_dynamics/benchmark/v1_finite_temporal_law_20261013/readback_615689/report.json
+bootstrap_draws: 5000
+bootstrap_seeds:
+- 41
+- 42
+- 43

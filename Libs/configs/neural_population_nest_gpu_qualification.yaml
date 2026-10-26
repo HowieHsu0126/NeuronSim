@@ -1,0 +1,9 @@
+campaign: neural_population_dynamics
+run_class: engineering_diagnostic
+source_revision: 74fc021cad2b4bd5c011c390b3f95a302b663483
+time_steps_ms: [0.1, 0.025]
+# Numerical engineering bounds, set before backend comparison. They do not
+# calibrate the population-field application or intervention success tolerances.
+voltage_atol_mv: 0.0005
+current_atol_pa: 0.005
+time_atol_ms: 0.00001

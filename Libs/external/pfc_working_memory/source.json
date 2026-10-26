@@ -1,0 +1,1839 @@
+{
+  "deferred_blobs": [
+    {
+      "path": ".gitignore",
+      "sha": "9193035e4982d9de14c3317fa8982a9d2701d29c",
+      "size": 128
+    },
+    {
+      "path": "MANIFEST.in",
+      "sha": "28b28d88a5e4f2e29d2e22223df2c059c89ef84f",
+      "size": 121
+    },
+    {
+      "path": "doc/_build/doctrees/contents.doctree",
+      "sha": "44d8553e2e658a509cb4aff2ae49289bc2cf5989",
+      "size": 3903
+    },
+    {
+      "path": "doc/_build/doctrees/environment.pickle",
+      "sha": "bd8fd8b2d0ec88582599d6b563554d3ddb7de186",
+      "size": 5722452
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/adex-model.doctree",
+      "sha": "e4257ba3d6bde8805cdc392bc4c1be13c8cbd954",
+      "size": 25463
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/brunel-network.doctree",
+      "sha": "44b192838cbaf0bd9f96c730641c365d7ee06095",
+      "size": 82786
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/exponential-integrate-and-fire.doctree",
+      "sha": "ade3b23829c57f36ef580a78657257795eaed0ce",
+      "size": 25162
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/hodgkin-huxley.doctree",
+      "sha": "6215856582b091ae540f7e9872e38617ff20ef2a",
+      "size": 32379
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/hopfield-network.doctree",
+      "sha": "59fa17d78fb4f8eacf580fcb2035fa6af0d0b588",
+      "size": 50673
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/index.doctree",
+      "sha": "48479db8e76cbaddf975eebe889f4d02979a0df3",
+      "size": 3538
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/leaky-integrate-and-fire.doctree",
+      "sha": "525706d8583dd53fcb55e8de04853e3fa00fdc61",
+      "size": 35250
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/neuron-type.doctree",
+      "sha": "c19b2a769201b96a2bc0420fc05151bc9fe31dee",
+      "size": 29808
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/ojas-rule.doctree",
+      "sha": "87eeca30daf6e36b2bd76d9ccc615ec7021826dd",
+      "size": 21419
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/passive-cable.doctree",
+      "sha": "2c1480ea31d82849c857a045b0879a25ad97ff6a",
+      "size": 47443
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/perceptual-decision-making.doctree",
+      "sha": "d65b0664370ef9fa9c244274b7ff49ec5a89eb42",
+      "size": 75698
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/phase-plane-analysis.doctree",
+      "sha": "dec0cae44452128791acc384c6885bbd4f8b2c87",
+      "size": 42557
+    },
+    {
+      "path": "doc/_build/doctrees/exercises/spatial-working-memory.doctree",
+      "sha": "3936e6cb9ae6c019ed0c9859a30bccba9bdffe27",
+      "size": 80141
+    },
+    {
+      "path": "doc/_build/doctrees/index.doctree",
+      "sha": "ad4939b53f9e001d73d1a93023d6ea6deaf52227",
+      "size": 7869
+    },
+    {
+      "path": "doc/_build/doctrees/intro.doctree",
+      "sha": "2be4e92ba33b1ff637c0d9a17a70928b6aafd567",
+      "size": 10620
+    },
+    {
+      "path": "doc/_build/doctrees/licence.doctree",
+      "sha": "08486a6ffd160c745d869ec0f7b7978b87b40044",
+      "size": 4668
+    },
+    {
+      "path": "doc/_build/doctrees/modules/modules.doctree",
+      "sha": "9ecc68f3364be37a86703eb6e8856b4643c83a23",
+      "size": 2643
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.adex_model.doctree",
+      "sha": "f8ed36848306dddaa421ab222c43c1e029d30885",
+      "size": 3738
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.brunel_model.doctree",
+      "sha": "21e92e03da222d3092ed1097a082fadbb0655982",
+      "size": 3851
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.cable_equation.doctree",
+      "sha": "668fdec87597aa4a43b6ea4232dcc47420aa633f",
+      "size": 3853
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.competing_populations.doctree",
+      "sha": "2c54d97971facbc1f8f5db3867eb742fadf559ac",
+      "size": 3982
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.doctree",
+      "sha": "16f483f57217cb438ab66e69b63a1f8668e18fcd",
+      "size": 4163
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.exponential_integrate_fire.doctree",
+      "sha": "99205b35f04ef8d65b76176eea243757b83177b3",
+      "size": 4026
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.hodgkin_huxley.doctree",
+      "sha": "72d55cd5515bbba56eb20780897a3cd9adee5389",
+      "size": 3796
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.hopfield_network.doctree",
+      "sha": "1f761fb260e11a5f1cfa6191bbd5f8fcce218755",
+      "size": 97841
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.leaky_integrate_and_fire.doctree",
+      "sha": "db34758d8bf82ba50793c2794fadd30c1a295dc4",
+      "size": 3979
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.neuron_type.doctree",
+      "sha": "f7873e9335ad0a3131d2a34aac1c5294e3fe1934",
+      "size": 3770
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.ojas_rule.doctree",
+      "sha": "20b3a6f74e9ff6f3666607f9fa364fd7e23012e0",
+      "size": 3716
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.phase_plane_analysis.doctree",
+      "sha": "94c96fae14444c2edc32aac6810653a666cb2467",
+      "size": 3969
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.test.doctree",
+      "sha": "bc89706c53e2460d7ac1ffe0495dff5405d4f6c2",
+      "size": 31976
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.tools.doctree",
+      "sha": "349da586a242bc6394274a249e73b3f2d54e6cc1",
+      "size": 4398
+    },
+    {
+      "path": "doc/_build/doctrees/modules/neurodynex3.working_memory_network.doctree",
+      "sha": "76aef7ce2cff10961294a9e2c9fe8b785b9d7628",
+      "size": 3968
+    },
+    {
+      "path": "doc/_build/doctrees/setup.doctree",
+      "sha": "0596963a7e450a5471b845bdef3a52fe38eac6c9",
+      "size": 37681
+    },
+    {
+      "path": "doc/_build/html/.buildinfo",
+      "sha": "33a0a4b36a73fa330c4c8ae19df828bcc31604b9",
+      "size": 230
+    },
+    {
+      "path": "doc/_build/html/_images/AdaptiveExponential_Init_burst.png",
+      "sha": "239d1eebc1c40b7f7cf2967f69516377ed707c57",
+      "size": 53059
+    },
+    {
+      "path": "doc/_build/html/_images/Brunel_SIfast_PSpop.png",
+      "sha": "507b6bb2a77cbc57d7356fef1a3c183e4324d9fc",
+      "size": 31797
+    },
+    {
+      "path": "doc/_build/html/_images/Brunel_SIfast_PSsingle.png",
+      "sha": "50ac83033dbded915208abb3ee7b19000a77db18",
+      "size": 86810
+    },
+    {
+      "path": "doc/_build/html/_images/Brunel_SIfast_activity.png",
+      "sha": "bb51421724e65077b09a4aa1df22e0d359f1c9bb",
+      "size": 92968
+    },
+    {
+      "path": "doc/_build/html/_images/Brunel_Spiking_LIF.png",
+      "sha": "63d7f94e1f7680f5221b801811c694333eed3f58",
+      "size": 79393
+    },
+    {
+      "path": "doc/_build/html/_images/Brunel_Synchronization.png",
+      "sha": "9ef8475cd2f7a1fad15eb1b1097edd60d6d8aec3",
+      "size": 81088
+    },
+    {
+      "path": "doc/_build/html/_images/DecisionMaking_NetworkStructureAll.png",
+      "sha": "2bd3ea5bbf5415b3c709b8881169f19d84acaa79",
+      "size": 120475
+    },
+    {
+      "path": "doc/_build/html/_images/DecisionMaking_NetworkStructureDetail.png",
+      "sha": "63d6362947690a7f23d5d81bc677f69d4156599e",
+      "size": 180910
+    },
+    {
+      "path": "doc/_build/html/_images/DecisionMaking_PhasePlane_3.png",
+      "sha": "aa2cc3aa47b0729f794219654b54880dc60882b9",
+      "size": 74209
+    },
+    {
+      "path": "doc/_build/html/_images/HF_CheckerboardAndPatterns.png",
+      "sha": "2ca84ae0a2fe68057670cb30ddb6e0707ff9b4a6",
+      "size": 12329
+    },
+    {
+      "path": "doc/_build/html/_images/HF_CheckerboardRecovered2.png",
+      "sha": "ecf26f9431a4f65dce3d8b9c62067a6ec9ff1ff4",
+      "size": 45894
+    },
+    {
+      "path": "doc/_build/html/_images/HF_LetterAandOverlap.png",
+      "sha": "9673cd155ac80e23b6bd67fc71ffc77aa2bc184e",
+      "size": 48487
+    },
+    {
+      "path": "doc/_build/html/_images/HH_getting_started.png",
+      "sha": "85df5295eb26ac6b7b7c475b0bfeacf9da7f03bb",
+      "size": 67639
+    },
+    {
+      "path": "doc/_build/html/_images/LIF_getting_started.png",
+      "sha": "8af8dd1c3f34d3040718b8802539b2e8470109a4",
+      "size": 75389
+    },
+    {
+      "path": "doc/_build/html/_images/Oja_3D.png",
+      "sha": "a60c6773cabd81e21b37c937a364225a05ef5d32",
+      "size": 137247
+    },
+    {
+      "path": "doc/_build/html/_images/Oja_cloud.png",
+      "sha": "cdec7b3f40b4e49a8ba3c681440dc881b011a199",
+      "size": 130566
+    },
+    {
+      "path": "doc/_build/html/_images/Oja_setup.png",
+      "sha": "5458b1c9524559331d3092b5fe96134d40b0fcef",
+      "size": 199690
+    },
+    {
+      "path": "doc/_build/html/_images/WorkingMemory_Demo.png",
+      "sha": "f4da31e41cbb162840abeb73bb49aa0bebcad8b2",
+      "size": 99421
+    },
+    {
+      "path": "doc/_build/html/_images/WorkingMemory_NetworkStructure.png",
+      "sha": "244db10c730330932ddf197a77d6df7e076903a4",
+      "size": 231536
+    },
+    {
+      "path": "doc/_build/html/_images/WorkingMemory_PopulationVector2048.png",
+      "sha": "455c2f61c5ff6c8ebf84e725d9f5648874454a15",
+      "size": 59096
+    },
+    {
+      "path": "doc/_build/html/_images/anaconda-prompt.png",
+      "sha": "a1a9b4bbf3f31e044f431528f50c64dd584b718f",
+      "size": 56136
+    },
+    {
+      "path": "doc/_build/html/_images/cable_equation_pulse.png",
+      "sha": "48b3c465ab644773e524f7db20696e59c8a56b6f",
+      "size": 42105
+    },
+    {
+      "path": "doc/_build/html/_images/exp_IF_min_current.png",
+      "sha": "b70073f8b3b4b8db41b79a590c3ebc22a4874c7e",
+      "size": 48303
+    },
+    {
+      "path": "doc/_build/html/_images/passive_cable_ABC.png",
+      "sha": "dfd2ab1e4046f1797c91b08d1a8601e9981927c7",
+      "size": 89036
+    },
+    {
+      "path": "doc/_build/html/_images/run-code.png",
+      "sha": "98d3df3b12a1c9c020b7bf2a39b55a6fd6046f1d",
+      "size": 57815
+    },
+    {
+      "path": "doc/_build/html/_images/start-notebook.png",
+      "sha": "74021dc06387a8732a66cfa86c650a7f6f315cd9",
+      "size": 24872
+    },
+    {
+      "path": "doc/_build/html/_static/basic.css",
+      "sha": "01192852b5c92c13a1cb27c0d2f84aee037691bc",
+      "size": 12261
+    },
+    {
+      "path": "doc/_build/html/_static/css/badge_only.css",
+      "sha": "3c33cef5450e1a6e12a4e33928cf2bdcdc4db2e0",
+      "size": 3391
+    },
+    {
+      "path": "doc/_build/html/_static/css/theme.css",
+      "sha": "aed8cef0668288648615f650e93e648e00e8c4d0",
+      "size": 118340
+    },
+    {
+      "path": "doc/_build/html/_static/doctools.js",
+      "sha": "daccd209dab05a75f5627390e37a6b764e93f547",
+      "size": 9354
+    },
+    {
+      "path": "doc/_build/html/_static/documentation_options.js",
+      "sha": "55fb1ac935ef1fe8e34e1ab52bec50cb12c3dff6",
+      "size": 379
+    },
+    {
+      "path": "doc/_build/html/_static/file.png",
+      "sha": "a858a410e4faa62ce324d814e4b816fff83a6fb3",
+      "size": 286
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Inconsolata-Bold.ttf",
+      "sha": "809c1f5828f86235347019a50e78b4b486a6a045",
+      "size": 109948
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Inconsolata-Regular.ttf",
+      "sha": "fc981ce7ad6c42d2384f0ef74b73174b9302ee65",
+      "size": 96964
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Inconsolata.ttf",
+      "sha": "4b8a36d249a05a0fe1575dc3d96ef7079dba6b07",
+      "size": 63184
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato-Bold.ttf",
+      "sha": "1d23c7066e095b5bff2c373d4064dc4f33659783",
+      "size": 656544
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato-Regular.ttf",
+      "sha": "0f3d0f837d24834b9b5b0a6b735459c56f5e75c3",
+      "size": 656568
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bold.eot",
+      "sha": "3361183a419c188282a8545eaa8d8e298b8ffaab",
+      "size": 256056
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bold.ttf",
+      "sha": "29f691d5ed0c2d3d224423bb0288e6bd59292511",
+      "size": 600856
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bold.woff",
+      "sha": "c6dff51f063cc732fdb5fe786a8966de85f4ebec",
+      "size": 309728
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bold.woff2",
+      "sha": "bb195043cfc07fa52741c6144d7378b5ba8be4c5",
+      "size": 184912
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bolditalic.eot",
+      "sha": "3d4154936b42522fac84900c689a901ac12875c0",
+      "size": 266158
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bolditalic.ttf",
+      "sha": "f402040b3e5360b90f3a12ca2afab2cd7244e16f",
+      "size": 622572
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bolditalic.woff",
+      "sha": "88ad05b9ff413055b4d4e89dd3eec1c193fa20c6",
+      "size": 323344
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-bolditalic.woff2",
+      "sha": "c4e3d804b57b625b16a36d767bfca6bbf63d414e",
+      "size": 193308
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-italic.eot",
+      "sha": "3f826421a1d97b09797fad3d781a666a39eb45c9",
+      "size": 268604
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-italic.ttf",
+      "sha": "b4bfc9b24aa993977662352c881c6e42f99f77e0",
+      "size": 639388
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-italic.woff",
+      "sha": "76114bc03362242c3325ecda6ce6d02bb737880f",
+      "size": 328412
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-italic.woff2",
+      "sha": "3404f37e2e312757841abe20343588a7740768ca",
+      "size": 195704
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-regular.eot",
+      "sha": "11e3f2a5f0f9b8c7ef6affae8c543d20f7c112be",
+      "size": 253461
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-regular.ttf",
+      "sha": "74decd9ebb8d805201934266b3bda6a9d5831024",
+      "size": 607720
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-regular.woff",
+      "sha": "ae1307ff5f4c48678621c240f8972d5a6e20b22c",
+      "size": 309192
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/Lato/lato-regular.woff2",
+      "sha": "3bf9843328a6359b6bd06e50010319c63da0d717",
+      "size": 182708
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab-Bold.ttf",
+      "sha": "df5d1df2730433013f41bf2698cbe249b075aa02",
+      "size": 170616
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab-Regular.ttf",
+      "sha": "eb52a7907362cc3392eb74892883f5d9e260b638",
+      "size": 169064
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.eot",
+      "sha": "79dc8efed3447d6588baa2bb74122d56f3500038",
+      "size": 79520
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.ttf",
+      "sha": "df5d1df2730433013f41bf2698cbe249b075aa02",
+      "size": 170616
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff",
+      "sha": "6cb60000181dbd348963953ac8ac54afb46c63d5",
+      "size": 87624
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-bold.woff2",
+      "sha": "7059e23142aae3d8bad6067fc734a6cffec779c9",
+      "size": 67312
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.eot",
+      "sha": "2f7ca78a1eb34f0f98feb07ab1231d077b248940",
+      "size": 78331
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.ttf",
+      "sha": "eb52a7907362cc3392eb74892883f5d9e260b638",
+      "size": 169064
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff",
+      "sha": "f815f63f99da80ad2be69e4021023ec2981eaea0",
+      "size": 86288
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/RobotoSlab/roboto-slab-v7-regular.woff2",
+      "sha": "f2c76e5bda18a9842e24cd60d8787257da215ca7",
+      "size": 66444
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/fontawesome-webfont.eot",
+      "sha": "e9f60ca953f93e35eab4108bd414bc02ddcf3928",
+      "size": 165742
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/fontawesome-webfont.svg",
+      "sha": "855c845e538b65548118279537a04eab2ec6ef0d",
+      "size": 444379
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/fontawesome-webfont.ttf",
+      "sha": "35acda2fa1196aad98c2adf4378a7611dd713aa3",
+      "size": 165548
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/fontawesome-webfont.woff",
+      "sha": "400014a4b06eee3d0c0d54402a47ab2601b2862b",
+      "size": 98024
+    },
+    {
+      "path": "doc/_build/html/_static/fonts/fontawesome-webfont.woff2",
+      "sha": "4d13fc60404b91e398a37200c4a77b645cfd9586",
+      "size": 77160
+    },
+    {
+      "path": "doc/_build/html/_static/jquery-3.4.1.js",
+      "sha": "773ad95c56f8321eb4901736930024ec517a948a",
+      "size": 280364
+    },
+    {
+      "path": "doc/_build/html/_static/jquery.js",
+      "sha": "a1c07fd803b5fc9c54f44e31123ae4fa11e134b0",
+      "size": 88145
+    },
+    {
+      "path": "doc/_build/html/_static/js/modernizr.min.js",
+      "sha": "f65d47974786ee51c258f680bd9be621629244f5",
+      "size": 15414
+    },
+    {
+      "path": "doc/_build/html/_static/js/theme.js",
+      "sha": "8555d79b71a1a347857e06b8a6223df1ccdd7859",
+      "size": 4414
+    },
+    {
+      "path": "doc/_build/html/_static/language_data.js",
+      "sha": "d2b4ee91b0da7308cf5693804779c7b18c26252a",
+      "size": 10847
+    },
+    {
+      "path": "doc/_build/html/_static/minus.png",
+      "sha": "d96755fdaf8bb2214971e0db9c1fd3077d7c419d",
+      "size": 90
+    },
+    {
+      "path": "doc/_build/html/_static/plus.png",
+      "sha": "7107cec93a979b9a5f64843235a16651d563ce2d",
+      "size": 90
+    },
+    {
+      "path": "doc/_build/html/_static/pygments.css",
+      "sha": "20c4814dcf0d3f437ee9a46f5957e3165aa5fb17",
+      "size": 4395
+    },
+    {
+      "path": "doc/_build/html/_static/searchtools.js",
+      "sha": "ab56499655111429619df63a1dc6687646d22a3e",
+      "size": 16323
+    },
+    {
+      "path": "doc/_build/html/_static/underscore-1.3.1.js",
+      "sha": "208d4cd890c3183d946092ebe982738ade565061",
+      "size": 35168
+    },
+    {
+      "path": "doc/_build/html/_static/underscore.js",
+      "sha": "5b55f32beaca186f84cca115514f02cddbd1bbd5",
+      "size": 12140
+    },
+    {
+      "path": "doc/_build/html/objects.inv",
+      "sha": "24303008e7feff5d88e8722008e84b6947979075",
+      "size": 2000
+    },
+    {
+      "path": "doc/_build/html/searchindex.js",
+      "sha": "4226f7426366c80142e4e1bbdb0de10d86d43a41",
+      "size": 33977
+    },
+    {
+      "path": "doc/exercises/exc_images/AdaptiveExponential_Init_burst.png",
+      "sha": "239d1eebc1c40b7f7cf2967f69516377ed707c57",
+      "size": 53059
+    },
+    {
+      "path": "doc/exercises/exc_images/Brunel_SIfast_PSpop.png",
+      "sha": "507b6bb2a77cbc57d7356fef1a3c183e4324d9fc",
+      "size": 31797
+    },
+    {
+      "path": "doc/exercises/exc_images/Brunel_SIfast_PSsingle.png",
+      "sha": "50ac83033dbded915208abb3ee7b19000a77db18",
+      "size": 86810
+    },
+    {
+      "path": "doc/exercises/exc_images/Brunel_SIfast_activity.png",
+      "sha": "bb51421724e65077b09a4aa1df22e0d359f1c9bb",
+      "size": 92968
+    },
+    {
+      "path": "doc/exercises/exc_images/Brunel_Spiking_LIF.png",
+      "sha": "63d7f94e1f7680f5221b801811c694333eed3f58",
+      "size": 79393
+    },
+    {
+      "path": "doc/exercises/exc_images/Brunel_Synchronization.png",
+      "sha": "9ef8475cd2f7a1fad15eb1b1097edd60d6d8aec3",
+      "size": 81088
+    },
+    {
+      "path": "doc/exercises/exc_images/DecisionMaking_NetworkStructure.key",
+      "sha": "ea3d846a68ebb5551b0610d6896441a12493a6b7",
+      "size": 425867
+    },
+    {
+      "path": "doc/exercises/exc_images/DecisionMaking_NetworkStructureAll.png",
+      "sha": "2bd3ea5bbf5415b3c709b8881169f19d84acaa79",
+      "size": 120475
+    },
+    {
+      "path": "doc/exercises/exc_images/DecisionMaking_NetworkStructureDetail.png",
+      "sha": "63d6362947690a7f23d5d81bc677f69d4156599e",
+      "size": 180910
+    },
+    {
+      "path": "doc/exercises/exc_images/DecisionMaking_PhasePlane.png",
+      "sha": "bbbf3cf5fff7b86eac5ff385a602f9c92cd25b86",
+      "size": 77692
+    },
+    {
+      "path": "doc/exercises/exc_images/DecisionMaking_PhasePlane_3.png",
+      "sha": "aa2cc3aa47b0729f794219654b54880dc60882b9",
+      "size": 74209
+    },
+    {
+      "path": "doc/exercises/exc_images/HF_CheckerboardAndPatterns.png",
+      "sha": "2ca84ae0a2fe68057670cb30ddb6e0707ff9b4a6",
+      "size": 12329
+    },
+    {
+      "path": "doc/exercises/exc_images/HF_CheckerboardRecovered2.png",
+      "sha": "ecf26f9431a4f65dce3d8b9c62067a6ec9ff1ff4",
+      "size": 45894
+    },
+    {
+      "path": "doc/exercises/exc_images/HF_LetterAandOverlap.png",
+      "sha": "9673cd155ac80e23b6bd67fc71ffc77aa2bc184e",
+      "size": 48487
+    },
+    {
+      "path": "doc/exercises/exc_images/HH_getting_started.png",
+      "sha": "85df5295eb26ac6b7b7c475b0bfeacf9da7f03bb",
+      "size": 67639
+    },
+    {
+      "path": "doc/exercises/exc_images/LIF_getting_started.png",
+      "sha": "8af8dd1c3f34d3040718b8802539b2e8470109a4",
+      "size": 75389
+    },
+    {
+      "path": "doc/exercises/exc_images/Oja_3D.png",
+      "sha": "a60c6773cabd81e21b37c937a364225a05ef5d32",
+      "size": 137247
+    },
+    {
+      "path": "doc/exercises/exc_images/Oja_cloud.png",
+      "sha": "cdec7b3f40b4e49a8ba3c681440dc881b011a199",
+      "size": 130566
+    },
+    {
+      "path": "doc/exercises/exc_images/Oja_setup.png",
+      "sha": "5458b1c9524559331d3092b5fe96134d40b0fcef",
+      "size": 199690
+    },
+    {
+      "path": "doc/exercises/exc_images/WorkingMemory_Demo.png",
+      "sha": "f4da31e41cbb162840abeb73bb49aa0bebcad8b2",
+      "size": 99421
+    },
+    {
+      "path": "doc/exercises/exc_images/WorkingMemory_Demo.psd",
+      "sha": "cddf2e75f63aa73e42e5947651c3663ae3498ff2",
+      "size": 498723
+    },
+    {
+      "path": "doc/exercises/exc_images/WorkingMemory_NetworkStructure.key",
+      "sha": "bb8bdd2ad4f71a4ff64157f44de9b205ed5cafe3",
+      "size": 405211
+    },
+    {
+      "path": "doc/exercises/exc_images/WorkingMemory_NetworkStructure.png",
+      "sha": "244db10c730330932ddf197a77d6df7e076903a4",
+      "size": 231536
+    },
+    {
+      "path": "doc/exercises/exc_images/WorkingMemory_PopulationVector2048.png",
+      "sha": "455c2f61c5ff6c8ebf84e725d9f5648874454a15",
+      "size": 59096
+    },
+    {
+      "path": "doc/exercises/exc_images/cable_equation_pulse.png",
+      "sha": "48b3c465ab644773e524f7db20696e59c8a56b6f",
+      "size": 42105
+    },
+    {
+      "path": "doc/exercises/exc_images/exp_IF_min_current.png",
+      "sha": "b70073f8b3b4b8db41b79a590c3ebc22a4874c7e",
+      "size": 48303
+    },
+    {
+      "path": "doc/exercises/exc_images/passive_cable_ABC.png",
+      "sha": "dfd2ab1e4046f1797c91b08d1a8601e9981927c7",
+      "size": 89036
+    },
+    {
+      "path": "doc/setup_images/StartJupyter.png",
+      "sha": "68f20d51cd3a5e4df453b58b0ee08c709f105b73",
+      "size": 128956
+    },
+    {
+      "path": "doc/setup_images/StartJupyter_2.png",
+      "sha": "1e6a5a6de5e150dd58b508280be1716f277e6919",
+      "size": 180584
+    },
+    {
+      "path": "doc/setup_images/anaconda-prompt.png",
+      "sha": "a1a9b4bbf3f31e044f431528f50c64dd584b718f",
+      "size": 56136
+    },
+    {
+      "path": "doc/setup_images/run-code.png",
+      "sha": "98d3df3b12a1c9c020b7bf2a39b55a6fd6046f1d",
+      "size": 57815
+    },
+    {
+      "path": "doc/setup_images/start-notebook.png",
+      "sha": "74021dc06387a8732a66cfa86c650a7f6f315cd9",
+      "size": 24872
+    },
+    {
+      "path": "neurodynex3.egg-info/PKG-INFO",
+      "sha": "77bb69c66f4201b063a8a9fcfddff3a6b8d15a2e",
+      "size": 755
+    },
+    {
+      "path": "neurodynex3/data/alphabet.pickle.gz",
+      "sha": "43d4f18b5455c327fb3ec1036130669395ac900a",
+      "size": 1949
+    }
+  ],
+  "discovered_asset_links": [],
+  "elapsed_seconds": 83.22847199440002,
+  "files": [
+    {
+      "bytes": 951,
+      "git_blob_sha1": "e1995c39ea9ff17e5cd9fa1a3f5df19313c28a5d",
+      "path": ".travis.yml",
+      "sha256": "aa34034e6faa975fc3648b7a9123304b1a9aa413978b38f9b98bf7f8a5fc6412"
+    },
+    {
+      "bytes": 18047,
+      "git_blob_sha1": "8cdb8451d9b90c1d4000c6f22eb86471a4568be6",
+      "path": "LICENSE.txt",
+      "sha256": "c03cea027b4b40e4402fabd08557736727ec3d5bc54ad64ab6472de432198cad"
+    },
+    {
+      "bytes": 1077,
+      "git_blob_sha1": "2f74d06e1ca260b8ae64360d0576deedf3e02113",
+      "path": "Makefile",
+      "sha256": "1cbced50b9dd44be04683e1d6a992f41c339e8ba5eb1adb8d8a0fc1f3c4c2311"
+    },
+    {
+      "bytes": 2826,
+      "git_blob_sha1": "1e0f443d80bfebca4131f640c7c91f296f0e8a66",
+      "path": "README.rst",
+      "sha256": "f022b673239b193647933553d1dcca346ae1b44ae97303eb9c93b0b17a8ae8b7"
+    },
+    {
+      "bytes": 7485,
+      "git_blob_sha1": "d12096d768b33bc6327d2a89b1ae196b70608e36",
+      "path": "doc/Makefile",
+      "sha256": "ec5587f5e8f8983b8b4bc48100ab01d7ce9700cf5fcd386dbaccc87c9cffef23"
+    },
+    {
+      "bytes": 5364,
+      "git_blob_sha1": "bb44b5ac8c5cf56102e5aa7be5bd73aba7247aa2",
+      "path": "doc/_build/html/_modules/index.html",
+      "sha256": "45e26a1c73f58b01d04c3dfee5bfe5a55fbb5a4bc00d04098c4aff297172e7c4"
+    },
+    {
+      "bytes": 27628,
+      "git_blob_sha1": "73278e3b26d74452c9923bfa7e2f300fb23733f6",
+      "path": "doc/_build/html/_modules/neurodynex3/hopfield_network/network.html",
+      "sha256": "b169b4b931822ff683fa0e4fade093803e9ad9fe9bb452e98245f0a82ff039a4"
+    },
+    {
+      "bytes": 46832,
+      "git_blob_sha1": "d3882419ba128d34f31fa7cb7c81a4c6af41a590",
+      "path": "doc/_build/html/_modules/neurodynex3/hopfield_network/pattern_tools.html",
+      "sha256": "6086a0aea187f0760b514bbff5373ed469ef5b54561e651383035d145eaae8d4"
+    },
+    {
+      "bytes": 7050,
+      "git_blob_sha1": "ee6fded5e7c1ac9a462a100be53c777d05298be9",
+      "path": "doc/_build/html/_modules/neurodynex3/test.html",
+      "sha256": "71bf9e2134242781ff4c4183836dd9a3a5adf7602751146d5f44d4060afea160"
+    },
+    {
+      "bytes": 8290,
+      "git_blob_sha1": "241664257e3f47eaabdc0d5b3aec008e84946fc7",
+      "path": "doc/_build/html/_modules/neurodynex3/test/test_cable_equation.html",
+      "sha256": "1682ef2775b7355f860c4a4643c0e34307411910fc6fa3ca0f38a379072681ea"
+    },
+    {
+      "bytes": 9389,
+      "git_blob_sha1": "6fd73001039d73a94ea5881ee6fec0dd2b9adf48",
+      "path": "doc/_build/html/_modules/neurodynex3/test/test_hopfield.html",
+      "sha256": "360439b72c72aec4562c1d845b138790f37e9611205c48ecdfb7c04d5e7ae2ed"
+    },
+    {
+      "bytes": 6801,
+      "git_blob_sha1": "61ae302d71ed52dc100b45a8b6aeca765ee2a09c",
+      "path": "doc/_build/html/_modules/neurodynex3/test/test_nagumo.html",
+      "sha256": "28ca51596fb52617461e5400fd7c29198b0b7d71791f3effb48a159a92050476"
+    },
+    {
+      "bytes": 9820,
+      "git_blob_sha1": "21cc68fe05ca19e911991e5178aef570305f716a",
+      "path": "doc/_build/html/_modules/neurodynex3/test/test_neuron_type.html",
+      "sha256": "3427ce564b61c51bb60e30cfa4ed2f61e4398b400e01122d98f4a5c010ebed74"
+    },
+    {
+      "bytes": 6512,
+      "git_blob_sha1": "a77b9a988eb8c68b7bd4ccb0a4cc02046e7aa159",
+      "path": "doc/_build/html/_modules/neurodynex3/test/test_oja.html",
+      "sha256": "8389b7aa330c90331f0e739e24db9faf7a4c15d3389cb89923971705d08239de"
+    },
+    {
+      "bytes": 12990,
+      "git_blob_sha1": "d9fa210fbd3f70c412f6e7168ed78a0a9ed19251",
+      "path": "doc/_build/html/_modules/neurodynex3/test/test_spike_tools.html",
+      "sha256": "02fa3fb23c60cfe974ea5eb0561ecd127795086c1e08b1a73813cdaf3c0f83ed"
+    },
+    {
+      "bytes": 405,
+      "git_blob_sha1": "3c9871fd17e3ee1c8bc7917e91e5dfb164e29dc4",
+      "path": "doc/_build/html/_sources/contents.rst.txt",
+      "sha256": "4efc43af62b0b6a70a3e2337348f418ff431978a488ba588c68df8e1337a059e"
+    },
+    {
+      "bytes": 4558,
+      "git_blob_sha1": "af97065f6baf273f6d636b2f3eca2fdf12e7dd5e",
+      "path": "doc/_build/html/_sources/exercises/adex-model.rst.txt",
+      "sha256": "0875d61e37e958054dd78c5d1b860f0e73e18220e082773d8d71468825a73bf1"
+    },
+    {
+      "bytes": 17681,
+      "git_blob_sha1": "76ea50bf88e0b4ab658204a74fd916eb60a05f1e",
+      "path": "doc/_build/html/_sources/exercises/brunel-network.rst.txt",
+      "sha256": "304c140b8edbe2bd4d2e16ddccbe8aa40e6895d1b1ce4706d2a69b40c4b32bfb"
+    },
+    {
+      "bytes": 5682,
+      "git_blob_sha1": "dc4a1c0daa3a69f0a7049b074ac611eedc915388",
+      "path": "doc/_build/html/_sources/exercises/exponential-integrate-and-fire.rst.txt",
+      "sha256": "7d66ded0ee4ad5d590dd6c077cceddf7de851c9c737e6e4055d9fb8662bb479b"
+    },
+    {
+      "bytes": 6195,
+      "git_blob_sha1": "0ab779fafc56ce2fbb28cf9ae325b972c480b161",
+      "path": "doc/_build/html/_sources/exercises/hodgkin-huxley.rst.txt",
+      "sha256": "44303316c8de477861dbb04dfd90710759765de8987c097ce271a7d53ceed346"
+    },
+    {
+      "bytes": 12045,
+      "git_blob_sha1": "4fd4b0a45bc57974f3bf620901ab0e370fd05e4a",
+      "path": "doc/_build/html/_sources/exercises/hopfield-network.rst.txt",
+      "sha256": "bd7ae641e69c3a90f3e517ca19d7084f9f2835911649b9fadff7f7750eb4e469"
+    },
+    {
+      "bytes": 358,
+      "git_blob_sha1": "e6b30ad0d7b7b800e31a194c0557047cdac80a19",
+      "path": "doc/_build/html/_sources/exercises/index.rst.txt",
+      "sha256": "d4df4dd065a24ceb11f07da16f4c5a3d30b723d4d7b7904d0ec601f47da845fb"
+    },
+    {
+      "bytes": 8634,
+      "git_blob_sha1": "544c2f3731e57ed2cf27d3c355c06ff55b6be49a",
+      "path": "doc/_build/html/_sources/exercises/leaky-integrate-and-fire.rst.txt",
+      "sha256": "9f90ac0d2ae7dcd2f3475db14eecf1fbaeb356b48cea1890e551f25419158dac"
+    },
+    {
+      "bytes": 6866,
+      "git_blob_sha1": "3f3ca7dbbfc25a6b935bd7f90e2f0d20c6fe3d6c",
+      "path": "doc/_build/html/_sources/exercises/neuron-type.rst.txt",
+      "sha256": "a5396bf50624f26eb659f207db79b9a0b1fca0fb3e524ed1c4fc6a83ea806eb9"
+    },
+    {
+      "bytes": 4335,
+      "git_blob_sha1": "da27cdf543aec8eda078daddfb836a2562c64b75",
+      "path": "doc/_build/html/_sources/exercises/ojas-rule.rst.txt",
+      "sha256": "95fcb4002f1d3052c32421ba35c956f0d6c5bb62a6eaf03d685f263a970efd0a"
+    },
+    {
+      "bytes": 10211,
+      "git_blob_sha1": "0c0564fe8dd6ed279fa2bcd212045af38ff3007e",
+      "path": "doc/_build/html/_sources/exercises/passive-cable.rst.txt",
+      "sha256": "33e2096f322fcd6c9f92401d6f1140412222cb27469e55804a0b0a9f44e24820"
+    },
+    {
+      "bytes": 14948,
+      "git_blob_sha1": "0ef3cf9848d87b146900ddd5f9aca4233fc1012e",
+      "path": "doc/_build/html/_sources/exercises/perceptual-decision-making.rst.txt",
+      "sha256": "67733db34b19e1928b60bce26de15a97e2b73fc6855ee6a9cc834e7ee2a192a2"
+    },
+    {
+      "bytes": 7112,
+      "git_blob_sha1": "60c2b7d7e968075e85646f22169910bf9924d500",
+      "path": "doc/_build/html/_sources/exercises/phase-plane-analysis.rst.txt",
+      "sha256": "6a93b72b53cb6f8fe0476a7aacc2cfec526bee6c714b486b69a5d21bf7433497"
+    },
+    {
+      "bytes": 18241,
+      "git_blob_sha1": "2a29c12bde8f3f643aae5833918b38508bdb1af7",
+      "path": "doc/_build/html/_sources/exercises/spatial-working-memory.rst.txt",
+      "sha256": "6ce7540de0c7c77c3e16102bd9ad43c7462e9e3d026b880c90a8be007f9cb8d5"
+    },
+    {
+      "bytes": 950,
+      "git_blob_sha1": "4d8682ecaa17d9e2f63248deb1cf323f1978da8a",
+      "path": "doc/_build/html/_sources/index.rst.txt",
+      "sha256": "4479f8b0ffabcf3e51da155b964e4175603f0091536dfdda4d5a508addba9f89"
+    },
+    {
+      "bytes": 1324,
+      "git_blob_sha1": "d02a12c695b6841b58d9ac4f66f3d652065fb5aa",
+      "path": "doc/_build/html/_sources/intro.rst.txt",
+      "sha256": "b57e68d7d112fe47b73fcd13d37534e46e08ee766a0245d04f7cedd4465378ae"
+    },
+    {
+      "bytes": 634,
+      "git_blob_sha1": "619749ed255366f5c4bb22b192daac3d4d729a1e",
+      "path": "doc/_build/html/_sources/licence.rst.txt",
+      "sha256": "d74952fdcce22c43327f6af92b807ec4195626eb868700c3ad23b3ee4b0a3a03"
+    },
+    {
+      "bytes": 70,
+      "git_blob_sha1": "3d4205cdfe5816961bd2446fe09ee47140a2cc0a",
+      "path": "doc/_build/html/_sources/modules/modules.rst.txt",
+      "sha256": "758e4c596dc3ed473829faa7554856e87743fa00d52b613fe89286423a7cd740"
+    },
+    {
+      "bytes": 387,
+      "git_blob_sha1": "cff863f9d2d35a92c2d098cb70dcf4c56151aad0",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.adex_model.rst.txt",
+      "sha256": "a0f84f60748ffbb1553faaed27f9ba04953ecddca2095ba6c7d113ec848ab8ad"
+    },
+    {
+      "bytes": 448,
+      "git_blob_sha1": "1d2c522a896cc39627c1c45ba5e2baa19b3c5676",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.brunel_model.rst.txt",
+      "sha256": "64455e9a48c4b863ba74575b4299ad00e277609f29abce8f4e48ca8c1f1458a1"
+    },
+    {
+      "bytes": 440,
+      "git_blob_sha1": "639bf247d1fe9ee839a8e1b681479dc022f683e4",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.cable_equation.rst.txt",
+      "sha256": "aa0d1b3fc2d58c10f1863f9b15e18eaa671b9dcbe474f9d3477c18119aa71cb6"
+    },
+    {
+      "bytes": 488,
+      "git_blob_sha1": "6b6d2f8195f1582303ea42924ba8bc28ab338c4f",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.competing_populations.rst.txt",
+      "sha256": "cef6cbb8809e543023a03f191fe0f172a9a1894c3b6af020bb76b81e05b588b1"
+    },
+    {
+      "bytes": 495,
+      "git_blob_sha1": "e7e268b3dcfb025fba9cecad6869475784db3b1a",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.exponential_integrate_fire.rst.txt",
+      "sha256": "6478d372ec08a196f9fab36c44e6807c28c301f28319546a564e507d7152a4f5"
+    },
+    {
+      "bytes": 405,
+      "git_blob_sha1": "8d35cc9f622c2c467dc79e270c44cf40a4a45222",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.hodgkin_huxley.rst.txt",
+      "sha256": "d90bb19b8fe09daa878d86d1eefd18c9db6857c2f499ec30b53de74ae04535ed"
+    },
+    {
+      "bytes": 1051,
+      "git_blob_sha1": "9511c2fd18a3cf44e622e1b8f7519f20ff5187e8",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.hopfield_network.rst.txt",
+      "sha256": "3f24f3aa10a7c895c3dd6b6d12337b0a65c67c4eea0d1302a993c3e85e56fa1c"
+    },
+    {
+      "bytes": 476,
+      "git_blob_sha1": "574184ddde48ed05c1e318adde33bec187839634",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.leaky_integrate_and_fire.rst.txt",
+      "sha256": "52fe5bc0b73a74bcb8c180eef8bed5c14c6a7d079a77a074a37ea77471f9e3ab"
+    },
+    {
+      "bytes": 402,
+      "git_blob_sha1": "b03397824b7f072c24e8be300f5ea99c111501f0",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.neuron_type.rst.txt",
+      "sha256": "322d90d8db2b3c96537f24f593082b7bf8212d3ac13c5c4858b73e58047b2667"
+    },
+    {
+      "bytes": 378,
+      "git_blob_sha1": "cbbd11211b3cb652a8722a3c9f950d0b635c841e",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.ojas_rule.rst.txt",
+      "sha256": "6dba10d5a794deedb3d597ec16d8a82a49f25b9f034792e23b0d321fb82c61ff"
+    },
+    {
+      "bytes": 486,
+      "git_blob_sha1": "a87b0c1c1b8e6f04c749a55d4842e6c82aa3b08c",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.phase_plane_analysis.rst.txt",
+      "sha256": "2df32bc1d388b62059dcd6f80bb27e01bc4d31c2de8eb94eda312740800af7ca"
+    },
+    {
+      "bytes": 644,
+      "git_blob_sha1": "585ac4956510542c68a9233cb66494ea0dcd2b08",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.rst.txt",
+      "sha256": "aaf06912d17a81a00e4ac492ef2098d2cccdb5597dba885c27db112550248db0"
+    },
+    {
+      "bytes": 2624,
+      "git_blob_sha1": "120e6aca09a8b3282683c0d4ed427382439dcc1b",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.test.rst.txt",
+      "sha256": "57cb7ba54fe258fc50dc627b30597d11f706b91f8acd8828ba771ee3cfb5b191"
+    },
+    {
+      "bytes": 735,
+      "git_blob_sha1": "5d78e088beca520d62f9634eb3473a96a2c72d6c",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.tools.rst.txt",
+      "sha256": "698ac3b6b598776aa3f552a13ad9f68b929568ac2d512cf7d891243e72a71625"
+    },
+    {
+      "bytes": 477,
+      "git_blob_sha1": "dbd4cda75976b7bb206c491b0126d44a193eac73",
+      "path": "doc/_build/html/_sources/modules/neurodynex3.working_memory_network.rst.txt",
+      "sha256": "a76db76466766d96bafbdfcd0b654ebb1cdc6e8ef3423be65b4a30e0000356c8"
+    },
+    {
+      "bytes": 6148,
+      "git_blob_sha1": "beb3592ce563705595922203e577b9f3b3e91850",
+      "path": "doc/_build/html/_sources/setup.rst.txt",
+      "sha256": "df1470b63dacf7372fbb2bea12dd64701881ddd4b569b3210e3bef78b69b6610"
+    },
+    {
+      "bytes": 18659,
+      "git_blob_sha1": "60c0881df92a4597097fc643dde4dd60c0385818",
+      "path": "doc/_build/html/contents.html",
+      "sha256": "cfe76c23d97cadba15567149674ab30f558f2674cf80aa7bcf6f66d9ebb4309b"
+    },
+    {
+      "bytes": 19835,
+      "git_blob_sha1": "5969383056933757e997cf7572a9c3e54f9d44e6",
+      "path": "doc/_build/html/exercises/adex-model.html",
+      "sha256": "86b11b553b3528655442e7c9afc23f85872f258cd533a68f27ecd467eb00f421"
+    },
+    {
+      "bytes": 50320,
+      "git_blob_sha1": "faddba950a274ffcb607700b57a5c82855500624",
+      "path": "doc/_build/html/exercises/brunel-network.html",
+      "sha256": "4e168b76f34664de705681cace95ace9387ee2f3415a2b66f4bb38e8ab7fb751"
+    },
+    {
+      "bytes": 24889,
+      "git_blob_sha1": "30a62218f7b5c01a4eb323e041ff63f12d6d1e28",
+      "path": "doc/_build/html/exercises/exponential-integrate-and-fire.html",
+      "sha256": "84535102fa64d89946c3e5d618187b939f0bdc95221caf19584a92f717676fc2"
+    },
+    {
+      "bytes": 26189,
+      "git_blob_sha1": "1921fe49b89c0fca4beea7e6bf39b442efba2184",
+      "path": "doc/_build/html/exercises/hodgkin-huxley.html",
+      "sha256": "8bbb0eb2fb8d92777b96f0a1089464b174a48aeba70be1d8a7645095d80628d6"
+    },
+    {
+      "bytes": 36924,
+      "git_blob_sha1": "07f1c99fdf7ecf23c1090eb75dc471ff39acd23c",
+      "path": "doc/_build/html/exercises/hopfield-network.html",
+      "sha256": "bce3362025f27e0605392c45c4ee1ffcb495b1b0a87ee9e41246ab685d20191d"
+    },
+    {
+      "bytes": 8813,
+      "git_blob_sha1": "e9cdd17d085fd1f145b8cc012cebede5e796ed4e",
+      "path": "doc/_build/html/exercises/index.html",
+      "sha256": "db9d1961bf38703cecf7ea9a9897603cd020a5812cc59b0be533a236cf92db1d"
+    },
+    {
+      "bytes": 30689,
+      "git_blob_sha1": "fe6260941521c68edf4d6b8104e44122e16a226d",
+      "path": "doc/_build/html/exercises/leaky-integrate-and-fire.html",
+      "sha256": "69417b0f577a1e4133808e213f980d223fc474347a564f554134731e6e57234a"
+    },
+    {
+      "bytes": 25129,
+      "git_blob_sha1": "eb02597a2db81cd48435020978c6b9b070b4060a",
+      "path": "doc/_build/html/exercises/neuron-type.html",
+      "sha256": "ae129e01843cec0c001c9f281f8f6989ab84cc685f4d87ff635e0347289ddd0c"
+    },
+    {
+      "bytes": 19518,
+      "git_blob_sha1": "fd68b080dacdf8ee9448bdf170dc5a441e7ded35",
+      "path": "doc/_build/html/exercises/ojas-rule.html",
+      "sha256": "479a4c48f8046738f3b939bd7820ef176ebab85215743304dff1b3ab5858cc54"
+    },
+    {
+      "bytes": 33486,
+      "git_blob_sha1": "4c10adc5d4adf8cc8075cfcb791fa1183875ec02",
+      "path": "doc/_build/html/exercises/passive-cable.html",
+      "sha256": "37766415773f3b5f560d31554da510cc5a33bfb9cf0837f3252a89297ec6274d"
+    },
+    {
+      "bytes": 43171,
+      "git_blob_sha1": "5ccbfec88d8a59e31c6661edf6755be24e3cdc42",
+      "path": "doc/_build/html/exercises/perceptual-decision-making.html",
+      "sha256": "e914667d64da8e478d5834cc6215b5df0ef22ad9b898b0d986e19d17ee9b76c8"
+    },
+    {
+      "bytes": 27133,
+      "git_blob_sha1": "6ec58337409a89cd915d4569def31c4a10180dd1",
+      "path": "doc/_build/html/exercises/phase-plane-analysis.html",
+      "sha256": "76cb8fd3afab386d13b0e964d463e799557278c86d750c1109db96fef1daae39"
+    },
+    {
+      "bytes": 12413,
+      "git_blob_sha1": "b969d7da9026156a926be0384b3cf56fef4d781a",
+      "path": "doc/_build/html/exercises/setup.html",
+      "sha256": "9434c8b099ab477c695fc9058018d3bdf5265fda8695f045102898e69c0a2d1f"
+    },
+    {
+      "bytes": 53920,
+      "git_blob_sha1": "d076dcd0ef0065563c88cc41743624e9d8c11f5f",
+      "path": "doc/_build/html/exercises/spatial-working-memory.html",
+      "sha256": "1aec48c21fdebcae79bcba02b319f7eeecab010ef114e8eb83f89adb24c4724a"
+    },
+    {
+      "bytes": 23386,
+      "git_blob_sha1": "0f6d393eb046e308e891319056e755f4009675f5",
+      "path": "doc/_build/html/genindex.html",
+      "sha256": "0b7ece3b2a62538bad7c43b38f52391305eec90b38223136ed45c2bc8b6fd670"
+    },
+    {
+      "bytes": 9666,
+      "git_blob_sha1": "c9fa7429450378c3cb0d1e5ca0208605c818bdbc",
+      "path": "doc/_build/html/index.html",
+      "sha256": "67a978b647e98d54a9a123126ee9e4b21abf7f01aeec40702760df1940db1865"
+    },
+    {
+      "bytes": 8036,
+      "git_blob_sha1": "a63d9c97401be0ce0e1bc1d5d47425a619f445f4",
+      "path": "doc/_build/html/intro.html",
+      "sha256": "8d60d3cd3671962d9e2b33e9fab7e6f12f2958e913268a3d02b5c1dd162144d5"
+    },
+    {
+      "bytes": 5924,
+      "git_blob_sha1": "cd1d294f50bd222222face8c4e5a8b054edfb188",
+      "path": "doc/_build/html/licence.html",
+      "sha256": "9e96c6c793a4a9678b120520e757aba04804bd2a4b6ba6ff981a3b7418c94928"
+    },
+    {
+      "bytes": 16742,
+      "git_blob_sha1": "8defc885d15bd292724ac27bf6c32e381bc822af",
+      "path": "doc/_build/html/modules/modules.html",
+      "sha256": "f4407874c2d8b944c6d48420a2232920b28416f1b74d97ba5f6c6ac587b3b26f"
+    },
+    {
+      "bytes": 6289,
+      "git_blob_sha1": "e5e3424ad5b4471d0ed1ee335881fcda5461f612",
+      "path": "doc/_build/html/modules/neurodynex3.adex_model.html",
+      "sha256": "f003109bbd7986966e78d7c4e9706f9279e57a1e178e9e29211a2608a86be56d"
+    },
+    {
+      "bytes": 6408,
+      "git_blob_sha1": "c86706f2046d0e20361bdf70e3caf3eb71b4b9c2",
+      "path": "doc/_build/html/modules/neurodynex3.brunel_model.html",
+      "sha256": "0f78271e1b875c5e2fca06249c7893662225f275ec85971a6ead59c134164a65"
+    },
+    {
+      "bytes": 6448,
+      "git_blob_sha1": "f05c08ac117e73070b2ea1cc0f41e63bf7c805a8",
+      "path": "doc/_build/html/modules/neurodynex3.cable_equation.html",
+      "sha256": "c5cd21dbfe7248722f9f9accedb3c35e0726719699fc67ed02f69f910df9fddb"
+    },
+    {
+      "bytes": 6559,
+      "git_blob_sha1": "149a6cee4abebb91060edeb4f96537717ed3df74",
+      "path": "doc/_build/html/modules/neurodynex3.competing_populations.html",
+      "sha256": "9d6a36d32620464185863cd5c1f654798446ec86fa7faa94c7111dfc519f5cf7"
+    },
+    {
+      "bytes": 6567,
+      "git_blob_sha1": "9d1a5838eff438b4cf95f7e9d2c1c025e733cda3",
+      "path": "doc/_build/html/modules/neurodynex3.exponential_integrate_fire.html",
+      "sha256": "0b2878af281ec7158e22765fcffe17380a3934eae761e10c10c7d428b9351d5a"
+    },
+    {
+      "bytes": 6451,
+      "git_blob_sha1": "965c92aed05af117df5233d6db1652a0c9b7810e",
+      "path": "doc/_build/html/modules/neurodynex3.hodgkin_huxley.html",
+      "sha256": "6670e3b4869b706c40f674238c1d5c8bb6a46ce67f8c8b98b197a7be9594021f"
+    },
+    {
+      "bytes": 36520,
+      "git_blob_sha1": "cfa1727e0aa8a1edd732a7c3c6eb4d1333a37353",
+      "path": "doc/_build/html/modules/neurodynex3.hopfield_network.html",
+      "sha256": "521b9ff762847b7a49bd810639c09f804459089592b8e4433219e42eae246978"
+    },
+    {
+      "bytes": 17534,
+      "git_blob_sha1": "283c7df190bf7a4ec7308fbfa2db221757363317",
+      "path": "doc/_build/html/modules/neurodynex3.html",
+      "sha256": "8ba43c593d6974c13a97757d048a93364300ae791766ef697748ce2525b8c013"
+    },
+    {
+      "bytes": 6504,
+      "git_blob_sha1": "f139500ae87aaf472f90e58e5d11262fea218690",
+      "path": "doc/_build/html/modules/neurodynex3.leaky_integrate_and_fire.html",
+      "sha256": "79a3404affa13aea67473b8a781bbf91275a47370394bfd35c7568a98838e75e"
+    },
+    {
+      "bytes": 6397,
+      "git_blob_sha1": "0f7d5d0234c6be72d635d63be732c2168badc730",
+      "path": "doc/_build/html/modules/neurodynex3.neuron_type.html",
+      "sha256": "33d322549582875ec8e6bc2d28f1911ddaa6cadd7d479b9dd32ff3941fbc6294"
+    },
+    {
+      "bytes": 6355,
+      "git_blob_sha1": "b3437e621fa6362bf00e660fbe35a28caee20b2c",
+      "path": "doc/_build/html/modules/neurodynex3.ojas_rule.html",
+      "sha256": "6c0c9be95f54440ac51d2b76342b72125ea7caecc3433d67f2e31a92115d7241"
+    },
+    {
+      "bytes": 6440,
+      "git_blob_sha1": "64efc621df3072ba9a00ef18f0b33d7129f24242",
+      "path": "doc/_build/html/modules/neurodynex3.phase_plane_analysis.html",
+      "sha256": "a92df3257cf6c227602c0793416578aa0b4b3d56f59804ac8985fec781a7d971"
+    },
+    {
+      "bytes": 16371,
+      "git_blob_sha1": "7bc638f73c8b94be59d54bd37adcff022944f36c",
+      "path": "doc/_build/html/modules/neurodynex3.test.html",
+      "sha256": "29042999cabe54d430f971fe2425452cdd600c8459894e5c8d68a4cb6eaaa6ae"
+    },
+    {
+      "bytes": 6768,
+      "git_blob_sha1": "7eaacc4f49005b8f5964d38962b7da0b28f825b4",
+      "path": "doc/_build/html/modules/neurodynex3.tools.html",
+      "sha256": "cca22ad5502862d6574f515b0aa4a3341befb97c0961637093dcbf1e5bfa21d0"
+    },
+    {
+      "bytes": 6379,
+      "git_blob_sha1": "ccc34146000736b828d7b76b4eabb2a4653d2d26",
+      "path": "doc/_build/html/modules/neurodynex3.working_memory_network.html",
+      "sha256": "77b4daf04ee0fafeb1e2b30a839d12235698f6d6c8a3b4b8bdbf4799bb033d2b"
+    },
+    {
+      "bytes": 10696,
+      "git_blob_sha1": "b530d3fd3c1259ebfae0b689dd0a30b40842d48d",
+      "path": "doc/_build/html/py-modindex.html",
+      "sha256": "495943d694e896d0d0ae30c60243e25d0b42254ec1dd7bd5b7709cb289e34859"
+    },
+    {
+      "bytes": 4849,
+      "git_blob_sha1": "372f2cdfa4d2da534c87aa5bd5470710372345cf",
+      "path": "doc/_build/html/search.html",
+      "sha256": "a0c213940730ea5efac84a49ab7379a74e5843e64dd0140fd62e168bb0ef4091"
+    },
+    {
+      "bytes": 17611,
+      "git_blob_sha1": "17fff1cb73c2af44fffb15b22dd943bc309592e3",
+      "path": "doc/_build/html/setup.html",
+      "sha256": "ae6dfb232ebaf6c9c7d32e30ddfac5f6d7332556cce6e0e9ba1501933fe43d6c"
+    },
+    {
+      "bytes": 10101,
+      "git_blob_sha1": "d3fa29f7a596ad433719606a21d13ce832743212",
+      "path": "doc/conf.py",
+      "sha256": "ae019fbe014c519835849add291adcc1d2ef2006a21b10f5925d04454f191623"
+    },
+    {
+      "bytes": 405,
+      "git_blob_sha1": "3c9871fd17e3ee1c8bc7917e91e5dfb164e29dc4",
+      "path": "doc/contents.rst",
+      "sha256": "4efc43af62b0b6a70a3e2337348f418ff431978a488ba588c68df8e1337a059e"
+    },
+    {
+      "bytes": 4558,
+      "git_blob_sha1": "af97065f6baf273f6d636b2f3eca2fdf12e7dd5e",
+      "path": "doc/exercises/adex-model.rst",
+      "sha256": "0875d61e37e958054dd78c5d1b860f0e73e18220e082773d8d71468825a73bf1"
+    },
+    {
+      "bytes": 17681,
+      "git_blob_sha1": "76ea50bf88e0b4ab658204a74fd916eb60a05f1e",
+      "path": "doc/exercises/brunel-network.rst",
+      "sha256": "304c140b8edbe2bd4d2e16ddccbe8aa40e6895d1b1ce4706d2a69b40c4b32bfb"
+    },
+    {
+      "bytes": 5682,
+      "git_blob_sha1": "dc4a1c0daa3a69f0a7049b074ac611eedc915388",
+      "path": "doc/exercises/exponential-integrate-and-fire.rst",
+      "sha256": "7d66ded0ee4ad5d590dd6c077cceddf7de851c9c737e6e4055d9fb8662bb479b"
+    },
+    {
+      "bytes": 6195,
+      "git_blob_sha1": "eb68dd66feca6ec95d56f30fd18ce88a33a95b1e",
+      "path": "doc/exercises/hodgkin-huxley.rst",
+      "sha256": "0ead9eef588b26762c44e33314ae514608acc707efd66182e5b4aa9db217c194"
+    },
+    {
+      "bytes": 12045,
+      "git_blob_sha1": "4fd4b0a45bc57974f3bf620901ab0e370fd05e4a",
+      "path": "doc/exercises/hopfield-network.rst",
+      "sha256": "bd7ae641e69c3a90f3e517ca19d7084f9f2835911649b9fadff7f7750eb4e469"
+    },
+    {
+      "bytes": 358,
+      "git_blob_sha1": "e6b30ad0d7b7b800e31a194c0557047cdac80a19",
+      "path": "doc/exercises/index.rst",
+      "sha256": "d4df4dd065a24ceb11f07da16f4c5a3d30b723d4d7b7904d0ec601f47da845fb"
+    },
+    {
+      "bytes": 8634,
+      "git_blob_sha1": "544c2f3731e57ed2cf27d3c355c06ff55b6be49a",
+      "path": "doc/exercises/leaky-integrate-and-fire.rst",
+      "sha256": "9f90ac0d2ae7dcd2f3475db14eecf1fbaeb356b48cea1890e551f25419158dac"
+    },
+    {
+      "bytes": 6866,
+      "git_blob_sha1": "3f3ca7dbbfc25a6b935bd7f90e2f0d20c6fe3d6c",
+      "path": "doc/exercises/neuron-type.rst",
+      "sha256": "a5396bf50624f26eb659f207db79b9a0b1fca0fb3e524ed1c4fc6a83ea806eb9"
+    },
+    {
+      "bytes": 4335,
+      "git_blob_sha1": "da27cdf543aec8eda078daddfb836a2562c64b75",
+      "path": "doc/exercises/ojas-rule.rst",
+      "sha256": "95fcb4002f1d3052c32421ba35c956f0d6c5bb62a6eaf03d685f263a970efd0a"
+    },
+    {
+      "bytes": 10211,
+      "git_blob_sha1": "0c0564fe8dd6ed279fa2bcd212045af38ff3007e",
+      "path": "doc/exercises/passive-cable.rst",
+      "sha256": "33e2096f322fcd6c9f92401d6f1140412222cb27469e55804a0b0a9f44e24820"
+    },
+    {
+      "bytes": 14948,
+      "git_blob_sha1": "0ef3cf9848d87b146900ddd5f9aca4233fc1012e",
+      "path": "doc/exercises/perceptual-decision-making.rst",
+      "sha256": "67733db34b19e1928b60bce26de15a97e2b73fc6855ee6a9cc834e7ee2a192a2"
+    },
+    {
+      "bytes": 7112,
+      "git_blob_sha1": "60c2b7d7e968075e85646f22169910bf9924d500",
+      "path": "doc/exercises/phase-plane-analysis.rst",
+      "sha256": "6a93b72b53cb6f8fe0476a7aacc2cfec526bee6c714b486b69a5d21bf7433497"
+    },
+    {
+      "bytes": 18241,
+      "git_blob_sha1": "2a29c12bde8f3f643aae5833918b38508bdb1af7",
+      "path": "doc/exercises/spatial-working-memory.rst",
+      "sha256": "6ce7540de0c7c77c3e16102bd9ad43c7462e9e3d026b880c90a8be007f9cb8d5"
+    },
+    {
+      "bytes": 971,
+      "git_blob_sha1": "0378b1f26b44c21517ed498998c15bc278f561e6",
+      "path": "doc/index.rst",
+      "sha256": "f1979bd676818532fde59a4e95fa0d123a605deb081d8bd4f8de8bd0f760b06f"
+    },
+    {
+      "bytes": 1334,
+      "git_blob_sha1": "e3a4c6b35701317bf449f790b06a2a098abe505c",
+      "path": "doc/intro.rst",
+      "sha256": "351dbdcfb39ff33a6e93cda0591f7a7513c0de8204e2ad7178e55a4f256ef18e"
+    },
+    {
+      "bytes": 634,
+      "git_blob_sha1": "619749ed255366f5c4bb22b192daac3d4d729a1e",
+      "path": "doc/licence.rst",
+      "sha256": "d74952fdcce22c43327f6af92b807ec4195626eb868700c3ad23b3ee4b0a3a03"
+    },
+    {
+      "bytes": 70,
+      "git_blob_sha1": "3d4205cdfe5816961bd2446fe09ee47140a2cc0a",
+      "path": "doc/modules/modules.rst",
+      "sha256": "758e4c596dc3ed473829faa7554856e87743fa00d52b613fe89286423a7cd740"
+    },
+    {
+      "bytes": 415,
+      "git_blob_sha1": "8be1a29bc72c61c4cbde625401bbea467ca04b1a",
+      "path": "doc/modules/neurodynex3.adex_model.rst",
+      "sha256": "2731fde60df66889235040526df363aa8eb1c98a791c38153435bae2e8903f23"
+    },
+    {
+      "bytes": 476,
+      "git_blob_sha1": "0c895d757fea759fc1678052dd9b0c0e44bcf1eb",
+      "path": "doc/modules/neurodynex3.brunel_model.rst",
+      "sha256": "41f0ea676b122698cf62bb47adde2ca77f10fc82fb95f83880dfb25f969ec0dc"
+    },
+    {
+      "bytes": 468,
+      "git_blob_sha1": "407847ebfb9e0913dcd7c04aec53f65f0daf6d35",
+      "path": "doc/modules/neurodynex3.cable_equation.rst",
+      "sha256": "184c09355126715c24da16cd8b543d53b6e2236f5488e2a36e2cfb4f8408b0bd"
+    },
+    {
+      "bytes": 516,
+      "git_blob_sha1": "bbd4bb1b842bc72b16cf5083c0e745e07a2eeefb",
+      "path": "doc/modules/neurodynex3.competing_populations.rst",
+      "sha256": "844698591a6c67d55619fb583debe028842c908155623d3c6444f6ab2c450850"
+    },
+    {
+      "bytes": 523,
+      "git_blob_sha1": "dabcd68fdfa7daec89418f435640b661dfa08666",
+      "path": "doc/modules/neurodynex3.exponential_integrate_fire.rst",
+      "sha256": "b63f2d73a0da55810510a93c3286e2bf0e1bb0c59f82164845e35078a7e8a48d"
+    },
+    {
+      "bytes": 433,
+      "git_blob_sha1": "a10b8398046cd78580b560cd23cc02520f773987",
+      "path": "doc/modules/neurodynex3.hodgkin_huxley.rst",
+      "sha256": "c94af6b23b8f27d7991c0c75c2821389cb72227af6018d25fd615517a41ee92e"
+    },
+    {
+      "bytes": 1112,
+      "git_blob_sha1": "d2a27b909d55e98608f9b3e2e5905c32edb094f8",
+      "path": "doc/modules/neurodynex3.hopfield_network.rst",
+      "sha256": "450b9bae0342a5007f10f1a0b8b0fb62da483c0f9e95349bf9f80a9b1b8f7c62"
+    },
+    {
+      "bytes": 504,
+      "git_blob_sha1": "176ccfb163722d71f48b8319dd0e4043c6bc4e19",
+      "path": "doc/modules/neurodynex3.leaky_integrate_and_fire.rst",
+      "sha256": "9703685b839eb31ac52c3c66924b2fe2db421ca2d28ffa7fa8b07eb12c1fdbe9"
+    },
+    {
+      "bytes": 430,
+      "git_blob_sha1": "c56dac58f991e393a4cfd24784b2ace5b959fddd",
+      "path": "doc/modules/neurodynex3.neuron_type.rst",
+      "sha256": "1ae4af40c9024e2185ae47a9f9f63acbb09959fa5b37357acdfe6c79f0a34b84"
+    },
+    {
+      "bytes": 406,
+      "git_blob_sha1": "757dbee752db32d96d5288fc24f0c60234f95b1e",
+      "path": "doc/modules/neurodynex3.ojas_rule.rst",
+      "sha256": "f41ddf77f427341a6b293ccdce6b2d5505b16ce675ef6b1c17a7faf44be5b5c5"
+    },
+    {
+      "bytes": 514,
+      "git_blob_sha1": "51de03f870e82ea97ffa255768145243add51d95",
+      "path": "doc/modules/neurodynex3.phase_plane_analysis.rst",
+      "sha256": "e96230ec676bc8763abe7e2dffe35c97333d12d05ef609c12e07747e8db682b5"
+    },
+    {
+      "bytes": 973,
+      "git_blob_sha1": "76be6b9f13ee15aa85f6b0bd58d7b64c590801ba",
+      "path": "doc/modules/neurodynex3.rst",
+      "sha256": "88859942ec197bb1ece0990f8a0c83ac2d6c0fb5f8da9490052d02eedd2aff5e"
+    },
+    {
+      "bytes": 2784,
+      "git_blob_sha1": "51f6eb41cf686679b5daecd8c405dbe20c97b5c0",
+      "path": "doc/modules/neurodynex3.test.rst",
+      "sha256": "0993f34fd9037fb937994215084b299f390748ba73f2b0a4f25a27fe04f2c15b"
+    },
+    {
+      "bytes": 785,
+      "git_blob_sha1": "fefbeac15408a267012c5f6cfeb10f878d3862d4",
+      "path": "doc/modules/neurodynex3.tools.rst",
+      "sha256": "51811cb884cb93d7f56d971643e9ef6a5288f474cfb4e7ea49f70cf4e5be661f"
+    },
+    {
+      "bytes": 505,
+      "git_blob_sha1": "eda639279031743bb8f18b68f518ebcb5c93df0a",
+      "path": "doc/modules/neurodynex3.working_memory_network.rst",
+      "sha256": "e9388ce9b779e1f745248711179aeccf8f76f3c3ee7ae56af3031bf83c06bd0e"
+    },
+    {
+      "bytes": 49,
+      "git_blob_sha1": "15cd03918fba4e680eec7975c694e490c07e513e",
+      "path": "doc/requirements.txt",
+      "sha256": "edd4ebcf87013167f58de5f00ecec74009480d367e8cf5348b8625e5bf29a29f"
+    },
+    {
+      "bytes": 6180,
+      "git_blob_sha1": "e1dbe9066e13f06f13a7985a3c606cd89ee7db74",
+      "path": "doc/setup.rst",
+      "sha256": "731b29fc5d3caa21f879008797910705468b4151b7c48e2390004353fe511b83"
+    },
+    {
+      "bytes": 12489,
+      "git_blob_sha1": "f1f1f7e571f91af9550e81bcf5a9be1cf50a24a0",
+      "path": "neurodynex3.egg-info/SOURCES.txt",
+      "sha256": "886739c7730e8fd20083acda981041fe6c03bf56383040cca8377f97c7924ee1"
+    },
+    {
+      "bytes": 1,
+      "git_blob_sha1": "8b137891791fe96927ad78e64b0aad7bded08bdc",
+      "path": "neurodynex3.egg-info/dependency_links.txt",
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b"
+    },
+    {
+      "bytes": 72,
+      "git_blob_sha1": "d522cd172ab687d7e8d6671fd4d82d79cded518b",
+      "path": "neurodynex3.egg-info/requires.txt",
+      "sha256": "38cc28cf64f6515b2631317e05a696dc26fa62d06d705f14f9ace168c1a825b1"
+    },
+    {
+      "bytes": 12,
+      "git_blob_sha1": "44096f9815983bb7f069cd53cd8eb93a36df8837",
+      "path": "neurodynex3.egg-info/top_level.txt",
+      "sha256": "4cbefabcfc1565d2809fdf862571b321b8b26c5a3b9ebba8c68f645827e0c856"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 5502,
+      "git_blob_sha1": "fa5fe9e0364239cbf419e821054ab1b390870cff",
+      "path": "neurodynex3/adex_model/AdEx.py",
+      "sha256": "5736148321a66189e9f95214ffe588c40b74d01ace9f21cb466f35c6f4aef24d"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/adex_model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 10560,
+      "git_blob_sha1": "7d09392cc8d38e15943998bb416c51b406cdc855",
+      "path": "neurodynex3/brunel_model/LIF_spiking_network.py",
+      "sha256": "1fdd8ac7348f7d64ac73a67606aea1d148c9a9ae58dc3b201880f76cfab9920f"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/brunel_model/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/cable_equation/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 6153,
+      "git_blob_sha1": "334894a7505fce1b7fa9a49f8a843e44b8ff0afc",
+      "path": "neurodynex3/cable_equation/passive_cable.py",
+      "sha256": "625e9a37b74e205b643f88a05c915988f95a9b1ca4aab30b657291fdf42d7a5f"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/competing_populations/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 25498,
+      "git_blob_sha1": "c299172335633216876d2a473aa9f204eff7315c",
+      "path": "neurodynex3/competing_populations/decision_making.py",
+      "sha256": "348f21d42ca49dd7650d6a6de555c239fb80183d5ebb4a322a8d5df62943ebc3"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/exponential_integrate_fire/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4520,
+      "git_blob_sha1": "d0c6098589d61de545f79ba02bbd30a679f746e8",
+      "path": "neurodynex3/exponential_integrate_fire/exp_IF.py",
+      "sha256": "fbfc1c89f29f81d59d1a20319ef1797bb4cfe07be0ff78b03b5aadf99c20a961"
+    },
+    {
+      "bytes": 4306,
+      "git_blob_sha1": "87f7cbe015eb039d3553cd083cb4c70a8733de97",
+      "path": "neurodynex3/hodgkin_huxley/HH.py",
+      "sha256": "e77ed586694a6aa6e890124a1a0447ce06d77ecc5d696db477541e37559ea946"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/hodgkin_huxley/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/hopfield_network/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7372,
+      "git_blob_sha1": "e3b055e28f708dba13b308cbe20f906c42866b9e",
+      "path": "neurodynex3/hopfield_network/demo.py",
+      "sha256": "81605b6486ee373b9f5b08f555eaad1a0f32e3657e7d3fb7bb6160158af69680"
+    },
+    {
+      "bytes": 6339,
+      "git_blob_sha1": "ec9493635377504b882be9939bb6fa582ebb43a8",
+      "path": "neurodynex3/hopfield_network/network.py",
+      "sha256": "c0e437a634225a546f136cfda7e1471b0731df341fe8112a0b6a6dd5202987f2"
+    },
+    {
+      "bytes": 10882,
+      "git_blob_sha1": "56ff3ee861491c35f7f5d8bb5dabf78b2252cdee",
+      "path": "neurodynex3/hopfield_network/pattern_tools.py",
+      "sha256": "767d08fc4631970402a318901032fb19fe53d71da6f9bd10d3f7e514d219dfd9"
+    },
+    {
+      "bytes": 5253,
+      "git_blob_sha1": "70341e83c545921ad3d3e003d800f3f747d4faa5",
+      "path": "neurodynex3/hopfield_network/plot_tools.py",
+      "sha256": "e59fbc8e70b70eff42adaf1a2e75324f9d95a0cd84b426da9a826be17e3ca021"
+    },
+    {
+      "bytes": 8119,
+      "git_blob_sha1": "0a2f585229824fa865dd8e63bfe3abdd99c8ae34",
+      "path": "neurodynex3/leaky_integrate_and_fire/LIF.py",
+      "sha256": "f29790cf7895d5e37d969576f82e43bf3976ca107270a2da171e44ba78ff972a"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/leaky_integrate_and_fire/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/neuron_type/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 7219,
+      "git_blob_sha1": "72a05f897ee54e4323f7a18f9b99dccc561c7932",
+      "path": "neurodynex3/neuron_type/neurons.py",
+      "sha256": "ca4464448c806e376a22bbd4195f1653f711a5ce3e96a605a808ebe66e6be0c8"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/ojas_rule/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 4820,
+      "git_blob_sha1": "1337b041b3d934e031dbaf8dbb1fb25eedf3e1a2",
+      "path": "neurodynex3/ojas_rule/oja.py",
+      "sha256": "10428cbb544a5aa9d283e5321c09ad67cf8e0640b6deae46b85a0b11ec5f3996"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/phase_plane_analysis/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3869,
+      "git_blob_sha1": "2406633bd00a6f62075a44a8fe4f745f42470f73",
+      "path": "neurodynex3/phase_plane_analysis/fitzhugh_nagumo.py",
+      "sha256": "6f218baa5863b826663ee28683617f2a3703ba3d33a70e8bdd314bc0b8d92f88"
+    },
+    {
+      "bytes": 431,
+      "git_blob_sha1": "a330ca520f4cf35f9473fa0bc2c1659186b58a3a",
+      "path": "neurodynex3/test/__init__.py",
+      "sha256": "e23d57a9745fb9a2eaf3ce548102eb89602b973cdc37ec284e057aa44db4b8c5"
+    },
+    {
+      "bytes": 651,
+      "git_blob_sha1": "e3432c7c6e712e348445439cd0b1a0be3c9faf74",
+      "path": "neurodynex3/test/test_AdEx.py",
+      "sha256": "2a6624ff4bfb10b91fc88a8d0443fc74f8b581d19e8936cd6924a5db87b21930"
+    },
+    {
+      "bytes": 523,
+      "git_blob_sha1": "6edac086961904ce8389472bf8743a918c7f3dc1",
+      "path": "neurodynex3/test/test_HH.py",
+      "sha256": "a2b88798d53c24dd9bc3eba605ec6b4ebec2ab0862c0e1128bc4018b7aaed77c"
+    },
+    {
+      "bytes": 618,
+      "git_blob_sha1": "90e8cbdde7ee242596dc41e0e0721a6c46c5e3a5",
+      "path": "neurodynex3/test/test_LIF.py",
+      "sha256": "d174019ec361a312844d7b0c3e7a4af0e7fadc024c45b18112a1fb05379627b4"
+    },
+    {
+      "bytes": 1836,
+      "git_blob_sha1": "10302d01ccf19b4ceb5e8bde70b42932ba4292e0",
+      "path": "neurodynex3/test/test_LIF_spiking_network.py",
+      "sha256": "b84e85f69b5af25545e8a8ec6e0190c5244dde498c8386533167971630a4cb57"
+    },
+    {
+      "bytes": 901,
+      "git_blob_sha1": "5c014bf7a33afbb2063c95803dc23cefd73185b9",
+      "path": "neurodynex3/test/test_cable_equation.py",
+      "sha256": "88354c572151ac4e2e36aad7ea3c66b62b2f1dd841eb75f0b141df474a19b065"
+    },
+    {
+      "bytes": 886,
+      "git_blob_sha1": "57f15ecdabe9879506463bf9ed19d52699b73a00",
+      "path": "neurodynex3/test/test_decision_making.py",
+      "sha256": "d508547861a57f21aa8e5f8b3631148c562f682638279263f7bb93d8e8287684"
+    },
+    {
+      "bytes": 651,
+      "git_blob_sha1": "8248c564d027aead2521140392670c74c89b4d7d",
+      "path": "neurodynex3/test/test_exponential_IF.py",
+      "sha256": "235995e2e5ef37d1df4030de8d2e1a39c7183b21027099e0f7327fa7f1cd6140"
+    },
+    {
+      "bytes": 1162,
+      "git_blob_sha1": "ba687ff65bf9799940e327c59ce27a169b6e7816",
+      "path": "neurodynex3/test/test_hopfield.py",
+      "sha256": "ce025d6bdc5c935ec70d681e39c352ad8a278218edee5c8f570e3d225027dec9"
+    },
+    {
+      "bytes": 422,
+      "git_blob_sha1": "e8e5c45e682b6a55fc92f7ab438636601e084dde",
+      "path": "neurodynex3/test/test_nagumo.py",
+      "sha256": "68f28ff7a7c46a642e2467cc41c033207d140c67a40a3d530ccee8b1e0d7f18c"
+    },
+    {
+      "bytes": 1278,
+      "git_blob_sha1": "f4171eca5c891d08baae2141b865ca5cb48ab560",
+      "path": "neurodynex3/test/test_neuron_type.py",
+      "sha256": "834f37d83b63535a9ab463b7fe2dd99c1d10ea365d56762b792cb813a5fff315"
+    },
+    {
+      "bytes": 328,
+      "git_blob_sha1": "1b3b401fc45cfc4f4baf15d1ba6d42e87811a1c8",
+      "path": "neurodynex3/test/test_oja.py",
+      "sha256": "9a600c1abd6a09d06b73e698c85e526cdd9c5b66cdec18c4ed4decc41758079f"
+    },
+    {
+      "bytes": 1797,
+      "git_blob_sha1": "b2c6fdddfed744a649edb872ca12c14101443996",
+      "path": "neurodynex3/test/test_spike_tools.py",
+      "sha256": "1bfec3167a83455a1117c3abe5b53fa49fc6b5d444b3ab62b7347700e67c0857"
+    },
+    {
+      "bytes": 307,
+      "git_blob_sha1": "22adea3fdd8a9346ba0aaaef641b599b0b535920",
+      "path": "neurodynex3/test/test_working_memory.py",
+      "sha256": "78e7a7a7546640198fe89afc1a322fb2f08b89ac81e0e49655c2b8c2aa31d455"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/tools/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 9305,
+      "git_blob_sha1": "5bfb040456e12678f94c420337bb82a55d44cc60",
+      "path": "neurodynex3/tools/input_factory.py",
+      "sha256": "41c1b7aa8a389c39a64e1a84160b7145cf4d17eac925c90876ffdd0ae293f409"
+    },
+    {
+      "bytes": 15681,
+      "git_blob_sha1": "e6160fbab4be4ccab2e5e6aff80e6b7170f37b20",
+      "path": "neurodynex3/tools/plot_tools.py",
+      "sha256": "4e9d5ae1430fcf097ee9a33dd6b05e33a8538962bdb3cddb7117081b57a45af5"
+    },
+    {
+      "bytes": 16849,
+      "git_blob_sha1": "7447f82ed491602193d0aceaab6b02ed41082ee8",
+      "path": "neurodynex3/tools/spike_tools.py",
+      "sha256": "9b9c8da4a73c0af0a7209fadb4d3fbfed28e768721aae3e8cbde66d182c77b2f"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "neurodynex3/working_memory_network/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 15324,
+      "git_blob_sha1": "52ccb3bea99e780110334bbbf760642dd9e9a65b",
+      "path": "neurodynex3/working_memory_network/wm_model.py",
+      "sha256": "416a914b9a358ae4b685d1a7119d14d777f31c70253f88e01b85d7ede993d720"
+    },
+    {
+      "bytes": 67,
+      "git_blob_sha1": "9aacc1beff6d218570029d0f1f9ae52875efffa5",
+      "path": "requirements-deploy.txt",
+      "sha256": "6f9bfa2b576b0546230277775970a765f01e65362b32083c42118d6dac204796"
+    },
+    {
+      "bytes": 139,
+      "git_blob_sha1": "8c328c4b195abe284699683773ef237d68299480",
+      "path": "requirements.txt",
+      "sha256": "9ef4a4d08d27b9a08690862b27db4bc423397c0a5e50b35fa690e63e146b3be7"
+    },
+    {
+      "bytes": 1570,
+      "git_blob_sha1": "ae214cfda6ee60c6f5dd7fd32b20a885f119ba7f",
+      "path": "setup.py",
+      "sha256": "eba422201453c883440ef1cd491bb0e2b10afe4904e5cf1a7b6f4f1d10f8fe7a"
+    }
+  ],
+  "license_files": [
+    "LICENSE.txt"
+  ],
+  "native_reproduction_completed": false,
+  "repository": "https://github.com/EPFL-LCN/neuronaldynamics-exercises",
+  "requested_ref": "master",
+  "revision": "d7c4f07fa83a052829e40790fd1594955fe1c067",
+  "scientific_reference_qualified": false,
+  "source_code_acquired": true,
+  "source_id": "pfc_working_memory"
+}

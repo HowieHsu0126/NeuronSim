@@ -1,0 +1,57 @@
+schema: pfc_history_timing_prediction_v1
+accepted_coarse_summary:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_history_summary/complete/run_603287
+  delivery_sha256: eb14c3ad145d4633e02fc6395f587b97eea28fd788ddbcb4a32081f3cc1cbe5f
+required_source_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+sample_size: 64
+dt_ms: 0.05
+field_index: 5
+phase: cue
+window_ms: 5.0
+post_refractory_time_bin_edges_ms:
+- 0.0
+- 1.0
+- 2.0
+- 3.0
+predictors:
+  baseline: structural zero or training eligible mean
+  timing: structural zero or training remaining-time-bin mean
+validation: leave_one_original_block_out
+loss: squared_prediction_error_minus_recorded_inner_variance
+decision: prepare_timing_stratum_census_only_if_all_training_bins_covered_and_equal_block_mean_gain_positive_and_gain_after_removing_largest_positive_block_remains_positive
+fine_clock_results_used: false
+population_confidence_interval_computed: false
+confirmation_execution_released: false
+production_episodes: 0

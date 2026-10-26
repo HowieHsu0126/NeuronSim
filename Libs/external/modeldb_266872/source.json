@@ -1,0 +1,17 @@
+{
+  "repository": "https://github.com/ModelDBRepository/266872",
+  "modeldb_id": 266872,
+  "revision": "31d7c71aec4c5e67a5c683bd9fa6691a9e19317b",
+  "license": "MIT",
+  "compatibility_changes": [
+    "Three NumPy stack generator arguments materialized as lists; numerical expressions unchanged."
+  ],
+  "reference_limitations": [
+    "Default source scales neuron counts and synapses; full scale requires separate resource and scientific qualification.",
+    "Artificial-cell integration uses Euler updates triggered by a background clock.",
+    "Current-pulse controls extend source Iext; they are not arbitrary-neuron optogenetic controls.",
+    "Refractory synaptic current is frozen and refractory inputs are ignored; reducing the clock step cannot restore standard exponential-PSC LIF semantics."
+  ],
+  "continuous_exponential_psc_reference_eligibility": "REJECTED_REFRACTORY_SEMANTICS",
+  "qualification_evidence": "Output/neural_population_dynamics/mechanistic_reference/refractory_semantics/replay.json"
+}

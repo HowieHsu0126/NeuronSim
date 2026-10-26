@@ -1,0 +1,18 @@
+schema: native_prior_residual_prediction_v1
+training_seeds: [41, 42, 43]
+fitting_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+excluded_selection_blocks: [14, 15, 16, 17]
+templates_per_block: 4
+episode_bins: 1200
+bin_ms: 5
+source_units: 100000
+inner_validation: next_outer_block_cyclic
+feature_sets: [current_state_and_next_control, plus_previous_residual]
+template_time_centering: false
+ridge_alphas: [0.0001, 0.01, 1.0, 100.0]
+bootstrap_stream_seeds: [41, 42, 43]
+bootstrap_draws_per_stream: 10000
+confidence_level: 0.95
+cpu_threads: 2
+decision_scope: fitting_only_diagnostic_for_one_backend_correction
+memory_decision_requires_improvement_over_current_and_zero: true

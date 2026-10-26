@@ -1,0 +1,31 @@
+schema: neural_population_autoregressive_field_flow_training_v1
+training_seeds: [41, 42, 43]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+validation_blocks: [14, 15, 16, 17]
+bin_ms: 5.0
+dt_ms: 0.1
+duration_ms: 6000.0
+expected_units: 100000
+history_bins: 200
+horizon_bins: 1000
+expected_poisson_rng_family: per_edge_philox4_32_10
+context_bins: 22
+model:
+  hidden: 256
+  layers: 4
+  latent_hidden: 16
+  dense_blocks: 5
+  dropout: 0.05
+maximum_steps: 20000
+batch_size: 64
+learning_rate: 0.001
+validation_period: 100
+patience_checks: 10
+validation_draws: 1
+euler_steps: 100
+forecast_samples: 16
+forecast_origins_bins: [200, 600, 1000]
+forecast_bins: 100
+cpu_threads: 2
+device: cpu
+formal_training_completed: false

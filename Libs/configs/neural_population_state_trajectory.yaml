@@ -1,0 +1,28 @@
+# Complete-episode development fitting; source and forecast gates remain closed.
+schema: neural_population_state_trajectory_training_v1
+model_family: population
+training_seeds: [41, 42, 43]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+validation_blocks: [14, 15, 16, 17]
+latent_channels: 4
+encoder_size: 16
+representation: recurrent
+unit_chunk_size: 4096
+bin_ms: 5.0
+learning_rate: 0.001
+maximum_epochs: 20
+early_stopping_patience: 4
+initialization_pseudocount: 0.5
+gradient_norm_limit: 100.0
+training_sequence: complete_six_second_episode
+observation_objective: native_event_time_mc_negative_elbo
+minimum_interval_policy: native_iaf_psc_exp_round_t_ref_over_dt_plus_one
+expected_poisson_rng_family: per_edge_philox4_32_10
+training_variational_seed_base: 61001
+validation_seed_base: 64001
+validation_draws: 4
+validation_randomness: fixed_per_training_seed_case_and_draw
+variational_rng: explicit_separate_checkpointed_generator
+device: cuda
+cpu_threads: 2
+formal_training_completed: false

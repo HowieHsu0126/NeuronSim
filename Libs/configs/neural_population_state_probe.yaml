@@ -1,0 +1,29 @@
+schema: neural_population_state_probe_v1
+cohort_role: development
+purpose: distinguish observable information loss from nonlinear predictor capacity
+formal_training_seeds: [41, 42, 43]
+features:
+  rate_windows_ms: [10.0, 50.0, 200.0]
+  temporal_window_ms: 200.0
+  temporal_bin_ms: 5.0
+  spatial_cells_per_axis: 4
+  spatial_windows_ms: [10.0, 50.0, 200.0]
+  spike_age_windows_ms: [2.0, 10.0, 50.0, 200.0]
+  voltage_gap_quantiles: [0.1, 0.5, 0.9]
+  voltage_gap_thresholds_mv: [1.0, 2.0]
+  privileged_summary: voltage_gap_mean_std_quantiles_threshold_fractions_psc_mean_std_refractory_fraction_mean_ms
+  observed_cutoff: strictly_before_focal_generator_emission
+  privileged_cutoff: post_arrival_at_one_native_tick_before_focal_generator_emission
+predictors:
+  fixed_effects: unpenalized_history_by_focal_time_cells
+  normalization: training_cell_centered_residual_standard_deviation
+  linear_regularization: [0.01, 1.0, 100.0]
+  rbf_regularization: [0.0001, 0.01, 1.0]
+  rbf_bandwidth: squared_distance_divided_by_twice_active_feature_count
+  regularization_multiplier: number_of_training_rows
+validation:
+  method: nested_leave_whole_initial_and_background_block_out
+  outcome: focal_present_minus_omitted_cortical_spikes_per_neuron_0_to_20ms
+  selection_metric: equally_weighted_block_and_cell_mean_squared_error
+  uncertainty: descriptive_cv_only_no_independent_improvement_interval_or_p_value
+  independent_confirmation_required: true

@@ -1,0 +1,18 @@
+# Full remaining-task stimulus selection on the three development source blocks.
+# All candidate scores are retained. Native efficacy is a separate evaluation.
+schema: pfc_population_intervention_experiment_v1
+evaluation_scope: development_validation_stimulus_selection
+training_seeds: [41, 42, 43]
+factual_episode_ids:
+  - pfc_working_memory_circuit_074_block_000_condition_00
+  - pfc_working_memory_circuit_074_block_001_condition_00
+  - pfc_working_memory_circuit_074_block_002_condition_00
+candidate_condition_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+origin_tick: 2000
+horizon_bins: 980
+joint_draws: 16
+sampling_stream_seeds: [41, 42, 43]
+reference_sha256: 0a0600d4606fdee1561dc541941dae003fa8e9b21ec8afc03da41e90113c05e0
+control_geometry: actuation_only
+formal_evaluation: false
+scientific_claim_qualified: false

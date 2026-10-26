@@ -1,0 +1,26 @@
+# Development acquisition; source-fidelity and formal scientific gates remain open.
+schema: mesocircuit_pulse_history_development_v1
+purpose: distinguish preceding-pulse effects from elapsed time and spontaneous state
+formal_training_seeds: [41, 42, 43]
+# Replication blocks vary source-law initial voltage and continuous drive RNG.
+initial_state_seeds: [78001, 78002, 78003, 78004, 78005, 78006]
+background_seeds: [79001, 79002, 79003, 79004, 79005, 79006]
+focal_arrivals_ms: [1000.0, 1500.0]
+conditioning_offsets_ms: [-120.0, -80.0, -40.0]
+duration_ms: 1600.0
+response_window_ms: 20.0
+response_curve_ms: 80.0
+history_window_ms: 200.0
+feature_windows_ms: [10.0, 50.0, 200.0]
+cells_per_axis: 4
+bin_ms: 1.0
+run_order_seed: 77001
+inference: development_effect_sizes_and_leave_block_out_diagnostics_only
+independent_unit: joint_initial_state_and_background_noise_block_conditional_on_one_graph
+primary_contrast: mean_over_focal_times_of_history_by_focal_pulse_interaction
+expected_episodes: 48
+execution:
+  edge_batch_size: 100000
+  readback_sources_per_population: 3
+  state_units_per_population: 2
+  schedule: effective

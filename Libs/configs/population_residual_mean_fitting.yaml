@@ -1,0 +1,28 @@
+schema: native_residual_observation_fit_v1
+training_seeds: [41, 42, 43]
+fitting_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+selection_blocks: [12, 13]
+refit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+excluded_blocks: [14, 15, 16, 17]
+templates_per_block: 4
+episode_bins: 1200
+bin_ms: 5
+source_units: 100000
+origins: [200, 600, 1000]
+horizons: [4, 16, 100]
+prediction_particles: 8
+unit_chunk_size: 4096
+initialization_ridge_alpha: 1.0
+optimizer: Adam
+learning_rate: 0.0001
+weight_decay: 0.0
+regularization_weight: 0.0001
+max_epochs: 80
+patience: 12
+selection: minimum_complete_unpenalized_validation_loss_earliest_tie
+stream_protocol: native_residual_observation_named_streams_v1
+
+objective: native_event_nll_plus_unbiased_field_mean_mse
+field_mean_weight: 1.0
+mean_unit_chunk_size: 32768
+mean_normalization_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]

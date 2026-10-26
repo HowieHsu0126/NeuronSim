@@ -1,0 +1,30 @@
+{
+  "deferred_blobs": [],
+  "discovered_asset_links": [
+    {
+      "source_file": "index.html",
+      "url": "https://github.com/AllenInstitute/sonata"
+    },
+    {
+      "source_file": "index.html",
+      "url": "https://github.com/AllenInstitute/sonata"
+    }
+  ],
+  "elapsed_seconds": 1.8048474788665771,
+  "files": [
+    {
+      "bytes": 1270,
+      "git_blob_sha1": "2ba81ec08b82c80e8402b45586c42b1de586e1fd",
+      "path": "index.html",
+      "sha256": "b1924e4014d7621d70850258cf67df8db81700fbd9d5d300fa464c836506270c"
+    }
+  ],
+  "license_files": [],
+  "native_reproduction_completed": false,
+  "repository": "https://github.com/ModelDBRepository/265592",
+  "requested_ref": "main",
+  "revision": "c0a13263e27e9a064a7183c3c48ac0d0ec60962b",
+  "scientific_reference_qualified": false,
+  "source_code_acquired": true,
+  "source_id": "v1_model_index"
+}

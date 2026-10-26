@@ -1,0 +1,28 @@
+# Development bridge only. Source and generative qualification remain closed.
+schema: pfc_population_development_training_v1
+model_family: population
+training_seeds: [41, 42, 43]
+input_family: pfc_source_reproduction
+training_sequence: complete_source_episode
+observation_objective: native_event_time_mc_negative_elbo
+partition_scope: whole_circuit_development_only
+fit_circuit_ids: [pfc_9b8d7d7b5262edd9]
+validation_circuit_ids: [pfc_be8cefad129550b6]
+latent_channels: 4
+encoder_size: 16
+representation: recurrent
+unit_chunk_size: 4096
+bin_ticks: 100
+learning_rate: 0.001
+maximum_epochs: 20
+early_stopping_patience: 4
+initialization_pseudocount: 0.5
+gradient_norm_limit: 100.0
+training_variational_seed_base: 61001
+validation_seed_base: 64001
+validation_draws: 1
+validation_randomness: fixed_per_training_seed_case_and_draw
+variational_rng: explicit_separate_checkpointed_generator
+device: cpu
+cpu_threads: 1
+formal_training_completed: false

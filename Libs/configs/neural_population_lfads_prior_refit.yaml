@@ -1,0 +1,16 @@
+schema: neural_population_lfads_frozen_network_prior_refit_v1
+training_seeds: [41, 42, 43]
+network_variants: [budget_20, budget_80]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+excluded_selection_blocks: [14, 15, 16, 17]
+complete_episodes: 56
+complete_bins: 1200
+posterior_draws_per_episode: 16
+native_posterior_draw_batch_size: 1
+changed_parameters: [LFADS/z/u_prior_ar1/logatau:0, LFADS/z/u_prior_ar1/logevars:0]
+source_cohort: /tmp/neuronsim/neuronsim-state-probe-576270/trajectory_cohort/philox
+original_training_root: /tmp/neuronsim/neuronsim-lfads-trajectory-training-577060
+continued_training_root: /dev/shm/neuronsim-lfads-budget-576270
+inference_migration_root: /dev/shm/neuronsim-lfads-budget-inference-576270
+evidence_root: Output/neural_population_dynamics/baselines/lfads/stationary_prior_refit
+interpretation: development prior mismatch diagnosis; no independent scientific claim

@@ -1,0 +1,57 @@
+{
+  "repository": "https://github.com/KrishnaswamyLab/BrainDyn",
+  "commit": "048ba11f75dab38099e7a0f4a588d5a8fdb0a04c",
+  "primary_paper": "https://arxiv.org/abs/2605.19324",
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 6460,
+      "sha256": "b0db238488c74fac50bfa516a55e26712a9bc615d968008301ed08c49051a5d9"
+    },
+    {
+      "path": "pyproject.toml",
+      "bytes": 379,
+      "sha256": "823093af7487da65dabdcb5f315555e4d69d9e2da8e2d0f308a801b3c1dc38f9"
+    },
+    {
+      "path": "model/braindyn.py",
+      "bytes": 4602,
+      "sha256": "971fee0a1eb80b93a5388589a02dbb89a971ea19e8520d08bd5225a327bc093b"
+    },
+    {
+      "path": "model/dynamics.py",
+      "bytes": 4313,
+      "sha256": "05563a5b9af6afe110055f702567a05647e127fa6b2f128fc896b8d4e22aa2ca"
+    },
+    {
+      "path": "model/sheaf.py",
+      "bytes": 4635,
+      "sha256": "d35df17c25d196b6bce8d994dc39ce04aff5239817ea47cca12ae3b13f63f79d"
+    },
+    {
+      "path": "model/temporal_encoder.py",
+      "bytes": 1273,
+      "sha256": "ae19e036eeae06bda6269526cfbea5381ba8b37d1fe6cb96df5dc846199ad44f"
+    },
+    {
+      "path": "model/attention.py",
+      "bytes": 1847,
+      "sha256": "cf0c0022292bc7bb08fdb9b75848b768b013dc59f989689104f369af8a5f1c57"
+    },
+    {
+      "path": "model/odefunc.py",
+      "bytes": 2526,
+      "sha256": "c0006701e9afe1076f82f92f53f109cfd23dade676677f0a8adfa35180574a3a"
+    },
+    {
+      "path": "model/losses.py",
+      "bytes": 2333,
+      "sha256": "3271099e75bc7d8c545d9f7f9aac228ddbed6bad09d6405bb485aea7775c4d70"
+    }
+  ],
+  "license": "No license file observed in the named repository root; retained for internal research, release not authorized.",
+  "source_modified": false,
+  "package_import": "external.BrainDyn.model.braindyn",
+  "output_semantics": "deterministic signal forecast; no native joint spike sampling",
+  "known_future_controls_supported_by_source": false
+}

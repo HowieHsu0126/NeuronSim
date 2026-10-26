@@ -1,0 +1,18 @@
+{
+  "status": "PINNED_SOURCE_AND_RUNTIME_IMPORT_VERIFIED",
+  "repo": "https://github.com/mackelab/LDNS",
+  "commit": "24d4a0c1a55aa364b6dfcf8916b18cf7501d7ef9",
+  "files": {
+    "ldns/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "ldns/networks/__init__.py": "451b73ead7cb66b8c3f3ca5a798326458168050a56bb65b8d4cc2f37b14dd5b3",
+    "ldns/networks/count_wrapper.py": "4c16bef390a5b8334ad874bed165393e2bf66f27555f53f2e08c91d76ef295c6",
+    "ldns/networks/s4.py": "10f676478da5e4c694a5ddf100d523a1b3960216c589bbf009963951596b0ab6",
+    "ldns/networks/blocks.py": "7ab47adde36ca76deb22f08e5d99b8548e70d8ca537e3bb24e8e86588ff11135",
+    "LICENSE": "49f055c8a89177dba36d0127b03db7cb5b16cfdb2c2b61855ce5ad33719096d2"
+  },
+  "source_conditioning": "velocity notebook concatenates time-aligned behavior channels to noisy latent input",
+  "observation": "softplus rate then Poisson",
+  "adapter": "encode observed prefix separately; broadcast prefix condition plus future source stimulus; correct block keyword binding",
+  "embedded_s4_license": "Apache-2.0 notice preserved",
+  "scientific_claim_qualified": false
+}

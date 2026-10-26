@@ -1,0 +1,10 @@
+scope: fixed_microstate_conditional_development
+case_id: train_block_014_familiar_0
+boundary_time_ms: 1000.0
+episode_duration_ms: 6000.0
+joint_samples: 16
+populations: 8
+future_background_seed_base: 88001
+future_background_seed_stride: 10
+matched_forecast_configuration: Libs/configs/neural_population_matched_forecast.yaml
+formal_evaluation: false

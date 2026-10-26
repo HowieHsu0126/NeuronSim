@@ -1,0 +1,68 @@
+channels:
+  - conda-forge
+  - bioconda
+  - kaeldai
+
+dependencies:
+  # Basics
+  # 3.12 is not compatible with allensdk (as of 7/1/2024)
+  - python=3.11
+  - pip
+
+  # Nest (PointNet backend)
+  - nest-simulator>=3.6  # after glif_psc_double_alpha implementation
+    
+  # Convenience
+  - black
+  - iminuit
+  - snakemake
+  - jupyter
+  - pandarallel
+  - polars
+  
+  # bmtk
+  - pytest
+  - mpi4py
+  - mpich  # for our cluster slurm compatibility
+  - bmtk
+  - numba
+
+  # analysis / figure generation
+  - h5py
+  - joblib
+  
+  # modeling
+  - openpyxl
+
+  # allensdk (based on AllenSDK/requirements.txt to avoid pip package override)
+  - scipy<1.11
+  - numpy<1.24
+  - pandas==1.5.3
+  - xarray<2023.2.0
+  - future
+  - jinja2
+  - nest-asyncio
+  - psycopg2-binary
+  - pynrrd
+  - python-dateutil
+  - pytables
+  - requests
+  - scikit-build
+  - scikit-image
+  - scikit-learn
+  - seaborn
+  - semver
+  - simpleitk
+  - simplejson
+  - six
+  - sqlalchemy
+  - tqdm
+  - matplotlib
+
+  
+  # PIP dependencies
+  - pip:
+    # for modeling
+    - allensdk
+    - pylightxl
+    - sonata

@@ -1,0 +1,115 @@
+--- a/src/connect.h
++++ b/src/connect.h
+@@ -45,6 +45,20 @@
+ #include "distribution.h"
+ #include "node_group.h"
+ #include "utilities.h"
++
++// Select only the per-connection device RNG of direct Poisson generators.
++// Host generators, connection sampling, rates and delivery semantics are unchanged.
++// Define consistently for every translation unit in a separate clean build.
++#ifndef NEURONSIM_POISSON_PHILOX
++#define NEURONSIM_POISSON_PHILOX 0
++#endif
++static_assert( NEURONSIM_POISSON_PHILOX == 0 || NEURONSIM_POISSON_PHILOX == 1,
++  "NEURONSIM_POISSON_PHILOX must be 0 or 1" );
++#if NEURONSIM_POISSON_PHILOX
++using PoissonCurandState = curandStatePhilox4_32_10_t;
++#else
++using PoissonCurandState = curandState;
++#endif
+ 
+ #define INPUT_SPIKE_BUFFER_FLAG
+ enum
+@@ -298,7 +312,7 @@
+     int max_delay,
+     float* d_mu_arr,
+     void* d_poiss_key_array,
+-    curandState* d_curand_state ) = 0;
++    PoissonCurandState* d_curand_state ) = 0;
+ 
+   // method to organize direct connections, after they are created and before using them in the simulation
+   virtual int organizeDirectConnections( void*& d_poiss_key_array_data_pt,
+@@ -1455,7 +1469,7 @@
+     int max_delay,
+     float* d_mu_arr,
+     void* d_poiss_key_array,
+-    curandState* d_curand_state );
++    PoissonCurandState* d_curand_state );
+ 
+   //////////////////////////////////////////////////
+   // class ConnectionTemplate input-spike-buffer-related methods
+--- a/src/poiss_gen.h
++++ b/src/poiss_gen.h
+@@ -75,10 +75,13 @@
+ 
+ EndUserDocs */
+ 
++// Read-only build identity; the unmodified upstream library has no such export.
++extern "C" const char* NeuronSimPoissonEdgeRngName();
++
+ class poiss_gen : public BaseNeuron
+ {
+   // Connection *conn_;
+-  curandState* d_curand_state_;
++  PoissonCurandState* d_curand_state_;
+   void* d_poiss_key_array_;
+   int64_t i_conn0_;
+   int64_t n_dir_conn_;
+--- a/src/poiss_gen.cu
++++ b/src/poiss_gen.cu
+@@ -42,6 +42,16 @@
+ extern __constant__ NodeGroupStruct NodeGroupArray[];
+ extern __device__ int16_t* NodeGroupMap;
+ 
++extern "C" const char*
++NeuronSimPoissonEdgeRngName()
++{
++#if NEURONSIM_POISSON_PHILOX
++  return "per_edge_philox4_32_10";
++#else
++  return "per_edge_xorwow";
++#endif
++}
++
+ namespace poiss_conn
+ {
+ Connection* conn_;
+@@ -66,7 +76,7 @@
+ }; // namespace poiss_conn
+ 
+ __global__ void
+-SetupPoissKernel( curandState* curand_state, uint64_t n_conn, unsigned long long seed )
++SetupPoissKernel( PoissonCurandState* curand_state, uint64_t n_conn, unsigned long long seed )
+ {
+   uint64_t blockId = ( uint64_t ) blockIdx.y * gridDim.x + blockIdx.x;
+   uint64_t i_conn = blockId * blockDim.x + threadIdx.x;
+@@ -139,7 +149,7 @@
+     return 0; 
+   }
+ 
+-  CUDAMALLOCCTRL( "&d_curand_state_", &d_curand_state_, n_dir_conn_ * sizeof( curandState ) );
++  CUDAMALLOCCTRL( "&d_curand_state_", &d_curand_state_, n_dir_conn_ * sizeof( PoissonCurandState ) );
+ 
+   unsigned int grid_dim_x, grid_dim_y;
+ 
+--- a/src/input_spike_buffer.h
++++ b/src/input_spike_buffer.h
+@@ -401,7 +401,7 @@
+ 
+ template < class ConnKeyT, class ConnStructT >
+ __global__ void
+-sendDirectSpikeKernel( curandState* curand_state,
++sendDirectSpikeKernel( PoissonCurandState* curand_state,
+   long long time_idx,
+   float* mu_arr,
+   ConnKeyT* poiss_key_array,
+@@ -814,7 +814,7 @@
+   int max_delay,
+   float* d_mu_arr,
+   void* d_poiss_key_array,
+-  curandState* d_curand_state )
++  PoissonCurandState* d_curand_state )
+ {
+   if (n_dir_conn == 0)
+   {

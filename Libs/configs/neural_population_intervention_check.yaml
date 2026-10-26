@@ -1,0 +1,19 @@
+schema: neural_population_intervention_engineering_check_v1
+scope: engineering_only_existing_checkpoint
+case_id: train_block_000_familiar_0
+reference_case_ids:
+  - train_block_000_familiar_0
+  - train_block_001_familiar_0
+  - train_block_002_familiar_0
+  - train_block_003_familiar_0
+reference_role: development_response_distribution_not_independent_test
+decision_time_ms: 1000
+horizon_ms: 500
+candidate_rule: omission_first_future_pulse_and_all_original_future_pulses_in_horizon
+joint_draws: 4
+sampling_stream_seeds: [77001, 77002, 77003]
+pulse_cost_weight: 0.0
+cost_role: record_pulse_count_without_scientific_cost_weight_calibration
+scientific_success_tolerance: null
+native_intervention_execution: false
+repeat_training: false

@@ -1,0 +1,78 @@
+schema: pfc_stratified_history_v1
+scope: fresh_paired_stratified_development_measurement_on_original_32_blocks
+required_source_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+expected_units: 100000
+field_index: 5
+phase: cue
+window_ms: 5.0
+sample_size: 64
+integration_seed_namespace: 3
+allocation: minimum_two_per_positive_stratum_then_proportional_deficit;both_clock_structural_zero_keeps_full_weight
+importance_sampling:
+  samples: 100000
+  batch_size: 10000
+  proposal_multipliers:
+  - 1.0
+  - 2.0
+  - 4.0
+  - 8.0
+  mixture_probabilities:
+  - 0.25
+  - 0.25
+  - 0.25
+  - 0.25
+  maximum_witnesses: 1
+  confidence_level: 0.95
+clocks:
+  coarse:
+    dt_ms: 0.05
+    input_stream: native_numpy_stream
+  fine:
+    dt_ms: 0.025
+    input_stream: coupled_binomial_clock_refinement_stream
+foundations:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_history_suppression/prepare/run_603570
+  delivery_sha256: 63dc1121e4406ef9d0bdbf6316d52321001752a23f5bbc43f8c01830039c9c96
+accepted_census:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/history_timing_census/complete/run_603694
+  delivery_sha256: da43db261e59742f6e713949a8c0cbe055399721be9646479ec5ab3c48a1f95e
+accepted_uniform_comparison:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_clock_comparison/complete/run_603436
+  delivery_sha256: 41789de2dd98ed40b6b73c2e295722fe6c971b0d3192098dfaf18074dc627bca
+confirmation_execution_released: false
+production_episodes: 0
+population_confidence_interval_computed: false
+scientific_fidelity_qualified: false
+new_independent_source_blocks: 0

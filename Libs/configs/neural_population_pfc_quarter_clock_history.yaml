@@ -1,0 +1,45 @@
+schema: pfc_first_passage_history_v1
+scope: one_existing_block_quarter_clock_conditional_history_path_qualification
+importance:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_importance/run_603027
+  delivery_sha256: 7e186108654e8e9848189e1701cff153d3173663f8944d1c22705137e6d25e51
+source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+  delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+  case_path: source_cases/dt_0p0125/pfc_95001_strong_cue
+  report_sha256: 476ef354aa4563466e93d32ccf76fac88676dd2652cb1080d0ae74bd3af290e5
+case_id: pfc_95001_strong_cue
+source_rng_seed: 95001
+expected_units: 100000
+dt_ms: 0.0125
+field_index: 5
+phase: cue
+window_ms: 5.0
+sample_size: 64
+sampling_seed_components:
+- 20261009
+- 95001
+- 5
+- 1
+importance_sampling:
+  samples: 100000
+  batch_size: 10000
+  proposal_multipliers:
+  - 1.0
+  - 2.0
+  - 4.0
+  - 8.0
+  mixture_probabilities:
+  - 0.25
+  - 0.25
+  - 0.25
+  - 0.25
+  maximum_witnesses: 1
+  confidence_level: 0.95
+confirmation_execution_released: false
+population_history_uncertainty_established: false
+production_episodes: 0
+input_stream: coupled_binomial_clock_refinement_stream
+paired_coarse:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_fine_history/execute/run_603261
+  delivery_sha256: 8333c7791c89f44d945ffad38169aceddab2509b5787bee54e7bae26ce9fbbb5

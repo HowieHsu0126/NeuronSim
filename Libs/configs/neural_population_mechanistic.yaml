@@ -1,0 +1,18 @@
+source_dir: Libs/external/modeldb_266872
+network_scale: 1.0
+duration_ms: 1000.0
+dt_ms: 0.025
+current_record_dt_ms: 0.1
+balanced_background: true
+dc_background: false
+# These are mechanism realizations, not the model's training seeds 41, 42, 43.
+random_streams:
+  connectivity: 1001
+  initial_state: 3001
+  background_drive: 2001
+# Calibration/example input; formal control bounds and targets are not frozen.
+current_pulses:
+  - population: L4e
+    onset_ms: 200.0
+    duration_ms: 50.0
+    amplitude_pa: 100.0

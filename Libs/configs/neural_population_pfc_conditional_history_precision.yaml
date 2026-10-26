@@ -1,0 +1,74 @@
+schema: pfc_coupled_uncertainty_diagnostic_v1
+scope: development_calibration
+method_adopted_for_confirmation: false
+confirmation_execution_released: false
+nominal_alpha: 0.05
+planning_blocks: 128
+endpoint_chunk_size: 256
+single_block_influence_fraction_flag: 0.25
+cohorts:
+- numpy_dt_0p05
+- numpy_dt_0p025
+- numpy_dt_0p0125
+joint_rng_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+inputs:
+  coupled:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/run_592283/analysis
+    report_sha256: f405b7bcf06ebf3780a16389672051b0d11889a080dacb6aef3170b245204e68
+  domain:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/count_scores/run_591289/analysis
+    report_sha256: e77f6f7d50a978a90468d74a7e58d896f304548a5e806dd2aa3d8ce3d3ecf91a
+  budget:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/numerical_error_budget/run_591489/analysis
+    report_sha256: 3a96f8697ee3f5919c8fedbda5bc5918df661ce7c3092bc836447769c1cabc45
+  linear:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/linear_scores/run_591391/analysis
+    report_sha256: 82e1662cf7aca02fc322657d274ee037e2fd5fa4b32727670900280a06d8da93
+  resampling_design:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_comparison/run_588761/analysis
+    report_sha256: a7ed49cda26d84671a81c1f1a90ddea2b40ad0076fefa4488295a58b4025a37a
+joint_tail_alpha: 0.025
+coverage_qualified: false
+bootstrap_replicates: 5000
+bootstrap_seed: 97001
+conditional_history:
+  coverage_archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/profile_history_coverage/complete/run_605119
+  history_config_sha256: 8fed64ce9dc86782a51b7e0f1012a5562832f0f80e9f86b12dc369f73b7c1cce
+  joint_precision:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/uncertainty_diagnostic/run_596499/analysis
+    report_sha256: 1ab57f422ae0a904868fabd970b5318357b128cef37bc8dbb2c82b04d25be303
+  midpoint_weights:
+  - 0.5
+  - 0.5

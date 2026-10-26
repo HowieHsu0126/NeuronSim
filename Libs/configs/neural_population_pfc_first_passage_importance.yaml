@@ -1,0 +1,18 @@
+schema: pfc_conditional_first_passage_importance_v1
+scope: one_fixed_reference_defensive_mixture_importance
+reference:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_reference/execution/run_602951
+  delivery_sha256: 91907d4b6014855105e1f85ff560089648508d2d4bfb32245b6a3bfec1186d13
+kernel:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_probability/run_603002
+  delivery_sha256: 49422c70aafba8e7a8f97abbb8c14a2846de081d9b43fe5807fc612f52f914b6
+samples: 1000000
+batch_size: 10000
+seed_components: [20261009, 95001, 28022, 2004, 1]
+proposal_multipliers: [1.0, 2.0, 4.0, 8.0]
+mixture_probabilities: [0.25, 0.25, 0.25, 0.25]
+maximum_witnesses: 8
+confidence_level: 0.95
+confirmation_execution_released: false
+population_history_uncertainty_established: false
+production_episodes: 0

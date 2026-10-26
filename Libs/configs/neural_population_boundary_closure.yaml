@@ -1,0 +1,31 @@
+schema: neural_population_boundary_closure_v1
+scope: development_only
+training_seeds: [41, 42, 43]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+selection_blocks: [14, 15, 16, 17]
+expected_episodes: 72
+expected_units: 100000
+expected_fields: 128
+origins_ms: [1000, 3000, 5000]
+targets: reuse_complete_archived_50ms_500ms_mean_and_p1_variograms
+boundary_features: latent_mean_variance_and_every_unit_ready_in_ticks_over_minimum_interval
+added_history: archived_1000ms_field_history_in_50ms_bins
+control_conditioning: template_origin_cells_with_fixed_known_control_programs
+witness: shared_linear_ridge_with_unpenalized_cell_effects
+penalty: 0.01
+penalty_provenance: first_value_of_existing_field_history_development_grid_no_new_selection
+formal_tolerances: null
+state_selection_enabled: false
+inference_only: true
+interpretation: >-
+  All 216 original boundaries are evaluated for each of the three training
+  checkpoints. Each boundary retains every unit availability value and both
+  latent posterior moments. The witness compares shared linear prediction from
+  that boundary with prediction from the same boundary plus archived history.
+  Templates and origins identify fixed control programs. This restricted
+  predictor does not test arbitrary state-control interactions. Positive
+  residual-history gains can reflect missing state information or inadequate
+  decoding and regularization of information already in that state;
+  absent gains cannot certify distributional closure. Epoch-selection blocks
+  are reused, so no independent confidence interval, significance, scientific
+  equivalence, intervention qualification or formal state selection follows.

@@ -1,0 +1,77 @@
+schema: pfc_response_event_attribution_v1
+scope: descriptive_frozen_middle_delay_event_accounting
+source_rng_seed: 95018
+selection: Existing auxiliary-variance contributor; selected descriptively, not an independent inferential sample.
+base_tick_ms: 0.0125
+duration_ms: 5000.0
+window_ms: [1000.0, 2000.0]
+phase: middle_delay
+excitatory_neurons: 80000
+inhibitory_neurons: 20000
+excitatory_preference_bins: 16
+unit_metadata_sha256: b61c088c0289f13a0a757f461d075e71c820ccbbe6ba2ce909bac02980dbea9c
+score_serialization_tolerance_hz: 1.0e-12
+unchanged_gates:
+  endpoints: 84330
+  original_independent_blocks: 32
+  confirmation_block_cap: 128
+  confirmation_seeds: [96001, 96128]
+  scientific_fidelity_qualified: false
+  confirmation_execution_released: false
+  production_episodes: 0
+archives:
+  coarse_cue:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95018_cue
+    delivery_sha256: dce42bcf021b4c446621ceb024485f8713b91000e72366610eaccb7908ffa119
+    status: ARCHIVED_PFC_SOURCE_EXECUTION
+  coarse_omission:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/run_586735_pfc_95018_omission
+    delivery_sha256: a8c663bf1237a96a0b4201bbe9553735da25b646db5cf8bd462d7bc979544ccf
+    status: ARCHIVED_PFC_SOURCE_EXECUTION
+  original:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592148
+    delivery_sha256: 1550669331572f68521d8429910e599e45ce73b21670fcb9f959ed14ff4ace3e
+    status: COMPLETE_COUPLED_CLOCK_CALIBRATION_BLOCK
+  repeated:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/refinement_repeat/source_execution/run_599258_17
+    delivery_sha256: 9423718054b4198ef7c1911b9d1f10f35d5f726e8adec3898dc1c8c0bc67809b
+    status: COMPLETE_COUPLED_REFINEMENT_REPEAT_BLOCK
+  original_scores:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/response_gap_blocks/run_599149
+    delivery_sha256: 13afbd08b3a7ae3b7ac15f0be4d5e21b24f1fb98456b552851b2b0780e708479
+    status: COMPLETE
+  paired_scores:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/refinement_repeat/auxiliary_variance/run_601413
+    delivery_sha256: e071f2f1175bcbf3b4fb63a1533c576750f6321b40756076be2099771b510932
+    status: COMPLETE_PFC_AUXILIARY_VARIANCE_DIAGNOSTIC
+score_tables:
+  original:
+    archive: original_scores
+    path: analysis/gap_block_contributions.csv
+    sha256: 4ab627c9efb3a12991de325eea82ec1a92d93e1534b986d09f7a0ec74a59d2c0
+  paired:
+    archive: paired_scores
+    path: analysis/focus_endpoint_blocks.csv
+    sha256: c065d74a05ff308b17201743ac9fb5d667c90218726f79abe70e357f93f6ce45
+cases:
+  - {id: shared_coarse_cue, archive: coarse_cue, path: source_run, clock_ms: 0.05, control: cue}
+  - {id: shared_coarse_omission, archive: coarse_omission, path: source_run, clock_ms: 0.05, control: omission}
+  - {id: A_middle_cue, archive: original, path: source_cases/dt_0p025/pfc_95018_cue, clock_ms: 0.025, control: cue}
+  - {id: A_middle_omission, archive: original, path: source_cases/dt_0p025/pfc_95018_omission, clock_ms: 0.025, control: omission}
+  - {id: A_fine_cue, archive: original, path: source_cases/dt_0p0125/pfc_95018_cue, clock_ms: 0.0125, control: cue}
+  - {id: A_fine_omission, archive: original, path: source_cases/dt_0p0125/pfc_95018_omission, clock_ms: 0.0125, control: omission}
+  - {id: B_middle_cue, archive: repeated, path: source_cases/dt_0p025/pfc_95018_cue, clock_ms: 0.025, control: cue}
+  - {id: B_middle_omission, archive: repeated, path: source_cases/dt_0p025/pfc_95018_omission, clock_ms: 0.025, control: omission}
+  - {id: B_fine_cue, archive: repeated, path: source_cases/dt_0p0125/pfc_95018_cue, clock_ms: 0.0125, control: cue}
+  - {id: B_fine_omission, archive: repeated, path: source_cases/dt_0p0125/pfc_95018_omission, clock_ms: 0.0125, control: omission}
+endpoints:
+  - domain_row_index: 59934
+    margin_hz: 1.0e-5
+    identity: {contrast: cue_minus_omission, left_cohort: numpy_dt_0p05, right_cohort: numpy_dt_0p025, phase: middle_delay, metric: all_unit_rate_hz}
+    A: [shared_coarse_cue, shared_coarse_omission, A_middle_cue, A_middle_omission]
+    B: [shared_coarse_cue, shared_coarse_omission, B_middle_cue, B_middle_omission]
+  - domain_row_index: 60054
+    margin_hz: 1.0e-5
+    identity: {contrast: cue_minus_omission, left_cohort: numpy_dt_0p025, right_cohort: numpy_dt_0p0125, phase: middle_delay, metric: all_unit_rate_hz}
+    A: [A_middle_cue, A_middle_omission, A_fine_cue, A_fine_omission]
+    B: [B_middle_cue, B_middle_omission, B_fine_cue, B_fine_omission]

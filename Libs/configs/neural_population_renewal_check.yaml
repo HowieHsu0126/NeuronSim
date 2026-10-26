@@ -1,0 +1,22 @@
+schema: neural_population_renewal_implementation_check_v1
+training_seed: 41
+formal_training_seeds: [41, 42, 43]
+device: cuda
+cpu_threads: 2
+latent_size: 16
+encoder_size: 32
+training_start_ms: 1000.0
+training_stop_ms: 1400.0
+training_updates: 2
+learning_rate: 0.001
+gradient_norm_limit: 100.0
+initialization_pseudocount: 0.5
+initial_transition_diagonal: 0.98
+history_start_ms: 980.0
+forecast_start_ms: 1000.0
+forecast_stop_ms: 1500.0
+samples: 4
+variational_seed: 88101
+sampling_seeds: [88102, 88103, 88104]
+minimum_interval_policy: nest_gpu_iaf_psc_exp_grid
+purpose: full-unit real-input engineering; in-sample and not a fidelity estimate

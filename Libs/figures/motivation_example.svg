@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="178mm" height="71.2mm" viewBox="0 0 2000 800">
+<rect x="0" y="0" width="2000" height="800" fill="white"/>
+<polyline points="781,43 781,712" fill="none" stroke="#DEE2E5" stroke-width="2.2" stroke-linejoin="round"/>
+<polyline points="1230,43 1230,712" fill="none" stroke="#DEE2E5" stroke-width="2.2" stroke-linejoin="round"/>
+<text x="65" y="77" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="42" font-weight="bold" text-anchor="start" fill="#404040">
+<tspan x="65" y="77.0">(a) Timing</tspan>
+</text>
+<text x="816" y="77" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="42" font-weight="bold" text-anchor="start" fill="#404040">
+<tspan x="816" y="77.0">(b) Compression</tspan>
+</text>
+<text x="1265" y="77" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="42" font-weight="bold" text-anchor="start" fill="#404040">
+<tspan x="1265" y="77.0">(c) Prediction question</tspan>
+</text>
+<text x="72" y="134" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="72" y="134.0">PFC working memory</tspan>
+</text>
+<text x="72" y="176" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="72" y="176.0">Delay-period history</tspan>
+</text>
+<text x="72" y="218" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="72" y="218.0">Aligned timing</tspan>
+</text>
+<rect id="aligned_card" x="70" y="232" width="616" height="158" rx="8" fill="white" stroke="#B8C0C6" stroke-width="2.8"/>
+<polyline points="95.0,259 660.0,259" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="95.0,294 660.0,294" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="95.0,329 660.0,329" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="95.0,364 660.0,364" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<rect x="222.25" y="245" width="28" height="133" rx="7" fill="#FBF0E7" stroke="#B66732" stroke-width="3"/>
+<polyline points="236.25,249.0 236.25,269.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="490.5,249.0 490.5,269.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="236.25,284.0 236.25,304.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="490.5,284.0 490.5,304.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="236.25,319.0 236.25,339.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="490.5,319.0 490.5,339.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="236.25,354.0 236.25,374.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="490.5,354.0 490.5,374.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<text x="72" y="445" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="72" y="445.0">Dispersed timing</tspan>
+</text>
+<rect id="dispersed_card" x="70" y="459" width="616" height="158" rx="8" fill="white" stroke="#B8C0C6" stroke-width="2.8"/>
+<polyline points="95.0,486 660.0,486" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="95.0,521 660.0,521" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="95.0,556 660.0,556" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="95.0,591 660.0,591" fill="none" stroke="#CED3D7" stroke-width="2" stroke-linejoin="round"/>
+<rect x="148.8" y="472" width="28" height="28" rx="6" fill="#FBF0E7" stroke="#B66732" stroke-width="3"/>
+<polyline points="162.8,476.0 162.8,496.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="445.3,476.0 445.3,496.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<rect x="239.20000000000002" y="507" width="28" height="28" rx="6" fill="#FBF0E7" stroke="#B66732" stroke-width="3"/>
+<polyline points="253.20000000000002,511.0 253.20000000000002,531.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="524.4,511.0 524.4,531.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<rect x="323.95" y="542" width="28" height="28" rx="6" fill="#FBF0E7" stroke="#B66732" stroke-width="3"/>
+<polyline points="337.95,546.0 337.95,566.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="603.5,546.0 603.5,566.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<rect x="397.40000000000003" y="577" width="28" height="28" rx="6" fill="#FBF0E7" stroke="#B66732" stroke-width="3"/>
+<polyline points="411.40000000000003,581.0 411.40000000000003,601.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<polyline points="479.20000000000005,581.0 479.20000000000005,601.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<text x="72" y="670" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="72" y="670.0">Equal counts, equal windows</tspan>
+</text>
+<polyline points="548,663 685,663" fill="none" stroke="#404040" stroke-width="2.8" stroke-linejoin="round"/>
+<polygon points="685.000,663.000 672.000,657.000 672.000,669.000" fill="#404040"/>
+<text x="611" y="646" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="middle" fill="#404040">
+<tspan x="611" y="646.0">Time</tspan>
+</text>
+<text x="1045" y="338" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#404040">
+<tspan x="1045" y="338.0">Window average</tspan>
+</text>
+<path d="M 686 311 C 759 311 790 402 886 402" fill="none" stroke="#404040" stroke-width="3"/>
+<polygon points="886.000,402.000 873.000,396.000 873.000,408.000" fill="#404040"/>
+<path d="M 686 538 C 759 538 790 448 886 448" fill="none" stroke="#404040" stroke-width="3"/>
+<polygon points="886.000,448.000 873.000,442.000 873.000,454.000" fill="#404040"/>
+<rect id="mean_summary" x="886" y="371" width="319" height="108" rx="15" fill="#EDF4F8" stroke="#286A94" stroke-width="3.4"/>
+<text x="1045.5" y="437" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#404040">
+<tspan x="1045.5" y="437.0">Same mean rate</tspan>
+</text>
+<polyline points="1205,425 1435,425" fill="none" stroke="#286A94" stroke-width="3.4" stroke-linejoin="round"/>
+<polygon points="1435.000,425.000 1422.000,419.000 1422.000,431.000" fill="#286A94"/>
+<polyline points="908,479 908,596 941,612" fill="none" stroke="#B66732" stroke-width="2.8" stroke-linejoin="round"/>
+<text x="1055" y="519" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="middle" fill="#B66732">
+<tspan x="1055" y="519.0">Discarded by</tspan>
+<tspan x="1055" y="553.56">averaging</tspan>
+</text>
+<text x="1048" y="595" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#B66732">
+<tspan x="1048" y="595.0">Omitted timing</tspan>
+</text>
+<polyline points="945,619 1150,619" fill="none" stroke="#E5CFBC" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="969.6,612.5 969.6,625.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="1072.1,612.5 1072.1,625.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="945,636 1150,636" fill="none" stroke="#E5CFBC" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1002.4,629.5 1002.4,642.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="1100.8,629.5 1100.8,642.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="945,653 1150,653" fill="none" stroke="#E5CFBC" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1033.15,646.5 1033.15,659.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="1129.5,646.5 1129.5,659.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="945,670 1150,670" fill="none" stroke="#E5CFBC" stroke-width="2" stroke-linejoin="round"/>
+<polyline points="1059.8,663.5 1059.8,676.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<polyline points="1084.4,663.5 1084.4,676.5" fill="none" stroke="#B66732" stroke-width="3.3" stroke-linejoin="round"/>
+<text x="1399" y="613" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#B66732">
+<tspan x="1399" y="613.0">Predictive gain?</tspan>
+</text>
+<line x1="1162.0" y1="642.0" x2="1175.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1184.0" y1="642.0" x2="1197.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1206.0" y1="642.0" x2="1219.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1228.0" y1="642.0" x2="1241.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1250.0" y1="642.0" x2="1263.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1272.0" y1="642.0" x2="1285.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1294.0" y1="642.0" x2="1307.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1316.0" y1="642.0" x2="1329.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1338.0" y1="642.0" x2="1351.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1360.0" y1="642.0" x2="1373.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1382.0" y1="642.0" x2="1395.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1404.0" y1="642.0" x2="1417.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1426.0" y1="642.0" x2="1439.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1448.0" y1="642.0" x2="1461.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1470.0" y1="642.0" x2="1483.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1492.0" y1="642.0" x2="1505.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1514.0" y1="642.0" x2="1527.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1536.0" y1="642.0" x2="1549.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1558.0" y1="642.0" x2="1571.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1580.0" y1="642.0" x2="1593.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1602.0" y1="642.0" x2="1615.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1624.0" y1="642.0" x2="1637.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1646.0" y1="642.0" x2="1657.0" y2="642.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1657.0" y1="642.0" x2="1657.0" y2="640.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1657.0" y1="631.0" x2="1657.0" y2="618.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1657.0" y1="609.0" x2="1657.0" y2="596.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1657.0" y1="587.0" x2="1657.0" y2="574.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1657.0" y1="565.0" x2="1657.0" y2="552.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="1657.0" y1="543.0" x2="1657.0" y2="534.0" stroke="#B66732" stroke-width="3.2"/>
+<polygon points="1657.000,534.000 1651.000,547.000 1663.000,547.000" fill="#B66732"/>
+<text x="1657" y="171" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#404040">
+<tspan x="1657" y="171.0">Same future stimulation</tspan>
+</text>
+<polyline points="1552,249 1583,249 1583,209 1610,209 1610,249 1650,249 1650,209 1677,209 1677,249 1717,249 1717,209 1744,209 1744,249 1765,249" fill="none" stroke="#404040" stroke-width="3.2" stroke-linejoin="round"/>
+<polyline points="1657,266 1657,327" fill="none" stroke="#404040" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="1657.000,327.000 1663.000,314.000 1651.000,314.000" fill="#404040"/>
+<rect id="prediction_question" x="1435" y="327" width="444" height="207" rx="12" fill="#EDF4F8" stroke="#286A94" stroke-width="3.4"/>
+<text x="1657" y="389" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#404040">
+<tspan x="1657" y="389.0">Joint response</tspan>
+</text>
+<text x="1657" y="482" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="58" font-weight="normal" text-anchor="middle" fill="#286A94">
+<tspan x="1657" y="482.0">?</tspan>
+</text>
+<text x="1657" y="696" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="36" font-weight="normal" text-anchor="middle" fill="#404040">
+<tspan x="1657" y="696.0">Which history should remain?</tspan>
+</text>
+<polyline points="81,745.0 81,767.0" fill="none" stroke="#404040" stroke-width="4" stroke-linejoin="round"/>
+<text x="101" y="767" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="101" y="767.0">Event</tspan>
+</text>
+<polyline points="313,756 383,756" fill="none" stroke="#286A94" stroke-width="3.2" stroke-linejoin="round"/>
+<polygon points="383.000,756.000 370.000,750.000 370.000,762.000" fill="#286A94"/>
+<text x="403" y="767" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="403" y="767.0">Retained summary</tspan>
+</text>
+<line x1="785.0" y1="756.0" x2="798.0" y2="756.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="807.0" y1="756.0" x2="820.0" y2="756.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="829.0" y1="756.0" x2="842.0" y2="756.0" stroke="#B66732" stroke-width="3.2"/>
+<line x1="851.0" y1="756.0" x2="855.0" y2="756.0" stroke="#B66732" stroke-width="3.2"/>
+<polygon points="855.000,756.000 842.000,750.000 842.000,762.000" fill="#B66732"/>
+<text x="875" y="767" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="start" fill="#404040">
+<tspan x="875" y="767.0">Timing probe</tspan>
+</text>
+<text x="1934" y="767" font-family="Times New Roman, Nimbus Roman, Times, serif" font-size="32" font-weight="normal" text-anchor="end" fill="#404040">
+<tspan x="1934" y="767.0">Constructed illustration</tspan>
+</text>
+</svg>

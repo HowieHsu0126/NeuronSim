@@ -1,0 +1,12 @@
+schema: pfc_recurrent_gain_coupled_clock_comparison_v1
+scope: development_recurrent_gain_coupled_clock_comparison
+protocol_config: Libs/configs/neural_population_pfc_recurrent_gain_coupled_clock.yaml
+protocol_sha256: d126f8287def6a71a592a6b75ba0c30ef94f5e70af37ec9b24bd8442d3606ad1
+clock_pairs:
+- - 0.05
+  - 0.025
+- - 0.025
+  - 0.0125
+- - 0.05
+  - 0.0125
+confirmation_execution_released: false

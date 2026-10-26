@@ -1,0 +1,7 @@
+schema: v1_native_thread_sensitivity_v1
+scope: development_runtime_qualification
+native_threads:
+- 1
+- 16
+resolution_ms: 0.25
+duration_ms: 3000

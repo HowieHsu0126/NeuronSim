@@ -1,0 +1,9 @@
+campaign: neural_population_dynamics
+run_class: engineering_diagnostic
+numerical_protocol: Libs/configs/neural_population_nest_gpu_qualification.yaml
+# Reuse the pre-existing single-cell numerical bounds before examining this
+# paired-network comparison. These are not application fidelity tolerances.
+exact_cortical_spike_ticks: true
+exact_thalamic_spike_ticks: true
+state_scope: every common recorded native tick with complete input
+scientific_reference_qualified: false

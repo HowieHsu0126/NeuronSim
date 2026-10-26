@@ -1,0 +1,15 @@
+schema: pfc_history_tail_bound_v1
+scope: finite_archived_history_conditional_tail_bound
+confidence_level: 0.95
+conditional_error_share: 0.5
+window_sampling_bound: stratified_chernoff
+family:
+  original_blocks: 32
+  profile_keys: 72
+  clocks_per_pair: 2
+  maximum_sampled_windows: 640
+  positive_strata: 15
+  event_bounds_per_history: 2
+source_population_qualification: false
+confirmation_execution_released: false
+production_episodes: 0

@@ -1,0 +1,87 @@
+# Full-episode development selection only; posterior ELBO is not a forecast score.
+schema: neural_population_lfads_trajectory_training_v1
+training_seeds:
+- 41
+- 42
+- 43
+fit_blocks:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+validation_blocks:
+- 14
+- 15
+- 16
+- 17
+bin_ms: 5.0
+dt_ms: 0.1
+duration_ms: 6000.0
+expected_units: 100000
+history_bins: 200
+horizon_bins: 1000
+expected_parameters: 40130752
+maximum_epochs: 20
+early_stopping_patience: 4
+validation_draws: 4
+validation_seed_base: 74001
+expected_poisson_rng_family: per_edge_philox4_32_10
+device: cuda
+cpu_threads: 2
+formal_training_completed: false
+selection_metric: full_posterior_source_cost
+model:
+  keep_prob: 1.0
+  _clip_value: 80
+  cell_clip_value: 5.0
+  cell_weight_scale: 1.0
+  ci_enc_dim: 32
+  co_dim: 4
+  co_mean_corr_scale: 0.0
+  con_dim: 32
+  controller_input_lag: 1
+  do_causal_controller: false
+  do_feed_factors_to_controller: true
+  do_train_encoder_only: false
+  do_train_io_only: false
+  do_train_prior_ar_atau: true
+  do_train_prior_ar_nvar: true
+  do_train_readin: true
+  factors_dim: 16
+  feedback_factors_or_rates: factors
+  gen_cell_input_weight_scale: 1.0
+  gen_cell_rec_weight_scale: 1.0
+  gen_dim: 32
+  ic_dim: 16
+  ic_enc_dim: 32
+  ic_post_var_min: 0.0001
+  ic_prior_var_max: 0.1
+  ic_prior_var_min: 0.1
+  ic_prior_var_scale: 0.1
+  inject_ext_input_to_gen: true
+  kl_co_weight: 1.0
+  kl_ic_weight: 1.0
+  kl_increase_steps: 1
+  kl_start_step: 0
+  l2_con_scale: 1.0
+  l2_gen_scale: 1.0
+  l2_increase_steps: 1
+  l2_start_step: 0
+  learning_rate_decay_factor: 0.95
+  learning_rate_init: 0.001
+  max_grad_norm: 200.0
+  prior_ar_atau: 10.0
+  prior_ar_nvar: 0.1
+  implicit_identity_readin: true
+  gradient_aggregation: tree
+  grappler_optimization: 'off'

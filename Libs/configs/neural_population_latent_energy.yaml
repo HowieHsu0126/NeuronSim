@@ -1,0 +1,73 @@
+schema: neural_population_latent_energy_training_v1
+training_seeds: [41, 42, 43]
+fit_blocks: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13]
+validation_blocks: [14, 15, 16, 17]
+bin_ms: 5.0
+complete_episode_bins: 1200
+expected_poisson_rng_family: per_edge_philox4_32_10
+history_bins: 200
+horizon_bins: 1000
+forecast_origins_bins: [200, 600, 1000]
+forecast_bins: 100
+model:
+  input_size: 1
+  bin_seconds: 0.005
+  complete_episode_bins: 1200
+  maximum_prefix_bins: 1000
+  forecast_bins: 100
+  latent_channels: 16
+  hidden_channels: 256
+  encoder_blocks: 4
+  decoder_blocks: 4
+  linear_layers_per_block: 4
+  generator_options:
+    encoder_width: 256
+    encoder_depth: 4
+    encoder_heads: 4
+    decoder_width: 256
+    decoder_depth: 4
+    decoder_heads: 4
+    score_mlp_width: 768
+    score_mlp_depth: 6
+    noise_channels: 64
+    alpha: 1.0
+    training_temperature: 1.0
+    mask_ratio_min: 0.7
+    mask_ratio_max: 1.0
+    label_dropout: 0.1
+    attention_dropout: 0.1
+    projection_dropout: 0.1
+    guidance_schedule: linear
+autoencoder:
+  maximum_epochs: 260
+  learning_rate: 0.001
+  weight_decay: 0.01
+  mask_probability: 0.5
+  latent_beta: 0.001
+  temporal_beta: 0.2
+  gradient_limit: 2.0
+  warmup_epochs: 10
+  cosine_budget_factor: 1.1
+  validation_every: 10
+  validation_draws: 4
+energy:
+  maximum_epochs: 4000
+  learning_rate: 0.0001
+  weight_decay: 0.02
+  optimizer_betas: [0.9, 0.95]
+  gradient_limit: 3.0
+  warmup_epochs: 100
+  learning_rate_schedule: constant_after_warmup
+  source_batch_size: 256
+  microbatch_size: 4
+  validation_every: 100
+  validation_draws: 4
+sampling:
+  joint_samples: 16
+  steps: 50
+  guidance: 4.0
+  temperature: 0.7
+profile: paper_MC_Maze_dimensions_and_budget_with_recorded_source_numerical_defaults
+formal_training_completed: false
+device: cuda
+cpu_threads: 2

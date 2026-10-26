@@ -1,0 +1,21 @@
+# Undisturbed cue-program references for development stimulus selection.
+# Use the entire remaining source episode so late stimulation is represented.
+# This contract defines neither a memory-success tolerance nor formal efficacy.
+schema: pfc_intervention_reference_v1
+source_scope: pfc_source_reproduction_development
+training_seeds: [41, 42, 43]
+fitting_circuit_blocks:
+  23: [0, 1, 2]
+  52: [1, 2]
+  63: [0, 1, 2]
+condition_indices: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+reference_condition_index: 0
+origin_tick: 2000
+stop_tick_exclusive: 100000
+bin_ticks: 100
+expected_units: 100000
+expected_fields: 17
+scale_rule: fit_all_conditions_rms_with_single_spike_quantum_floor
+reference_weighting: equal_circuit_initial_noise_block
+field_semantics: source_preference_bins_plus_inhibitory_population
+scientific_claim_qualified: false

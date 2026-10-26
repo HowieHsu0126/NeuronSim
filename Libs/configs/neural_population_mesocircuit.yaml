@@ -1,0 +1,28 @@
+# Adapter RNG mode: four simulator streams, not native-source numerical replay.
+# These streams are separate from the three model-training seeds [41, 42, 43].
+connectivity_normalization: native_source
+source_dir: Libs/external/mesocircuit_model
+expected_nest_version: 3.10.0
+run_class: engineering_diagnostic
+local_num_threads: 1
+random_streams:
+  spatial_layout: 55001
+  connectivity: 55002
+  initial_state: 55003
+  background_drive: 55004
+network:
+  extent: 1.0
+  N_scaling: 0.01
+  K_scaling: 0.01
+  thalamic_input: true
+  thalamic_input_type: pulses
+  th_rel_radius: 0.5
+  th_pulse_start: 60.0
+  th_interval: 40.0
+  th_delay_pulse_generator: 1.0
+simulation:
+  rng_seed: 55001
+  sim_resolution: 0.1
+  t_presim: 50.0
+  t_sim: 100.0
+  rec_dev: [spike_recorder]

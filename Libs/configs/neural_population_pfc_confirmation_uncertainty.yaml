@@ -1,0 +1,27 @@
+schema: pfc_confirmation_uncertainty_diagnostic_v1
+scope: development_calibration
+method_adopted_for_confirmation: false
+confirmation_execution_released: false
+nominal_alpha: 0.05
+planning_blocks: 128
+endpoint_chunk_size: 256
+single_block_influence_fraction_flag: 0.25
+cohorts: [numpy_dt_0p05, numpy_dt_0p025, numpy_dt_0p0125]
+joint_rng_seeds: [95001, 95002, 95003, 95004, 95005, 95006, 95007, 95008, 95009, 95010, 95011, 95012, 95013, 95014, 95015, 95016, 95017, 95018, 95019, 95020, 95021, 95022, 95023, 95024, 95025, 95026, 95027, 95028, 95029, 95030, 95031, 95032]
+inputs:
+  comparison:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/streamed_source_execution/fluctuation_comparison/run_588761/analysis
+    report_sha256: a7ed49cda26d84671a81c1f1a90ddea2b40ad0076fefa4488295a58b4025a37a
+  domain:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/count_scores/run_591289/analysis
+    report_sha256: e77f6f7d50a978a90468d74a7e58d896f304548a5e806dd2aa3d8ce3d3ecf91a
+  covariance:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/covariance_scores/run_591351/analysis
+    report_sha256: 09c11f83d9ba3a2e1a50305ae8e436719f9eb2e2efbfc48b9a12218e8e4c59f9
+  linear:
+    path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/linear_scores/run_591391/analysis
+    report_sha256: 82e1662cf7aca02fc322657d274ee037e2fd5fa4b32727670900280a06d8da93
+joint_tail_alpha: 0.025
+reuse_diagnostic:
+  path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/uncertainty_diagnostic/run_591433/analysis
+  report_sha256: b7ed0662412acea367d3e89f39449cd0ca07ab4372fee74f8f822f656cf30ec7

@@ -1,0 +1,15 @@
+# One new complete-output draw ensemble; existing forecasts and fit are reused.
+scope: observed_history_posterior_development_cost_point
+measurement_config: neural_population_matched_forecast.yaml
+case_id: train_block_014_familiar_0
+training_seed: 41
+boundary_time_ms: 1000.0
+horizon_ms: 500.0
+joint_samples: 16
+sampling_seed_base: 89000
+expected_core_units: 100000
+expected_field_count: 128
+bin_ms: 5.0
+native_dt_ms: 0.1
+native_episode_ms: 6000.0
+formal_evaluation: false

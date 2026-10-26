@@ -1,0 +1,6 @@
+scope: development_calibration
+bin_ms: 5.0
+lag_ms: [0, 5, 10, 100]
+lag_scope: complete_within_phase_pairs
+inference: descriptive_only
+count_windows_ms: [5, 50, 100]

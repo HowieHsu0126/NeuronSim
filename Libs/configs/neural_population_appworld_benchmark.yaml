@@ -1,0 +1,152 @@
+schema: appworld_benchmark_v1
+status: development
+scope: appworld_original_benchmark
+protocol: Docs/Design/appworld_benchmark_evaluation.md
+output_root: Output/neural_population_dynamics/agentic_extension/benchmark
+seeds: [41, 42, 43]
+source:
+  repository: StonyBrookNLP/appworld
+  inspected_revision: 42b5bcf3cd334fee33f0c37c02070a9f5807add5
+  historical_package_version: 0.1.3.post1
+  historical_data_version: 0.1.0
+  candidate_package_version: 0.2.0.dev0
+  candidate_data_version: 0.2.0
+  admitted_package_version: null
+  admitted_data_version: null
+  admitted_split_manifest: null
+model:
+  repo_id: Qwen/Qwen3-Coder-30B-A3B-Instruct
+  revision: b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+  role: same_backbone_candidate
+  language_model_training: false
+  serving_backend: vllm
+  serving_version: 0.11.2
+  tool_call_parser: qwen3_coder
+  serving_admission: gpu_validation_required
+methods:
+  neuronsim:
+    status: implementation_required
+    mechanism: learned_history_closure_and_verification_allocation
+  official_react_code:
+    status: source_admission_required
+  official_full_code:
+    status: source_admission_required
+  official_function_calling:
+    status: source_admission_required
+  cuga:
+    status: source_admission_required
+    role: strong_multi_agent_candidate
+    evaluation_repository: cuga-project/cuga-eval
+    evaluation_revision: 059701be4dbbf86348760a61bcb6a5f9603b17de
+    agent_revision: null
+    historical_leaderboard_equivalence: unverified
+excluded_candidates:
+  lara_mas:
+    status: not_admitted
+    reason: Verified license and test-independent prompt lineage have not been established.
+controls: [fixed_state, fixed_verification_allocation]
+splits:
+  development: [train, dev]
+  formal: [test_normal, test_challenge]
+  expected_formal_tasks: {test_normal: 168, test_challenge: 417}
+  membership_source: admitted_official_split_files
+  task_variants_per_scenario: 3
+  test_content_inspection: prohibited
+formal:
+  released: false
+  pass_at_k: 1
+  state_rollback: false
+  oracle_retries: false
+  cross_test_learning: false
+  select_best_seed: false
+  task_specific_hardcoded_actions: false
+  primary_endpoint: test_challenge_tgc
+  secondary_endpoints: [test_normal_tgc, test_normal_sgc, test_challenge_sgc]
+  independent_unit: scenario
+  confidence_level: 0.95
+  fdr_q: 0.05
+  inference_budget: null
+  statistical_procedure: null
+  frozen_execution_manifest: null
+historical_work:
+  reuse_terminal_evidence_from_job: 638940
+  native_component_id: 638941
+  protocol_reopened: false
+
+development_execution:
+  status: provisional
+  source_root: Output/neural_population_dynamics/agentic_extension/appworld_source_intake/appworld/source
+  transport:
+    timeout_seconds: 600
+  model:
+    client_name: openai
+    api_type: chat_completions
+    max_completion_tokens: 8192
+    temperature: 0.7
+    top_p: 0.8
+  monetary_accounting:
+    status: unpriced_local_inference
+    native_bookkeeping_cost_per_token:
+      input_cache_miss: 0.0
+      input_cache_hit: 0.0
+      input_cache_write: 0.0
+      output: 0.0
+    interpretation: Native bookkeeping zeros do not measure compute cost or support dollar claims.
+  appworld_config:
+    raise_on_extra_parameters: true
+  usage_tracker_config:
+    max_output_tokens_per_task: 100000
+    max_output_tokens_overall: 100000
+    max_cost_overall: 1000
+    max_cost_per_task: 10
+  budget_adaptations:
+    - source_setting: max_output_tokens_per_task
+      applied_setting: max_output_tokens_overall
+      value: 100000
+      reason: Native overall-token checking enforces a boundary check for this single-task process.
+      limitation: The boundary check can overshoot by one completion; this is not a formal hard cap.
+    - source_setting: monetary_limits
+      reason: Retain source cost thresholds with explicitly unpriced local bookkeeping.
+      limitation: Zero bookkeeping rates do not enforce an actual monetary or compute budget.
+  api_predictor:
+    prompt_file_path: experiments/prompts/api_predictor.txt
+    demo_task_ids: [82e2fac_1, 29caf6f_1, d0b1f43_1]
+    mode: predicted
+    max_predicted_apis: 20
+  methods:
+    official_react_code:
+      prompt_file_path: experiments/prompts/react_code_agent/instructions.txt
+      ignore_multiple_calls: true
+      max_prompt_length: null
+      max_output_length: null
+      max_steps: 50
+    official_full_code:
+      code_prompt_file_path: experiments/prompts/full_code_agent/full_code_instructions.txt
+      retrial_prompt_file_path: experiments/prompts/full_code_agent/reflexion_instructions.txt
+      demo_task_ids: [82e2fac_1, 29caf6f_1, d0b1f43_1]
+      compress_api_docs: true
+      remove_code_demo_comments: true
+      max_num_retrials: 5
+      max_steps: 20
+    official_function_calling:
+      prompt_file_path: experiments/prompts/function_calling_agent/instructions.txt
+      demo_messages_file_path: null
+      max_steps: 50
+      model_overrides:
+        tool_choice: auto
+      appworld_config:
+        include_direct_functions: true
+        direct_function_separator: __
+
+model_qualification:
+  scope: neutral_model_transport_only
+  tensor_parallel_size: 2
+  dtype: bfloat16
+  max_model_len: 32768
+  max_num_seqs: 4
+  gpu_memory_utilization: 0.85
+  enforce_eager: true
+  enable_prefix_caching: false
+  startup_timeout_seconds: 1800
+  http_timeout_seconds: 600
+  required_host_memory_gib: 96

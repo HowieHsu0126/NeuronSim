@@ -1,0 +1,18 @@
+schema: pfc_parameter_design_v1
+scope: development_candidate
+frozen: false
+sigma_weight_profile:
+  lower: 20.0
+  upper: 30.0
+  count: 10
+Jpos_excit2excit:
+  lower: 1.6
+  upper: 2.3
+  count: 10
+circuit_assignment_seed: 73109
+rationale: >-
+  Prospective interpolation grid between the default and two existing bounded
+  native-parity points. The source exercise explicitly exposes both axes and
+  Jpos=2.3. Sigma=30 is an existing development point, not a source biological
+  bound. This grid requires numerical and complete-task qualification. It does
+  not establish a population parameter distribution or biological diversity.

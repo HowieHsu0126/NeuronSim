@@ -1,0 +1,927 @@
+{
+  "deferred_blobs": [
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/build.make",
+      "sha": "bb267c1c242317e592ec26b01fa1ca0a7a057396",
+      "size": 8743
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/compiler_depend.make",
+      "sha": "7c75a9bcaf608dffcd2eb3b3f11d615a5371c568",
+      "size": 135
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/compiler_depend.ts",
+      "sha": "3b9648c583653d01919ebf480017a7c93cdde620",
+      "size": 139
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/depend.make",
+      "sha": "4b81cace90bf0581347ff0296ba435a84c882e37",
+      "size": 116
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/flags.make",
+      "sha": "d170fab402d3d77909c45a6f60c0f001059d6f16",
+      "size": 779
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/progress.make",
+      "sha": "8c8fb6fbbc138d8387b9ed9bdb2088ee8aa036f6",
+      "size": 43
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/src/main_ca3_full_net_lognormalI_09_05_23.cpp.o",
+      "sha": "a79ddd3c764240762363b501ab3b085072fed7fd",
+      "size": 384600
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/src/main_ca3_full_net_lognormalI_09_05_23.cpp.o.d",
+      "sha": "f34cee06715dbc45a1e72d40a3608a0dd9e4f780",
+      "size": 30110
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/build.make",
+      "sha": "1effcd189f82b1f8b8269aa640504d8b2218c1f2",
+      "size": 8963
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/compiler_depend.make",
+      "sha": "e85cd2c192e1aa405aa0bcce056649aeb99a389b",
+      "size": 137
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/compiler_depend.ts",
+      "sha": "56b8e22d3e6ed3ff13da521d3d87866a1bec97bf",
+      "size": 141
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/depend.make",
+      "sha": "f9f12267bf424ef533d13aabc268fd91b7c6f721",
+      "size": 118
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/flags.make",
+      "sha": "dcd7de22e3b75036c7c897d5345e9374f69a8c67",
+      "size": 781
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/progress.make",
+      "sha": "3a86673aa7c1868ad77aa16c631effd83be0da02",
+      "size": 43
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/src/main_ca3_full_net_lognormalI_09_05_23_2.cpp.o",
+      "sha": "fe93b692d77bce839025a91d2b4c75b1b18a98bf",
+      "size": 384600
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/src/main_ca3_full_net_lognormalI_09_05_23_2.cpp.o.d",
+      "sha": "7073094c55dda8bbfa831331ab0446106ab98052",
+      "size": 30128
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/build.make",
+      "sha": "3e943b54184945f0a778dc2bc7eb473ce595ed56",
+      "size": 8963
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/compiler_depend.make",
+      "sha": "44db4a3c1ec900dfd1d8884fbbb2ddc414f38e7d",
+      "size": 137
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/compiler_depend.ts",
+      "sha": "87ee1b5ee399b8415e48284173146119e2e9123e",
+      "size": 141
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/depend.make",
+      "sha": "e1669755d64d57d4da1b8059385523060ac53e22",
+      "size": 118
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/flags.make",
+      "sha": "d6db1e424003d0a63a38143de63ecb68a3c27a76",
+      "size": 781
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/progress.make",
+      "sha": "b700c2c902219d74619014853aade0d7ec177030",
+      "size": 44
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/src/main_ca3_full_net_lognormalI_09_05_23_4.cpp.o",
+      "sha": "0ca5d1cb9188fd8fea88934bc5a316637ab0905a",
+      "size": 381280
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/src/main_ca3_full_net_lognormalI_09_05_23_4.cpp.o.d",
+      "sha": "21f6b9d78fa974926479db2b6758af868f49a266",
+      "size": 30128
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/build.make",
+      "sha": "80dda0cf58f62a1f2d3f51085593969304062f82",
+      "size": 9843
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/compiler_depend.make",
+      "sha": "efa48930a21c63988c33f86ec874ab78ce218183",
+      "size": 145
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/compiler_depend.ts",
+      "sha": "2a9bf13afad7c5a94ed48806e8dccef77b9f0c33",
+      "size": 149
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/depend.make",
+      "sha": "d3103dc830244f50729d315fcb81a59a9e660581",
+      "size": 126
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/flags.make",
+      "sha": "e52702b1f6232cc359c9ce08eeb149146047a3f8",
+      "size": 789
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/progress.make",
+      "sha": "6c86c2b286dbef63c68f22b7440c37245f0e4042",
+      "size": 43
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/src/main_ca3_full_net_lognormalI_09_05_23_assem_275.cpp.o",
+      "sha": "e7dcc5a7022077b431f237717e9ee3f9715814c7",
+      "size": 388472
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/src/main_ca3_full_net_lognormalI_09_05_23_assem_275.cpp.o.d",
+      "sha": "4957441b9a7b954274835c3e58800e34b39dad56",
+      "size": 30200
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/build.make",
+      "sha": "b3ed36fd336dc3e094809afed8ecbe51ce7fb7e9",
+      "size": 6433
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/compiler_depend.internal",
+      "sha": "e15d3e37e2b264e782b715556bfc69beaff1e278",
+      "size": 8722
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/compiler_depend.make",
+      "sha": "76676653605ef3af305cb24e5fbd12f8b85c826f",
+      "size": 16846
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/compiler_depend.ts",
+      "sha": "20f82e4b44326b7ba49151b9a8f51d14f96bbbf9",
+      "size": 118
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/depend.make",
+      "sha": "13ed6b1972564d6bb948ec98826c82dee7a3adcf",
+      "size": 95
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/flags.make",
+      "sha": "b994e81948e60f1de9b100e429b5830e3b48b9ca",
+      "size": 758
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/progress.make",
+      "sha": "4733d2b63ab430dc8d79f69d47487d17860eec79",
+      "size": 45
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/src/main_hello_world.cpp.o",
+      "sha": "418b9f618fdf00a46eb48cf126fd3d084c9212b6",
+      "size": 17488
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/src/main_hello_world.cpp.o.d",
+      "sha": "b0ea7e01445f5c47cedc812f05268b6c4560571f",
+      "size": 8909
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/progress.marks",
+      "sha": "ec635144f60048986bc560c5576355344005e6e7",
+      "size": 2
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/ca3_full_net_lognormalI_09_05_23_assem_275",
+      "sha": "74001ae8f0d621cf230a78bed53214f56c0dfc88",
+      "size": 201744
+    },
+    {
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/hello_world",
+      "sha": "541b9e3aff5629d4be102d4f041d02d1c98f0903",
+      "size": 29592
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/jupyterGenerateSNNSyntax.ipynb",
+      "sha": "1a46d6db3b9c05296ae7e9c804f49f406bc3c877",
+      "size": 819
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/scripts/demoOAT.m",
+      "sha": "031b8710f1b35398cda7287d9f5fdeedb6ee00d7",
+      "size": 1238
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/scripts/initOAT.m",
+      "sha": "b43ededf0fb73606603be860bcfbe86f1dd99dca",
+      "size": 90
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/scripts/plot_spikes_simple.m",
+      "sha": "fa82c16087524f0699babc77a186e66805e25cf5",
+      "size": 401
+    },
+    {
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/build.make",
+      "sha": "caee88926a8adfd2d785fee6a8d588b38ff05015",
+      "size": 10173
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/compiler_depend.make",
+      "sha": "9c36d110502454039274992e111f3828fafc0b4e",
+      "size": 148
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/compiler_depend.ts",
+      "sha": "90afd981e8d0ecc575517a9b97603cc6932ca989",
+      "size": 152
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/depend.make",
+      "sha": "560490a17a6ef2f80da8a714e5818eb308cde454",
+      "size": 129
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/flags.make",
+      "sha": "bfb092912cc9a916535faae7273462ee6a6585fc",
+      "size": 792
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/progress.make",
+      "sha": "3a86673aa7c1868ad77aa16c631effd83be0da02",
+      "size": 43
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23.cpp.o",
+      "sha": "0dbc82f4ddc665d0f3b86688aa1c1ab237c15ad0",
+      "size": 284040
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23.cpp.o.d",
+      "sha": "a1ec67062f464ce76b8b720c521508e678973263",
+      "size": 29896
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/build.make",
+      "sha": "ee80bad42e7042d6939fa59d58270dece4147166",
+      "size": 10393
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/compiler_depend.make",
+      "sha": "570ea8c8e3d65577773b9f18477dc573b90b7c93",
+      "size": 150
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/compiler_depend.ts",
+      "sha": "bd9ffabb951c317028ed734bb516aed66acb9649",
+      "size": 154
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/depend.make",
+      "sha": "7c7b94f83271e4b9340c1d6806e2e5cae532a6c3",
+      "size": 131
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/flags.make",
+      "sha": "efa61c83790d0ba6ad225e8eb8dc418a20735704",
+      "size": 794
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/progress.make",
+      "sha": "596289c0fd56aa23623cdcbea086a133035b3bc8",
+      "size": 45
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_2.cpp.o",
+      "sha": "475fe794cb58568c820d85992546ac06e7515125",
+      "size": 284040
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_2.cpp.o.d",
+      "sha": "86d7d31692f87b1ac6102e89f32eb4561d19233e",
+      "size": 29914
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/build.make",
+      "sha": "39965136cca7626a1d66481b47640d9f699b7b61",
+      "size": 10393
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/compiler_depend.make",
+      "sha": "96f96d5f02d04f26ad435ca83ba656c638514f90",
+      "size": 150
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/compiler_depend.ts",
+      "sha": "16fe3a98901646addea0ca266f4d65c8fbeab2a2",
+      "size": 154
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/depend.make",
+      "sha": "2e75a182c258d1a1593fd746281c967f951f764e",
+      "size": 131
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/flags.make",
+      "sha": "ceec11f94c070fdbe1f51c5dbc7d247b6ee869c9",
+      "size": 794
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/progress.make",
+      "sha": "a0338d9e672cf6e4608e06e5a8de19a08b043db0",
+      "size": 43
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_4.cpp.o",
+      "sha": "254f1651a389de67fdac8e8ed67e6c5d6c42692d",
+      "size": 284056
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_4.cpp.o.d",
+      "sha": "023062d3684ca1e81589c869c5469888fb3fc049",
+      "size": 29914
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/build.make",
+      "sha": "8d06e0fd285bd788e696313e76d4c4083de2712f",
+      "size": 11273
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/compiler_depend.make",
+      "sha": "dd1ed6cf727857b64c977337badaa96d957d09ba",
+      "size": 158
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/compiler_depend.ts",
+      "sha": "ab611dfc0487779a19a97150dfef24491fd8e759",
+      "size": 162
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/depend.make",
+      "sha": "d53d4f2c8799b228e7a9b4aae0ca59a2b30ecce6",
+      "size": 139
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/flags.make",
+      "sha": "14cabb9f86783c45dfea5e0221186d372b0521d1",
+      "size": 802
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/progress.make",
+      "sha": "05fbf5971531dffde457871aad6038ba5e96703b",
+      "size": 43
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.cpp.o",
+      "sha": "35dd80b77824a93f2afa15ce46b9dc85ab31978c",
+      "size": 281144
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.cpp.o.d",
+      "sha": "8fe0580fd74a169bda94b6bf566eb70f5ebd5320",
+      "size": 29986
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/build.make",
+      "sha": "b3ed36fd336dc3e094809afed8ecbe51ce7fb7e9",
+      "size": 6433
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/compiler_depend.internal",
+      "sha": "e15d3e37e2b264e782b715556bfc69beaff1e278",
+      "size": 8722
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/compiler_depend.make",
+      "sha": "76676653605ef3af305cb24e5fbd12f8b85c826f",
+      "size": 16846
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/compiler_depend.ts",
+      "sha": "20f82e4b44326b7ba49151b9a8f51d14f96bbbf9",
+      "size": 118
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/depend.make",
+      "sha": "13ed6b1972564d6bb948ec98826c82dee7a3adcf",
+      "size": 95
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/flags.make",
+      "sha": "b994e81948e60f1de9b100e429b5830e3b48b9ca",
+      "size": 758
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/progress.make",
+      "sha": "4733d2b63ab430dc8d79f69d47487d17860eec79",
+      "size": 45
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/src/main_hello_world.cpp.o",
+      "sha": "418b9f618fdf00a46eb48cf126fd3d084c9212b6",
+      "size": 17488
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/src/main_hello_world.cpp.o.d",
+      "sha": "b0ea7e01445f5c47cedc812f05268b6c4560571f",
+      "size": 8909
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/progress.marks",
+      "sha": "8351c19397f4fcd5238d10034fa7fa384f14d580",
+      "size": 3
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275",
+      "sha": "89e57549c070c2830e1ddec7b97942f82ab0de76",
+      "size": 158112
+    },
+    {
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/hello_world",
+      "sha": "541b9e3aff5629d4be102d4f041d02d1c98f0903",
+      "size": 29592
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/jupyterGenerateSNNSyntax.ipynb",
+      "sha": "1a46d6db3b9c05296ae7e9c804f49f406bc3c877",
+      "size": 819
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/scripts/demoOAT.m",
+      "sha": "031b8710f1b35398cda7287d9f5fdeedb6ee00d7",
+      "size": 1238
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/scripts/initOAT.m",
+      "sha": "b43ededf0fb73606603be860bcfbe86f1dd99dca",
+      "size": 90
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/scripts/plot_spikes_simple.m",
+      "sha": "fa82c16087524f0699babc77a186e66805e25cf5",
+      "size": 401
+    },
+    {
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    }
+  ],
+  "discovered_asset_links": [
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/tree/feat/ca3net)."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/tree/feat/ca3net?tab=readme-ov-file#use-of-this-branch)."
+    }
+  ],
+  "elapsed_seconds": 27.13437008857727,
+  "files": [
+    {
+      "bytes": 1072,
+      "git_blob_sha1": "f7cb8082d3ab2cf7386b7ebe601005c627632c6d",
+      "path": "LICENSE",
+      "sha256": "ecc7334dcd8547310730d7fd0ecf566dbf04ae7029fbd1dde4741cca884b3188"
+    },
+    {
+      "bytes": 2208,
+      "git_blob_sha1": "bf4bc696fbb71eab55932f9d5537bbb12ae3c9bf",
+      "path": "README.md",
+      "sha256": "f2b3bcbdd12ca112bbdb90996b5812c6703aed1ac5af97b63965176a347977db"
+    },
+    {
+      "bytes": 661,
+      "git_blob_sha1": "187574441ef4a2831b9c7a002ee36fb0ad01c637",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/CMakeDirectoryInformation.cmake",
+      "sha256": "827cf92a95d7a1995a324bebe9093efc912276aec332662dd759b01134e2b4ae"
+    },
+    {
+      "bytes": 1147,
+      "git_blob_sha1": "174fcf1376be37d40ab639d768f6c926e6c21173",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/DependInfo.cmake",
+      "sha256": "d921dd3d29d1b2b3a3b9a84422444071619b2c6416d8f29c8e5381ee38970ebf"
+    },
+    {
+      "bytes": 481,
+      "git_blob_sha1": "2470e4e74ea6499b68fb74f470b1cf46df8e0ab6",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/cmake_clean.cmake",
+      "sha256": "d57ad931cf62e993745e37d4e53b93549ab0148fae00f5d1f092a0b59ed90e4b"
+    },
+    {
+      "bytes": 552,
+      "git_blob_sha1": "640d1fd6aad7c79900287b21b43d070521cc57f0",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23.dir/link.txt",
+      "sha256": "a2299379517d553f14b2aed773b9a82695de9537a9d9cc514699a50fe563f41d"
+    },
+    {
+      "bytes": 1163,
+      "git_blob_sha1": "9773853191e780a0a52befe608cd5711bc29d2e3",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/DependInfo.cmake",
+      "sha256": "6e96793263901e06a412529e36e10a61639d1f7b82e4e9c690ad65dbd0ae5e97"
+    },
+    {
+      "bytes": 495,
+      "git_blob_sha1": "c94cc8bbac82edd49eb1c5b764f5ff383e586ab2",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/cmake_clean.cmake",
+      "sha256": "1a3732eaa0218d704671abd84ddafc0b60622d2f080e7de61292c44f336690f9"
+    },
+    {
+      "bytes": 558,
+      "git_blob_sha1": "c81d048ca031d2660744f5d53bf43194d5bb23b9",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_2.dir/link.txt",
+      "sha256": "84c28ace7639d8eb72d902aed282f6e279d068162ce4b3c174837bf998d509a3"
+    },
+    {
+      "bytes": 1163,
+      "git_blob_sha1": "47c0a14e46533c172784921d0ffe3ac09331cd62",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/DependInfo.cmake",
+      "sha256": "1097d213228f635d7e0488c58622b549576cffc1333182d14efe34eaa8d21473"
+    },
+    {
+      "bytes": 495,
+      "git_blob_sha1": "2d3ffd4e3727360d16215a08b85752ba430b70a1",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/cmake_clean.cmake",
+      "sha256": "7fbfcf88495e2973f4e955e2367930c1dbd5b0a660818b6d0c2b2c652566fdc8"
+    },
+    {
+      "bytes": 558,
+      "git_blob_sha1": "e0cfdf71545bdcca0cce0df89e5865a03995feaf",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_4.dir/link.txt",
+      "sha256": "deddc9cb814c9201ffd2de5947acb8d65f8685b3da0fe1d5fb33cf1b72beddfc"
+    },
+    {
+      "bytes": 1227,
+      "git_blob_sha1": "da017b2f0151224e8adf5a9c7d10764e9979a18d",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/DependInfo.cmake",
+      "sha256": "351c9863862082cbae6b5f1b6195cfe0e0fb2e54a989863d305e67a7de773f22"
+    },
+    {
+      "bytes": 551,
+      "git_blob_sha1": "f24242160a5a43037598abb0898cf0f9f32289ed",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/cmake_clean.cmake",
+      "sha256": "822f5c51666be00dcc1bd56820bfc19602a0149d8564c8fa3677fbe2dc8dd57c"
+    },
+    {
+      "bytes": 582,
+      "git_blob_sha1": "ffe48a6dd519abf1cdc706b7a3a0da8c09a8aa43",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_lognormalI_09_05_23_assem_275.dir/link.txt",
+      "sha256": "574c1c321ab6412449411cf384df18061fdc20604edb6e87aba23c73e3bd0ee6"
+    },
+    {
+      "bytes": 979,
+      "git_blob_sha1": "fec7b1931101a4da43f92c7fed4b6d796ddfea23",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/DependInfo.cmake",
+      "sha256": "1f9ab005d2d58b4846ce34c783b8a351aa1807185d974d42058b5b28908422d0"
+    },
+    {
+      "bytes": 334,
+      "git_blob_sha1": "a7094a09f2e2fd87ab47ea5353cf801ed91d22c0",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/cmake_clean.cmake",
+      "sha256": "91f1ccbac82a020f9bbe4f9fac59f24d3a6dd02f2e949830cb41edd4433b81fe"
+    },
+    {
+      "bytes": 489,
+      "git_blob_sha1": "f883eca7c2624ca8da21c11bae4714e4fedb1cf3",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/link.txt",
+      "sha256": "a06dfe3642bc2d4cb113721857c2f94b8c27e08a7dcf6f50543cfe2618c45cac"
+    },
+    {
+      "bytes": 17760,
+      "git_blob_sha1": "4675f05c8273904fd9526da7fc319fc4dae90191",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/Makefile",
+      "sha256": "b6fc2dbab929d3979cfa0b718cf21229f08c943044c3e9a26df55d9edeb2ae4f"
+    },
+    {
+      "bytes": 2783,
+      "git_blob_sha1": "a8fa61f70204bf76ac80f3dfe7d29698d79a8fee",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/cmake_install.cmake",
+      "sha256": "15fb8dc35d772172d0f5ab368e393b22fc605c2c9463c38dbb0cd6a39b45feed"
+    },
+    {
+      "bytes": 1549,
+      "git_blob_sha1": "1b1fb0b66ad4aae198cf1026bfda7f9cbd588652",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_1.csv",
+      "sha256": "dbbcf1af4681ffe45ae203c72facace8d187f371b46f6708b1136f435205f0ff"
+    },
+    {
+      "bytes": 1549,
+      "git_blob_sha1": "e85ed7f537e4f4e8b52fbb5203c480689afce2ab",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_1_half.csv",
+      "sha256": "1c6174c8525f445668f316653c6e51b42a51b37c796deb5d9d833b8cdd122864"
+    },
+    {
+      "bytes": 1659,
+      "git_blob_sha1": "cbc37cf42c490317a7715438656b5e82b386be38",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_2.csv",
+      "sha256": "8151620f7389d37c22e14deb6d00f41a5b957b0f3605f8694fe45471730c91ea"
+    },
+    {
+      "bytes": 1659,
+      "git_blob_sha1": "913d1ebfd9284a147d2938bdbb02aaf8d4b1dd17",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_2_half.csv",
+      "sha256": "f5a3297e32d705ada229695dd39b96d96feab4c5b27ef106d798aef04bcc0775"
+    },
+    {
+      "bytes": 1659,
+      "git_blob_sha1": "d5587dcdfa9a8f486ccdff542fb69017c3df52f1",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_3.csv",
+      "sha256": "39d28ddd3d81ccddc4fb447ad62617b92639507a7f53b8308db78246f17eb761"
+    },
+    {
+      "bytes": 1659,
+      "git_blob_sha1": "1753820fcd5435931a739405949d91aebb43caa3",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_3_half.csv",
+      "sha256": "90d211f5fc812c247b5637417d60d83502da0563c253649edccb695a191b84c8"
+    },
+    {
+      "bytes": 1983,
+      "git_blob_sha1": "42a3b7dec94310ff5ae2113e0610a76b870dc9fa",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_temp1_half.csv",
+      "sha256": "f06c719f67b7e07c97774f957f6a16034a5cddd328949816b556de83e3d3e94e"
+    },
+    {
+      "bytes": 2203,
+      "git_blob_sha1": "22e95658e13b81fd05ac960c65bbffe677c576ab",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_temp2_half.csv",
+      "sha256": "80b7ece0ac15a30bdb39f3340d97d64047292e1320ce2171c4c0614c8dc800bc"
+    },
+    {
+      "bytes": 2203,
+      "git_blob_sha1": "bf43ad00535e46250642805d7ba19408c42c2925",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/pc_input_pat_temp3_half.csv",
+      "sha256": "68ef3001ba0a0770444afa4ceebcd16b10d3c0a81813deac48bd544aa3e722a6"
+    },
+    {
+      "bytes": 537,
+      "git_blob_sha1": "6ac0b295ea0a7799f57787636be874ea49ba7de0",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/slurm_wrapper.sh",
+      "sha256": "cd72ddce588707fc873b88b0f98bd89d1ff224dcc765f0874b0dc27160e98321"
+    },
+    {
+      "bytes": 3960,
+      "git_blob_sha1": "06096b69f39c1468d2e7b3a0254a0d0b15d75d7f",
+      "path": "formation/build/ca3_full_net_lognormalI_09_05_23_assem_275/trainPat.csv",
+      "sha256": "9f9c6376509ccb01b4acc7d1e47feb81dd308658e29186304feb616c72330f91"
+    },
+    {
+      "bytes": 929,
+      "git_blob_sha1": "7839763685706d743b5e2ed8a289ea94b475af0c",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/CMakeLists.txt",
+      "sha256": "8da2b1824ab9e88e64c9af13b4f71c3cf71b925331a4e15460358ba390d92f5a"
+    },
+    {
+      "bytes": 51977,
+      "git_blob_sha1": "069dcb0052ca65ae868e8e33c05eaa9114b64d0a",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/generateCONFIGStateSTP.h",
+      "sha256": "8bb51499780570af1cb499d5f61442408439000605a940e200407da6447a53ad"
+    },
+    {
+      "bytes": 604,
+      "git_blob_sha1": "71f444801c8acf5fe9bf63e9bc2b35f362077894",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/generateSETUPStateSTP.h",
+      "sha256": "b6dc5216827055124226f907795857c81e4997ee0b9cf49ce3422d54d701c3ef"
+    },
+    {
+      "bytes": 21892,
+      "git_blob_sha1": "e98c88efd741d3b5ccc373224dd3180c281c1d48",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/generateSNNSyntax.py",
+      "sha256": "99973baaf7fba92ae198632187bce50bff28f7771271664b5579c98d7581d21f"
+    },
+    {
+      "bytes": 47925,
+      "git_blob_sha1": "db8216955fcacfd65559ed55fa7dafc7829d1f59",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/src/main_ca3_full_net_lognormalI_09_05_23_assem_275.cpp",
+      "sha256": "b8eaf072a657aa6130846aea9811d827182c1c357d35c3d67af02fb359399be8"
+    },
+    {
+      "bytes": 1219,
+      "git_blob_sha1": "37c2ec27dc2e185012be474d7eae3e6e6b6f4c74",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/standalone/CMakeLists.txt",
+      "sha256": "982725ac5681af95553e212f4cdd6da9d1455c08b3a2378ae203136c5ba02626"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "formation/project/ca3_full_net_lognormalI_09_05_23_assem_275/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 661,
+      "git_blob_sha1": "187574441ef4a2831b9c7a002ee36fb0ad01c637",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/CMakeDirectoryInformation.cmake",
+      "sha256": "827cf92a95d7a1995a324bebe9093efc912276aec332662dd759b01134e2b4ae"
+    },
+    {
+      "bytes": 1251,
+      "git_blob_sha1": "c801d9a4658e4eac1af82f88a2a367bc6691de97",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/DependInfo.cmake",
+      "sha256": "f5c52f7f096fba94b53de78cc21e2d1334bf988f66ba110be9f0253d57a675a3"
+    },
+    {
+      "bytes": 572,
+      "git_blob_sha1": "e92af56ff4021e38c91937b44e3f6d6c980c569f",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/cmake_clean.cmake",
+      "sha256": "df99d479f73ecada7489eee1d25efe00d02d9cb03738c54b8ab4f2a6395a86c3"
+    },
+    {
+      "bytes": 591,
+      "git_blob_sha1": "f9a9e610e2007afb26aaf006ac618c0d2b1076e5",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23.dir/link.txt",
+      "sha256": "2929c78f47f37682af43bd0c59402a3cf73fc434532bddcb101b25f4fb30e1cc"
+    },
+    {
+      "bytes": 1267,
+      "git_blob_sha1": "4c1c0d4c366f923611aa53f20ddbece2f988c786",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/DependInfo.cmake",
+      "sha256": "58d7c620b1f23e81fd86622c1393103c3c78e8e9092c0ed7ad519023514d7bb1"
+    },
+    {
+      "bytes": 586,
+      "git_blob_sha1": "d49bd1c306fe4d4f5e6610c6b88fad131d424f20",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/cmake_clean.cmake",
+      "sha256": "4366bfae123a18e623213b8cdb939ab620257c6e849e9a5edb42bf0a8c1c67b4"
+    },
+    {
+      "bytes": 597,
+      "git_blob_sha1": "9a3fef9096e5b648cc0ee95e0fd0afbda99e6f17",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_2.dir/link.txt",
+      "sha256": "7c244019bcd42f69906529cab26bfc86c129a92070571d40fa518f42e03e1d7c"
+    },
+    {
+      "bytes": 1267,
+      "git_blob_sha1": "b730078dc91be8bd361c82cad8d3a59ad34ba7ec",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/DependInfo.cmake",
+      "sha256": "0d2b01b78bcea70174711a12b9366ff397f9f0e64ae2a5be2bae3cb6292c93c6"
+    },
+    {
+      "bytes": 586,
+      "git_blob_sha1": "0dc10cf6334d826effdc19fa5fc02976142c954a",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/cmake_clean.cmake",
+      "sha256": "c3d234e5708b331aeeecb50f1cdd5605336746494f83c0aed233f3438f84416b"
+    },
+    {
+      "bytes": 597,
+      "git_blob_sha1": "7eef53c54bd07083ae7c822817eec287c5c7dfbf",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_4.dir/link.txt",
+      "sha256": "3ab6e85cc8e42e915ce89bf075747a612d30fa07ed6b7d81add850cb73a1c279"
+    },
+    {
+      "bytes": 1331,
+      "git_blob_sha1": "434c05dd8d1f299b57b72f5f63a90dfca9164783",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/DependInfo.cmake",
+      "sha256": "87a1ab6fa0c64a8fe92b85b3517143e57dd5677aa08ef7e001bc68d91066ebd6"
+    },
+    {
+      "bytes": 642,
+      "git_blob_sha1": "63e6ed8774b2878683e2cfcdba62b15abf83b725",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/cmake_clean.cmake",
+      "sha256": "72abdafb32c541126d64172fedc79adc66bc7efeb46935257db699d62f6c8e8a"
+    },
+    {
+      "bytes": 621,
+      "git_blob_sha1": "cdffc3d829ec942326c1254fc1ec870d754e7695",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.dir/link.txt",
+      "sha256": "0cc0d9c4347388ec2c7e2d5ced9449f8eea74659c4517b3d6a09449cd421d6a4"
+    },
+    {
+      "bytes": 979,
+      "git_blob_sha1": "fec7b1931101a4da43f92c7fed4b6d796ddfea23",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/DependInfo.cmake",
+      "sha256": "1f9ab005d2d58b4846ce34c783b8a351aa1807185d974d42058b5b28908422d0"
+    },
+    {
+      "bytes": 334,
+      "git_blob_sha1": "a7094a09f2e2fd87ab47ea5353cf801ed91d22c0",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/cmake_clean.cmake",
+      "sha256": "91f1ccbac82a020f9bbe4f9fac59f24d3a6dd02f2e949830cb41edd4433b81fe"
+    },
+    {
+      "bytes": 489,
+      "git_blob_sha1": "f883eca7c2624ca8da21c11bae4714e4fedb1cf3",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeFiles/hello_world.dir/link.txt",
+      "sha256": "a06dfe3642bc2d4cb113721857c2f94b8c27e08a7dcf6f50543cfe2618c45cac"
+    },
+    {
+      "bytes": 14594,
+      "git_blob_sha1": "6ee063591f79528b460eaa95e5d2a9c430cac7bf",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/Makefile",
+      "sha256": "0caf024e230e7f93341616987b707615eb4a3d6b5b806ff056fa72d433adfc66"
+    },
+    {
+      "bytes": 2926,
+      "git_blob_sha1": "b61fa212d89d8155c4951bef87224c7513137d70",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/cmake_install.cmake",
+      "sha256": "ab3669a583192161ce3a91f0e4ba3192c3ef39797f87bc11be4ab4fb3250a42a"
+    },
+    {
+      "bytes": 555,
+      "git_blob_sha1": "e9d23d1d3b1191e376584e3c9dea40376e6eb8b1",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/slurm_wrapper.sh",
+      "sha256": "4d50da339cd0d98702c964c7989e3c5032f8cdd18958ef01a0f5a276ad644dbf"
+    },
+    {
+      "bytes": 3960,
+      "git_blob_sha1": "06096b69f39c1468d2e7b3a0254a0d0b15d75d7f",
+      "path": "retrieval/build/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/trainPat.csv",
+      "sha256": "9f9c6376509ccb01b4acc7d1e47feb81dd308658e29186304feb616c72330f91"
+    },
+    {
+      "bytes": 1046,
+      "git_blob_sha1": "8fe2a7e655df6daee373c9d345c7f95e545dde1f",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/CMakeLists.txt",
+      "sha256": "3d3fc35c8edee9d160179d8f0fa2f24b359598ba0c0bb34e45a43a68853b916b"
+    },
+    {
+      "bytes": 51977,
+      "git_blob_sha1": "069dcb0052ca65ae868e8e33c05eaa9114b64d0a",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/generateCONFIGStateSTP.h",
+      "sha256": "8bb51499780570af1cb499d5f61442408439000605a940e200407da6447a53ad"
+    },
+    {
+      "bytes": 604,
+      "git_blob_sha1": "71f444801c8acf5fe9bf63e9bc2b35f362077894",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/generateSETUPStateSTP.h",
+      "sha256": "b6dc5216827055124226f907795857c81e4997ee0b9cf49ce3422d54d701c3ef"
+    },
+    {
+      "bytes": 21892,
+      "git_blob_sha1": "e98c88efd741d3b5ccc373224dd3180c281c1d48",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/generateSNNSyntax.py",
+      "sha256": "99973baaf7fba92ae198632187bce50bff28f7771271664b5579c98d7581d21f"
+    },
+    {
+      "bytes": 46738,
+      "git_blob_sha1": "f3a2734e6f3623bb89341c1690b8885370d922d6",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/src/main_ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275.cpp",
+      "sha256": "b45dfc11375495b2f49f5b38d7104a29e11323d29b1d66330f88b03ac72a458a"
+    },
+    {
+      "bytes": 1219,
+      "git_blob_sha1": "37c2ec27dc2e185012be474d7eae3e6e6b6f4c74",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/standalone/CMakeLists.txt",
+      "sha256": "982725ac5681af95553e212f4cdd6da9d1455c08b3a2378ae203136c5ba02626"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "retrieval/project/ca3_full_net_test_patcomp_lognormalI_09_05_23_assem_275/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "native_reproduction_completed": false,
+  "repository": "https://github.com/jkopsick/simulate_formation_and_retrieval",
+  "requested_ref": "main",
+  "revision": "1989764942516bf110dafc29ad08d815fd699f4c",
+  "scientific_reference_qualified": false,
+  "source_code_acquired": true,
+  "source_id": "ca3_formation_retrieval"
+}

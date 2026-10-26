@@ -1,0 +1,297 @@
+schema: pfc_gain_clock_existing_bank_comparison_v1
+scope: descriptive_100k_recurrent_gain_by_clock
+recorded_utc: '2026-10-07T00:52:46.862550+00:00'
+question: Does the Jpos2.3 weak-cue response difference from Jpos1.6 persist at both
+  finer clocks across all32 existing100k blocks?
+source_simulations: 0
+new_independent_blocks: 0
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+production_episodes: 0
+cohort: expanded_100k
+kernel_parameters:
+  baseline:
+    Jpos_excit2excit: 1.6
+    sigma_weight_profile: 20.0
+  candidate:
+    Jpos_excit2excit: 2.3
+    sigma_weight_profile: 20.0
+source_rng_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+blocks:
+- source_rng_seed: 95001
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+    delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock/source_execution/expanded_100k/run_597578
+    delivery_sha256: be825219af29d7096137d7a007b1843b85a3b001099e547eba2e7dc7488f62ab
+- source_rng_seed: 95002
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592119
+    delivery_sha256: 52a3a1ff68438135b36ee2ebaa9ac960b25f8e95adc3e00bd674e59bdc07f1a3
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock/source_execution/expanded_100k/run_597579
+    delivery_sha256: 52a2195d4bdf6701da548cec41f33aca9dcb7b6f2591f4061f257bdc98ae5422
+- source_rng_seed: 95003
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592133
+    delivery_sha256: 1864f1271ddcd0ec3074ef7256fe1c54c991c05b3c12e5d04dd9fa3bc2d0ed14
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock/source_execution/expanded_100k/run_597580
+    delivery_sha256: 754787a4edd5ef151c7b84a9ef8a4503fc2de6b6f842cc7741ef4d2247f35e17
+- source_rng_seed: 95004
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592134
+    delivery_sha256: 22d1439e256f5500aa0f1cf1459a38419b9699b5136afc2aa16279b68162a7f6
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_0
+    delivery_sha256: d2818e15f8bd38fc8a2a4a0942448ba7169cbe989dce5019a32f4df545ed669b
+- source_rng_seed: 95005
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592135
+    delivery_sha256: c9e852315d53cab00040345918fcd126b6c12e29750467e4b67471a33b0e294c
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_1
+    delivery_sha256: 77ad2416b15663a205bfbfa15fbbeda4ee9cb3045b94537ba8aef71eb8f8c6aa
+- source_rng_seed: 95006
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592136
+    delivery_sha256: 3fbb3b7afb29b1bdd6fb05f3789d1db09abf756b4a645c9c9312c3ad82b16e63
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_2
+    delivery_sha256: abd5081e7f28873e0574b5189b4a23670d414a80aee91128c163d0a91a578ae9
+- source_rng_seed: 95007
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592137
+    delivery_sha256: 83e7d915e163c404b801fa3768de67f05b995862208cd7cba67a6f8470725981
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_3
+    delivery_sha256: 31650dd9cdc437ebfdfd660d51a405277fc240eadc5fefeee119d5b6f460dc77
+- source_rng_seed: 95008
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592138
+    delivery_sha256: d1fbb32f285df829544e67178493d464afd02b804bfb331bec010a43e1c57d9c
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_4
+    delivery_sha256: 2bd3cc687142603cf9ff2f3028ce27831aa722e19e44818b318fb171a1533cda
+- source_rng_seed: 95009
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592139
+    delivery_sha256: 2eab19253738cf96c4b5e4aed0055e4c6abd22db37110ffbfc8d0ea2c327b6af
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_5
+    delivery_sha256: 523fd74a9f4462c0b5004f05591fc8e8bfa7873781525aca0e94ed2c028f5df3
+- source_rng_seed: 95010
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592140
+    delivery_sha256: ba76a8236b6ce3c0a3b394e18d1cfbd747ce4b1c9294592c091cea053bf7a5be
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_6
+    delivery_sha256: 5f998672e77d03bf2b9c80be46fd5f23ad919ec77e1d707c01de299476a59ca3
+- source_rng_seed: 95011
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592141
+    delivery_sha256: d07a1ea7b89379306570bd64f6a4d1aedc0c35433a1d97235bced66af58ddeb9
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_7
+    delivery_sha256: fcd29c9705860343c27f3c20b20b597ca9301a7b2996c36adc590d2680271549
+- source_rng_seed: 95012
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592142
+    delivery_sha256: 640cf503b9e210538e556a4606836994898632d84ac4d02bf83b88a51ebbae4a
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_8
+    delivery_sha256: 55294500013031d5f12bb447101841c14bb0db5535c613d4959bf45b9bed9a3d
+- source_rng_seed: 95013
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592143
+    delivery_sha256: 398bd0d135226ac5cfdb37bbf53424dca8bdb981a090a20e3be965a490a7eb93
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_9
+    delivery_sha256: aefb7db93210e5594e7f9f5e6bea4033e5bcd4a77e740413b465c8a4c44e414e
+- source_rng_seed: 95014
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592144
+    delivery_sha256: abf4d074793987f1b153ec5e7813d075c963d7b49f164582f7376f2614db29aa
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_10
+    delivery_sha256: d74af55aca91b1b9dc7f3c7a4088b61e8f5be256ca7b1047e2a3a3ca79cf387d
+- source_rng_seed: 95015
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592145
+    delivery_sha256: 647c4fc276c47ca021ed6a4de052b99815fa86c3dc0351a2062f882aec7dffaf
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_11
+    delivery_sha256: 6d20c328ad093804bd4ec0387d4231d701aea56a00ff87e6c51a5f3d7862b842
+- source_rng_seed: 95016
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592146
+    delivery_sha256: 4440c1f01a62cdcc00ccc8e7006ffe4e693d40e208cd700345adf4a0f5f94613
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_12
+    delivery_sha256: cac77b53454f2e36c465eb26848767c63dce0daf1fe270d59cbe1da7aaf63ac7
+- source_rng_seed: 95017
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592147
+    delivery_sha256: ae75472d8639d9599eeb0f428f63a9c66ca741a04ece68b8721f293daf5736c0
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_13
+    delivery_sha256: 4016f0f0b91a79f87d64ec64cab061d06790efaace050a831227bf83bc56c9aa
+- source_rng_seed: 95018
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592148
+    delivery_sha256: 1550669331572f68521d8429910e599e45ce73b21670fcb9f959ed14ff4ace3e
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_14
+    delivery_sha256: 84ad41e6c22d26987e8669816a9bc0bc4ca37381716ee79917f4517fbbd2e42f
+- source_rng_seed: 95019
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592149
+    delivery_sha256: 2a68197df5725ec04aace3cbc9c7883d0b0b6d3768a43dbb742a9b85166b6147
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_15
+    delivery_sha256: c517958ef13ba0006b754b9198b73daf8a40d3d263441790215b7e53be12736c
+- source_rng_seed: 95020
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592150
+    delivery_sha256: 61e751a2fe44bff7096bcb25f8498049981df4e4edf9f8fc46f6407734ec8ef3
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_16
+    delivery_sha256: 99e7bbc379b7b141f5f3ecc7c430915de1d8b12384739583551b2535473a1c3b
+- source_rng_seed: 95021
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592151
+    delivery_sha256: 0b40f460078b37114c56591400ccd84c81774743754d31d57b78fc788db9ad72
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_17
+    delivery_sha256: ac9b25d4eca909c5ae19b75ce1253267c1a863644b9db479447905f67ee7ab95
+- source_rng_seed: 95022
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592152
+    delivery_sha256: 7169d468bcc41eb3618b826e8af2774714ebc0ac83d7b5ec37117ef4fbd1948e
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_18
+    delivery_sha256: 7223d8755b48938afc9d0d4ae8f16643e45c5afd54738e0fff9af0d1405de08c
+- source_rng_seed: 95023
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592153
+    delivery_sha256: 1573fb7ca76897e1e2d7e6791491e5922c3e9ee02a9743ed422f2fcda9fb6b12
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_19
+    delivery_sha256: a393c9ee39de1f311708bc05f63706f73e9b667084772c4e4169c5e857bfc4f4
+- source_rng_seed: 95024
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592154
+    delivery_sha256: d7fb50102b62aa30a88f846bd29fe7d20fb1afb7063b5653ecaef9d90360ed18
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_20
+    delivery_sha256: 2d76119c5dea53e7922cd56f7d3f0caa1efa73617cd13b5c5ad5c38a8f30a83e
+- source_rng_seed: 95025
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592155
+    delivery_sha256: b28bc729bcf6a8c30060b138b895ef67584aabcabb186275ca2d8b4a2fd41594
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_21
+    delivery_sha256: cafe2c342cbcc0ad274e1ff57e4fab125beaa5a3be603485bea8bf7d9e025e84
+- source_rng_seed: 95026
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592156
+    delivery_sha256: 55fced382fb05f811f8885b815e9ce65d84aa4f12867472dad94a80a8116b13e
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_22
+    delivery_sha256: 01df23a7e849096bf8459a26496f77cc6717a64bbafc5af5f195ad0e0e03c5d4
+- source_rng_seed: 95027
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592157
+    delivery_sha256: 25ad159792c179cde905a079ae93ac3f99774cda6b42f293a915082afeb18c62
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_23
+    delivery_sha256: 3aaebe36969c245eb29c54791bd537475d1d513a0cd3f36192264a88cdda7106
+- source_rng_seed: 95028
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592158
+    delivery_sha256: 8732587d0e383953e376cbb0b9fd3d3c6221d2e76930de27581124a2d216315a
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_24
+    delivery_sha256: 3d4426b0a1a70ed7174d6620bb63ab08e41303c37e728bfe2e9b65c43ac8505b
+- source_rng_seed: 95029
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592159
+    delivery_sha256: f16740251bd28e4145d33a3e81ca42cb5924440d6925c9bfca6794aaf4230136
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_25
+    delivery_sha256: e3771a6f59f36293b78822515580dc840a047b5a8561ea006469fb6e00fd9c2e
+- source_rng_seed: 95030
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592160
+    delivery_sha256: fe768aaef33e94bdc5748eae7b65ea6c5f5005bae39d95668153f2e36353de41
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_26
+    delivery_sha256: 6f195156b191356a503e31508a1f328c9e82fcc276aa86a0630dbf550dde9368
+- source_rng_seed: 95031
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592161
+    delivery_sha256: 49c9bd56c3995e7a6103bf77b698bfd6e619ddffc5a4cf3a40937f45fc929f19
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_27
+    delivery_sha256: b6697f12a51aa1622b30d380563e20c3ea21af3153549e7f81b67119111d11de
+- source_rng_seed: 95032
+  baseline:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_592162
+    delivery_sha256: 159c6e27e5091b8d95439202058ba2bd43f54dc20313c2a160921884e6531ca8
+  candidate:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/source_execution/expanded_100k/run_597957_28
+    delivery_sha256: bdc08173ab5d882487c98d3f82641935b8e018dea74d8e60b9449f049d24d170
+reused_identity:
+  source_rng_seed: 95004
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/baseline_input_identity/run_598807
+  delivery_sha256: e98aedf4951bafb1bd69c566e9ea9d00e7f4d86b483021c5bfa048d7a6e957cc
+  report_sha256: 8f4cb1232985f89496d3770920ce07e8f3f9109bdaa74adac38d6224ac9d9a77
+baseline_readout:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/run_592283
+  delivery_sha256: c0c05a5da708f08ed961e1a891648cb5c147ef4d5e1ab9163c8d7fc690f2570c
+candidate_readout:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock_replicates/readouts/run_597981
+  delivery_sha256: dc36ce48e115b348b398e8e1b08c94fffd684b03b7fbaff750e01751becafb71
+candidate_pilot_readout:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/kernel_parameterization/recurrent_gain/coupled_clock/readouts/run_597649
+  delivery_sha256: 83dd37c9f04654e92dacaab3cb20add182425e0740d0b02238673ca2c46f8784
+observation_definition_modules:
+  pfc_delay_analysis.py: ccc4cfa9f84574b21288f693f53490b1b1e41d0411b7bdf63b2d8525a6a414fc
+  pfc_phase_responses.py: d93e7b1e61016ddf45ce3821f24e52231fe45d5182fffaa83ffc5040607c1258
+interpretation: All3conditions,5source phases,8namedHz metrics,3clocks and32existing
+  blocks. Pilot3 and remaining29 disjoint; full32 descriptive union. Stored initial/RNG/current/unit
+  identity only, not retrospective full external-stream comparison. No CI,pvalue,success
+  threshold,prevalence,source-scale qualification or formal confirmation.

@@ -1,0 +1,3144 @@
+{
+  "deferred_blobs": [
+    {
+      "path": ".gitignore",
+      "sha": "bd7a5c16abb71c32d5289c689b5a5009235d9d84",
+      "size": 519
+    },
+    {
+      "path": ".gitmodules",
+      "sha": "1c043326adc64c3560289808477aa03bc471d351",
+      "size": 369
+    },
+    {
+      "path": "AUTHORS",
+      "sha": "d9b32f073156222632fe68b50a4d2fcb88de4b89",
+      "size": 619
+    },
+    {
+      "path": "CHANGELOG",
+      "sha": "3867260e84f787058503f93378555f5b2870e5d9",
+      "size": 31568
+    },
+    {
+      "path": "RELEASE_NOTES",
+      "sha": "403351792bf4702e5f412d51819cf88daa737144",
+      "size": 11389
+    },
+    {
+      "path": "carlsim/benchmark/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "carlsim/benchmark/run_benchmark",
+      "sha": "5f9d5134b147c41b9b1cc8f4065655a89e4ab3f0",
+      "size": 398
+    },
+    {
+      "path": "carlsim/interface/inc/carlsim_conf.h.in",
+      "sha": "f0b839fec30ccd579684d1eb0155d646e4584f42",
+      "size": 1896
+    },
+    {
+      "path": "carlsim/test/scripts/jk_spikingNeuron_fi_curves.m",
+      "sha": "3de3288aebb34d144f09b0d1e123b2b5829fc8a7",
+      "size": 3340
+    },
+    {
+      "path": "carlsim/test/scripts/runCUBA.m",
+      "sha": "40c4d8b01d3783504a463ef16f6e5890f7cd0859",
+      "size": 1092
+    },
+    {
+      "path": "cmake/carlsim-config.cmake.in",
+      "sha": "e2cf895e1258478a55fe0d76a135deec4c530dc1",
+      "size": 1283
+    },
+    {
+      "path": "doc/CARLsim.config.doxy",
+      "sha": "f2eda2363d6502b913888ece94141c810e26798a",
+      "size": 81818
+    },
+    {
+      "path": "doc/CARLsimLayout.xml",
+      "sha": "8f9187c03375290688a5f89a187b08a3aa1d8155",
+      "size": 15497
+    },
+    {
+      "path": "doc/CARLsimStyles.css",
+      "sha": "7e3ee7d47c76a87098565b739a4fc8b529209cd7",
+      "size": 24347
+    },
+    {
+      "path": "doc/makedoc",
+      "sha": "4622f62c1f9b4a966d004cb6744e189f9ba594ef",
+      "size": 1721
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/doc/1_ffcurve.jpg",
+      "sha": "258fb2c9de1b01743fa9e11c5fd856e4b2f1c8c3",
+      "size": 23024
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/doc/1_gm_raster.jpg",
+      "sha": "9d483e7f446d87bc66d8905a7ea2206f06610d73",
+      "size": 20107
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/doc/tutorial1.dox",
+      "sha": "e6621be160af2e6978408d7895c236077be56140",
+      "size": 13700
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/scripts/demoOAT.m",
+      "sha": "a2305fc2c8c9d3972ba61d68d5b921469813b6e6",
+      "size": 172
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/scripts/ffcurve.m",
+      "sha": "5692c3c0a4c3e737191f56c6afeb71d3f951b0e4",
+      "size": 380
+    },
+    {
+      "path": "doc/source/tutorial/1_basic_concepts/scripts/initOAT.m",
+      "sha": "c00dbd105ae5dcd6ec8694acc7c295016e730b7b",
+      "size": 96
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/doc/2_cm_hist.jpg",
+      "sha": "72d41b0da404183a108d0f4665eb95102f1159ec",
+      "size": 16359
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/doc/2_nm_raster.jpg",
+      "sha": "d4e3b87a682adadfca395afa8d54a5dc420af689",
+      "size": 117093
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/doc/tutorial2.dox",
+      "sha": "3097aa5ed6fcdcd95e748ad0558fd569c98e1432",
+      "size": 16164
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/scripts/demoOAT.m",
+      "sha": "c310b4fd61e0f5cfa3a914937d13fc3b8021e6e4",
+      "size": 396
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/scripts/initOAT.m",
+      "sha": "c00dbd105ae5dcd6ec8694acc7c295016e730b7b",
+      "size": 96
+    },
+    {
+      "path": "doc/source/tutorial/2_random_spnet/src/main_random_spnet_4x.backup",
+      "sha": "153b217fe0fd3602874b83a7488a5910edb99be4",
+      "size": 10665
+    },
+    {
+      "path": "doc/source/tutorial/3_plasticity/doc/FiringRates.png",
+      "sha": "fb490145690d4b7d08bce1dfc42401ad7a22e072",
+      "size": 5353
+    },
+    {
+      "path": "doc/source/tutorial/3_plasticity/doc/Weights.png",
+      "sha": "29b29a5452673569c746b0d14f8b536162753243",
+      "size": 5097
+    },
+    {
+      "path": "doc/source/tutorial/3_plasticity/doc/tutorial3.dox",
+      "sha": "32687e3a48d47299b05ce5cdf0ecd7e8f4bc4a4d",
+      "size": 24894
+    },
+    {
+      "path": "doc/source/tutorial/3_plasticity/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/3_plasticity/scripts/initOAT.m",
+      "sha": "289178803c445b4b3069fb9ab14aa51ac5311273",
+      "size": 97
+    },
+    {
+      "path": "doc/source/tutorial/3_plasticity/scripts/plasticityOAT.m",
+      "sha": "f0d005a9bc45fe22171277f27b98a8793985045d",
+      "size": 1939
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/doc/4_carl_dog.jpg",
+      "sha": "c3b83e3f973c4f964f715781c6fe0ead986e0567",
+      "size": 305630
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/doc/4_carl_raw.jpg",
+      "sha": "853507dd85b47ed9dfdb051adcf58d84a74d7a20",
+      "size": 40614
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/doc/4_carl_smooth.jpg",
+      "sha": "c1e7a3c221a7171d1b48cc2a6222700e38751541",
+      "size": 103931
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/doc/tutorial4.dox",
+      "sha": "808aa94b8ec488b08c35712fe5d2a041c1eb853f",
+      "size": 14281
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/input/carl.dat",
+      "sha": "42ddc970bab5f952dea8d628f1df9ff4b193b831",
+      "size": 49177
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/input/carl.jpg",
+      "sha": "a75ab1962df875cb949975dfad137632a264f497",
+      "size": 382032
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/scripts/createStimFromImage.m",
+      "sha": "1d712552a8bc1a507835caaf3b9e58941ff9ae44",
+      "size": 898
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/scripts/demoDOG.m",
+      "sha": "3e51a07a1a50d7f1206fe7cd0690d82985cd27db",
+      "size": 655
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/scripts/demoSmooth.m",
+      "sha": "23788730481011344c97f8bd2da40f27b3cb4ccd",
+      "size": 631
+    },
+    {
+      "path": "doc/source/tutorial/4_image_processing/scripts/initOAT.m",
+      "sha": "50794e37135b77a67c3e314e5443da5a86005363",
+      "size": 344
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/doc/5_flow.jpg",
+      "sha": "681b9af5f956e04d1a13b4ca91522af7d5d497f2",
+      "size": 211027
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/doc/5_heat.jpg",
+      "sha": "7be52f5f1d5192eb0ce4a212d397540149e6e1c9",
+      "size": 52557
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/doc/5_stim.jpg",
+      "sha": "0737612702fb113abcf9905c4212e15b046df6b7",
+      "size": 104768
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/doc/tutorial5.dox",
+      "sha": "5020f32cd8467598a6220c6e6c9ee1262c883061",
+      "size": 12831
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/input/grating.dat",
+      "sha": "e448af10f9e76ad6dba525b850f1d1b1f82afd3d",
+      "size": 92185
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/scripts/createGratingVideo.m",
+      "sha": "f20434051d89439555fbf4b2008b7de767e48a56",
+      "size": 234
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/scripts/demoOAT.m",
+      "sha": "e5a8d8ed88d3f90aa835f5e46dd6544a9dbb14b0",
+      "size": 726
+    },
+    {
+      "path": "doc/source/tutorial/5_motion_energy/scripts/initOAT.m",
+      "sha": "50794e37135b77a67c3e314e5443da5a86005363",
+      "size": 344
+    },
+    {
+      "path": "doc/source/tutorial/6_simple_weight_tuner/doc/tutorial6.dox",
+      "sha": "10c92123f9092b3958c9a06cd62df2b380584e81",
+      "size": 11932
+    },
+    {
+      "path": "doc/source/tutorial/6_simple_weight_tuner/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/doc/ECJ-Loop.png",
+      "sha": "edf898e5b06f3d66045fc889c66d4895a904480b",
+      "size": 53751
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/doc/Network_groups.png",
+      "sha": "d9d7ad505705decbf7b539db0bfe841652acb4be",
+      "size": 5316
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/doc/Network_groups.uxf",
+      "sha": "22304907606ef9c85eb1689040a94db7532cbeb1",
+      "size": 1985
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/doc/tutorial7 -CARLsim4.dox",
+      "sha": "e2ee15c8a0f308ef320efd10797090d34561cf4e",
+      "size": 7608
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/doc/tutorial7.dox",
+      "sha": "d623967ccadb260dea0332030eea2a1c13a037f2",
+      "size": 18708
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/scripts/generateTestInput.bash",
+      "sha": "38b5603414fde74e4202e968efd55c7e2403f0aa",
+      "size": 1368
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/src/ecj_TuneFiringRates.params",
+      "sha": "54f28042b97922446807e132370ec8a3e565bfbc",
+      "size": 2353
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/src/ecj_boiler_plate.params",
+      "sha": "142dabaef8cde4683935fca568bd49a2e2442839",
+      "size": 966
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/src/tuneFiringRatesECJExperiment.params",
+      "sha": "2f14156ded1ce77639fce64a3eeee835b2d8c778",
+      "size": 2158
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/src/tuneFiringRatesECJExperiment4.params",
+      "sha": "2f14156ded1ce77639fce64a3eeee835b2d8c778",
+      "size": 2158
+    },
+    {
+      "path": "doc/source/tutorial/7_pti/src/tuneFiringRatesECJExperiment5.params",
+      "sha": "b2c34d95b287f478d169a68ff76a7cc980540055",
+      "size": 2315
+    },
+    {
+      "path": "doc/source/tutorial/8_compartments/doc/tutorial8.dox",
+      "sha": "3e6987eaa19c3f30ecdaa52a9a335d51d59d6567",
+      "size": 2686
+    },
+    {
+      "path": "doc/source/tutorial/8_neuron_model/doc/tutorial8.dox",
+      "sha": "3097aa5ed6fcdcd95e748ad0558fd569c98e1432",
+      "size": 16164
+    },
+    {
+      "path": "doc/source/tutorial/8_neuron_model/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "doc/source/tutorial/8_neuron_model/scripts/demoOAT.m",
+      "sha": "d5ce172882a8eb6d2e9efd066f1d05b2b4aa5ba7",
+      "size": 398
+    },
+    {
+      "path": "doc/source/tutorial/8_neuron_model/scripts/initOAT.m",
+      "sha": "c00dbd105ae5dcd6ec8694acc7c295016e730b7b",
+      "size": 96
+    },
+    {
+      "path": "doc/source/user_guide/10_ecj/chapter10.dox",
+      "sha": "2f473aeaf2ebc0e14572714124c898a270fb79e0",
+      "size": 1484
+    },
+    {
+      "path": "doc/source/user_guide/11_regression_suite/chapter11.dox",
+      "sha": "2e2089cd33fb6100efc4b2ea50c3d5c0b557011b",
+      "size": 6564
+    },
+    {
+      "path": "doc/source/user_guide/12_advanced_topics/chapter12.dox",
+      "sha": "080fff8d7d5899bad1777ab68d618f344cdbbf97",
+      "size": 13858
+    },
+    {
+      "path": "doc/source/user_guide/13_example_networks/chapter13.dox",
+      "sha": "76d07c0e2e8c4759c030a2baa8239bab21292997",
+      "size": 590
+    },
+    {
+      "path": "doc/source/user_guide/14_pycarl/chapter14.dox",
+      "sha": "e0e289872fe60e58e52a865be962c7b67fe0e8aa",
+      "size": 7222
+    },
+    {
+      "path": "doc/source/user_guide/1_getting_started/chapter1.dox",
+      "sha": "f87838be55436d4f4b53242c3309349aef6d738b",
+      "size": 17758
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/Neuromodulation_Fig1a_NadimBucher2014.png",
+      "sha": "d0607c15495e2f8f0d63dcb5981b1b59e8c77d0a",
+      "size": 60609
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/Neuromodulation_Fig1b_NadimBucher2014.png",
+      "sha": "8a75e513c41de7279c62b6a60e85218a77744abc",
+      "size": 66800
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/Neuromodulation_Fig2a_NadimBucher2014.png",
+      "sha": "e9ec542830b4ed2c0796ffabdccdcd79ee3b6730",
+      "size": 154097
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/Neuromodulation_Fig2b_NadimBucher2014.png",
+      "sha": "72727d5f9e74d88afdfac686a7433a05e1ec8d6e",
+      "size": 88716
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/alpha1_da_high_ne_high.png",
+      "sha": "5032ce0035468a1eee20b99de9d060804abf0964",
+      "size": 71939
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/alpha1_da_opt_ne_opt.png",
+      "sha": "336ae1dd0308f9d9088add7d9753777c682cb034",
+      "size": 87059
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/chapter20.dox",
+      "sha": "72dab7a86eabe9e7ed1d6196297aed47b9c434a3",
+      "size": 30548
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/d2_mu_adk15.png",
+      "sha": "d5bc4ef4bf6c5966429ae4dd055d2a4f64bbf311",
+      "size": 21648
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/damstdpOAT.png",
+      "sha": "241beebe2df75478f75447f176685ec99d792a53",
+      "size": 26821
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/mu_alpha1_da_ne._L3e.png",
+      "sha": "b14dc7d8e788a49f8e8d5fdd72152d817cc897cc",
+      "size": 116233
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/ne_opt_1_2.png",
+      "sha": "86cab596eec1398a91e86d307099f162162f03f1",
+      "size": 78790
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/nonlinear_excitabilty_1.png",
+      "sha": "acb0052379e81bf9dac747a78a3c9a40300c5408",
+      "size": 153960
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/nonlinear_excitabilty_2.png",
+      "sha": "1da4e83462b1842fa846e66fbef06cded9a6f1b1",
+      "size": 148095
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/optimized_phasic_neuron.png",
+      "sha": "d02a17eceb3ec4751261a19e731b1f8f567aa88d",
+      "size": 89169
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/pka_plc_mod1.PNG",
+      "sha": "4ba8a65dc3eb185f237962d5ce56b797148c65c8",
+      "size": 65682
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/pka_plc_mod2.PNG",
+      "sha": "670c10454dcb536d9f239753ff7faff7bbef7b9b",
+      "size": 95740
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/sim_groupMon_krichmar2008_rodent.png",
+      "sha": "f5a59857c53aa3d5c440e5e7d60b679a0bdaf9a3",
+      "size": 96583
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/stp_4nm_validation.PNG",
+      "sha": "429732aed87918a10d68bed6713c82ad39ea667f",
+      "size": 15566
+    },
+    {
+      "path": "doc/source/user_guide/20_neuromodulation/wm_impacts_by_ne.png",
+      "sha": "17901fba478d981fa0ae6a10edb4c9321774130e",
+      "size": 72740
+    },
+    {
+      "path": "doc/source/user_guide/2_basics/2_carlsim_states.jpg",
+      "sha": "4124d25b39ec416501efde34b786cf9d60d7487b",
+      "size": 60798
+    },
+    {
+      "path": "doc/source/user_guide/2_basics/chapter2.dox",
+      "sha": "6bb3a8eb2bd63ff16268a0b595dcff783fddb186",
+      "size": 7082
+    },
+    {
+      "path": "doc/source/user_guide/3_neurons_synapses_groups/3_grid3D.jpg",
+      "sha": "386bf0a8a2fad15eb099b00ee80c6c50467c9ee3",
+      "size": 43840
+    },
+    {
+      "path": "doc/source/user_guide/3_neurons_synapses_groups/chapter3.dox",
+      "sha": "59738c52c9e285b60cf07876484cccef208e2dc5",
+      "size": 18603
+    },
+    {
+      "path": "doc/source/user_guide/4_connections/4_compartments.jpg",
+      "sha": "b05f2657d5a9ab20f24f248a6edd9144c57d57eb",
+      "size": 31218
+    },
+    {
+      "path": "doc/source/user_guide/4_connections/4_gauss2D.jpg",
+      "sha": "5cfecaf92a2124151d69ff935e043a4a476d3171",
+      "size": 18849
+    },
+    {
+      "path": "doc/source/user_guide/4_connections/4_gaussVariety.jpg",
+      "sha": "a046d796af0a506d0c7409aee9a1b41e95a8f538",
+      "size": 18408
+    },
+    {
+      "path": "doc/source/user_guide/4_connections/4_radiusRF.jpg",
+      "sha": "ee0b66131a475187b45165d0a77c27c5e717d83c",
+      "size": 29005
+    },
+    {
+      "path": "doc/source/user_guide/4_connections/chapter4.dox",
+      "sha": "69a907b05023e6e52607245346c879916c30d5fd",
+      "size": 27870
+    },
+    {
+      "path": "doc/source/user_guide/5_synaptic_plasticity/5_stdp.png",
+      "sha": "6d66b6ef5dc19eef4d6273e7183a9ab390f40ac8",
+      "size": 26740
+    },
+    {
+      "path": "doc/source/user_guide/5_synaptic_plasticity/5_stdp_curves.png",
+      "sha": "066dcc80d58d9138d67b3b1087687dfde7dc3f3c",
+      "size": 60271
+    },
+    {
+      "path": "doc/source/user_guide/5_synaptic_plasticity/5_stdp_types.jpg",
+      "sha": "4e5a8011f1e5edbc308574db1515f0e36a3d3c05",
+      "size": 25826
+    },
+    {
+      "path": "doc/source/user_guide/5_synaptic_plasticity/5_stp.jpg",
+      "sha": "5bc85fe40b9beaee8394af8c2680b6a73420e7c6",
+      "size": 46802
+    },
+    {
+      "path": "doc/source/user_guide/5_synaptic_plasticity/chapter5.dox",
+      "sha": "b7836e5ceb4e02cb0238fd94a26a773bd6b1dd50",
+      "size": 19319
+    },
+    {
+      "path": "doc/source/user_guide/6_input/6_visualstimulus.jpg",
+      "sha": "a365eb7923be6091e1c872cede988ec2674f2a57",
+      "size": 40880
+    },
+    {
+      "path": "doc/source/user_guide/6_input/chapter6.dox",
+      "sha": "88f8a2595606a585630cdffb01a019d132b09949",
+      "size": 15063
+    },
+    {
+      "path": "doc/source/user_guide/7_monitoring/chapter7.dox",
+      "sha": "34f8f599b4b6d5558bbd61a8256eab92b6aeeb0e",
+      "size": 14868
+    },
+    {
+      "path": "doc/source/user_guide/8_saving_and_loading/chapter8.dox",
+      "sha": "6bf92aad1a00bbbcb3b359a1ae846039a00422c0",
+      "size": 4012
+    },
+    {
+      "path": "doc/source/user_guide/9_visualization/9_cm_plottypes.jpg",
+      "sha": "adf691583dd11f2c3c478925f4c256d072d07c07",
+      "size": 45035
+    },
+    {
+      "path": "doc/source/user_guide/9_visualization/9_gm_plottypes.jpg",
+      "sha": "51784532a35cc2267c98e03c721fd7127a5ea7b6",
+      "size": 94912
+    },
+    {
+      "path": "doc/source/user_guide/9_visualization/9_nm_example.jpg",
+      "sha": "040cecb584b6ebf90ecc2b1d3e503b71149cfc7c",
+      "size": 79717
+    },
+    {
+      "path": "doc/source/user_guide/9_visualization/9_nm_plottypes.jpg",
+      "sha": "c66d05bab512219a21f7afe16f70b8515de4e09f",
+      "size": 48191
+    },
+    {
+      "path": "doc/source/user_guide/9_visualization/chapter9.dox",
+      "sha": "e6de5cc547ef3d5969aff27f2480865d3c27d1c9",
+      "size": 55278
+    },
+    {
+      "path": "doc/source/user_guide/main_page.dox",
+      "sha": "fed2b832cd776795743cb889795384312dd82151",
+      "size": 4548
+    },
+    {
+      "path": "projects/.readme",
+      "sha": "13e177d3d3df0d1d35daf80c76f41bc3d76947ca",
+      "size": 120
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/ca3net_02_16_21_archetype.xlsm",
+      "sha": "1f557084322e78ffb5b34c8432ced47df367a72d",
+      "size": 69693
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/ca3net_02_16_21.xlsm",
+      "sha": "e2fc47cd134184dc8b0d2ea083f90e095137970c",
+      "size": 78858
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/ca3net_02_16_21_class.xlsm",
+      "sha": "4e4617fd06d756c38ec406114555bb4d82b22c29",
+      "size": 78335
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/ca3_example_net/ca3net_02_16_21.xlsm",
+      "sha": "e2fc47cd134184dc8b0d2ea083f90e095137970c",
+      "size": 78858
+    },
+    {
+      "path": "projects/ca3_example_net/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/ca3_example_net/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/ca3_example_net/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/ca3_example_net/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/ca3_example_net_02_26_21/ca3net_02_16_21.xlsm",
+      "sha": "e2fc47cd134184dc8b0d2ea083f90e095137970c",
+      "size": 78858
+    },
+    {
+      "path": "projects/ca3_example_net_02_26_21/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/ca3_example_net_02_26_21/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/ca3_example_net_02_26_21/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/ca3_example_net_02_26_21/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/ca3_example_net_02_26_21/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/hello_world/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/hello_world/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/hello_world/scripts/demoOAT.m",
+      "sha": "031b8710f1b35398cda7287d9f5fdeedb6ee00d7",
+      "size": 1238
+    },
+    {
+      "path": "projects/hello_world/scripts/initOAT.m",
+      "sha": "b43ededf0fb73606603be860bcfbe86f1dd99dca",
+      "size": 90
+    },
+    {
+      "path": "projects/hello_world/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/lif_izhi_random_spnet/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/lif_izhi_random_spnet/scripts/demoOAT.m",
+      "sha": "c310b4fd61e0f5cfa3a914937d13fc3b8021e6e4",
+      "size": 396
+    },
+    {
+      "path": "projects/lif_izhi_random_spnet/scripts/initOAT.m",
+      "sha": "5431ccb4311cac8af80e2aa5bea9c847db77f03c",
+      "size": 90
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/ca3net_02_16_21_archetype.xlsm",
+      "sha": "1f557084322e78ffb5b34c8432ced47df367a72d",
+      "size": 69693
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/ca3net_02_16_21.xlsm",
+      "sha": "e2fc47cd134184dc8b0d2ea083f90e095137970c",
+      "size": 78858
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/ca3net_02_16_21_class.xlsm",
+      "sha": "4e4617fd06d756c38ec406114555bb4d82b22c29",
+      "size": 78335
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/ca3net_02_16_21.xlsm",
+      "sha": "e2fc47cd134184dc8b0d2ea083f90e095137970c",
+      "size": 78858
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/inc/.readme",
+      "sha": "6ca28a07b8b78b76517c5002cd047af60523626c",
+      "size": 34
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/scripts/demoOAT.m",
+      "sha": "7d5bd07e52d4a826a87010329596598634436042",
+      "size": 1202
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/scripts/initOAT.m",
+      "sha": "d4d9e70cf010811b6d93c1e59d6c243362c50f85",
+      "size": 89
+    },
+    {
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/src/.readme",
+      "sha": "9afba93fd4dd72727f8061666dd8e28629455a5c",
+      "size": 43
+    },
+    {
+      "path": "projects/test_kernel/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/test_kernel2/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "projects/test_kernel3/results/.readme",
+      "sha": "025ee81c265b5b41f4243e364fab3809e8e74467",
+      "size": 22
+    },
+    {
+      "path": "pyCARL/.gitignore",
+      "sha": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "size": 0
+    },
+    {
+      "path": "pyCARL/carlsim/_carlsim.so",
+      "sha": "503d1520e5380cd2ae2303713735346040fff496",
+      "size": 9647272
+    },
+    {
+      "path": "pyCARL/carlsim/standardmodels/cells.pyc",
+      "sha": "603dd69db24cecbd207a0a11ca6a7f200c916d98",
+      "size": 2032
+    },
+    {
+      "path": "pyCARL/carlsim/standardmodels/electrodes.pyc",
+      "sha": "62dd0867f4086a23e40b37be8513cf180e471810",
+      "size": 1710
+    },
+    {
+      "path": "pyCARL/carlsim/standardmodels/synapses.pyc",
+      "sha": "822064bc922de7bca209bf784f8f6489b4da30bf",
+      "size": 2186
+    },
+    {
+      "path": "pyCARL/doc/Installation.pdf",
+      "sha": "371da53090a06bc246fbc21a723fdf282c950e3d",
+      "size": 113161
+    },
+    {
+      "path": "pyCARL/source/carlsim.i",
+      "sha": "1963d46d28f21a8a4648fd9b26791e8a1f5199eb",
+      "size": 27882
+    },
+    {
+      "path": "pyCARL/source/carlsim_wrap.cxx",
+      "sha": "873fed624493cb0632eaf3b9b95ffa046ca11eed",
+      "size": 1103663
+    },
+    {
+      "path": "pyCARL/source/notes",
+      "sha": "65b9e7a7d4433dd37365e783e9f58d713e2776fc",
+      "size": 411
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/ConnectionMonitor.m",
+      "sha": "96f4c7a9e9cc22f95ccbbdc330c56d41912f405f",
+      "size": 43357
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/ConnectionReader.m",
+      "sha": "52929b671f707313e65c3f398cd5b5e243c645d8",
+      "size": 14719
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/GroupMonitor.m",
+      "sha": "59acde0aa524d3d8cbb02a10e969bb2f828c3d6d",
+      "size": 52571
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/GroupReader.m",
+      "sha": "7649a7225508ab1567817d5b07640c369eb21946",
+      "size": 12233
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/NetworkMonitor.m",
+      "sha": "76ea82d0ac33006ce62a0343b7acb5e4cb0bf391",
+      "size": 45780
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/NeuronMonitor.m",
+      "sha": "8a57cc64360d07462bc8e7cca83db80fd39034b3",
+      "size": 52100
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/NeuronReader.m",
+      "sha": "daea38de07570bb7011ef9254ae2d29efdc1859e",
+      "size": 12652
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/SimulationReader.m",
+      "sha": "d7dd961531c0fc7d1225cc9476775c82f82f5cfc",
+      "size": 8794
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/SpikeReader.m",
+      "sha": "6118049f9bdfb619073fa401ecab411a575f5e26",
+      "size": 14955
+    },
+    {
+      "path": "tools/offline_analysis_toolbox/Utilities.m",
+      "sha": "4e06933c3e6516607f8ab035774af32b92be7114",
+      "size": 5173
+    },
+    {
+      "path": "tools/pti/test_examples/ecj_SimpleCA3.params",
+      "sha": "c7cc259060d7a475fce9646dc9984c380ecce264",
+      "size": 3316
+    }
+  ],
+  "discovered_asset_links": [
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/27))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/27))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/27))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/29))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/24))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/20))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/18))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/18))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim6/issues/18))."
+    },
+    {
+      "source_file": "README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim5.git"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc),"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateSETUPStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/HC_IM_02_16_ca3_snn_sync_baseline.txt)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/HC_IM_02_16_ca3_snn_sync_baseline.txt)."
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21),"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/synchronous)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/asynchronous)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4.git"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21)),"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4.git"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21)),"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion)."
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateSETUPStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch6_input.html#ch6s1s1_poisson_rate)"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch6_input.html);"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateSETUPStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch9_matlab_oat.html)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc),"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateSETUPStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/HC_IM_02_16_ca3_snn_sync_baseline.txt)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/HC_IM_02_16_ca3_snn_sync_baseline.txt)."
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21),"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/synchronous)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/asynchronous)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4.git"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21)),"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4.git"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21)),"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_example_net_02_26_21/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/tree/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion)."
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateCONFIGStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateCONFIGStateSTP.h)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateSETUPStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch6_input.html#ch6s1s1_poisson_rate)"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch6_input.html);"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/generateSETUPStateSTP.h)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "https://github.com/UCI-CARL/CARLsim4/blob/feat/meansdSTPPost_hc/projects/ca3_snn_GPU_06_25_21_ca3_snn_pattern_completion/src/main_ca3_snn_GPU.cpp)):"
+    },
+    {
+      "source_file": "projects/ca3_example_net/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch9_matlab_oat.html)"
+    },
+    {
+      "source_file": "tools/pti/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/ch10_ecj.html"
+    },
+    {
+      "source_file": "tools/pti/README.md",
+      "url": "http://uci-carl.github.io/CARLsim4/tut7_pti.html"
+    }
+  ],
+  "elapsed_seconds": 114.00264763832092,
+  "files": [
+    {
+      "bytes": 12881,
+      "git_blob_sha1": "590f506a27cfbcaec134d35383d3820cd885b3d3",
+      "path": "CMakeLists.txt",
+      "sha256": "6f4d067464b954b29540ae5b709d30b8bbf2dc2f32785e75603f34e1f6f0cb03"
+    },
+    {
+      "bytes": 1139,
+      "git_blob_sha1": "9776c46b29f7e22b2e60aab0ffd03573ae7f5b58",
+      "path": "LICENSE",
+      "sha256": "b1627ddd0b7674dcedb3133ae6fd3bac9df6d16b0653c592eb68921bf639a88e"
+    },
+    {
+      "bytes": 8775,
+      "git_blob_sha1": "2dd00e34f1a26f32a015b9a138a59f4c28775df2",
+      "path": "README.md",
+      "sha256": "5f7907f364e014922c2443aa2ab0ef35fd7a8c203b51307cc45b70b4c05c518b"
+    },
+    {
+      "bytes": 506,
+      "git_blob_sha1": "000c19393043c939b914e8dd1a1c7f50714a249e",
+      "path": "carlsim/CMakeLists.txt",
+      "sha256": "e2d7112fab07b6c3ceee79ac6959e66f1efc81e4fb83687aadf550662e49bf23"
+    },
+    {
+      "bytes": 1344,
+      "git_blob_sha1": "c1b0c5ce3e6fc8b1f458db71a3f855af55a59a06",
+      "path": "carlsim/benchmark/CMakeLists.txt",
+      "sha256": "bb8415f12ce1f4be4f9743dbdd4e013540b602b1b948d7620b8d267e69dce5c2"
+    },
+    {
+      "bytes": 5794,
+      "git_blob_sha1": "fe9401cee473474bb27c30fc52c0e1fc7add819b",
+      "path": "carlsim/benchmark/benchmark_neurons.cpp",
+      "sha256": "402258551fda72359ac38139c3a6e787463bc3d3d30dadbb31baa5eacbcf4884"
+    },
+    {
+      "bytes": 176,
+      "git_blob_sha1": "1ac7ceacd89e33c10ba0bb5c873ce6d8f41ca8bf",
+      "path": "carlsim/dummy.cpp",
+      "sha256": "249d24c5e74e49afe98eb7dc75b51543ed657cffa6ebb78b4026363710fd16dd"
+    },
+    {
+      "bytes": 1316,
+      "git_blob_sha1": "bcad568bef7addacb5d24b27ce4adc5a73abc3ea",
+      "path": "carlsim/interface/CMakeLists.txt",
+      "sha256": "1f99cbc4f807f205c9480cae39ffcd34dc5e7fe0732da17b7475156f1e2841ff"
+    },
+    {
+      "bytes": 4903,
+      "git_blob_sha1": "0306660b7d522f9d030564d3156f59d17dd27599",
+      "path": "carlsim/interface/inc/callback.h",
+      "sha256": "6c5cc2e4c417dc3a7821b57fb9734129cb6a5f7e3628888865d234015676d65d"
+    },
+    {
+      "bytes": 4134,
+      "git_blob_sha1": "8f127749607e6b38856db99951ef7815d4509f56",
+      "path": "carlsim/interface/inc/callback_core.h",
+      "sha256": "a37154b709035ff6d151457b6e3ece673d9a5c9d8b6c73ca09812b19602cce2f"
+    },
+    {
+      "bytes": 101841,
+      "git_blob_sha1": "945e7bad3b99482971035686293223b5eedf925d",
+      "path": "carlsim/interface/inc/carlsim.h",
+      "sha256": "e95e03772bd1a74280e9c3d3dce19c0ee4cd0678eb91e75f305d7d13c3618c12"
+    },
+    {
+      "bytes": 360,
+      "git_blob_sha1": "33b16729a156bef6cb9364830dfa57dcff807675",
+      "path": "carlsim/interface/inc/carlsim_api.h",
+      "sha256": "80fdd61af29a6da3cfd2aa510b3159863ead424af388fdd6cbca9938c24d32d0"
+    },
+    {
+      "bytes": 1531,
+      "git_blob_sha1": "0c2005ed6d7de867f5a0fceed3054878af7c4051",
+      "path": "carlsim/interface/inc/carlsim_conf_api.h",
+      "sha256": "c986210898f6719b476d670eb0533eb34f98d98a7c0490498e7788f00dff2678"
+    },
+    {
+      "bytes": 45808,
+      "git_blob_sha1": "37ad998fabdf84303ab3c90f9e94b62948f528dd",
+      "path": "carlsim/interface/inc/carlsim_datastructures.h",
+      "sha256": "efedd13a36097dcf085e15b1de95f10010277ae4d55d8ffb622c7355199dde09"
+    },
+    {
+      "bytes": 5067,
+      "git_blob_sha1": "e72d4452cf2a8660832a99705070e4876d493354",
+      "path": "carlsim/interface/inc/carlsim_definitions.h",
+      "sha256": "b86bbb473dc41ecc016df9abd2c4fadffe7f5a9974ebf26b3494d799eef44841"
+    },
+    {
+      "bytes": 420,
+      "git_blob_sha1": "17e049e82c4272c2eb8e3340236594aa3b781717",
+      "path": "carlsim/interface/inc/carlsim_interface_api.h",
+      "sha256": "f4475697842838ef46f9af785feeaede5606219f2f6e15e1796ebc67c8480bf5"
+    },
+    {
+      "bytes": 2555,
+      "git_blob_sha1": "cbe983ef623b43da1eb352ac8e25997cc6d0c724",
+      "path": "carlsim/interface/inc/carlsim_log_definitions.h",
+      "sha256": "867398f9393a13b9fd8b630d9e3e12a9588cc4fe543ddb434b6eda91bf02305a"
+    },
+    {
+      "bytes": 4453,
+      "git_blob_sha1": "7788ac461e4e1f1c5b1f2465874ff134eabc9f7a",
+      "path": "carlsim/interface/inc/linear_algebra.h",
+      "sha256": "dc24624ad6c3c3fc0a44905dc751a6977f6e8dad75f4a709276311db6443d454"
+    },
+    {
+      "bytes": 7774,
+      "git_blob_sha1": "978e027d86abc8d5cfecf033d3f6fe4ce0d313a7",
+      "path": "carlsim/interface/inc/poisson_rate.h",
+      "sha256": "f6f3dbe1d50cb0d0a3f29b4862ca4027767193d6f0b70c68ac26e36e6c6014f8"
+    },
+    {
+      "bytes": 5169,
+      "git_blob_sha1": "ae70e48be56efd7e2f3c598b90211e2253d8ed91",
+      "path": "carlsim/interface/inc/user_errors.h",
+      "sha256": "e00020fe145a41ced177d1ff0073013b3de726c4fcfef3fe8169d43d328dfa1b"
+    },
+    {
+      "bytes": 3297,
+      "git_blob_sha1": "b3d363704e81171f186362be03a18b5cff0b9398",
+      "path": "carlsim/interface/src/callback_core.cpp",
+      "sha256": "29bf222fd64f3f0127841ae24ae4f077e095da8f652b0c5ffb6a8be786ff6d52"
+    },
+    {
+      "bytes": 131924,
+      "git_blob_sha1": "f8b4c5be2ff3f15fac165d39f5acd38428882bf9",
+      "path": "carlsim/interface/src/carlsim.cpp",
+      "sha256": "c44eb03331c8ef8e4cf891a2083bab5d0e0a3ff0528e0bf5a0ce3803ba5b2545"
+    },
+    {
+      "bytes": 332,
+      "git_blob_sha1": "6fbfbc62065827774885fe1487b595c36ac8bbf7",
+      "path": "carlsim/interface/src/linear_algebra.cpp",
+      "sha256": "3461d9ee36078cfe6aac6bbdabc2acd3fa41bab36f227dbc05ea8dcfbf896346"
+    },
+    {
+      "bytes": 7958,
+      "git_blob_sha1": "4f1e4ad1943e9e4c1d9428c37ae7657f194eb4e4",
+      "path": "carlsim/interface/src/poisson_rate.cpp",
+      "sha256": "5048e9230d457f83b5d88102530035779820c039b2780da1dc07d08503dcd80e"
+    },
+    {
+      "bytes": 4299,
+      "git_blob_sha1": "426c4e1ae4f9691913ce11fcc66ea2b26f1e08c4",
+      "path": "carlsim/interface/src/user_errors.cpp",
+      "sha256": "8360eb0bebe1b78e50784ca2feb8e2714e76e9912e36d3a3276e605d043d69ca"
+    },
+    {
+      "bytes": 3692,
+      "git_blob_sha1": "d99ebb608d32d187c3d1a811131d93faeae019fd",
+      "path": "carlsim/kernel/CMakeLists.txt",
+      "sha256": "7e47a35ddccfb4b9023b1c280ee2580d5dd75a1e2422ff97fa998ec39aab0e59"
+    },
+    {
+      "bytes": 2601,
+      "git_blob_sha1": "330076cd65061aad04fd0866a9724fc95b74e53f",
+      "path": "carlsim/kernel/inc/carlsim_kernel_api.h",
+      "sha256": "46e47101e90741efe12d1142ae68b20bd5324d4389596f0764d8d9c6c611870d"
+    },
+    {
+      "bytes": 3278,
+      "git_blob_sha1": "647bf385d23798a5ebc0ab4599af98c2127cf70f",
+      "path": "carlsim/kernel/inc/cuda_version_control.h",
+      "sha256": "91c0adad1c8c806b5836d995f38d25b99615e740b748dd7351bbd565019239b3"
+    },
+    {
+      "bytes": 9796,
+      "git_blob_sha1": "2505ee917985991106920f75d913c571e68a8840",
+      "path": "carlsim/kernel/inc/error_code.h",
+      "sha256": "fcf8733fe47a35aa2c80617cf54bc266c36610a93e15a6c44ea18aa74d273627"
+    },
+    {
+      "bytes": 67877,
+      "git_blob_sha1": "bc286ec8f06934d7744738cd4c33af448579f63a",
+      "path": "carlsim/kernel/inc/snn.h",
+      "sha256": "44f7cadc204b83b2cccd2ac2ae4fb48b7e88c2b9d64c5223aa5b1651a94bfa76"
+    },
+    {
+      "bytes": 42364,
+      "git_blob_sha1": "7f4821a8058df079cd9fed61214745b3693ad525",
+      "path": "carlsim/kernel/inc/snn_datastructures.h",
+      "sha256": "50c71ccea154bae8c5da5e04dd0fef93ea603f2e3106abe44bf05dfec944d0b9"
+    },
+    {
+      "bytes": 12246,
+      "git_blob_sha1": "95e08626ed16ad6d9df1739d6553dbcff2020ecf",
+      "path": "carlsim/kernel/inc/snn_definitions.h",
+      "sha256": "631f78428ce967e6ad5bc9d86cafdd83f0e39091c92877e8ed9a70ede506beb5"
+    },
+    {
+      "bytes": 5854,
+      "git_blob_sha1": "c32e52faae64da022394892d2ad5b1c0df284045",
+      "path": "carlsim/kernel/inc/spike_buffer.h",
+      "sha256": "ab8be202b48b9207d3fb4424b6f4341569d67989a335d1bfe32ababba8ec30b6"
+    },
+    {
+      "bytes": 231730,
+      "git_blob_sha1": "f96751b5cb29462dff5e05435c8bed01bd1872ef",
+      "path": "carlsim/kernel/src/gpu_module/snn_gpu_module.cu",
+      "sha256": "4e25494a89427f5479838a17dc48cff5b255954061689146068dd85e16c44b4d"
+    },
+    {
+      "bytes": 21611,
+      "git_blob_sha1": "4fb2fdd495220a4fd9e85c0e5ef27f35686b5f4a",
+      "path": "carlsim/kernel/src/print_snn_info.cpp",
+      "sha256": "c846ce9c0c9a5a8e78d74298ad8da7358cd8337c409cc28c375a25592bd30607"
+    },
+    {
+      "bytes": 160977,
+      "git_blob_sha1": "d9e935f66d088f5acfbdb9a7cceef1fe48768fbd",
+      "path": "carlsim/kernel/src/snn_cpu_module.cpp",
+      "sha256": "238111d64b7f672f7198a3eed5749a5a68e1c8a7f06770917a2e4486fd616e50"
+    },
+    {
+      "bytes": 387357,
+      "git_blob_sha1": "f372ace1f0fe0aa085d2feec75e1d53750715e35",
+      "path": "carlsim/kernel/src/snn_manager.cpp",
+      "sha256": "d14315a63715c4a0a722a22d6e0acfa542f3946ce40cba64c86c91aca8904a1d"
+    },
+    {
+      "bytes": 7509,
+      "git_blob_sha1": "1421b655980948f35891960ae1980f032fbe053c",
+      "path": "carlsim/kernel/src/spike_buffer.cpp",
+      "sha256": "557a62674a760ac54ac9ac1559b1789413ae727261b52a227b4f7c722a29bcec"
+    },
+    {
+      "bytes": 1077,
+      "git_blob_sha1": "44ecd9c5fef88819a138965fe7aefeb8ba129f6c",
+      "path": "carlsim/monitor/CMakeLists.txt",
+      "sha256": "1311267a3d1e9b8ae6157da63a4365a5d33b0fabf41d365be71d70215890fa44"
+    },
+    {
+      "bytes": 432,
+      "git_blob_sha1": "9f83ae88ab809ef641ba421a46294d8b9e0443b6",
+      "path": "carlsim/monitor/carlsim_monitor_api.h",
+      "sha256": "cda72909826c39539c973589bf1b705ae773cfea489847b05533d1eced8e324a"
+    },
+    {
+      "bytes": 6826,
+      "git_blob_sha1": "33e7bd89d48065e5f9fd0a87df0a522de3dbde45",
+      "path": "carlsim/monitor/connection_monitor.cpp",
+      "sha256": "b1f24994a4baa0ee3d41454cf30838d3bb5fc9f5f706a8db92cb09507c3e5607"
+    },
+    {
+      "bytes": 23059,
+      "git_blob_sha1": "18160fc2e0fa12b2650d64ab3419457453aef93a",
+      "path": "carlsim/monitor/connection_monitor.h",
+      "sha256": "a0916325be8bfffdf97efb32715c39a49c262a3ce64d88132be1cedd2772431b"
+    },
+    {
+      "bytes": 16630,
+      "git_blob_sha1": "faea46edd5c2b92af50a37f223a3c45b4622b3f5",
+      "path": "carlsim/monitor/connection_monitor_core.cpp",
+      "sha256": "f7b3bb846a45519521af3f2c618fad10f5f3165007adc62063442d70cdd5e55b"
+    },
+    {
+      "bytes": 8974,
+      "git_blob_sha1": "8e6df4a1958e56026ca1dc136fa8d5bcc35df241",
+      "path": "carlsim/monitor/connection_monitor_core.h",
+      "sha256": "1d9bc72056c00ab1db2adde962343e3e9474b42e5e52e988b93f6727ed272aff"
+    },
+    {
+      "bytes": 6286,
+      "git_blob_sha1": "b1abf7a74419faa080a9e689b7cee2bcfb24351a",
+      "path": "carlsim/monitor/group_monitor.cpp",
+      "sha256": "5166b813e4c5563c2541dce34102b80dfc18ec080c088ab815c8eb9c53e50ca9"
+    },
+    {
+      "bytes": 13439,
+      "git_blob_sha1": "229c6eb72725ba2da1c1cafd9a946c2ebc5c8366",
+      "path": "carlsim/monitor/group_monitor.h",
+      "sha256": "6f1ce98bb1b6ce0463a1d6d67eea2a4b0ed9eb3961a79fed7d04dfa6b43bf4c3"
+    },
+    {
+      "bytes": 10250,
+      "git_blob_sha1": "d7985fa95cc986f8099f88de7a8941d045aada62",
+      "path": "carlsim/monitor/group_monitor_core.cpp",
+      "sha256": "3536bb49c06a2431c1db1709cd707afd8dc350eafcba4e5de4b9589b666eb58f"
+    },
+    {
+      "bytes": 7629,
+      "git_blob_sha1": "abaf1a98c7f5d63e2cb584f8bf13b1c7a894f09f",
+      "path": "carlsim/monitor/group_monitor_core.h",
+      "sha256": "fcfec4946794334b844097611b9a8f8e30efe0ee4b971bb984a3a3dac6ffb57c"
+    },
+    {
+      "bytes": 5564,
+      "git_blob_sha1": "19cc8d585bef1a0620330ec8ded8577c8dfb30a2",
+      "path": "carlsim/monitor/neuron_monitor.cpp",
+      "sha256": "d3398115588571bfa40ddb0d096654c1b86a169aa1551c86e27ced9c9bb331fd"
+    },
+    {
+      "bytes": 4556,
+      "git_blob_sha1": "2de5d0464b35e6ba79d4f77adc28bc6f96ee6170",
+      "path": "carlsim/monitor/neuron_monitor.h",
+      "sha256": "f92009b16f6554114e6e28fbb30312773770aa2449a45f6326ebf87b0fcd80c6"
+    },
+    {
+      "bytes": 10117,
+      "git_blob_sha1": "81aed953f51a5ae6a65adc3e967820aa0fcb2790",
+      "path": "carlsim/monitor/neuron_monitor_core.cpp",
+      "sha256": "1492821403894f611cb5cb524245cf25464deceabcef11cdbbed0dff650fa9c3"
+    },
+    {
+      "bytes": 5942,
+      "git_blob_sha1": "efc836ba0b0de6685b34888ae41f1d2a95b8177f",
+      "path": "carlsim/monitor/neuron_monitor_core.h",
+      "sha256": "38b388409f6e1efe99b6e3aaa7292d7f7cd18c0a5de10f8232deb45a45ee7aca"
+    },
+    {
+      "bytes": 10312,
+      "git_blob_sha1": "a15820094841d775872035277dd15feb52917334",
+      "path": "carlsim/monitor/spike_monitor.cpp",
+      "sha256": "5b24763c371cd4cb75b08c43413659835f8d5ff8c1ba3b44d4c20088992c94aa"
+    },
+    {
+      "bytes": 23731,
+      "git_blob_sha1": "9587c7f1b37cdaf74030309bc527788be71b7fb1",
+      "path": "carlsim/monitor/spike_monitor.h",
+      "sha256": "6cfa8f246865c9e7359e0d0737682b2fd79095ae235130d96fc44a0639020e2f"
+    },
+    {
+      "bytes": 13812,
+      "git_blob_sha1": "30839d36ca9c6333780ff77275ba34e5a5fe9b4d",
+      "path": "carlsim/monitor/spike_monitor_core.cpp",
+      "sha256": "38078f333fc2cfcc82c309ebf1f086d8f6cec824df02363fcc648d8e83e6cb5f"
+    },
+    {
+      "bytes": 9080,
+      "git_blob_sha1": "3c480c3610acffcb7b6e50c0b261277cf4f4bb1c",
+      "path": "carlsim/monitor/spike_monitor_core.h",
+      "sha256": "e8220cde7316a5231342b5182bf668ec369fcfaf22c3b487a51310ed5e82a93d"
+    },
+    {
+      "bytes": 13294,
+      "git_blob_sha1": "2c476cba282aa9f39b38c85b9a854136f8bc6273",
+      "path": "carlsim/server/server.cpp",
+      "sha256": "f1e5863a5ebab5281563cc048a1d4feb4f9d4e0f54d85ffc976249a73086bf33"
+    },
+    {
+      "bytes": 2488,
+      "git_blob_sha1": "2b594bab99c8e15bbfa28665d40827127e9927fd",
+      "path": "carlsim/server/server_client.h",
+      "sha256": "84cf68edb744ead3ac5772160834ebadb7298819a1313c566ea2dcddef5c5006"
+    },
+    {
+      "bytes": 1259,
+      "git_blob_sha1": "7ca1d160e0b80b39278b401d01361c97ea1acd01",
+      "path": "carlsim/test/CMakeLists.txt",
+      "sha256": "ee8984472adde011c2ac7bd5debfe019833f25e98d1233862273d686704c2086"
+    },
+    {
+      "bytes": 4779,
+      "git_blob_sha1": "72d1ae3a29a3c4823070a2bfe0cc5250a826db83",
+      "path": "carlsim/test/carlsim_tests.h",
+      "sha256": "9df000a8695931688b81e78e87c18c841c6d20d81bfb194de1c9e03691b06e14"
+    },
+    {
+      "bytes": 4594,
+      "git_blob_sha1": "579c67c7fb161ddc1a5c9e2c66a7de463f1aa22f",
+      "path": "carlsim/test/carlsim_tests_common.cpp",
+      "sha256": "42bf8c0b9a97af7cf59524fc35fb37d1b6720c541799173db612e4bd607d6877"
+    },
+    {
+      "bytes": 17281,
+      "git_blob_sha1": "aeb5b7ad18260d481d8d0c9dd395dfa0c54faa73",
+      "path": "carlsim/test/coba.cpp",
+      "sha256": "d2b84c48b7e52fdcf818582b34f88d930c5cb7f49f2d071923c3831f5afc298d"
+    },
+    {
+      "bytes": 13675,
+      "git_blob_sha1": "f632ba6dcff7897fff56270fea76339654219537",
+      "path": "carlsim/test/compartments.cpp",
+      "sha256": "b380a93af7e0b0239d1826dd1ade98f4d27c9df1bd6959c42b1688d12e26625d"
+    },
+    {
+      "bytes": 15779,
+      "git_blob_sha1": "6cd12939b75d40c08cbaf9924dcac6281b7066be",
+      "path": "carlsim/test/conn_mon.cpp",
+      "sha256": "a7f8a883fc074e3a128835c4da1b401f8c637c32639845f6c22c8dfb1d05660c"
+    },
+    {
+      "bytes": 11469,
+      "git_blob_sha1": "137599a8d9f93536a3081b5e8cba2b92bb16ee8d",
+      "path": "carlsim/test/connect.cpp",
+      "sha256": "e177dc6e2b407a05386c46ed1eea299f78dbc01f76bbc84ed391be34b44b9f9f"
+    },
+    {
+      "bytes": 23944,
+      "git_blob_sha1": "b8f82e4f9a2cadd1ce2013139f324e813e088051",
+      "path": "carlsim/test/core.cpp",
+      "sha256": "b0bb4fa1ef6589fc2ea032b617ba8a4d70f59b94c7b9132f80f7c3ea6a475c1f"
+    },
+    {
+      "bytes": 13075,
+      "git_blob_sha1": "e3af1f8ca7cda35609d1a0c1233e2bae1009a47b",
+      "path": "carlsim/test/cuba.cpp",
+      "sha256": "4412a3185333543bda3569d11802bf2bdd30354cb38b38e3a2a3c45e4b8cfea9"
+    },
+    {
+      "bytes": 1957,
+      "git_blob_sha1": "a3f30e2496ad76195064eef8614a1250cc0c7369",
+      "path": "carlsim/test/future_tests/test_issue8.cpp",
+      "sha256": "d46a62cbed181cbc45c62ec446bd04212dedf3daacbcad2db43da9aba4cdc3af"
+    },
+    {
+      "bytes": 10549,
+      "git_blob_sha1": "69bf99b6bfb04390dc13b4d982a5f088bab47516",
+      "path": "carlsim/test/group_mon.cpp",
+      "sha256": "8ec6b18920f666d806739bedb36b82dc9e32e4178dbbf30ed4106fca1d96c7f2"
+    },
+    {
+      "bytes": 33237,
+      "git_blob_sha1": "69ba82ed656e854b12ff927bd142181ef77d0265",
+      "path": "carlsim/test/interface.cpp",
+      "sha256": "3f6833711a711655ab86aa2ffff5a060a45613034ae1bcb9140ffb7ca2dd2d8a"
+    },
+    {
+      "bytes": 8266,
+      "git_blob_sha1": "61ef7f6e198fe3ef693054622fe0d57f468c3e24",
+      "path": "carlsim/test/lif.cpp",
+      "sha256": "eada760a3af1415f20e9f313a041c585b3a74be2ef0738aab9cefe6580fb60c8"
+    },
+    {
+      "bytes": 295,
+      "git_blob_sha1": "bce4c9edcbf285e0cd5e408e6003c454c50a757a",
+      "path": "carlsim/test/main.cpp",
+      "sha256": "74f7e59a33704d04087ee50ea324747a3d6fd7f665983b4b3b3e2d999837d606"
+    },
+    {
+      "bytes": 5967,
+      "git_blob_sha1": "80c23b662a64ff012d7405640709fc7bc5397906",
+      "path": "carlsim/test/poiss_rate.cpp",
+      "sha256": "e078c1966c9b9a40f79ead84389a32f2960334849dd0019d05e2743478c1bea3"
+    },
+    {
+      "bytes": 12232,
+      "git_blob_sha1": "32aff094770e1f9855e8538effefd3c8b5c62266",
+      "path": "carlsim/test/spike_gen.cpp",
+      "sha256": "fa0cbd67dd25efb8a9a4efe6f4807031861839d145d3c5f115d274e72d965831"
+    },
+    {
+      "bytes": 25386,
+      "git_blob_sha1": "eb361962073e830889e7dab2eb61a17d05f8c460",
+      "path": "carlsim/test/spike_mon.cpp",
+      "sha256": "034123ae457a60edbc76b240a411ebaac9f914ee300fdcaaeaecf1bc15c2142a"
+    },
+    {
+      "bytes": 10572,
+      "git_blob_sha1": "46ac995745d0e2a711d80917ed992c67d6686b8d",
+      "path": "carlsim/test/stdp.cpp",
+      "sha256": "28156f8a995cb11db870183bcda0d34adcd85a159822760f1ba3b2787e602a51"
+    },
+    {
+      "bytes": 11510,
+      "git_blob_sha1": "91b4fbdfebcdf30ba71a1df5771c66aa390fff0b",
+      "path": "carlsim/test/stp.cpp",
+      "sha256": "b8fb25ee99c6cbfa215660ea533258e66ab073c89518aaa97dc66e79dbcf57c0"
+    },
+    {
+      "bytes": 1194,
+      "git_blob_sha1": "09fa7bacb327fd271dcb2558ef42169ede47cb57",
+      "path": "carlsim/test6/CMakeLists.txt",
+      "sha256": "34f52102c0bd56290b0030df1537c31a24e63b242a5541c89320da9a2707526e"
+    },
+    {
+      "bytes": 12813,
+      "git_blob_sha1": "e1bea4bafc3fbec07f817c8904294c98b36c9bb3",
+      "path": "carlsim/test6/adk13.cpp",
+      "sha256": "2c16afc1259f5d12c714da08a714b922005a7b68000553630b60cf157e033d60"
+    },
+    {
+      "bytes": 10465,
+      "git_blob_sha1": "937521e5fedc6b38e06bb0e6a533eaa9fc1060ad",
+      "path": "carlsim/test6/adk13_alpha1.cpp",
+      "sha256": "b67ef6cc03bd8be00cc73dad010075b9d65d137bdc89f9c603cc1a6a93ca7908"
+    },
+    {
+      "bytes": 4779,
+      "git_blob_sha1": "72d1ae3a29a3c4823070a2bfe0cc5250a826db83",
+      "path": "carlsim/test6/carlsim_tests.h",
+      "sha256": "9df000a8695931688b81e78e87c18c841c6d20d81bfb194de1c9e03691b06e14"
+    },
+    {
+      "bytes": 4594,
+      "git_blob_sha1": "579c67c7fb161ddc1a5c9e2c66a7de463f1aa22f",
+      "path": "carlsim/test6/carlsim_tests_common.cpp",
+      "sha256": "42bf8c0b9a97af7cf59524fc35fb37d1b6720c541799173db612e4bd607d6877"
+    },
+    {
+      "bytes": 298,
+      "git_blob_sha1": "a7439393de815594e97dc11403a3e628da2b36c2",
+      "path": "carlsim/test6/main.cpp",
+      "sha256": "05be6efd3ed08f4c702f17f54a9ac4b1f22a807b4e74d23e9852f5cd2648e276"
+    },
+    {
+      "bytes": 6659,
+      "git_blob_sha1": "443b6ae4400a38de115dbb866a8e1d1dfc8d0030",
+      "path": "carlsim/test6/mstp.cpp",
+      "sha256": "7f7d366802c2352e5545c6083f587c8a2a927e06a74cdb417586001673959939"
+    },
+    {
+      "bytes": 8989,
+      "git_blob_sha1": "39b38a873200ecef93ee5d27df76a04a05f05e53",
+      "path": "carlsim/test6/pka_plc_mod.cpp",
+      "sha256": "4a55694e481bd910b226052c5475c462d5e0878fd25b855dbb284d8e961ffab6"
+    },
+    {
+      "bytes": 23173,
+      "git_blob_sha1": "73cc9dd662e2fedce91d8bf19642843e0c50fc33",
+      "path": "carlsim/test6/receptors.cpp",
+      "sha256": "c6785e85bfc07c95a44d547f404f7fc39175ded5e9bff795b442367fb2d09113"
+    },
+    {
+      "bytes": 1693,
+      "git_blob_sha1": "bc83273bed60c2343077f7cc61d89908b42361c1",
+      "path": "carlsim/testadv/CMakeLists.txt",
+      "sha256": "a33ff35ff37fa926531468bd6e15a2c3811a0f072c50fad4e205264e8a6a0349"
+    },
+    {
+      "bytes": 4806,
+      "git_blob_sha1": "7c1f26414e4fb44ef139f988eb5acc9927599dbb",
+      "path": "carlsim/testadv/carlsim_tests.h",
+      "sha256": "f86e200e6afcc24008fd1ea48dfdeb0722dcd99d28c2c67f347e6c8af7af3351"
+    },
+    {
+      "bytes": 4621,
+      "git_blob_sha1": "bdb752f4655a7dfbc795d30abe29fac08756cd3c",
+      "path": "carlsim/testadv/carlsim_tests_common.cpp",
+      "sha256": "9e0918b64d8fbeffd3e4411d092c969200abc7fe489d7174e2a0ab2eab5b3895"
+    },
+    {
+      "bytes": 10024,
+      "git_blob_sha1": "5c77bd9e81e5bcc7e9937c7fabe170c79bc14f12",
+      "path": "carlsim/testadv/connect_adv.cpp",
+      "sha256": "2f252a2b722d36ca124af55a2188629f0f41f41cf757d68bf01f72fa8a86a79d"
+    },
+    {
+      "bytes": 313,
+      "git_blob_sha1": "506ea0130d4ce08bbf6e65457523c531145e281f",
+      "path": "carlsim/testadv/main.cpp",
+      "sha256": "4e32accda80f32cdd1bb36bf9ad5eb2471d3468593d98b21a9ba1d07ed0f1f98"
+    },
+    {
+      "bytes": 19552,
+      "git_blob_sha1": "0baf8a41ed4b2d4f46d6564c5ebbb540b54b9105",
+      "path": "carlsim/testadv/multi_runtimes.cpp",
+      "sha256": "ca1fe52663fca37e8d988a6802dbcbdbcff7dcfd65ad2b8978b2c355e3be163a"
+    },
+    {
+      "bytes": 38431,
+      "git_blob_sha1": "326374c3ca6016d3945565a1f98e0461be2e4af6",
+      "path": "carlsim/testadv/stdp_adv.cpp",
+      "sha256": "025b40d3e5073a3831a8f97f0f62b94fb5de32edc5df67759d92b04deb722ef8"
+    },
+    {
+      "bytes": 1776,
+      "git_blob_sha1": "ede401792a0490921f485cd57c7b0b2afcefba13",
+      "path": "carlsim/testca3/CMakeLists.txt",
+      "sha256": "dcd10fb7acdfba96cbea7e751960965baf9f5d08aa187a9c2e1ecfe9b2531823"
+    },
+    {
+      "bytes": 7082,
+      "git_blob_sha1": "e9a3216645260f08c5832c7ce41ad6d256539fbb",
+      "path": "carlsim/testca3/ca3bc.cpp",
+      "sha256": "385ee01ec5f6878fdd5006a8e252dc2c897e865823db85e8c3057df72cec4be4"
+    },
+    {
+      "bytes": 9467,
+      "git_blob_sha1": "71010a0b2799764cb23956566cd8cfd5a392ce7f",
+      "path": "carlsim/testca3/ca3bc_bc.cpp",
+      "sha256": "a5d1f8214b4b749ee9852d0971943576f4aee78b7c237b898e09171bcac6acae"
+    },
+    {
+      "bytes": 7452,
+      "git_blob_sha1": "ed7409aa5093a41ca21583c4cfd35f8081080776",
+      "path": "carlsim/testca3/ca3cstp.cpp",
+      "sha256": "43e46fb6fb0ff06933ced03a143cda4ebf9491b9aa59dce8e0d6033bb5274d3a"
+    },
+    {
+      "bytes": 4247,
+      "git_blob_sha1": "5b0d662db74783466dcf5a93645a9d521b02d4a7",
+      "path": "carlsim/testca3/ca3cstp_perf.cpp",
+      "sha256": "20fd1db1c535500f5114782c72e9e566104543ce36ce8b2c29d6fa6994c1656b"
+    },
+    {
+      "bytes": 6464,
+      "git_blob_sha1": "f30e4be5bfe33eb3d27d71670ac13ae1b8700984",
+      "path": "carlsim/testca3/ca3cstp_taud.cpp",
+      "sha256": "ec753be6f4dd8b8d53fcdec6b90cb2f97e6bee0d8c0b93e04e5ccab8403e0901"
+    },
+    {
+      "bytes": 10252,
+      "git_blob_sha1": "8df8b89228115a6429e7c875b78505c0b807abdc",
+      "path": "carlsim/testca3/ca3pc.cpp",
+      "sha256": "9a36fb17908a06bfc3c62669013f842bc0e7b2b84d7bfb07321393ccfd890e3d"
+    },
+    {
+      "bytes": 10408,
+      "git_blob_sha1": "f02b1a5c54eb89e4d50c1ff60c8f061a2d03e8fb",
+      "path": "carlsim/testca3/ca3pc2_bc2.cpp",
+      "sha256": "98a52b0c29eaccbb11229efc0fe38e8739ba7fb8ed1e86205838263d8ffc1fa4"
+    },
+    {
+      "bytes": 9778,
+      "git_blob_sha1": "a3a7557c92d15c64bd10c38c2f87fb2f2180b92d",
+      "path": "carlsim/testca3/ca3pc_pc.cpp",
+      "sha256": "debdf63aab94226c3a02aa18ec8a95d35092942f5951e9b12d4559d579807815"
+    },
+    {
+      "bytes": 4043,
+      "git_blob_sha1": "4be97125a44472ae696b56914125b27f5ecb1b4b",
+      "path": "carlsim/testca3/ca3types.h",
+      "sha256": "bedb7c8f202af2ce15ea9e018b12f024dab86a0d55ed5ee7fb18e05e5cf5b66f"
+    },
+    {
+      "bytes": 4806,
+      "git_blob_sha1": "7c1f26414e4fb44ef139f988eb5acc9927599dbb",
+      "path": "carlsim/testca3/carlsim_tests.h",
+      "sha256": "f86e200e6afcc24008fd1ea48dfdeb0722dcd99d28c2c67f347e6c8af7af3351"
+    },
+    {
+      "bytes": 4621,
+      "git_blob_sha1": "bdb752f4655a7dfbc795d30abe29fac08756cd3c",
+      "path": "carlsim/testca3/carlsim_tests_common.cpp",
+      "sha256": "9e0918b64d8fbeffd3e4411d092c969200abc7fe489d7174e2a0ab2eab5b3895"
+    },
+    {
+      "bytes": 50800,
+      "git_blob_sha1": "39a9dec0a1590846c980a580e506664b457a45da",
+      "path": "carlsim/testca3/generateCONFIGStateSTP.h",
+      "sha256": "f2c324d8a5ba1727fc530086637b4f10ea9e89efbb713c54c68be10aa44b5a8d"
+    },
+    {
+      "bytes": 995,
+      "git_blob_sha1": "92846c2d6ac0d077e38ec1570c19b7340eb4fcd8",
+      "path": "carlsim/testca3/generateSETUPStateSTP.h",
+      "sha256": "fea2274059b3e264637631707636847af6109cc43d8421c37a1fb6e0dda87e65"
+    },
+    {
+      "bytes": 312,
+      "git_blob_sha1": "b6dab76ad99ca7438711115592c1a7328b55628c",
+      "path": "carlsim/testca3/main.cpp",
+      "sha256": "b47d1fc4d8532dc2cee39f8f4c4bd273f3d99ac6186eef473930aca6d2ad96a4"
+    },
+    {
+      "bytes": 607,
+      "git_blob_sha1": "e659f37f090bf954220a17f36c8c08a878e26098",
+      "path": "doc/CmakeLists.txt",
+      "sha256": "8427a44ee0a95c1d1af7c353bb2d493609957a70258bbe318fcd4e8db896cf0f"
+    },
+    {
+      "bytes": 815,
+      "git_blob_sha1": "e1b76984206d824be3e492024d471d15821469b3",
+      "path": "doc/source/tutorial/1_basic_concepts/CMakeLists.txt",
+      "sha256": "7f1ca60309bcf2718ddf6e2a4cecbef3ce4b546357531d6bb13e6838769dd923"
+    },
+    {
+      "bytes": 3921,
+      "git_blob_sha1": "d2f73ca76b859da2ddf6d0ccce7db11ed64a11e8",
+      "path": "doc/source/tutorial/1_basic_concepts/Makefile",
+      "sha256": "1dfd4b86169427f6ddb1470b0fb2079825fc9b5d50f81966d8a1f51554fb711b"
+    },
+    {
+      "bytes": 3378,
+      "git_blob_sha1": "3b8abc6d420ee3610025dd6971cd8f66493760b6",
+      "path": "doc/source/tutorial/1_basic_concepts/src/main_basic_concepts.cpp",
+      "sha256": "f20a44bb076db5da8722cee5c1f271d1d80cbd344f5e8bd2f1d1584ee0c8bd25"
+    },
+    {
+      "bytes": 847,
+      "git_blob_sha1": "b88e4307b9750262fbcbd183c717c8b65ed6ad50",
+      "path": "doc/source/tutorial/2_random_spnet/CMakeLists.txt",
+      "sha256": "13ff177b16a23f0f096fb6a637b0a1c872fd986a482735dcabc5bf35c7056966"
+    },
+    {
+      "bytes": 3976,
+      "git_blob_sha1": "f46fcf9b65b55c4d8f5b8ba1393a8f28e1e69894",
+      "path": "doc/source/tutorial/2_random_spnet/Makefile",
+      "sha256": "87a585f0c6aebfcd9377276751f0d1c9af50f2013f7c4ed55a4dd6bb555bf9c1"
+    },
+    {
+      "bytes": 5779,
+      "git_blob_sha1": "430b3c034b300022b9080d5fadc9141003582466",
+      "path": "doc/source/tutorial/2_random_spnet/src/main_random_spnet.cpp",
+      "sha256": "f62f9a030b49dd38b7c7d0132c139cfe4e1f813c98fdb0b752b5ae9c3a6822b7"
+    },
+    {
+      "bytes": 762,
+      "git_blob_sha1": "c3ff20ba69699cae9ad8a6fd805c1fbee0f47956",
+      "path": "doc/source/tutorial/3_plasticity/CMakeLists.txt",
+      "sha256": "16f344658bbf70c0f45afcb5ccee1374c1a23e06290376628cf8049d0ce556ad"
+    },
+    {
+      "bytes": 3902,
+      "git_blob_sha1": "08d6cadcb2a6f2d387cc9958ef444028021f6c98",
+      "path": "doc/source/tutorial/3_plasticity/Makefile",
+      "sha256": "e8af239a90f4cfdf48bc21159f59688879b1132069f6f41bec43ac63bd30bbc2"
+    },
+    {
+      "bytes": 4645,
+      "git_blob_sha1": "55f741282d338fb86414899fe5574c0732d4cb67",
+      "path": "doc/source/tutorial/3_plasticity/src/main_plasticity.cpp",
+      "sha256": "c6507bbbacc3b460d16cfb1f3b64d242df8ea890bc18bad2e46c332718bf1921"
+    },
+    {
+      "bytes": 1648,
+      "git_blob_sha1": "707cf206d8af44acfa0d0d7898daf935d1484cde",
+      "path": "doc/source/tutorial/4_image_processing/CMakeLists.txt",
+      "sha256": "af936841558364e4bc93e99ba4ea7c0bff2a93bcc3cd6f9ee17233d8dc0866d8"
+    },
+    {
+      "bytes": 3672,
+      "git_blob_sha1": "4a1536ac4b6b9368be8d3f323f15d11ec32c3c46",
+      "path": "doc/source/tutorial/4_image_processing/Makefile",
+      "sha256": "a366fc1d0fc7ddc699410accfa5b30a25020924f0620ec78720c91829e3694a8"
+    },
+    {
+      "bytes": 5808,
+      "git_blob_sha1": "6009cb850b9eea5a34e4c88ce3e5c67aba82d9d4",
+      "path": "doc/source/tutorial/4_image_processing/src/main_dog.cpp",
+      "sha256": "c1a3583a215b14bc6ebf3b28b2a4e4315c515c48949e98812979474b446b2b69"
+    },
+    {
+      "bytes": 3992,
+      "git_blob_sha1": "90ad5601bf810048afa10421f5f6af561d8308c0",
+      "path": "doc/source/tutorial/4_image_processing/src/main_smooth.cpp",
+      "sha256": "ec716ae95d158776acc73f322389da3b870f17d1e46a363f20791085b1fd34f3"
+    },
+    {
+      "bytes": 1068,
+      "git_blob_sha1": "9a6a38f656ee9253ecc77ca79e944eeeca02a64d",
+      "path": "doc/source/tutorial/5_motion_energy/CMakeLists.txt",
+      "sha256": "3a8493a234c9565a60d1a02175a2428528fcb2a9082573857ba78bafa52bc065"
+    },
+    {
+      "bytes": 3837,
+      "git_blob_sha1": "3c73770a96863d9cf8a7a62f9622df35ceca4464",
+      "path": "doc/source/tutorial/5_motion_energy/Makefile",
+      "sha256": "6a6ea74a8981e21538e5751cb2e42eb809e688c4157147402bf2ccd7226d27bc"
+    },
+    {
+      "bytes": 4932,
+      "git_blob_sha1": "d40796e116e590878c1480c30894da73e03dfc35",
+      "path": "doc/source/tutorial/5_motion_energy/src/main_motion_energy.cpp",
+      "sha256": "cce2b4951a47bae16d67237f5b3b36476ba3404808a5d364887afec4a1a3f0f7"
+    },
+    {
+      "bytes": 854,
+      "git_blob_sha1": "1fed556cefeeceb615f232fb00dacf0cca290cea",
+      "path": "doc/source/tutorial/6_simple_weight_tuner/CMakeLists.txt",
+      "sha256": "44b36af75e53c2a5d4b022c8260becc1e7907d19fdd9cbf060ac66c6d21589ed"
+    },
+    {
+      "bytes": 3904,
+      "git_blob_sha1": "b0be528fec76724816cb905b04dac7570bab26d7",
+      "path": "doc/source/tutorial/6_simple_weight_tuner/Makefile",
+      "sha256": "4fdb9c444b85a30a6f96a6ee2f50525f2447ec9513b5aec20c50f7eb644cf902"
+    },
+    {
+      "bytes": 5064,
+      "git_blob_sha1": "55bd024201898424f5581beb0f3b818b70b8dd22",
+      "path": "doc/source/tutorial/6_simple_weight_tuner/src/main_simple_weight_tuner.cpp",
+      "sha256": "46be77ad2885abdcdb1acc60106896a719721f1648c9a3ce8e3e19c5fb704d85"
+    },
+    {
+      "bytes": 2250,
+      "git_blob_sha1": "b26875a52e38d121dbca377bc3f10fb9f1ed9738",
+      "path": "doc/source/tutorial/7_pti/src/Makefile",
+      "sha256": "ff7122c33292e03450c9ad1867c57e451dc122de5a2d4ec44e1de9c34e5f6b80"
+    },
+    {
+      "bytes": 4063,
+      "git_blob_sha1": "5cb006d4bcc42e49a9690a0e4461d1295f6a8eed",
+      "path": "doc/source/tutorial/7_pti/src/Makefile4",
+      "sha256": "e682abf08226ed7692e551bf2c700afdc6af2d01ec3acba444c61767f97c9a19"
+    },
+    {
+      "bytes": 1391,
+      "git_blob_sha1": "0335e5fb3514eb2bbcf429078ed0984330c7cc8e",
+      "path": "doc/source/tutorial/7_pti/src/README.md",
+      "sha256": "160fdf0079225b3ff54f0f8d2225f60e20aee0fec25dacac8ac8749fb6d3c98f"
+    },
+    {
+      "bytes": 7616,
+      "git_blob_sha1": "ce3894a253f84c4c411f49f9e1eed44d6729dd4b",
+      "path": "doc/source/tutorial/7_pti/src/main_TuneFiringRates.cpp",
+      "sha256": "9061e4039471692ee94581e1db1db231b4cb48b4c897288db321596805d05454"
+    },
+    {
+      "bytes": 4538,
+      "git_blob_sha1": "99c798bdfc17d9cb96df0435ceef5ea0afef091d",
+      "path": "doc/source/tutorial/7_pti/src/main_tuneFiringRatesECJ.cpp",
+      "sha256": "d13a17b353d4807a188438826d6d018f13429407156e5fda285cc4557a452b2c"
+    },
+    {
+      "bytes": 591,
+      "git_blob_sha1": "9e6faf60ad717b85aab818a97380c6392b81e4db",
+      "path": "doc/source/tutorial/8_compartments/CMakeLists.txt",
+      "sha256": "9de9e4ef86289cfb4966abf50251f82d17dae94be12acb6089d65b440bdde982"
+    },
+    {
+      "bytes": 3911,
+      "git_blob_sha1": "1a111067835facdcda71aea5336b803bc71d8927",
+      "path": "doc/source/tutorial/8_compartments/Makefile",
+      "sha256": "7bbdd210a67594d3c5fbdf2824df95ddecbd85f6e957ce203386288b17404b10"
+    },
+    {
+      "bytes": 6954,
+      "git_blob_sha1": "71d098f9536f5e98574568df1005d43577cc879c",
+      "path": "doc/source/tutorial/8_compartments/src/main_compartments.cpp",
+      "sha256": "fad7a052c51c028c5e9da3cc767acbe331125faa9331909b5b258ecccf9e6ff9"
+    },
+    {
+      "bytes": 3976,
+      "git_blob_sha1": "40f7c1f860010436b385f17b294b717035b0f130",
+      "path": "doc/source/tutorial/8_neuron_model/Makefile",
+      "sha256": "a94d548b37f1f2d202fbd69d0ebc9c6a2408679a505fe292898d81a5d83bbaeb"
+    },
+    {
+      "bytes": 4364,
+      "git_blob_sha1": "732310327c1644081e2a236d561eb05e0d282706",
+      "path": "doc/source/tutorial/8_neuron_model/src/main_neuron_model.cpp",
+      "sha256": "166c1252b05d8e670fd71138fa54323418e4204c6f201fefc4ea56e39fe2c09a"
+    },
+    {
+      "bytes": 12446,
+      "git_blob_sha1": "15eaac3d1d423a60ed0310cf051601e34b367949",
+      "path": "doc/source/user_guide/20_neuromodulation/ne_opt_1_2.TXT",
+      "sha256": "885fce3729ad5f77c88468565ca044963048889f390a45a762eb89a5155b0711"
+    },
+    {
+      "bytes": 948,
+      "git_blob_sha1": "b2b2dd768c0a101d818da5211e1c47cf127a1c3d",
+      "path": "doc/upload-gh-pages.sh",
+      "sha256": "d5e2b2a38fe09e86588a7f7ce4ac964b2d88be7b19cb2755ba3681197ae2e182"
+    },
+    {
+      "bytes": 1279,
+      "git_blob_sha1": "0be00ffa33ab75e9112355550cd5e411f308ab0c",
+      "path": "projects/CMakeLists.txt",
+      "sha256": "d5b0cf79b516b138543e0d5f71047b491275e0726b8ae846ae1fc2c4fe827084"
+    },
+    {
+      "bytes": 53804,
+      "git_blob_sha1": "4cafcc47b5a3ab64ee398b2a54ac30aba19f8bf2",
+      "path": "projects/README.md",
+      "sha256": "6c88d9f78804df454ad2cd5c0ee433d0dc85209bbd4cfdb0233d9f25c9f691ed"
+    },
+    {
+      "bytes": 959,
+      "git_blob_sha1": "01f8018b020221d40e72eb244ddd090906274584",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/CMakeLists.txt",
+      "sha256": "9c0650ac4f5d17021c0106d1014741220c68a0385c81d937bd7d4b18f0475f49"
+    },
+    {
+      "bytes": 9992,
+      "git_blob_sha1": "58b5ee330273de743592cc566448478033e3b47e",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/generateCONFIGStateSTP.h",
+      "sha256": "cfc842e54647a0c4c7d8591d6e3330105a42e42e3902dd010268ffc945943edf"
+    },
+    {
+      "bytes": 240,
+      "git_blob_sha1": "feccbbc8d12a52884ee15f08bb3e39d3e91d1f29",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/generateSETUPStateSTP.h",
+      "sha256": "249ab8330ce18bbe2a199172841db50b9de2fcd87a06e6826354dafe55fba837"
+    },
+    {
+      "bytes": 18785,
+      "git_blob_sha1": "81856ee46eb95475c8e2126ee210feead89ba49c",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/generateSNNSyntax.py",
+      "sha256": "943909f1fd54ba555b5cedab3c863278497e45360aa22c7fb7fed4c5c89a7deb"
+    },
+    {
+      "bytes": 399,
+      "git_blob_sha1": "345dee22618955d912009d11b63eb1821f85a9ab",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/slurm_wrapper.sh",
+      "sha256": "10770933e6230e52458361cd0f26e2d504ecd605ce68c02c539fbd15469ffdf0"
+    },
+    {
+      "bytes": 6961,
+      "git_blob_sha1": "c66d64be8af3ea8ecb69e70f3445639d8eb3ba41",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/src/main_ca3_snn_GPU.cpp",
+      "sha256": "f7a305636ce5f8b2adbc5e25c3176bcfe5a8a8e89b193fede512d3547cac70ca"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 959,
+      "git_blob_sha1": "a09a5a56a1070c05786b574a4244bbebbaf2d356",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/CMakeLists.txt",
+      "sha256": "9a7ded6154d16371d1ebe39adfe7d3383553e264a58081af425fe3d5520868b0"
+    },
+    {
+      "bytes": 50756,
+      "git_blob_sha1": "78ff7c0c73ae76959fff171fc8d41656905f4f42",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h",
+      "sha256": "a6be0feea8e0fc0815b02efab72a264658f3322c14b56723bb09bedebef4fe4c"
+    },
+    {
+      "bytes": 639,
+      "git_blob_sha1": "49b732aea65d096da17afd459048ca4bf95db70f",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateSETUPStateSTP.h",
+      "sha256": "9837492762be5871a494ac55af23e14e2157824174dbde5a13d83095a45bcff1"
+    },
+    {
+      "bytes": 19060,
+      "git_blob_sha1": "5b7d5c521b33a4c4441c96b3970805e6e70cb694",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateSNNSyntax.py",
+      "sha256": "cd8c74ac49460f944b76a77cedf028bfa0669db222bc4de03460b20e62ff98eb"
+    },
+    {
+      "bytes": 396,
+      "git_blob_sha1": "1522c9f152115b4ca26ddc9682fff06ef24cd209",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/slurm_wrapper.sh",
+      "sha256": "4175a298ad06b91bcd585718c92fb08e899d2ff7e70b06466ec7d4d0704f9494"
+    },
+    {
+      "bytes": 6961,
+      "git_blob_sha1": "c66d64be8af3ea8ecb69e70f3445639d8eb3ba41",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/src/main_ca3_snn_GPU.cpp",
+      "sha256": "f7a305636ce5f8b2adbc5e25c3176bcfe5a8a8e89b193fede512d3547cac70ca"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 966,
+      "git_blob_sha1": "6ee4b1e690e6ee72d9966236c3978010be7c576c",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/CMakeLists.txt",
+      "sha256": "4640bcb4e03b88a4826755747e8c580d9468fa011794fb0931c5e051830f970f"
+    },
+    {
+      "bytes": 50936,
+      "git_blob_sha1": "f8077b57af26e686bcc75f316ebf60fe3b6efeaf",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/generateCONFIGStateSTP.h",
+      "sha256": "3582f7222c9660e8e13e6790cd922f8532f460d4f0203f3715ccc7721555887e"
+    },
+    {
+      "bytes": 639,
+      "git_blob_sha1": "49b732aea65d096da17afd459048ca4bf95db70f",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/generateSETUPStateSTP.h",
+      "sha256": "9837492762be5871a494ac55af23e14e2157824174dbde5a13d83095a45bcff1"
+    },
+    {
+      "bytes": 19046,
+      "git_blob_sha1": "41527589218ebaf3c1677e209c4f67476e260317",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/generateSNNSyntax.py",
+      "sha256": "0775d7c40ad6320e593746d7a246b9257cbd534722224a86510bc0900014b3b7"
+    },
+    {
+      "bytes": 387,
+      "git_blob_sha1": "e0f5f2926ca5f47993b104453687beb718baa234",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/slurm_wrapper.sh",
+      "sha256": "96f917f38c3513dad816c2c6b706d12f1667490afcc2f2e0dd021c86366974fd"
+    },
+    {
+      "bytes": 6961,
+      "git_blob_sha1": "c66d64be8af3ea8ecb69e70f3445639d8eb3ba41",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/src/main_ca3_snn_GPU.cpp",
+      "sha256": "f7a305636ce5f8b2adbc5e25c3176bcfe5a8a8e89b193fede512d3547cac70ca"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/asynchronous/ca3_snn_GPU_02_16_20_HC_IM_class/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 878,
+      "git_blob_sha1": "ca695872ef1ba4442702250769a4387fde537dbb",
+      "path": "projects/ca3_example_net/CMakeLists.txt",
+      "sha256": "9863fe5a9e47c9d88165bbdec86fc12f56f4a996f5190b7f75aa5ff573fb96d4"
+    },
+    {
+      "bytes": 54030,
+      "git_blob_sha1": "49358cbbb398d94af4a2259e7c8b3985449fb92c",
+      "path": "projects/ca3_example_net/README.md",
+      "sha256": "9d99262b1ac8136001743a905767936fdf171c64fca0a34e43402dfb26df875d"
+    },
+    {
+      "bytes": 50794,
+      "git_blob_sha1": "41c0a1d0f574258ba9fef0a4717b4bc4c250c1c5",
+      "path": "projects/ca3_example_net/generateCONFIGStateSTP.h",
+      "sha256": "02cc1595b9e8f4feedf5e891b35f8561ec03eebb688ba13dd20795fa866b51a4"
+    },
+    {
+      "bytes": 995,
+      "git_blob_sha1": "92846c2d6ac0d077e38ec1570c19b7340eb4fcd8",
+      "path": "projects/ca3_example_net/generateSETUPStateSTP.h",
+      "sha256": "fea2274059b3e264637631707636847af6109cc43d8421c37a1fb6e0dda87e65"
+    },
+    {
+      "bytes": 19060,
+      "git_blob_sha1": "5b7d5c521b33a4c4441c96b3970805e6e70cb694",
+      "path": "projects/ca3_example_net/generateSNNSyntax.py",
+      "sha256": "cd8c74ac49460f944b76a77cedf028bfa0669db222bc4de03460b20e62ff98eb"
+    },
+    {
+      "bytes": 368,
+      "git_blob_sha1": "3914694ebc806bb1774ef9b8f09ceeb5b6f02c08",
+      "path": "projects/ca3_example_net/slurm_wrapper.sh",
+      "sha256": "dda1faf9bb7c612ff831cb84cc7cfc76dcafe9e349a6b8b24623794ce84d6540"
+    },
+    {
+      "bytes": 7433,
+      "git_blob_sha1": "98292fec835db3670dbdb640a524a109bbc7029c",
+      "path": "projects/ca3_example_net/src/main_ca3_snn_GPU.cpp",
+      "sha256": "aa8171291ef433a5af5fa841b95d35c89cdd9b3bd44c40bea26e7afac8ed3b68"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/ca3_example_net/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 935,
+      "git_blob_sha1": "a5d67fc680b30d524dcbf0f49abb4a43ddb35306",
+      "path": "projects/ca3_example_net_02_26_21/CMakeLists.txt",
+      "sha256": "b18b73e510a87c465077043759503a7c937b9bbe7d65172d93397b78de454a81"
+    },
+    {
+      "bytes": 50712,
+      "git_blob_sha1": "8a68a968a6eb531d3f1a1c80f7889247df21abad",
+      "path": "projects/ca3_example_net_02_26_21/generateCONFIGStateSTP.h",
+      "sha256": "1b8ee8a93ac617252cefd422763a0cc5e2c4c8d011bfaf4c4550ddf666441bb6"
+    },
+    {
+      "bytes": 639,
+      "git_blob_sha1": "49b732aea65d096da17afd459048ca4bf95db70f",
+      "path": "projects/ca3_example_net_02_26_21/generateSETUPStateSTP.h",
+      "sha256": "9837492762be5871a494ac55af23e14e2157824174dbde5a13d83095a45bcff1"
+    },
+    {
+      "bytes": 19060,
+      "git_blob_sha1": "5b7d5c521b33a4c4441c96b3970805e6e70cb694",
+      "path": "projects/ca3_example_net_02_26_21/generateSNNSyntax.py",
+      "sha256": "cd8c74ac49460f944b76a77cedf028bfa0669db222bc4de03460b20e62ff98eb"
+    },
+    {
+      "bytes": 368,
+      "git_blob_sha1": "3914694ebc806bb1774ef9b8f09ceeb5b6f02c08",
+      "path": "projects/ca3_example_net_02_26_21/slurm_wrapper.sh",
+      "sha256": "dda1faf9bb7c612ff831cb84cc7cfc76dcafe9e349a6b8b24623794ce84d6540"
+    },
+    {
+      "bytes": 7363,
+      "git_blob_sha1": "8983caca6dd4305024857e9b11edf4e23509ac72",
+      "path": "projects/ca3_example_net_02_26_21/src/.ipynb_checkpoints/main_ca3_snn_GPU-checkpoint.cpp",
+      "sha256": "362b8822bd826b197f6f747145666762b2fedb85b56cc04e0a53cadba6a3fa9a"
+    },
+    {
+      "bytes": 6380,
+      "git_blob_sha1": "177d7b534b78640a0fd61c06be95b5e1c1adc5a7",
+      "path": "projects/ca3_example_net_02_26_21/src/main_ca3_snn_GPU.cpp",
+      "sha256": "f3fb03409d5b4d18b1b95a75fac59119e6c058d128c7f31403441180f571790b"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/ca3_example_net_02_26_21/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 654,
+      "git_blob_sha1": "1d3eec05599ab8bdb408250ba0a2f4595c5b48c7",
+      "path": "projects/hello_world/CMakeLists.txt",
+      "sha256": "47411d1aa135d0e15ae31524ed5e40f859334f14b882a6ccd07ec96d2bdaeff0"
+    },
+    {
+      "bytes": 4411,
+      "git_blob_sha1": "e1f1e695becb9df4be9932dee8bbb9521fa3b9fd",
+      "path": "projects/hello_world/src/main_hello_world.cpp",
+      "sha256": "6e54b78a9c83876438e7d9ba4388c760123cbdad007380935116a8d17b04cb32"
+    },
+    {
+      "bytes": 1219,
+      "git_blob_sha1": "37c2ec27dc2e185012be474d7eae3e6e6b6f4c74",
+      "path": "projects/hello_world/standalone/CMakeLists.txt",
+      "sha256": "982725ac5681af95553e212f4cdd6da9d1455c08b3a2378ae203136c5ba02626"
+    },
+    {
+      "bytes": 471,
+      "git_blob_sha1": "a365889bd81119b085900d459e4fca1e2ca18f46",
+      "path": "projects/init.sh",
+      "sha256": "aceee71f1960e6de410ce310d2f81b06508216960ffef8229d986f3fb193e603"
+    },
+    {
+      "bytes": 3964,
+      "git_blob_sha1": "81426eb4640c506415cac82b6e350ef31fb99bcf",
+      "path": "projects/lif_izhi_random_spnet/Makefile",
+      "sha256": "938c9c9a927ed9c35079ef6e68190c5277ef166f10cf70cb95c5d6bb441d2224"
+    },
+    {
+      "bytes": 9932,
+      "git_blob_sha1": "8f05d061c72387acf4893fe3d12107613a56024e",
+      "path": "projects/lif_izhi_random_spnet/src/main_random_spnet.cpp",
+      "sha256": "e539c523867bc1981f6d1b449fdc9b0f6dec950b3063e331a91663088574ef67"
+    },
+    {
+      "bytes": 952,
+      "git_blob_sha1": "a278cc7b31dca250675999d1845bc0e7a17eb335",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/CMakeLists.txt",
+      "sha256": "dc282b3ece08bb7f0bc6c4ab32d0a103ade5c0459b6b8250c004db6357b0428b"
+    },
+    {
+      "bytes": 9992,
+      "git_blob_sha1": "58b5ee330273de743592cc566448478033e3b47e",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/generateCONFIGStateSTP.h",
+      "sha256": "cfc842e54647a0c4c7d8591d6e3330105a42e42e3902dd010268ffc945943edf"
+    },
+    {
+      "bytes": 240,
+      "git_blob_sha1": "feccbbc8d12a52884ee15f08bb3e39d3e91d1f29",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/generateSETUPStateSTP.h",
+      "sha256": "249ab8330ce18bbe2a199172841db50b9de2fcd87a06e6826354dafe55fba837"
+    },
+    {
+      "bytes": 18785,
+      "git_blob_sha1": "81856ee46eb95475c8e2126ee210feead89ba49c",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/generateSNNSyntax.py",
+      "sha256": "943909f1fd54ba555b5cedab3c863278497e45360aa22c7fb7fed4c5c89a7deb"
+    },
+    {
+      "bytes": 396,
+      "git_blob_sha1": "3534b48bbc2ac2dda838b2accad8633b1f95897e",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/slurm_wrapper.sh",
+      "sha256": "7270080164b81eee812a6474ea00543979d11c57e72c0f5eeb5c438b92703486"
+    },
+    {
+      "bytes": 6664,
+      "git_blob_sha1": "2188f44748294ee5302d50de2730756d08e9b483",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/src/main_ca3_snn_GPU.cpp",
+      "sha256": "75aeb8e9d33f4f4325913b40a6645f52a0e82622ac02ef7a1f9f825b1bcbd9db"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_archetype/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 951,
+      "git_blob_sha1": "1dae7862513aac75aa8d0250ff2d610a9d42cc2c",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/CMakeLists.txt",
+      "sha256": "e0234855b93589d2efc796c1c0d192a84d91e7ac7331c55cd818d0c87c38eb47"
+    },
+    {
+      "bytes": 67714,
+      "git_blob_sha1": "838db1d357557f9ec8b62de7fb3ecbac74b8ef32",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/HC_IM_02_16_ca3_snn_sync_baseline.txt",
+      "sha256": "a0725bc091cd7d8a85874bf89a3ecdfcbdbbd58cc28ed3c4849d6cfdf0e9221f"
+    },
+    {
+      "bytes": 50756,
+      "git_blob_sha1": "78ff7c0c73ae76959fff171fc8d41656905f4f42",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateCONFIGStateSTP.h",
+      "sha256": "a6be0feea8e0fc0815b02efab72a264658f3322c14b56723bb09bedebef4fe4c"
+    },
+    {
+      "bytes": 639,
+      "git_blob_sha1": "49b732aea65d096da17afd459048ca4bf95db70f",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateSETUPStateSTP.h",
+      "sha256": "9837492762be5871a494ac55af23e14e2157824174dbde5a13d83095a45bcff1"
+    },
+    {
+      "bytes": 19060,
+      "git_blob_sha1": "5b7d5c521b33a4c4441c96b3970805e6e70cb694",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/generateSNNSyntax.py",
+      "sha256": "cd8c74ac49460f944b76a77cedf028bfa0669db222bc4de03460b20e62ff98eb"
+    },
+    {
+      "bytes": 393,
+      "git_blob_sha1": "e753c2e15828bf57c3148aeb66f38f29216bde97",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/slurm_wrapper.sh",
+      "sha256": "440643c5442d8b39f7e6c90fe681cedd5a5a7d5236454ab3116815686dbee779"
+    },
+    {
+      "bytes": 6664,
+      "git_blob_sha1": "2188f44748294ee5302d50de2730756d08e9b483",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/src/main_ca3_snn_GPU.cpp",
+      "sha256": "75aeb8e9d33f4f4325913b40a6645f52a0e82622ac02ef7a1f9f825b1bcbd9db"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_baseline/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 959,
+      "git_blob_sha1": "355742e96da5029fa8308ea1d08a3dfe7fe4b32a",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/CMakeLists.txt",
+      "sha256": "a1d4d4527e013a3799415d8f6fc23238c2f84a90a781f0b6a1fe0f7ae8ccc0b8"
+    },
+    {
+      "bytes": 50936,
+      "git_blob_sha1": "f8077b57af26e686bcc75f316ebf60fe3b6efeaf",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/generateCONFIGStateSTP.h",
+      "sha256": "3582f7222c9660e8e13e6790cd922f8532f460d4f0203f3715ccc7721555887e"
+    },
+    {
+      "bytes": 639,
+      "git_blob_sha1": "49b732aea65d096da17afd459048ca4bf95db70f",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/generateSETUPStateSTP.h",
+      "sha256": "9837492762be5871a494ac55af23e14e2157824174dbde5a13d83095a45bcff1"
+    },
+    {
+      "bytes": 19046,
+      "git_blob_sha1": "41527589218ebaf3c1677e209c4f67476e260317",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/generateSNNSyntax.py",
+      "sha256": "0775d7c40ad6320e593746d7a246b9257cbd534722224a86510bc0900014b3b7"
+    },
+    {
+      "bytes": 384,
+      "git_blob_sha1": "f90444273ab3b54cd4e56f166c849873e78b3f26",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/slurm_wrapper.sh",
+      "sha256": "14b2356c749e260be288bbcfa2322b9c9a341a445be175e5e4cecbdc2d23d355"
+    },
+    {
+      "bytes": 6664,
+      "git_blob_sha1": "2188f44748294ee5302d50de2730756d08e9b483",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/src/main_ca3_snn_GPU.cpp",
+      "sha256": "75aeb8e9d33f4f4325913b40a6645f52a0e82622ac02ef7a1f9f825b1bcbd9db"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_class/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 974,
+      "git_blob_sha1": "86fa7a9767f4f2fded2a13097b030805d20ef2e8",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/CMakeLists.txt",
+      "sha256": "d048eae3a5a03602659b90353a04baaebbec20b10ab1206efa97cbccbd680c63"
+    },
+    {
+      "bytes": 67714,
+      "git_blob_sha1": "838db1d357557f9ec8b62de7fb3ecbac74b8ef32",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/HC_IM_02_16_ca3_snn_sync_baseline.txt",
+      "sha256": "a0725bc091cd7d8a85874bf89a3ecdfcbdbbd58cc28ed3c4849d6cfdf0e9221f"
+    },
+    {
+      "bytes": 50774,
+      "git_blob_sha1": "48acebae64e6b2d839a4ab8dff840b7e28f62c90",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/generateCONFIGStateSTP.h",
+      "sha256": "975becaae7fb4fc0f93aba64cdf81af29dee257dc6931c7125b6f50d2d53d9a5"
+    },
+    {
+      "bytes": 639,
+      "git_blob_sha1": "49b732aea65d096da17afd459048ca4bf95db70f",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/generateSETUPStateSTP.h",
+      "sha256": "9837492762be5871a494ac55af23e14e2157824174dbde5a13d83095a45bcff1"
+    },
+    {
+      "bytes": 19060,
+      "git_blob_sha1": "5b7d5c521b33a4c4441c96b3970805e6e70cb694",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/generateSNNSyntax.py",
+      "sha256": "cd8c74ac49460f944b76a77cedf028bfa0669db222bc4de03460b20e62ff98eb"
+    },
+    {
+      "bytes": 393,
+      "git_blob_sha1": "e753c2e15828bf57c3148aeb66f38f29216bde97",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/slurm_wrapper.sh",
+      "sha256": "440643c5442d8b39f7e6c90fe681cedd5a5a7d5236454ab3116815686dbee779"
+    },
+    {
+      "bytes": 11708,
+      "git_blob_sha1": "ac9b32b9cd406f917292d5d60197029909b11cf2",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/src/main_ca3_snn_GPU.cpp",
+      "sha256": "6f83f7fddd2989a921cfdd3f16f372a943536fc7724057253b9618329b84da70"
+    },
+    {
+      "bytes": 3839,
+      "git_blob_sha1": "7a36e5b6d4c454796bbb1f346691f67f68ab9da8",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/src/readme.txt",
+      "sha256": "d5fc82917af1b0822265a62fae6701ed8c1b3eaafc97bf2a5ddfa61bdeb3c520"
+    },
+    {
+      "bytes": 1886,
+      "git_blob_sha1": "8cad6cf722bdf66df969ecf6b1d7a2ce37a14031",
+      "path": "projects/synchronous/ca3_snn_GPU_02_16_20_HC_IM_granule/utilities.py",
+      "sha256": "3274b0642076413e3576b4faf7851f4de11028d7c5d5a046239f6d52ed0df1f5"
+    },
+    {
+      "bytes": 3812,
+      "git_blob_sha1": "937c7c8d2dd474ad8c01c70e305b7d0c7b118142",
+      "path": "projects/test_kernel/src/main_test_kernel.cpp",
+      "sha256": "d48bd7ee93eed5a96472e2d415c6558939ff225e4e8ba90ede9565b7dee02fb3"
+    },
+    {
+      "bytes": 6052,
+      "git_blob_sha1": "b3e16dedf6382dc5247cf98cd284bd7f10da4cb6",
+      "path": "projects/test_kernel2/main_test_kernel2.cpp",
+      "sha256": "68964dc2e8f23b7b546ad9976ab1912ab8501355187693f6cc3f3280ebd69d5d"
+    },
+    {
+      "bytes": 6531,
+      "git_blob_sha1": "f11802123c6ca0ae3d8f21dc98d2f8ca0b5df99d",
+      "path": "projects/test_kernel3/main_test_kernel3.cpp",
+      "sha256": "4f136e545e5054b3d16190bba5fe12a185f02b6f61307d948685eed18f8f19d2"
+    },
+    {
+      "bytes": 3670,
+      "git_blob_sha1": "3e5f173624d0d4b8d72a88ecb0af7a4d6d9f62d1",
+      "path": "pyCARL/README.md",
+      "sha256": "fc006b92e02291de242a221d5af6d611b64525fe925dc4a853d38a77a69cb001"
+    },
+    {
+      "bytes": 1402,
+      "git_blob_sha1": "b1caf7a781e4a8028666e5d56ebea0564adfc45f",
+      "path": "pyCARL/carlsim/__init__.py",
+      "sha256": "98e2ca4119e493a5c89e223f7dbdd460b6ae38bf69a11bbae0b4b522e235e38a"
+    },
+    {
+      "bytes": 62522,
+      "git_blob_sha1": "ec6e03d3b384916b843972e51c77c84d5055cfe2",
+      "path": "pyCARL/carlsim/carlsim.py",
+      "sha256": "6de5efcfd9e01ef1cc805fd0e4204ffeeb1e4390e87ee5a7f940629b430ccdf4"
+    },
+    {
+      "bytes": 1253,
+      "git_blob_sha1": "51db3f5dd541bea95c957f8f10bd2d59995e8559",
+      "path": "pyCARL/carlsim/connectors.py",
+      "sha256": "0271c2e4432db25f06a512250e9adf95834a8f038bfc524f9b4231897db48218"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "pyCARL/carlsim/network.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 3297,
+      "git_blob_sha1": "83060ac1a89c1b7cfaae2492d98036112e374d64",
+      "path": "pyCARL/carlsim/populations.py",
+      "sha256": "e03c28bb0f1576c52cb7a6f681249230a238f8fd8f0dfe45052ad5968e016429"
+    },
+    {
+      "bytes": 3668,
+      "git_blob_sha1": "a206d72b84f70dfb7eeae33b1f97726ef0acc36a",
+      "path": "pyCARL/carlsim/projections.py",
+      "sha256": "12cf75003a95e98226ab7ddfcbe6d668090db38815bd04250e54d02a8d24aad7"
+    },
+    {
+      "bytes": 781,
+      "git_blob_sha1": "306e187b54d51fff306956618b69985b6f908ba4",
+      "path": "pyCARL/carlsim/recording.py",
+      "sha256": "2f798a992031335a428af716cc36baa9afae4f1d8ac9713865c9e1ebca7163d1"
+    },
+    {
+      "bytes": 4792,
+      "git_blob_sha1": "5eacc465314bfcb633fab5484fe9bf3e2d19e8e9",
+      "path": "pyCARL/carlsim/simulator.py",
+      "sha256": "c00ed00afdd7ff0a51af8caca79fe79f42410fccfe3518eb5d1ff00ad4392714"
+    },
+    {
+      "bytes": 0,
+      "git_blob_sha1": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+      "path": "pyCARL/carlsim/standardmodels/__init__.py",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "bytes": 2189,
+      "git_blob_sha1": "b955abb3bd6c25e989059b6fda903cd100b75066",
+      "path": "pyCARL/carlsim/standardmodels/cells.py",
+      "sha256": "cc752934c7ee1c5b635595d37122889f7b5c3105b0e94cd2369e9c8ffd8ee589"
+    },
+    {
+      "bytes": 843,
+      "git_blob_sha1": "c67cd085eb4220f6a47b29791e9678cd5ff95913",
+      "path": "pyCARL/carlsim/standardmodels/electrodes.py",
+      "sha256": "cfdc1a08c35314491148072ca7388a672aadadec6773b2605e88320a05792d4e"
+    },
+    {
+      "bytes": 1765,
+      "git_blob_sha1": "8ea467773080d249adf787ba5f58d51b6ba32633",
+      "path": "pyCARL/carlsim/standardmodels/synapses.py",
+      "sha256": "1ca39a5e3625729d1a228786c88b3065f70ff0788ba98e9157144c42ef2bf5fe"
+    },
+    {
+      "bytes": 548,
+      "git_blob_sha1": "e2f5e613dd5ec185627b79db1a27ec3be5306242",
+      "path": "pyCARL/source/build.sh",
+      "sha256": "5165ccf9d782069d04a36120c1d43f640da997d60b91b3ad37042fdefa805367"
+    },
+    {
+      "bytes": 2710,
+      "git_blob_sha1": "477b6b08fb0f726c0898ede299dc2eb0c6d0223d",
+      "path": "pyCARL/source/setup.py",
+      "sha256": "f676d2cd019e4f85c766f45fe523910a854363530a4536f0c0af78ad579e02bb"
+    },
+    {
+      "bytes": 2305,
+      "git_blob_sha1": "3e58d94a47b0ba7a2d1f2a65f04be2405d1d8fc1",
+      "path": "pyCARL/test/testKernel1/testKernel1.py",
+      "sha256": "f8bd8ad4875ef29c26b74782395d8fda68ad01cc965c5115a7100ded32ea71f6"
+    },
+    {
+      "bytes": 3730,
+      "git_blob_sha1": "85ae31a2a8d9562372358afa850196f88714c1f1",
+      "path": "pyCARL/test/testKernel2/testKernel2.py",
+      "sha256": "cddcb4c06b4862c25f2ca14c2cfa9a9a8ed844cfbe06a40a4cd2dba7743b44c0"
+    },
+    {
+      "bytes": 2294,
+      "git_blob_sha1": "dfa9e443ebea89a3ec684a6ba18875ae6b0d3944",
+      "path": "pyCARL/test/testKernel3/testKernel3.py",
+      "sha256": "5f5b5b03c9b2a3278fecf5ed0dfd788a3f44b5cca740753cddfb438e67df6dc8"
+    },
+    {
+      "bytes": 1858,
+      "git_blob_sha1": "8103dd5f2142b5f6e32fc309a74e2c1fc4810a09",
+      "path": "pyCARL/test/unit_test/test_connection.py",
+      "sha256": "678e1d84c6e6ca87481dc9017dff14b36790ac5dbe6910fa611d6f8745f23c49"
+    },
+    {
+      "bytes": 4059,
+      "git_blob_sha1": "bb5d7d98657f184a52a6f8203e38701d41ea8cbf",
+      "path": "pyCARL/test/unit_test/test_populations.py",
+      "sha256": "cfc09c7c994e05df0f46bae814d7817c29a4929037482e36cf31788be6afb304"
+    },
+    {
+      "bytes": 2988,
+      "git_blob_sha1": "9a9dd5aeec37ab0c8d09a74afff840e106ff6e1a",
+      "path": "pyCARL/test/unit_test/test_projections.py",
+      "sha256": "2c91b61604e2ce94e9e9ec802118c0611de29ef951d32023b5031625bedb2f62"
+    },
+    {
+      "bytes": 307,
+      "git_blob_sha1": "66db97367eb9db6fec8b9352dc8cffb0fe627dbe",
+      "path": "tools/CMakeLists.txt",
+      "sha256": "a82cc8dd90c5827ddb7c08b7d904091ae0debe437f34d53776d600e33bc74e2d"
+    },
+    {
+      "bytes": 50350,
+      "git_blob_sha1": "19b8db1e6513f36dcb6e5097d3f27adc043c9c33",
+      "path": "tools/eo_pti/include/pti.h",
+      "sha256": "39bbf17ee8c86d0c25d5ac98d9c9fa755a3aeb69e9af16134c3f45cae177456b"
+    },
+    {
+      "bytes": 2386,
+      "git_blob_sha1": "d5f992f7d0ce4634755cde12ed6833a5eb3e19be",
+      "path": "tools/eo_pti/include/pti_eoAlgo.h",
+      "sha256": "c3efdfbfe20683bb1d56101cac9513ffdf6a7b0a3cf512a4cb5a760981d1d50d"
+    },
+    {
+      "bytes": 2897,
+      "git_blob_sha1": "f5b9f16799c2ae4e29b057d1975dd8f4bdb3a547",
+      "path": "tools/eo_pti/include/pti_eoCombinedContinue.h",
+      "sha256": "444e7acfd089f8238c0b40035ccb5249ce83d5488997f1e1f3d88c93b6c65010"
+    },
+    {
+      "bytes": 9406,
+      "git_blob_sha1": "9451fe3853383236d8b7920ea145ecd4e5b7243c",
+      "path": "tools/eo_pti/include/pti_eoEasyEA.h",
+      "sha256": "6ae6f505eaff91b80260d792e6dfe62647e74f01cb6107ccb40129673940be94"
+    },
+    {
+      "bytes": 2072,
+      "git_blob_sha1": "828666e7e0910a46747f13c56a610e060f5ea09e",
+      "path": "tools/eo_pti/include/pti_eoGenContinue.h",
+      "sha256": "16b28df1ed94566f7257b3d8f52a3039b40f7a27b499d5aeeac64ea984d7c605"
+    },
+    {
+      "bytes": 12985,
+      "git_blob_sha1": "ea554ef132aeecdd907e8edb7d971e4bd6df0d9f",
+      "path": "tools/eo_pti/include/pti_make_algo_scalar.h",
+      "sha256": "1ad38dc48f814d9475fd15d0ba6e32f020462ecb952d5c8ec0be8fe09dd9e5b7"
+    },
+    {
+      "bytes": 11951,
+      "git_blob_sha1": "158efb13a66e171e10174924f7866b7bc1159641",
+      "path": "tools/eo_pti/include/pti_make_es.h",
+      "sha256": "9bd8890166b53f4c0ef2bd8d3643510bd1a1e60970135f2b3e088bdd35a36614"
+    },
+    {
+      "bytes": 5987,
+      "git_blob_sha1": "a3116540ed3d6486793c9aab5b2ab0580d7ac6e0",
+      "path": "tools/eo_pti/include/pti_make_real.h",
+      "sha256": "ca14046c9eb495853adeddc428a0a15842606a8a174a9debf8a5922a37a42a9c"
+    },
+    {
+      "bytes": 5098,
+      "git_blob_sha1": "eb9038626012b7fcb551ca4f47adf652f2ddadf4",
+      "path": "tools/eo_pti/src/pti_make_algo_scalar_es.cpp",
+      "sha256": "f3f75f8084a46ffd8267639948107ca779098b74ca536e803765b83826a465b7"
+    },
+    {
+      "bytes": 3863,
+      "git_blob_sha1": "2b5d5746ef0e15ebd24e029f2d5ba43c21c61c14",
+      "path": "tools/eo_pti/src/pti_make_algo_scalar_real.cpp",
+      "sha256": "ee9333331fa6cdce43652953556d6afd8439bddc96fd5dedb910ef7eee91effd"
+    },
+    {
+      "bytes": 1088,
+      "git_blob_sha1": "62a21577843681fc53435721722f1ced17efc8aa",
+      "path": "tools/pti/Experiment.h",
+      "sha256": "38da66125b9581a1110a642007caf80519e0771b7114f639dabceeccd8f19653"
+    },
+    {
+      "bytes": 466,
+      "git_blob_sha1": "040d3e65fbf518aeaafc5480d450e48a2cdea9e8",
+      "path": "tools/pti/Logger.cpp",
+      "sha256": "7f7466dc01c0d2835d76397e7bf0de94bca61c0368814e7bf4bafcfd8e8070c8"
+    },
+    {
+      "bytes": 1474,
+      "git_blob_sha1": "7ba9e3ac578cd9c5506dd33850ed3b9f125e9597",
+      "path": "tools/pti/Logger.h",
+      "sha256": "380b23eac25c38c790f3b628e9132da8304f6bc418419170b2160827ffddd52f"
+    },
+    {
+      "bytes": 3852,
+      "git_blob_sha1": "32dd864af7ac3f9b865b55918da5c10c4d71f822",
+      "path": "tools/pti/PTI.cpp",
+      "sha256": "282b5b903b87323678cf2e0dc00bd1484dec28c5b06a4e65d18ac132f0be65e9"
+    },
+    {
+      "bytes": 3004,
+      "git_blob_sha1": "e5f6425f2ad362bd17f13eef9e4638e256325e70",
+      "path": "tools/pti/PTI.h",
+      "sha256": "a5e3fe4f4433b3a8ff1b397090e80e0301eb5bf6a8542fdd4595bc5967f3e4a4"
+    },
+    {
+      "bytes": 3562,
+      "git_blob_sha1": "ecc855099467d2154a6c4e1653ccfe84ab7161e5",
+      "path": "tools/pti/ParameterInstances.cpp",
+      "sha256": "043376936550d6e21e7d89eaee0a40376a8c6a03a4d4d0114f5da2b8c7198040"
+    },
+    {
+      "bytes": 1633,
+      "git_blob_sha1": "3d3ad7c9cda4dd40a70e8086f2492cccded502fc",
+      "path": "tools/pti/ParameterInstances.h",
+      "sha256": "09a16a4f39af8aee6f6ddd75f10f2c1078aa3f6fb322eedd04900108c609edb1"
+    },
+    {
+      "bytes": 2720,
+      "git_blob_sha1": "f07d30435ae96e2c76c6e7a56f7deb43ffc628c0",
+      "path": "tools/pti/README.md",
+      "sha256": "441ffbdc743896bdd13b4f2aaadb4acc1f2e97c66bcad0e5e6d4b00590046bda"
+    },
+    {
+      "bytes": 1355,
+      "git_blob_sha1": "246660522f40ef181901daa88e453df2d77b655d",
+      "path": "tools/pti/Util.cpp",
+      "sha256": "6c6bbc4111daba078bf1f317bbdd43e5b9b92b595145868e19563c7b9bef4a41"
+    },
+    {
+      "bytes": 289,
+      "git_blob_sha1": "b8254baf3933c8eba64bfec27b6898cbc58612bc",
+      "path": "tools/pti/Util.h",
+      "sha256": "d851d443b8bd248965662128fb54ab92492ed70ea55dcfc5f20beae0fa0fd121"
+    },
+    {
+      "bytes": 151,
+      "git_blob_sha1": "9fef3a4d1adf423827f9d873d6dcda69019ac34f",
+      "path": "tools/pti/test_data/pti_tests_data.csv",
+      "sha256": "2dd7e510e95ed422b2749fb18fbde921881dc72c8b301343d916fc783d6e83fb"
+    },
+    {
+      "bytes": 153,
+      "git_blob_sha1": "7ba0e4e522e9b4cb033e5e63bed80ba0c0b5f7ba",
+      "path": "tools/pti/test_data/pti_tests_data_extra_comma.csv",
+      "sha256": "77b0027b223f9bd1f0c3031c3816b0806b0652a2d889351734722fc5cc4708bd"
+    },
+    {
+      "bytes": 155,
+      "git_blob_sha1": "3e460c9cb57a98ab4094674448ed8f30390cfa01",
+      "path": "tools/pti/test_data/pti_tests_data_invalid_float.csv",
+      "sha256": "69658bf34e8f9eca54e6c42a99c85e5c3fbe5232142b5383cbbb318bd2d988ca"
+    },
+    {
+      "bytes": 95,
+      "git_blob_sha1": "acfcd947b1bedd0b1cb846891107cb77fbc18c04",
+      "path": "tools/pti/test_data/pti_tests_data_too_few_indis.csv",
+      "sha256": "7c7dad738efc73ce04d12910e5c357111941aee858d1288040a59c6d389d652d"
+    },
+    {
+      "bytes": 137,
+      "git_blob_sha1": "c9f37a9dece1b0aca6a68b87cf90138275d81fba",
+      "path": "tools/pti/test_data/pti_tests_data_too_few_params.csv",
+      "sha256": "bc10e16450306077df136bbff166a833d1dd1bc7dd246621201f2404df2c86b5"
+    },
+    {
+      "bytes": 169,
+      "git_blob_sha1": "57758c5dd66128a0c4869a203d4cbfaccc12f4b0",
+      "path": "tools/pti/test_data/pti_tests_data_too_many_indis.csv",
+      "sha256": "3fd47084bd4fa448d2483a9a0e710bccb29d2682a5804b773d74c4ee19cde577"
+    },
+    {
+      "bytes": 152,
+      "git_blob_sha1": "4a1019a53ef352a93a276804cc484ba029999716",
+      "path": "tools/pti/test_data/pti_tests_data_too_many_new_lines.csv",
+      "sha256": "e4500072d62aea8cf8e1a8a674d3068cbd54954aad8a831dea70e52f198c7b1d"
+    },
+    {
+      "bytes": 153,
+      "git_blob_sha1": "46fc2baaad24fe77736dd2ed479660e95bc1f68b",
+      "path": "tools/pti/test_data/pti_tests_data_too_many_params.csv",
+      "sha256": "aea7dacc68d519e83b16e67c1faf4624c2f01b78bd4e2d239af19c3c5367f16a"
+    },
+    {
+      "bytes": 1561,
+      "git_blob_sha1": "7f8b529b5ba9542226dbaea69a85ace488f382eb",
+      "path": "tools/pti/test_examples/AbortExample.cpp",
+      "sha256": "e3803eba6e492cb128cf1626ce5600b960ef1932a8b2accda5513a47f845fc92"
+    },
+    {
+      "bytes": 2259,
+      "git_blob_sha1": "02a7e21e0f20ae6b8963c1a1a5f7b06bae8a753c",
+      "path": "tools/pti/test_examples/Makefile",
+      "sha256": "83066cc227b910de1d9f8e331d11b6b8f576d05a229ace1efa1251d6ef4fc640"
+    },
+    {
+      "bytes": 1446,
+      "git_blob_sha1": "498a306ef06e1ae475db163c1d9b657f3bac8cdd",
+      "path": "tools/pti/test_examples/ReprintExample.cpp",
+      "sha256": "e13540c7890590aeb16f5e7d8911fff8e68b8966cc1556ab5a4facfbdc615deb"
+    },
+    {
+      "bytes": 9543,
+      "git_blob_sha1": "1fe143cdb7532800410e3b6ccace08d2a92c43af",
+      "path": "tools/pti/test_examples/SimpleCA3.cpp",
+      "sha256": "dc330229c45dccb2194adf65ba1a8676d05b55fd7fa2209b961d79179abd7ae1"
+    },
+    {
+      "bytes": 1695,
+      "git_blob_sha1": "a8be5c4fc74c25f0f3e3e4957d9e17014f5eb3a8",
+      "path": "tools/pti/test_examples/SumExample.cpp",
+      "sha256": "1281473bf543c0ea214f0b4d1485a97a900da26a17238062ec1b26a20eb88ed8"
+    },
+    {
+      "bytes": 790,
+      "git_blob_sha1": "818edc05b131e12559ae0ca8cdf8877c89e10a28",
+      "path": "tools/pti/test_examples/sampleParameters.csv",
+      "sha256": "e186090e2e6c81c078a17bbb5f1547adef8da2f5a94953f3705f12e0a118de35"
+    },
+    {
+      "bytes": 1392,
+      "git_blob_sha1": "1f2b4cb5ed79bcb2667271b469777babcc100c90",
+      "path": "tools/simple_weight_tuner/CMakeLists.txt",
+      "sha256": "34a2b3f8accf5c95d3cdda8d13d55d2667e5b1bd2e8948a74112938d52342d19"
+    },
+    {
+      "bytes": 540,
+      "git_blob_sha1": "9c62d51cee6a95e6b822c934d9d6aa2bc31b17da",
+      "path": "tools/simple_weight_tuner/carlsim_simple_weight_tuner_api.h",
+      "sha256": "ea6ba4485f9ff96fa4c836991b83683a5c382641b6d46e3f88f3030ef95f141f"
+    },
+    {
+      "bytes": 10777,
+      "git_blob_sha1": "d615c3f3b1aedc1c86f991bdf0cb7d2438fda307",
+      "path": "tools/simple_weight_tuner/simple_weight_tuner.cpp",
+      "sha256": "e4935cbef504ff97be9b434962653eff4fd61d4da1eef337914ceebdd6cd7575"
+    },
+    {
+      "bytes": 8782,
+      "git_blob_sha1": "248ab881e7f56205209715d8f99c6a032800a682",
+      "path": "tools/simple_weight_tuner/simple_weight_tuner.h",
+      "sha256": "cffb30e08bd5b6960a257a7a5da49c24e90286d24214a99e66c56c6bbc211bea"
+    },
+    {
+      "bytes": 1607,
+      "git_blob_sha1": "aa2d5300ef9035c7e27d38800125c1bcbecd2cda",
+      "path": "tools/spike_generators/CMakeLists.txt",
+      "sha256": "c4c707183b57afd19a47b372dd7a2a53cf31c28cf5f2109fe88c3ea1442661cd"
+    },
+    {
+      "bytes": 513,
+      "git_blob_sha1": "bb8ce676c2d3b05dbc499fd95e5af2c238aab024",
+      "path": "tools/spike_generators/carlsim_spike_generators_api.h",
+      "sha256": "36de53f80519426726e4cf100309e30cb6b8e6c93ad29bb1bbbbf5e15d3c9d10"
+    },
+    {
+      "bytes": 3193,
+      "git_blob_sha1": "52d33c2ca81c3a5322c8e47a780f4bc85df08217",
+      "path": "tools/spike_generators/interactive_spikegen.cpp",
+      "sha256": "a8720cade4245b1b9a29351591b1f41343001d2d4622ef0dc72c5ac5936b3dc3"
+    },
+    {
+      "bytes": 2877,
+      "git_blob_sha1": "b4402b7a59a81f294440c66c0e0b390bdabae888",
+      "path": "tools/spike_generators/interactive_spikegen.h",
+      "sha256": "00c2da9028244f647db32c4f710802dfb09fbfa633d1b19f05755293c6f02db6"
+    },
+    {
+      "bytes": 4036,
+      "git_blob_sha1": "21d289dc9199141cef1f914777d48478da14c9e5",
+      "path": "tools/spike_generators/periodic_spikegen.cpp",
+      "sha256": "56e44bf6ab0285e4f6b575ae6d6511370a4db1d5b930bf622afd4b1178aa9af8"
+    },
+    {
+      "bytes": 4264,
+      "git_blob_sha1": "799f44a5384ebf64a997b0fbe4bb0b0b2dfc15ff",
+      "path": "tools/spike_generators/periodic_spikegen.h",
+      "sha256": "8e7abeb7dbfa1584ea0098678db669d7045428412c3a65e42f32cdc45182608b"
+    },
+    {
+      "bytes": 2983,
+      "git_blob_sha1": "04267fd775182c5aaf7468405579b68d4f4bfc80",
+      "path": "tools/spike_generators/pre_post_group_spikegen.cpp",
+      "sha256": "1191e335c760654e611e0cc2e0391f1e7c4049f2035fdcbcc7704f913c224e55"
+    },
+    {
+      "bytes": 2824,
+      "git_blob_sha1": "078e00eac37aaef0aaeb9a959bce6d8b85e207c0",
+      "path": "tools/spike_generators/pre_post_group_spikegen.h",
+      "sha256": "20d4750d673f7ae3d381b276c49f50ca14622bd6938480f6b3867b7c2e998f4e"
+    },
+    {
+      "bytes": 6581,
+      "git_blob_sha1": "30898b6669553af6331a789200353b201f9d792b",
+      "path": "tools/spike_generators/spikegen_from_file.cpp",
+      "sha256": "57729376dbb47386cc3cf4b16d8830eac90bd5b3df7332bcf76b702bfb65143c"
+    },
+    {
+      "bytes": 9971,
+      "git_blob_sha1": "118530a27f19560f1c464053265328d7ed5a2f84",
+      "path": "tools/spike_generators/spikegen_from_file.h",
+      "sha256": "90b4cd89f3be8ed9d0ce4dd071994ac93c6fd6267dc68b6676fc7f06367c4263"
+    },
+    {
+      "bytes": 3251,
+      "git_blob_sha1": "89cce997fdc8128dbf5301d681967564f1758bd3",
+      "path": "tools/spike_generators/spikegen_from_vector.cpp",
+      "sha256": "ff6835a02c1f99ee319ded73b2e2da1394fe0599765ae65f6185420bc1506f70"
+    },
+    {
+      "bytes": 3969,
+      "git_blob_sha1": "94fa7aef52f15f89cff6299f01ddc310f0e1bb31",
+      "path": "tools/spike_generators/spikegen_from_vector.h",
+      "sha256": "99c1f4e513235921e9221c2f9d290c93284ab55277aa7fc71e9c3efb0ba7e8c6"
+    },
+    {
+      "bytes": 1311,
+      "git_blob_sha1": "50f5a4cb35eb9ba337fc1af936179400b7a51e24",
+      "path": "tools/stopwatch/CMakeLists.txt",
+      "sha256": "7e9e38412b6b08f5bf3ecfe2f6ff11f225848c1b5dbeed8655834bcc3d8e053d"
+    },
+    {
+      "bytes": 450,
+      "git_blob_sha1": "15be805246a074fcea20db017d3fd517253a3b95",
+      "path": "tools/stopwatch/carlsim_stopwatch_api.h",
+      "sha256": "4692641711b7797f99af45dadc10054d8904587c79a19e0ffdbada824441a29a"
+    },
+    {
+      "bytes": 9836,
+      "git_blob_sha1": "1ab8371eac603d26f2e13eb9fef4e51724e8d0bd",
+      "path": "tools/stopwatch/stopwatch.cpp",
+      "sha256": "686e984cd86daa04bdbdff65e12a395123e9742d98f83e8a86b3a9fb8e59f7c2"
+    },
+    {
+      "bytes": 10955,
+      "git_blob_sha1": "163b37fb13551ed4769b25b9c7a294e11784ee50",
+      "path": "tools/stopwatch/stopwatch.h",
+      "sha256": "8d3898057db19f73f998274e365ab36aefdc94d7940c16c54c89d48d08108328"
+    },
+    {
+      "bytes": 1277,
+      "git_blob_sha1": "8da7099d8fa3991066f0b6918e84c173e38319b4",
+      "path": "tools/visual_stimulus/CMakeLists.txt",
+      "sha256": "3ab00972cd723547c8ad5988a5d98648ac5048994c0a5bd90e2534123614843f"
+    },
+    {
+      "bytes": 504,
+      "git_blob_sha1": "5ad0b1d93821e6c6ad05c950dd9870df58b85b93",
+      "path": "tools/visual_stimulus/carlsim_visual_stimulus_api.h",
+      "sha256": "bfd681a3446cca559083e1b4490abdb2ae0449dca47adecc1cc84b4f62ae9415"
+    },
+    {
+      "bytes": 7841,
+      "git_blob_sha1": "6c1f5b858e238661a6f592982e9e76cd805ec4d9",
+      "path": "tools/visual_stimulus/visual_stimulus.cpp",
+      "sha256": "72c03ecd2fc44ff0b6644277ff87d4d90b3ae96bf89a04911b893d6a114d955b"
+    },
+    {
+      "bytes": 6008,
+      "git_blob_sha1": "9979bea4b75936bdd6ed936c91785b9cf3d7610b",
+      "path": "tools/visual_stimulus/visual_stimulus.h",
+      "sha256": "fc1a1b4112130d71bbd3b1240280278c41767a8766753d95b73827a7932fa4d9"
+    }
+  ],
+  "license_files": [
+    "LICENSE"
+  ],
+  "native_reproduction_completed": false,
+  "repository": "https://github.com/UCI-CARL/CARLsim6",
+  "requested_ref": "feat/ca3net",
+  "revision": "c4955998b950b9c561b3373a71b611aedc705be9",
+  "scientific_reference_qualified": false,
+  "source_code_acquired": true,
+  "source_id": "carlsim_ca3"
+}

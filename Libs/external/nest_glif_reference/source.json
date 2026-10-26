@@ -1,0 +1,104 @@
+{
+  "status": "COMPLETE_PINNED_GLIF_SOURCE_REFERENCE",
+  "repository": "nest/nest-simulator",
+  "revision": "acca9704da248750219a027db99fec6cd1f9052a",
+  "files": [
+    {
+      "path": "models/glif_psc.cpp",
+      "bytes": 20324,
+      "sha256": "41fec8f5f6f6bc4c123ec9392b17def60b38dfc8ac06490df01dfcff48a99e7c",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/models/glif_psc.cpp?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "license_header": "GPL-2.0-or-later"
+    },
+    {
+      "path": "models/glif_psc.h",
+      "bytes": 19067,
+      "sha256": "4c63d84725375a4a991367cf35af43baeb05ffac6dc36ad692fd9dea4ed39611",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/models/glif_psc.h?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "license_header": "GPL-2.0-or-later"
+    },
+    {
+      "path": "libnestutil/iaf_propagator.h",
+      "bytes": 4508,
+      "sha256": "46a9f991dc2168f0920c257a5b570f5af225a5e784a5d5694a18131c34cde8d9",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/libnestutil/iaf_propagator.h?ref=acca9704da248750219a027db99fec6cd1f9052a"
+    },
+    {
+      "path": "libnestutil/iaf_propagator.cpp",
+      "bytes": 3425,
+      "sha256": "3a5320a565b477bef93fcf3c4e8ec0c9786828d3e2ed9b3ef17441b57a4fc394",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/libnestutil/iaf_propagator.cpp?ref=acca9704da248750219a027db99fec6cd1f9052a"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 18092,
+      "sha256": "8177f97513213526df2cf6184d8ff986c675afb514d4e68a404010521b880643",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/LICENSE?ref=acca9704da248750219a027db99fec6cd1f9052a"
+    }
+  ],
+  "attempts": [
+    {
+      "path": "models/glif_psc.cpp",
+      "recorded_utc": "2026-10-16T01:37:59.566493+00:00",
+      "transport": "direct_ipv4_curl",
+      "returncode": 28,
+      "error": "curl: (28) Operation timed out after 20001 milliseconds with 0 bytes received"
+    },
+    {
+      "path": "models/glif_psc.cpp",
+      "recorded_utc": "2026-10-16T06:40:08.405589+00:00",
+      "transport": "github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/models/glif_psc.cpp?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "status": "FAILED",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "path": "models/glif_psc.h",
+      "recorded_utc": "2026-10-16T06:40:08.414704+00:00",
+      "transport": "github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/models/glif_psc.h?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "status": "FAILED",
+      "error_type": "URLError",
+      "error": "<urlopen error [Errno 111] Connection refused>"
+    },
+    {
+      "path": "models/glif_psc.cpp",
+      "recorded_utc": "2026-10-16T06:44:37.936239+00:00",
+      "transport": "direct_github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/models/glif_psc.cpp?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "http_status": 200,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "models/glif_psc.h",
+      "recorded_utc": "2026-10-16T06:44:39.558705+00:00",
+      "transport": "direct_github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/models/glif_psc.h?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "http_status": 200,
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "libnestutil/iaf_propagator.h",
+      "recorded_utc": "2026-10-16T07:16:30.778131+00:00",
+      "transport": "direct_github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/libnestutil/iaf_propagator.h?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "libnestutil/iaf_propagator.cpp",
+      "recorded_utc": "2026-10-16T07:16:31.576961+00:00",
+      "transport": "direct_github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/libnestutil/iaf_propagator.cpp?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "status": "ACQUIRED"
+    },
+    {
+      "path": "LICENSE",
+      "recorded_utc": "2026-10-16T07:16:32.326953+00:00",
+      "transport": "direct_github_contents_api",
+      "url": "https://api.github.com/repos/nest/nest-simulator/contents/LICENSE?ref=acca9704da248750219a027db99fec6cd1f9052a",
+      "status": "ACQUIRED"
+    }
+  ],
+  "purpose": "Pinned native GLIF/PSC component reference for backend mapping; not a simulator installation."
+}

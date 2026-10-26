@@ -1,0 +1,5 @@
+# Descriptive source-episode readout; these are not formal fidelity thresholds.
+bin_ms: 1.0
+cells_per_axis: 4
+start_ms: null
+pulse_window_ms: 10.0

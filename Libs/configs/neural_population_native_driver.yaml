@@ -1,0 +1,17 @@
+scope: production_size_driver_calibration_not_source_qualification
+seed: 87010
+independent_record_seeds: [87010, 87011, 87012, 87013, 87014, 87015, 87016, 87017, 87018, 87019, 87020, 87021, 87022, 87023, 87024, 87025, 87026, 87027, 87028, 87029, 87030, 87031, 87032, 87033, 87034, 87035, 87036, 87037, 87038, 87039, 87040, 87041]
+duration_ms: 2000.0
+tau_syn_ms: 0.5
+chunk_ticks: 64
+decoder: isolated_single_addition
+native_window_ticks: [1, 50, 200, 800, 5000]
+temporal_lags: [1, 2, 5, 10, 50, 100, 500]
+family_alpha: 0.05
+scientific_mean_error_margin: null
+scientific_variance_error_margin: null
+qualification: unavailable_without_predeclared_neural_error_budget
+replication_unit: independent_driver_record
+duration_rationale: initial_source_calibration_at_measured_capture_cost_with_32_independent_records
+long_window_precision: report_actual_intervals_do_not_treat_2_seconds_as_proof_of_500ms_equivalence
+formal_training_seeds_unchanged: [41, 42, 43]

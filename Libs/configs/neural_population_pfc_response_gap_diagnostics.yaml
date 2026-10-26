@@ -1,0 +1,25 @@
+schema: pfc_response_gap_block_diagnostics_v1
+question: Are the remaining33 frozen-budget gaps carried by broad signed clock bias
+  or concentrated changes in individual original source blocks?
+source_simulations: 0
+new_rng_draws: 0
+confirmation_execution_released: false
+scientific_fidelity_qualified: false
+maximum_confirmation_blocks: 128
+expected_gaps: 33
+expected_family_counts:
+  paired_response: 31
+  source_response: 1
+  field_mean: 1
+inputs:
+  scores:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/run_592283
+    delivery_sha256: c0c05a5da708f08ed961e1a891648cb5c147ef4d5e1ab9163c8d7fc690f2570c
+  gaps:
+    archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/cdf_coupling_bounds/run_596557
+    delivery_sha256: 1303a3be2f32ab271b24ca161734d123f70362cb1b66cb6c723774e03a0d1328
+frozen_margin_sha256: 48fba1a2c23098b748e054d5ec836422b234f4767590e8408bc8e0dab615504c
+interpretation: Diagnostic decomposition of all33 previously declared non-CDF planning
+  gaps only. Leave-one-block-out means are sensitivity descriptions, not confidence
+  intervals or a sample-selection rule. Original32 blocks remain in every authoritative
+  estimate. No resampling, new source execution, margin change or confirmation release.

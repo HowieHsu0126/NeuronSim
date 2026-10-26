@@ -1,0 +1,65 @@
+schema: appworld_phase_action_decoder_development_v1
+task_id: 07b42fd_1
+dataset: train
+model_revision: Qwen/Qwen3-Coder-30B-A3B-Instruct@b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+historical_reference_job: 596889
+prefix_protocol_sha256: 1e2629535b18f11556309401eeb0427573973bd1013293a16403108fd8b6c422
+prefix_generation_attempts: 10
+maximum_new_attempts: 20
+maximum_total_attempts: 30
+maximum_new_executions: 1
+allocation: {planner: 1, executor: 1}
+lossless_observation_history: true
+evidence_table_after_prefix: true
+verification_message_replies: true
+reply_generation_attempts_per_delivered_message: 1
+phase_action_decoder: true
+max_context_tokens: 65536
+max_new_tokens: 512
+decoder:
+  implementation: lm-format-enforcer
+  version: 0.11.3
+  dependency_archive: Output/neural_population_dynamics/agentic_extension/action_decoder_dependencies/run_597114
+  dependency_delivery_sha256: 501e9ad275e25485ab7d487511fa1e2d9267ec935abbe13812dcfbfb2670e170
+  wheels:
+    lm_format_enforcer-0.11.3-py3-none-any.whl: cf586350875def1ae7a8fba84fcbbfc8371424b6c9d05c1fcba70aa233fbf06f
+    interegular-0.3.3-py37-none-any.whl: b0c07007d48c89d6d19f7204972d369b2a77222722e126b6aa63aa721dc3b19c
+hypothesis: >-
+  In the retained reply-only execution, the executor repeatedly proposed writes
+  or finish while its verification GET quota remained unused. Restricting the
+  action-generation grammar to current phase permissions may allow it to choose
+  an admissible verification request. It may still choose unhelpful messages,
+  invalid parameters or irrelevant reads; task success is unestablished.
+intervention: >-
+  After the unchanged verified prefix, mask tokens using a fresh JSON parser for
+  the current actor, host phase, remaining quota and public app/API declarations.
+  Keep free JSON field order, unrestricted argument objects and result-ID strings.
+  The model chooses the action, API, arguments, call ID and message content.
+  No hidden state, other actor's observations, deterministic action selection,
+  response repair, extra prompt information or additional generations are allowed.
+  Preserve the greedy bf16 SDPA model, private histories, native guards and reply
+  schedule. Default decoding and all historical protocols remain unchanged.
+comparison_scope: >-
+  One new development execution of an independently specified decoding mechanism
+  on the already exposed train task. The exhausted 596889 protocol remains closed.
+  Its retained failure is descriptive context, not a randomized comparison or
+  an independent task. No formal closure or control-benefit claim is permitted.
+endpoints:
+  - exact_prefix_parity_and_no_prefix_decoder_calls
+  - decoder_schema_identity_callback_failures_and_measured_cost
+  - phase_legal_actions_and_controller_rejections
+  - verification_calls_used_and_phase_completion
+  - accepted_native_task_writes_and_known_outcomes
+  - source_supported_target_coverage
+  - finish_and_native_evaluation
+  - all_attempt_inference_native_and_end_to_end_costs
+stop_rule: >-
+  Stop at finish, error, unknown native outcome or the original 30-attempt limit.
+  Preserve all outcomes. No automatic retry, extra model generation, task
+  expansion, prompt tuning, threshold reduction or budget increase is authorized
+  by this protocol. CPU software checks do not consume a model-execution slot.
+next_decision: >-
+  A successful task demonstrates only an operational development path. Formal
+  closure assessment still requires a prospective state/allocation comparison.
+  On failure, distinguish decoder/runtime defects from model-selected semantic
+  failures using the recorded parser, generation and native execution evidence.

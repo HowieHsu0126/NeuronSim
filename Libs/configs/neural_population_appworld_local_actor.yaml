@@ -1,0 +1,14 @@
+# Inference candidate only. Training seeds [41, 42, 43] are unrelated.
+# Model identity is checked against the source metadata and every loaded file.
+model:
+  repo_id: Qwen/Qwen3-Coder-30B-A3B-Instruct
+  revision: b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+  dtype: bfloat16
+  attention_implementation: sdpa
+  cuda_devices: 2
+  max_memory_gib_per_device: 40
+generation:
+  do_sample: false
+  max_new_tokens: 256
+  max_context_tokens: 16384
+inference_seed: 73003

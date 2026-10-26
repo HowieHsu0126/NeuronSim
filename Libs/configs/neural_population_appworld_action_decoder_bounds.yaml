@@ -1,0 +1,4 @@
+# Development diagnostic. These settings do not guarantee every action ends
+# within the token cap. Arguments and result-ID arrays remain unrestricted.
+message_text_max_length: 256
+max_consecutive_whitespaces: 4

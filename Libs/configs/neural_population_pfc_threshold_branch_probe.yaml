@@ -1,0 +1,19 @@
+schema: pfc_threshold_branch_probe_v1
+original_source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_source_execution/run_591779
+  delivery_sha256: d5d1de242753a17b5f5833e1777740938328a4e75f7f27d634b0f4e6389cc261
+reversed_source:
+  archive: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/temporal_order_control/source_execution/run_601654
+  delivery_sha256: 90b8a9e4ea4a2116b3f401cb7524826f20e53448db19d268b00d1e0b81129c12
+case_relative_path: source_cases/dt_0p0125/pfc_95001_omission
+source_rng_seed: 95001
+refinement_seeds:
+- 95411
+- 95412
+coarse_dt_ms: 0.05
+dt_ms: 0.0125
+expected_units: 100000
+prefix_window_ms: 5
+maximum_prefix_ms: 100
+confirmation_execution_released: false
+production_episodes: 0

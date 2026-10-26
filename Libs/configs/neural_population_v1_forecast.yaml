@@ -1,0 +1,13 @@
+# Native dt 0.25 ms and model bins 5 ms; all origins retain complete unit arrays.
+schema: v1_population_checkpoint_forecast_v1
+evaluation_scope: original_validation_checkpoint
+formal_evaluation: false
+field_units: source_field_mean_unit_rate_hz
+causal_history: all_observed_bins_before_origin
+finite_ensemble_corrections: true
+origins_ticks: [2000, 6000, 10000]
+horizons_bins: [4, 16, 100]
+support_windows: [1, 4, 16]
+joint_samples: 16
+sampling_seed_base: 41
+random_seed_policy: exact_registered_stream_seeds

@@ -1,0 +1,20 @@
+# Two fresh host-supplied model contexts; this is development execution.
+# Formal model revision, repeated controls and learned transfer remain unqualified.
+provider: host_collaboration
+max_actor_turns: 30
+discovery_calls_per_actor: 8
+verification_budget: 2
+idle_timeout_seconds: 600
+native:
+  expected_appworld_version: 0.1.3.post1
+  run_class: engineering_diagnostic
+  dataset: train
+  task_id: 07b42fd_1
+  random_seed: 73001
+  limits:
+    max_interactions: 64
+    max_api_calls_per_interaction: 1
+    timeout_seconds: 30
+  steps:
+    - label: placeholder
+      code: pass

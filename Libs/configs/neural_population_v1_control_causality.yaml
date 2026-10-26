@@ -1,0 +1,11 @@
+scope: development_source_runtime_qualification
+# Contrast diagnostic on the same first source unit of each of the 14 models.
+unit_coverage: model_representatives
+converter_python: /usr/bin/python3
+stimulus:
+  duration_s: 3.0
+  gray_screen_s: 0.5
+  spatial_frequency_cycles_per_degree: 0.04
+  temporal_frequency_hz: 2.0
+  direction_deg: 270.0
+  contrast_percent: 40.0

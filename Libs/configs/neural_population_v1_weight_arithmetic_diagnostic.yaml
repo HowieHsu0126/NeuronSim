@@ -1,0 +1,16 @@
+# Development witnesses selected after complete comparison587156; no gate changes.
+cases:
+  - name: recorded_large_ee_difference
+    selection: raw_location
+    raw_group: 0
+    raw_offset: 475
+    expected_source_id: 577
+    expected_target_id: 162949
+  - name: small_residual_ee_pair_first_tuple
+    selection: first
+    source_population: e23Cux2
+    target_node_type_id: 487661754
+  - name: largest_residual_in_declared_other_pair
+    selection: max_absolute_residual
+    source_population: e6Ntsr1
+    target_node_type_id: 480952106

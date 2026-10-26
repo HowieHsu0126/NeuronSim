@@ -1,0 +1,39 @@
+# Frozen before Monte Carlo execution. Four synthetic laws, no source simulation.
+schema: pfc_nonconstant_uncertainty_stress_v1
+scope: known_truth_falsification
+method_adopted: false
+coverage_qualified: false
+blocks: 128
+bootstrap_replicates: 5000
+repetitions_per_law: 500
+data_generator_seed: 97101
+bootstrap_generator_seed: 97102
+nominal_alpha: 0.05
+bootstrap_alpha: 0.025
+tail_alpha: 0.025
+cdf_margin: 0.01
+reference_count_masses: [82000, 16000, 2000]
+laws:
+  - name: regular_inside
+    d_numerators: [960, 980]
+    probability_numerators: [1, 1]
+    probability_denominator: 2
+    rare_index: null
+  - name: rare_mean_outside
+    d_numerators: [960, 980, 5000]
+    probability_numerators: [495, 495, 10]
+    probability_denominator: 1000
+    rare_index: 2
+  - name: near_margin_inside
+    d_numerators: [850, 1050]
+    probability_numerators: [1, 1]
+    probability_denominator: 2
+    rare_index: null
+  - name: near_margin_outside
+    d_numerators: [950, 1150]
+    probability_numerators: [1, 1]
+    probability_denominator: 2
+    rare_index: null
+calibration_critical_floor:
+  path: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/coupled_precision/cdf_coupling_bounds/run_596557/analysis
+  report_sha256: 984038cdcae9e8044e00357f95cd93a3b5904849fb135b47a09ab4a56ea5406e

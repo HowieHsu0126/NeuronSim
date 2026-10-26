@@ -1,0 +1,14 @@
+# Development actor with the complete public API catalog; no input truncation.
+# Context capacity is source-supported but GPU execution remains to be measured.
+model:
+  repo_id: Qwen/Qwen3-Coder-30B-A3B-Instruct
+  revision: b2cff646eb4bb1d68355c01b18ae02e7cf42d120
+  dtype: bfloat16
+  attention_implementation: sdpa
+  cuda_devices: 2
+  max_memory_gib_per_device: 40
+generation:
+  do_sample: false
+  max_new_tokens: 512
+  max_context_tokens: 65536
+inference_seed: 73003

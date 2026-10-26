@@ -1,0 +1,73 @@
+schema: pfc_first_passage_clock_comparison_v1
+required_source_seeds:
+- 95001
+- 95002
+- 95003
+- 95004
+- 95005
+- 95006
+- 95007
+- 95008
+- 95009
+- 95010
+- 95011
+- 95012
+- 95013
+- 95014
+- 95015
+- 95016
+- 95017
+- 95018
+- 95019
+- 95020
+- 95021
+- 95022
+- 95023
+- 95024
+- 95025
+- 95026
+- 95027
+- 95028
+- 95029
+- 95030
+- 95031
+- 95032
+sample_size: 64
+frame_size: 200000
+field_index: 5
+phase: cue
+window_ms: 5.0
+importance_samples: 100000
+clocks:
+  coarse:
+    dt_ms: 0.05
+    source_history_implementation_sha256: 4afa7e033a6f107c77b29a3f5e8232a06ae431e4e15cff37966c05f812ab0a49
+    source_registry:
+      path: Libs/configs/neural_population_pfc_refinement_repeat.yaml
+      sha256: a4583df42ef93f0b4ca1c91e0004751ec67b05ed6ca7c66c93f56b73b8d9c949
+      kind: coarse_references
+    pilot_archives:
+      '95001': Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_history/execute/run_603143
+      '95002': Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_history/execute/run_603165
+    pilot_delivery_sha256:
+      '95001': 0e4ce73ff8f087ddab8fc2b996bceb3685e028a72ed63a79b7dc214f965860ae
+      '95002': 372996020daaa1872298240b6c24ab9376b2577a41b22b2aacda94e11542aec2
+    array_archive_prefix: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_history/execute/run_603187_
+    wrapper_status: COMPLETE_PFC_FIRST_PASSAGE_HISTORY_EXECUTE
+  fine:
+    dt_ms: 0.025
+    wrapper_status: COMPLETE_PFC_FIRST_PASSAGE_FINE_HISTORY_EXECUTE
+    source_history_implementation_sha256: 6568c364f6bd913fe1e56f66a5b12cd40c4c9ba2f8830d501de2045477743f09
+    source_registry:
+      path: Libs/configs/neural_population_pfc_first_passage_fine_history.yaml
+      sha256: e5c1ba43522b38624dc73ddc6ad97db073a04c0ea9d379528305bedbb493fd20
+      kind: fine_source_blocks
+    pilot_archives:
+      '95001': Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_fine_history/execute/run_603261
+      '95002': Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_fine_history/execute/run_603364
+    pilot_delivery_sha256:
+      '95001': 8333c7791c89f44d945ffad38169aceddab2509b5787bee54e7bae26ce9fbbb5
+      '95002': 37c9381f959c2a77b15ea6909d9edcc3fbfc46b5647222c36b99419bf9ae7cd4
+    array_archive_prefix: Output/neural_population_dynamics/multicircuit/pfc_source_reproduction/clock_refinement/first_passage_fine_history/execute/run_603383_
+confirmation_execution_released: false
+production_episodes: 0

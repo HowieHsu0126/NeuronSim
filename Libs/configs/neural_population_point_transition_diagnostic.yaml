@@ -1,0 +1,18 @@
+schema: neural_population_point_transition_diagnostic_v1
+training_seeds: [41, 42, 43]
+roles: [parent, continuation]
+training_ceilings: [20, 80]
+selection_blocks: [14, 15, 16, 17]
+templates: [familiar_0, familiar_1, familiar_2, familiar_3]
+origins_ms: [1000.0, 3000.0, 5000.0]
+horizons_ms: [20.0, 80.0, 500.0]
+window_ms: 500.0
+core_neurons: 100000
+source_dt_ms: 0.1
+bin_ms: 5.0
+device: cpu
+cpu_threads: 2
+conditioning: future_observation_assisted
+latent_evaluation: means_not_integrated
+formal_test_accessed: false
+samples_generated: 0

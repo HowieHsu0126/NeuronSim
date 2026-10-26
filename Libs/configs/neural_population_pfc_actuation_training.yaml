@@ -1,0 +1,34 @@
+# Actuator geometry enters only the present source control path.
+# Fresh fitting preserves the complete 80/30 development cohort and 20-epoch budget.
+# Source task development only. Use accepted block0 plus authorized block1/2.
+# Wait for complete input coverage: 80 fitting and 30 validation episodes.
+# Fresh fitting excludes historical bridge weights and numerical calibration.
+schema: pfc_population_development_training_v1
+model_family: population
+training_seeds: [41, 42, 43]
+input_family: pfc_source_reproduction
+training_sequence: complete_source_episode
+observation_objective: native_event_time_mc_negative_elbo
+partition_scope: whole_circuit_development_only
+fit_circuit_ids: [pfc_f878b5b987319436, pfc_be8cefad129550b6, pfc_c4cb0a8dcfbeb9c3]
+validation_circuit_ids: [pfc_e7072637ba0e1076]
+latent_channels: 4
+encoder_size: 16
+representation: recurrent
+control_geometry: actuation_only
+random_seed_policy: exact_registered_stream_seeds
+unit_chunk_size: 4096
+bin_ticks: 100
+learning_rate: 0.001
+maximum_epochs: 20
+early_stopping_patience: 4
+initialization_pseudocount: 0.5
+gradient_norm_limit: 100.0
+training_variational_seed_base: 41
+validation_seed_base: 42
+validation_draws: 1
+validation_randomness: fixed_per_training_seed_complete_validation_sequence
+variational_rng: explicit_separate_checkpointed_generator
+device: cpu
+cpu_threads: 1
+formal_training_completed: false

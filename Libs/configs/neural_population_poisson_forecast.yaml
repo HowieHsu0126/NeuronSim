@@ -1,0 +1,19 @@
+scope: development_validation_after_elbo_selection
+origins_ms: [1000.0, 3000.0, 5000.0]
+horizons_ms: [20.0, 80.0, 500.0]
+joint_samples: 16
+methods: [stochastic, latent_mean, independent_marginals]
+quadrature_nodes: 32
+sampling_seed_base: 86000
+temporal_lags_bins: [1, 4, 16]
+field_scale: fitting_block_pooled_standard_deviation_of_per_unit_hz
+energy_norm: euclidean_divided_by_sqrt_dimension
+variogram_exponent: 1
+finite_ensemble_corrections: true
+independent_unit: joint_initial_background_block
+latent_mean_ablation: changes_marginal_means_and_dependence
+independent_marginals: preserves_every_unit_bin_Poisson_lognormal_marginal_but_removes_shared_and_temporal_latent_dependence
+comparison_amendment: added_before_forecast_results_to_separate_marginal_mean_changes_from_joint_dependence
+causal_history: all_native_bins_before_origin
+future_control: complete_known_TC_program_at_original_count_bin_exposure
+formal_evaluation: false

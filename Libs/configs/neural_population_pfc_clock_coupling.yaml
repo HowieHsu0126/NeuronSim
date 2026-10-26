@@ -1,0 +1,7 @@
+schema: pfc_clock_coupling_diagnostic_v1
+scope: development_driver_diagnostic
+source_config: Libs/configs/neural_population_pfc_100k_source.yaml
+source_rng_seed: 95301
+refinement_seeds: [95311, 95312]
+coarse_ticks: 1000
+confirmation_execution_released: false

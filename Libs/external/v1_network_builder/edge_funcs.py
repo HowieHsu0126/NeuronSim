@@ -1,0 +1,458 @@
+import json
+import pandas as pd
+import numpy as np
+import math
+from random import random
+from numba import njit, jit
+from itertools import compress
+from scipy.stats import yulesimon, multivariate_normal
+
+
+lgn_params = pd.read_csv("base_props/lgn_params.csv", sep=" ", index_col=0)
+lgn_shift_dict = {
+    "sON_TF1": -1.0,
+    "sON_TF2": -1.0,
+    "sON_TF4": -1.0,
+    "sON_TF8": -1.0,
+    "sOFF_TF1": -1.0,
+    "sOFF_TF2": -1.0,
+    "sOFF_TF4": -1.0,
+    "sOFF_TF8": -1.0,
+    "sOFF_TF15": -1.0,
+    "tOFF_TF4": 1.0,
+    "tOFF_TF8": 1.0,
+    "tOFF_TF15": 1.0,
+    "sONsOFF_001": 0,
+    "sONtOFF_001": 0,
+}
+
+
+def compute_pair_type_parameters(edge_model):
+    """simplified version of the function."""
+    pmax = edge_model["pmax"]
+    sigma = edge_model["sigma"]
+    b_ratio = edge_model["b_ratio"]
+    src_ei = edge_model["source_pop_name"][0]
+    trg_ei = edge_model["target_pop_name"][0]
+
+    # calculation of the gradient and intercept
+    if b_ratio > 0.0:
+        # The scaling for distance and orientation must remain less than 1 which is calculated here and reset
+        # if it is greater than one. We also ensure that the area under the p(delta_phi) curve is always equal
+        # to one (see documentation). Hence the desired ratio by the user may not be possible, in which case
+        # an warning message appears indicating the new ratio used. In the worst case scenario the line will become
+        # horizontal (no orientation tuning) but will never "reverse" slopes.
+
+        # B1 is the intercept which occurs at (0, B1)
+        # B2 is the value when delta_phi equals 90 degree and hence the point (90, B2)
+        B1 = 2.0 / (1.0 + b_ratio)
+        B2 = b_ratio * B1
+
+        AB = pmax * max(B1, B2)
+        if AB > 1.0:
+            if B1 >= B2:
+                B1_new = 1.0 / pmax
+                delta = B1 - B1_new
+                B1 = B1_new
+                B2 = B2 + delta
+            elif B2 > B1:
+                B2_new = 1.0 / pmax
+                delta = B2 - B2_new
+                B2 = B2_new
+                B1 = B1 + delta
+
+            b_ratio = B2 / B1
+            print(
+                "WARNING: Could not satisfy the desired B_ratio (probability of connectivity would become "
+                "greater than one in some cases). Rescaled and now for "
+                + edge_model["source_pop_name"]
+                + " --> "
+                + edge_model["target_pop_name"]
+                + " the ratio is set to: ",
+                b_ratio,
+            )
+
+        G = (B2 - B1) / 90.0
+    else:
+        G = np.nan
+        B1 = np.nan
+
+    return {
+        "pmax": pmax,
+        "sigma": sigma,
+        "gradient": G,
+        "intercept": B1,
+        "src_ei": src_ei,  # for Rossi correction
+        "trg_ei": trg_ei,  # for Rossi
+    }
+
+
+def connect_cells(sources, target, params, source_nodes, core_radius):
+    """This function determined which nodes are connected based on the parameters in the dictionary params. The
+    function iterates through every cell pair when called and hence no for loop is seen iterating pairwise
+    although this is still happening.
+
+    By iterating though every cell pair, a decision is made whether or not two cells are connected and this
+    information is returned by the function. This function calculates these probabilities based on the distance between
+    two nodes and (if applicable) the orientation tuning angle difference.
+
+    TODO: These descriptions are wrong. Fix them.
+    :param sid: the id of the source node
+    :param source: the attributes of the source node
+    :param tid: the id of the target node
+    :param target: the attributes of the target node
+    :param params: parameters dictionary for probability of connection (see function: compute_pair_type_parameters)
+    :return: if two cells are deemed to be connected, the return function automatically returns the source id
+             and the target id for that connection. The code further returns the number of synapses between
+             those two neurons
+    """
+    # special handing of the empty sources
+    if source_nodes.empty:
+        # since there is no sources, no edges will be created.
+        # print("Warning: no sources for target: {}".format(target.node_id))
+        return []
+
+    sources_x = np.array(source_nodes["x"])
+    sources_z = np.array(source_nodes["z"])
+    sources_tuning_angle = np.array(source_nodes["tuning_angle"])
+
+    # size of target cell (total syn number) will modulate connection probability
+    target_size = target["target_sizes"]
+    target_pop_mean_size = target["nsyn_size_mean"]
+
+    # Read parameter values needed for distance and orientation dependence
+    pmax = params["pmax"]
+    sigma = params["sigma"]
+    gradient = params["gradient"]
+    intercept = params["intercept"]
+
+    # Calculate the intersomatic distance between the current two cells (in 2D - not including depth)
+    intersomatic_distance = np.sqrt(
+        (sources_x - target["x"]) ** 2 + (sources_z - target["z"]) ** 2
+    )
+
+    ##For Rossi correction. The distance dependence is asymmetrical in the X-Z plane and depends on the target neuron
+    # orientation preference.
+    intersomatic_x = sources_x - target["x"]
+    intersomatic_z = sources_z - target["z"]
+    intersomatic_xz = [
+        [delta_x, delta_z] for delta_x, delta_z in zip(intersomatic_x, intersomatic_z)
+    ]
+    if np.sqrt(target["x"] ** 2 + target["z"] ** 2) > (core_radius * 1.5):
+        Rossi_displacement = 0.0
+    else:
+        Rossi_displacement = (
+            50.0  # displacement of presynaptic soma distribution centroid
+        )
+    Rossi_scaling = 1.5  # scaling of major/minor axes of covariance
+
+    Rossi_theta = np.radians(target["tuning_angle"])
+
+    if params["src_ei"] == "i":
+        Rossi_mean = [
+            Rossi_displacement * np.cos(Rossi_theta),
+            Rossi_displacement * np.sin(Rossi_theta),
+        ]
+        cov_ = np.array([[(sigma) ** 2, 0.0], [0.0, (sigma) ** 2]])
+    else:
+        Rossi_mean = [
+            -Rossi_displacement * np.cos(Rossi_theta),
+            -Rossi_displacement * np.sin(Rossi_theta),
+        ]
+        cov_ = np.array(
+            [[(sigma / Rossi_scaling) ** 2, 0.0], [0.0, (sigma * Rossi_scaling) ** 2]]
+        )
+
+    c, s = np.cos(Rossi_theta), np.sin(Rossi_theta)
+    R = np.array(((c, -s), (s, c)))
+    Rossi_cov = R @ cov_ @ R.transpose()
+
+    Rossi_mvNorm = multivariate_normal(Rossi_mean, Rossi_cov)
+
+    ### Check if there is orientation dependence
+    if not np.isnan(gradient):
+        # Calculate the difference in orientation tuning between the cells
+        delta_orientation = np.array(sources_tuning_angle, dtype=float) - float(
+            target["tuning_angle"]
+        )
+
+        # For OSI, convert to quadrant from 0 - 90 degrees
+        delta_orientation = abs(abs(abs(180.0 - abs(delta_orientation)) - 90.0) - 90.0)
+
+        # using Rossi:
+        p_connect = (
+            pmax
+            * Rossi_mvNorm.pdf(intersomatic_xz)
+            / Rossi_mvNorm.pdf(Rossi_mean)
+            * (intercept + gradient * delta_orientation)
+        )
+
+    ### If no orientation dependence
+    else:
+        # Calculate the probability two cells are connection based on distance only
+        # using Rossi:
+        p_connect = (
+            pmax * Rossi_mvNorm.pdf(intersomatic_xz) / Rossi_mvNorm.pdf(Rossi_mean)
+        )
+
+    # If not the same cell (no self-connections)
+    if 0.0 in intersomatic_distance:
+        p_connect[np.where(intersomatic_distance == 0.0)[0][0]] = 0
+
+    # Connection p proportional to target cell synapse number relative to population average:
+    p_connect = p_connect * target_size / target_pop_mean_size
+
+    # If p_connect > 1 set to 1:
+    p_connect[p_connect > 1] = 1
+
+    # Decide which cells get a connection based on the p_connect value calculated
+    p_connected = np.random.binomial(1, p_connect)
+
+    nsyns_ret = p_connected
+
+    return nsyns_ret
+
+
+def get_selection_probability(src_type, lgn_models_subtypes_dictionary):
+    current_model_subtypes = lgn_models_subtypes_dictionary[src_type[0:4]]["sub_types"]
+    current_model_probabilities = lgn_models_subtypes_dictionary[src_type[0:4]][
+        "probabilities"
+    ]
+    lgn_model_idx = [
+        i for i, model in enumerate(current_model_subtypes) if src_type == model
+    ][0]
+    return current_model_probabilities[lgn_model_idx]
+
+
+def convert_x_to_lindegs(xcoords):
+    return np.tan(0.07 * np.array(xcoords) * np.pi / 180.0) * 180.0 / np.pi
+
+
+def convert_z_to_lindegs(zcoords):
+    return np.tan(0.04 * np.array(zcoords) * np.pi / 180.0) * 180.0 / np.pi
+
+
+@njit
+def within_ellipse(x, y, tuning_angle, e_x, e_y, e_cos, e_sin, e_a, e_b):
+    """check if x, y are within the ellipse"""
+    x0 = x - e_x
+    y0 = y - e_y
+    if tuning_angle is None:
+        x_rot = x0
+        y_rot = y0
+    else:
+        x_rot = x0 * e_cos - y0 * e_sin
+        y_rot = x0 * e_sin + y0 * e_cos
+    return ((x_rot / e_a) ** 2 + (y_rot / e_b) ** 2) <= 1.0
+
+
+def select_lgn_sources_powerlaw(sources, target, lgn_mean, lgn_nodes):
+    target_id = target.node_id
+    pop_name = target["pop_name"]
+
+    if target_id % 250 == 0:
+        print("connection LGN cells to V1 cell #", target_id)
+
+    # the coordinates are already in visual field space, so simple multiplication is all you need.
+    x_position_lin_degrees = target["x"] * 0.07
+    y_position_lin_degrees = target["z"] * 0.04
+
+    # center of the visual RF
+    vis_x = lgn_mean[0] + x_position_lin_degrees
+    vis_y = lgn_mean[1] + y_position_lin_degrees
+    rf_center = vis_x + 1j * vis_y
+
+    tuning_angle = float(target["tuning_angle"])
+    tuning_angle = None if math.isnan(tuning_angle) else tuning_angle
+    testing = False
+
+    if tuning_angle is not None:
+        tuning_angle_rad = tuning_angle / 180.0 * math.pi
+        if testing:
+            rf_shift_vector = -np.exp(1j * tuning_angle_rad)  # tentatively flipping
+            probability_sON = 1.0  # for testing purpose fix later
+        else:
+            rf_shift_vector = np.exp(1j * tuning_angle_rad)  # using complex expression
+            probability_sON = lgn_params.loc[pop_name, "sON_ratio"]
+        if np.random.random() < probability_sON:
+            cell_ignore_unit = "sOFF"  # sON cell. ignore sOFF
+        else:
+            cell_ignore_unit = "sON"
+            rf_shift_vector = -rf_shift_vector  # This will be flipped.
+
+    # not very comfortable with this.
+    cell_TF = np.random.poisson(lgn_params.loc[pop_name, "poisson_parameter"])
+    while cell_TF <= 0:
+        cell_TF = np.random.poisson(lgn_params.loc[pop_name, "poisson_parameter"])
+
+    subunit_freqs = {"sON": [1, 2, 4, 8], "sOFF": [1, 2, 4, 8, 15], "tOFF": [4, 8, 15]}
+    # calculate probability for each subunit types separately
+
+    # start calculating the relative probability for each candidate neuron
+    # make a candidate pool (circular)
+
+    # circle with radius 40 centered at vis_x, vis_y
+    big_circle = (vis_x, vis_y, 1.0, 0.0, 40, 40)
+    in_circle = within_ellipse(
+        np.array(lgn_nodes["x"]), np.array(lgn_nodes["y"]), tuning_angle, *big_circle
+    )
+
+    lgn_circle = lgn_nodes[in_circle]
+    # if there is no candidate LGN cells, return with no connectinos.
+    if lgn_circle.empty:
+        # print("Warning: no candidate LGN cells for V1 cell id: ", target_id)
+        return [None] * len(lgn_nodes)
+
+    # RF center of LGN cell as a complex number
+    lgn_complex = np.array(lgn_circle["x"] + 1j * lgn_circle["y"])
+
+    # shift sustained and transient units
+    if testing:
+        shift = 2.5  # amount to shift the RF
+    else:
+        shift = 2.5  # amount to shift the RF
+
+    lgn_complex += np.array(
+        lgn_circle["pop_name"].map(lgn_shift_dict) * rf_shift_vector * shift
+    )
+
+    # next, elongate the LGN complex orthogonal to the shift vector
+    # rotate by shift vector to adjust the angle, strech, and rotate back.
+    # sq_asr = np.sqrt(1.15)  # sqrt of aspect ratio (take from data later)
+    sq_asr = np.sqrt(1.5)  # sqrt of aspect ratio (take from data later)
+    lgn_relative = lgn_complex - rf_center
+    lgn_rotate = lgn_relative / rf_shift_vector
+    lgn_strech = lgn_rotate.real * sq_asr + 1j * lgn_rotate.imag / sq_asr
+    lgn_back = lgn_strech * rf_shift_vector
+
+    relative_rf_dist = np.abs(lgn_back)
+
+    gauss_radius = 5.0  # extention of LGN axons in degrees
+    gaussian_prob = gaussian_probability(relative_rf_dist, gauss_radius)
+
+    # assign relative probability calculated above
+    subunit_prob = np.zeros_like(gaussian_prob)
+    subunit_dict_keys = []
+    subunit_dict_values = []
+    for subname, freqs in subunit_freqs.items():
+        if cell_ignore_unit in subname:
+            # ignore either sON or sOFF
+            continue
+
+        probs = calculate_subunit_probs(cell_TF, [float(f) for f in freqs])
+        for i in range(len(probs)):
+            # construct the name
+            typename = f"{subname}_TF{freqs[i]}"
+            subunit_dict_keys.append(typename)
+            subunit_dict_values.append(probs[i])
+
+    subunit_dict = dict(zip(subunit_dict_keys, subunit_dict_values))
+    subunit_prob = np.array(lgn_circle["pop_name"].map(subunit_dict).fillna(0.0))
+
+    # treatments for sONsOFF and sONtOFF cells
+    # tuning_angles are defined only for sONsOFF and sONtOFF cells, so this should be fine.
+    lgn_ori_eligible = (
+        delta_ori(lgn_circle["tuning_angle"] - target["tuning_angle"]) < 15
+    )
+    subunit_prob[lgn_ori_eligible] = 1.0
+
+    total_prob = gaussian_prob * subunit_prob
+    total_prob = total_prob / sum(total_prob)  # normalize
+
+    # fraction of LGN synapses in e4's synapses. fixed parameter for this model
+    e4_lgn_fraction = 0.2
+    num_syns_orig = (
+        target["target_sizes"]
+        * e4_lgn_fraction
+        * lgn_params.loc[pop_name, "synapse_ratio_against_e4"]
+    )
+
+    # We know the expected value for the number of synapses.
+    # We estiamte the number of connections using it and the Yule distribution
+    # parameter.
+    yule_param = lgn_params.loc[pop_name, "yule_parameter"]
+    num_cons = int(np.round(num_syns_orig * (yule_param - 1) / yule_param))
+
+    # This line is to avoid crashing when you don't have sufficinet number of source
+    # LGN neurons
+    num_cons = min(num_cons, sum(total_prob > 0))
+    selected_locs = pick_from_probs(num_cons, total_prob)
+
+    # Now the source neurons are selected. Next set the number of synapses
+    # draw from the Yule distribution (scipy)
+    num_syns_indv = yulesimon.rvs(yule_param, size=num_cons)
+    num_syns, num_neurons = np.unique(num_syns_indv, return_counts=True)
+    selected_lgn_inds = lgn_circle.index[selected_locs]
+    selected_lgn_dist = relative_rf_dist[selected_locs]
+
+    nsyns_ret = np.zeros(len(lgn_nodes), dtype=int)
+    for i in range(len(num_syns) - 1, 0, -1):
+        gaussian_prob = gaussian_probability(
+            selected_lgn_dist, gauss_radius / np.sqrt(num_syns[i])
+        )
+        gaussian_prob = gaussian_prob / sum(gaussian_prob)
+        syn_selected = pick_from_probs(num_neurons[i], gaussian_prob)
+        nsyns_ret[selected_lgn_inds[syn_selected]] = num_syns[i]
+
+        selected_lgn_inds = np.delete(selected_lgn_inds, syn_selected)
+        selected_lgn_dist = np.delete(selected_lgn_dist, syn_selected)
+
+    # there should be 1 synapse connections remaining
+    nsyns_ret[selected_lgn_inds] = 1
+
+    return nsyns_ret
+
+
+def select_bkg_sources(sources, target, n_syns, n_conn):
+    # draw n_conn connections randomly from the background sources.
+    # n_syns is the number of synapses per connection
+    # n_conn is the number of connections to draw
+    n_unit = len(sources)
+    # select n_conn units randomly
+    selected_units = np.random.choice(n_unit, size=n_conn, replace=False)
+    nsyns_ret = np.zeros(n_unit, dtype=int)
+    nsyns_ret[selected_units] = n_syns
+    return nsyns_ret
+
+
+def pick_from_probs(n, prob_dist):
+    # pick n item based on prob_dist and return index of the choice
+    return np.random.choice(
+        list(range(len(prob_dist))), size=n, replace=False, p=prob_dist
+    )
+
+
+def gaussian_probability(x, sigma):
+    return np.exp(-(x**2 / (2 * sigma**2)))
+
+
+def calculate_subunit_probs(cell_TF, tf_list):
+    tf_array = np.array(tf_list)
+    tf_sum = np.sum(abs(cell_TF - tf_array))
+    p = (1 - abs(cell_TF - tf_array) / tf_sum) / (len(tf_array) - 1)
+    return p
+
+
+def general_candidate_pool_ellipse(vis_x, vis_y):
+    visx_width = 5 * 4  # to cover most candidate cells
+    visy_width = 5 * 4
+    ellipse_center_x = vis_x
+    ellipse_center_y = vis_y
+    ellipse_cos_mphi = (1.0,)
+    ellipse_sin_mphi = (0.0,)
+    ellipse_a = visx_width
+    ellipse_b = visy_width
+    ellipse_params = (
+        ellipse_center_x,
+        ellipse_center_y,
+        ellipse_cos_mphi,
+        ellipse_sin_mphi,
+        ellipse_a,
+        ellipse_b,
+    )
+    return ellipse_params
+
+
+# orientation comparator
+def delta_ori(angle):
+    return np.abs(np.abs(angle - 90) % 180 - 90)
